@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Jupyter / Kaggle
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environments
+.env
+
+# Large dataset & media files (Never commit raw audio or models to git)
+data/raw/audio/*
+!data/raw/audio/.gitkeep
+data/raw/dictionaries/*
+!data/raw/dictionaries/.gitkeep
+data/interim/wav/*
+!data/interim/wav/.gitkeep
+data/interim/alignments/*
+!data/interim/alignments/.gitkeep
+data/processed/segments/*
+!data/processed/segments/.gitkeep
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+app_content/prerendered_audio/*
+!app_content/prerendered_audio/.gitkeep
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
