@@ -1,0 +1,289 @@
+{
+  "book": "GEN",
+  "chapter": 5,
+  "bcv_chapter": "GEN_005",
+  "total_verses": 32,
+  "total_segments": 35,
+  "headings_count": 3,
+  "digits_expanded_count": 0,
+  "audio_file": "data/raw/audio/GEN/GEN_005.mp3",
+  "segments": [
+    {
+      "type": "heading",
+      "bcv_id": "GEN_005_H01",
+      "text_raw": "Uvwiẹ re Adam",
+      "text_normalized": "Uvwiẹ re Adam",
+      "alignment_token": "* Uvwiẹ re Adam *"
+    },
+    {
+      "type": "heading",
+      "bcv_id": "GEN_005_H02",
+      "text_raw": "(",
+      "text_normalized": "(",
+      "alignment_token": "* ( *"
+    },
+    {
+      "type": "heading",
+      "bcv_id": "GEN_005_H03",
+      "text_raw": ")",
+      "text_normalized": ")",
+      "alignment_token": "* ) *"
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_001",
+      "verse_num": 1,
+      "text_raw": "Ọnana ọbe rẹ uvwiẹ rẹ Adam. Vwẹ ọke rẹ Ọghẹnẹ vwọ ma ohwo, ọ da ma vwẹ uhoho rẹ Ọghẹnẹ",
+      "text_normalized": "Ọnana ọbe rẹ uvwiẹ rẹ Adam. Vwẹ ọke rẹ Ọghẹnẹ vwọ ma ohwo, ọ da ma vwẹ uhoho rẹ Ọghẹnẹ",
+      "alignment_token": "Ọnana ọbe rẹ uvwiẹ rẹ Adam. Vwẹ ọke rẹ Ọghẹnẹ vwọ ma ohwo, ọ da ma vwẹ uhoho rẹ Ọghẹnẹ"
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_002",
+      "verse_num": 2,
+      "text_raw": "Ọshare vẹ aye ọ ma ayen, o de bruphihọ kẹ ayen, o de se odẹ rayen ohwo vwẹ ọke rọ vwọ ma ayen nu.",
+      "text_normalized": "Ọshare vẹ aye ọ ma ayen, o de bruphihọ kẹ ayen, o de se odẹ rayen ohwo vwẹ ọke rọ vwọ ma ayen nu.",
+      "alignment_token": "Ọshare vẹ aye ọ ma ayen, o de bruphihọ kẹ ayen, o de se odẹ rayen ohwo vwẹ ọke rọ vwọ ma ayen nu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_003",
+      "verse_num": 3,
+      "text_raw": "Ọke rẹ Adam vwọ dia ikpe ujosa gbẹ ihwe nu, ọ da rhe dia ọsẹ rẹ ọmọ ro vwiẹri họhọ oma rọye, kọye uhoho rọye, o de se ode rọye Sẹt.",
+      "text_normalized": "Ọke rẹ Adam vwọ dia ikpe ujosa gbẹ ihwe nu, ọ da rhe dia ọsẹ rẹ ọmọ ro vwiẹri họhọ oma rọye, kọye uhoho rọye, o de se ode rọye Sẹt.",
+      "alignment_token": "Ọke rẹ Adam vwọ dia ikpe ujosa gbẹ ihwe nu, ọ da rhe dia ọsẹ rẹ ọmọ ro vwiẹri họhọ oma rọye, kọye uhoho rọye, o de se ode rọye Sẹt."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_004",
+      "verse_num": 4,
+      "text_raw": "Ẹdẹ rẹ akpọ re Adam vwẹ ọke ro vwo vwiẹ Sẹt nu da dia ikpe uri ẹne, o de ji vwiẹ emeshare kugbe emetẹ efa",
+      "text_normalized": "Ẹdẹ rẹ akpọ re Adam vwẹ ọke ro vwo vwiẹ Sẹt nu da dia ikpe uri ẹne, o de ji vwiẹ emeshare kugbe emetẹ efa",
+      "alignment_token": "Ẹdẹ rẹ akpọ re Adam vwẹ ọke ro vwo vwiẹ Sẹt nu da dia ikpe uri ẹne, o de ji vwiẹ emeshare kugbe emetẹ efa"
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_005",
+      "verse_num": 5,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ rẹ Adam ejobi da dia ikpe uri ẹne gbe ujosa gbẹ ihwe; o ki rhi ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ rẹ Adam ejobi da dia ikpe uri ẹne gbe ujosa gbẹ ihwe; o ki rhi ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ rẹ Adam ejobi da dia ikpe uri ẹne gbe ujosa gbẹ ihwe; o ki rhi ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_006",
+      "verse_num": 6,
+      "text_raw": "Ri Sẹt rhe vwọ dia ikpe ujọne gbẹ iyori nure, ọ da rhe dia ọsẹ ri Inọsh.",
+      "text_normalized": "Ri Sẹt rhe vwọ dia ikpe ujọne gbẹ iyori nure, ọ da rhe dia ọsẹ ri Inọsh.",
+      "alignment_token": "Ri Sẹt rhe vwọ dia ikpe ujọne gbẹ iyori nure, ọ da rhe dia ọsẹ ri Inọsh."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_007",
+      "verse_num": 7,
+      "text_raw": "Sẹt vwo vwiẹ Inosh nu ọ da rhe dia akpọ na ikpe uri ẹne gbẹ ighwrẹ, o de vwiẹ emeshare kugbe emetẹ.",
+      "text_normalized": "Sẹt vwo vwiẹ Inosh nu ọ da rhe dia akpọ na ikpe uri ẹne gbẹ ighwrẹ, o de vwiẹ emeshare kugbe emetẹ.",
+      "alignment_token": "Sẹt vwo vwiẹ Inosh nu ọ da rhe dia akpọ na ikpe uri ẹne gbẹ ighwrẹ, o de vwiẹ emeshare kugbe emetẹ."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_008",
+      "verse_num": 8,
+      "text_raw": "Kọye ẹdẹ ri Sẹt dia akpọ na ejobi da dia uri ẹne gbẹ ujosa gbẹ ihwivẹ, o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ ri Sẹt dia akpọ na ejobi da dia uri ẹne gbẹ ujosa gbẹ ihwivẹ, o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ ri Sẹt dia akpọ na ejobi da dia uri ẹne gbẹ ujosa gbẹ ihwivẹ, o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_009",
+      "verse_num": 9,
+      "text_raw": "Ri Inọsh vwọ dia akpọ ikpe ujọne gbe ihwe re ọ da rhe dia ọsẹ ri Kenan.",
+      "text_normalized": "Ri Inọsh vwọ dia akpọ ikpe ujọne gbe ihwe re ọ da rhe dia ọsẹ ri Kenan.",
+      "alignment_token": "Ri Inọsh vwọ dia akpọ ikpe ujọne gbe ihwe re ọ da rhe dia ọsẹ ri Kenan."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_010",
+      "verse_num": 10,
+      "text_raw": "Rẹ Inọsh rhi vwo vwiẹ Kenan nu ọ da dia akpọ ikpe uri ẹne gbẹ ihwiori, o de rhe vwiẹ emeshare kugbe emetẹ efa.",
+      "text_normalized": "Rẹ Inọsh rhi vwo vwiẹ Kenan nu ọ da dia akpọ ikpe uri ẹne gbẹ ihwiori, o de rhe vwiẹ emeshare kugbe emetẹ efa.",
+      "alignment_token": "Rẹ Inọsh rhi vwo vwiẹ Kenan nu ọ da dia akpọ ikpe uri ẹne gbẹ ihwiori, o de rhe vwiẹ emeshare kugbe emetẹ efa."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_011",
+      "verse_num": 11,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ rẹ Inọsh ejobi da dia ikpe uri ẹne gbẹ iyori; o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ rẹ Inọsh ejobi da dia ikpe uri ẹne gbẹ iyori; o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ rẹ Inọsh ejobi da dia ikpe uri ẹne gbẹ iyori; o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_012",
+      "verse_num": 12,
+      "text_raw": "Ri Kenan vwọ dia ikpe ujorha gbẹ ihwe nure, ọ da rhe dia ọsẹ ri Mahalalẹl.",
+      "text_normalized": "Ri Kenan vwọ dia ikpe ujorha gbẹ ihwe nure, ọ da rhe dia ọsẹ ri Mahalalẹl.",
+      "alignment_token": "Ri Kenan vwọ dia ikpe ujorha gbẹ ihwe nure, ọ da rhe dia ọsẹ ri Mahalalẹl."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_013",
+      "verse_num": 13,
+      "text_raw": "Kenan rhi vwo vwiẹ Mahalalẹl nu, ọke rhe dia akpọ na ikpe uri ẹne gbẹ ujuvẹ, o ki rhe vwiẹ emeshare kugbe emetẹ.",
+      "text_normalized": "Kenan rhi vwo vwiẹ Mahalalẹl nu, ọke rhe dia akpọ na ikpe uri ẹne gbẹ ujuvẹ, o ki rhe vwiẹ emeshare kugbe emetẹ.",
+      "alignment_token": "Kenan rhi vwo vwiẹ Mahalalẹl nu, ọke rhe dia akpọ na ikpe uri ẹne gbẹ ujuvẹ, o ki rhe vwiẹ emeshare kugbe emetẹ."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_014",
+      "verse_num": 14,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ ri Kenan ejobi da dia ikpe uri ẹne gbẹ ujori gbẹ ihwe; o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ ri Kenan ejobi da dia ikpe uri ẹne gbẹ ujori gbẹ ihwe; o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ ri Kenan ejobi da dia ikpe uri ẹne gbẹ ujori gbẹ ihwe; o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_015",
+      "verse_num": 15,
+      "text_raw": "Ri Mahalalẹl vwọ dia akpọ ikpe ujorha gbe iyori nu, ọ da rhe dia ọsẹ ri Jared.",
+      "text_normalized": "Ri Mahalalẹl vwọ dia akpọ ikpe ujorha gbe iyori nu, ọ da rhe dia ọsẹ ri Jared.",
+      "alignment_token": "Ri Mahalalẹl vwọ dia akpọ ikpe ujorha gbe iyori nu, ọ da rhe dia ọsẹ ri Jared."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_016",
+      "verse_num": 16,
+      "text_raw": "Mahalalẹl rhi vwo vwiẹ Jared nu ọ da dia akpọ na ikpe uri ẹne gbẹ ọgban, o de vwiẹ emeshare kugbe emetẹ efa.",
+      "text_normalized": "Mahalalẹl rhi vwo vwiẹ Jared nu ọ da dia akpọ na ikpe uri ẹne gbẹ ọgban, o de vwiẹ emeshare kugbe emetẹ efa.",
+      "alignment_token": "Mahalalẹl rhi vwo vwiẹ Jared nu ọ da dia akpọ na ikpe uri ẹne gbẹ ọgban, o de vwiẹ emeshare kugbe emetẹ efa."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_017",
+      "verse_num": 17,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ ri Mahalalẹl ejobi da dia ikpe uri ẹne gbẹ ujọne gbẹ ihwe gbẹ iyori, o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ ri Mahalalẹl ejobi da dia ikpe uri ẹne gbẹ ujọne gbẹ ihwe gbẹ iyori, o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ ri Mahalalẹl ejobi da dia ikpe uri ẹne gbẹ ujọne gbẹ ihwe gbẹ iyori, o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_018",
+      "verse_num": 18,
+      "text_raw": "Ọke ri Jared vwọ dia akpọ na ikpe ujọrenre gbe ivẹ nure ọ da rhe dia ọsẹ rẹ Inọk.",
+      "text_normalized": "Ọke ri Jared vwọ dia akpọ na ikpe ujọrenre gbe ivẹ nure ọ da rhe dia ọsẹ rẹ Inọk.",
+      "alignment_token": "Ọke ri Jared vwọ dia akpọ na ikpe ujọrenre gbe ivẹ nure ọ da rhe dia ọsẹ rẹ Inọk."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_019",
+      "verse_num": 19,
+      "text_raw": "Jared rhi vwo vwiẹ Inọk nu, ọ da dia akpọ na ikpe uri ẹne, o de rhi vwiẹ emeshare kugbe emetẹ efa.",
+      "text_normalized": "Jared rhi vwo vwiẹ Inọk nu, ọ da dia akpọ na ikpe uri ẹne, o de rhi vwiẹ emeshare kugbe emetẹ efa.",
+      "alignment_token": "Jared rhi vwo vwiẹ Inọk nu, ọ da dia akpọ na ikpe uri ẹne, o de rhi vwiẹ emeshare kugbe emetẹ efa."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_020",
+      "verse_num": 20,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ ri Jared ejobi da dia uri ẹne gbẹ ujọrenre gbẹ ivẹ, o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ ri Jared ejobi da dia uri ẹne gbẹ ujọrenre gbẹ ivẹ, o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ ri Jared ejobi da dia uri ẹne gbẹ ujọrenre gbẹ ivẹ, o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_021",
+      "verse_num": 21,
+      "text_raw": "Ri Inọk vwọ dia akpọ ikpe ujorha gbe iyori nu, ọ da rhe dia ọsẹ ri Metusela.",
+      "text_normalized": "Ri Inọk vwọ dia akpọ ikpe ujorha gbe iyori nu, ọ da rhe dia ọsẹ ri Metusela.",
+      "alignment_token": "Ri Inọk vwọ dia akpọ ikpe ujorha gbe iyori nu, ọ da rhe dia ọsẹ ri Metusela."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_022",
+      "verse_num": 22,
+      "text_raw": "Inọk da yan nene Ọghẹnẹ ro vwo vwiẹ Metusela nu ikpe uri gbe ujori o de vwiẹ emeshare kugbe emetẹ efa",
+      "text_normalized": "Inọk da yan nene Ọghẹnẹ ro vwo vwiẹ Metusela nu ikpe uri gbe ujori o de vwiẹ emeshare kugbe emetẹ efa",
+      "alignment_token": "Inọk da yan nene Ọghẹnẹ ro vwo vwiẹ Metusela nu ikpe uri gbe ujori o de vwiẹ emeshare kugbe emetẹ efa"
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_023",
+      "verse_num": 23,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ rẹ Inọk ejobi da dia uri gbe ujorenre gbe iyori.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ rẹ Inọk ejobi da dia uri gbe ujorenre gbe iyori.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ rẹ Inọk ejobi da dia uri gbe ujorenre gbe iyori."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_024",
+      "verse_num": 24,
+      "text_raw": "Inọk da yan nene Ọghẹnẹ o gbi ghwu-u, fikiridie Ọghẹnẹ reyerọ.",
+      "text_normalized": "Inọk da yan nene Ọghẹnẹ o gbi ghwu-u, fikiridie Ọghẹnẹ reyerọ.",
+      "alignment_token": "Inọk da yan nene Ọghẹnẹ o gbi ghwu-u, fikiridie Ọghẹnẹ reyerọ."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_025",
+      "verse_num": 25,
+      "text_raw": "Ọke ri Metusela vwọ dia akpọ ikpe ujurhiri gbe ighwrẹ re, ọ da rhe dia ọsẹ ri Lamẹk.",
+      "text_normalized": "Ọke ri Metusela vwọ dia akpọ ikpe ujurhiri gbe ighwrẹ re, ọ da rhe dia ọsẹ ri Lamẹk.",
+      "alignment_token": "Ọke ri Metusela vwọ dia akpọ ikpe ujurhiri gbe ighwrẹ re, ọ da rhe dia ọsẹ ri Lamẹk."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_026",
+      "verse_num": 26,
+      "text_raw": "Metusela rhi vwo vwiẹ Lamẹk nu, ọ da dia ikpe uri erha gbẹ ujurhiri gbẹ ivẹ, o de vwiẹ emeshare kugbe emetẹ efa.",
+      "text_normalized": "Metusela rhi vwo vwiẹ Lamẹk nu, ọ da dia ikpe uri erha gbẹ ujurhiri gbẹ ivẹ, o de vwiẹ emeshare kugbe emetẹ efa.",
+      "alignment_token": "Metusela rhi vwo vwiẹ Lamẹk nu, ọ da dia ikpe uri erha gbẹ ujurhiri gbẹ ivẹ, o de vwiẹ emeshare kugbe emetẹ efa."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_027",
+      "verse_num": 27,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ ri Metusela ejobi da dia ikpe uri ẹne gbẹ ujọrenre gbẹ irhiri, o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ ri Metusela ejobi da dia ikpe uri ẹne gbẹ ujọrenre gbẹ irhiri, o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ ri Metusela ejobi da dia ikpe uri ẹne gbẹ ujọrenre gbẹ irhiri, o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_028",
+      "verse_num": 28,
+      "text_raw": "Re Lamẹk vwọ dia akpọ ikpe ujurhiri gbẹ ivẹ nure, ọ da rhe dia ọsẹ rẹ ọmọshare,",
+      "text_normalized": "Re Lamẹk vwọ dia akpọ ikpe ujurhiri gbẹ ivẹ nure, ọ da rhe dia ọsẹ rẹ ọmọshare,",
+      "alignment_token": "Re Lamẹk vwọ dia akpọ ikpe ujurhiri gbẹ ivẹ nure, ọ da rhe dia ọsẹ rẹ ọmọshare,"
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_029",
+      "verse_num": 29,
+      "text_raw": "o de se odẹ rọye Noa, tanẹ, Vwẹ evun rẹ otọ rẹ Ọrovwohwo harhere na ọye Ọnana che nurhe rhe kẹ avwanre omaerovwo nẹ iruo vẹ owian rẹ abọ rẹ avwanre.",
+      "text_normalized": "o de se odẹ rọye Noa, tanẹ, Vwẹ evun rẹ otọ rẹ Ọrovwohwo harhere na ọye Ọnana che nurhe rhe kẹ avwanre omaerovwo nẹ iruo vẹ owian rẹ abọ rẹ avwanre.",
+      "alignment_token": "o de se odẹ rọye Noa, tanẹ, Vwẹ evun rẹ otọ rẹ Ọrovwohwo harhere na ọye Ọnana che nurhe rhe kẹ avwanre omaerovwo nẹ iruo vẹ owian rẹ abọ rẹ avwanre."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_030",
+      "verse_num": 30,
+      "text_raw": "Lamẹk rhi vwo vwiẹ Noa nu, ọ da dia akpọ ikpe uri ivẹ gbẹ ujurhiri gbẹ ihwiori, o de vwiẹ emeshare kugbe emetẹ.",
+      "text_normalized": "Lamẹk rhi vwo vwiẹ Noa nu, ọ da dia akpọ ikpe uri ivẹ gbẹ ujurhiri gbẹ ihwiori, o de vwiẹ emeshare kugbe emetẹ.",
+      "alignment_token": "Lamẹk rhi vwo vwiẹ Noa nu, ọ da dia akpọ ikpe uri ivẹ gbẹ ujurhiri gbẹ ihwiori, o de vwiẹ emeshare kugbe emetẹ."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_031",
+      "verse_num": 31,
+      "text_raw": "Kọye ẹdẹ rẹ akpọ ri Lamẹk ejobi da dia ikpe uri erha gbẹ ujori gbẹ ighwrẹ, o de ghwu.",
+      "text_normalized": "Kọye ẹdẹ rẹ akpọ ri Lamẹk ejobi da dia ikpe uri erha gbẹ ujori gbẹ ighwrẹ, o de ghwu.",
+      "alignment_token": "Kọye ẹdẹ rẹ akpọ ri Lamẹk ejobi da dia ikpe uri erha gbẹ ujori gbẹ ighwrẹ, o de ghwu."
+    },
+    {
+      "type": "verse",
+      "bcv_id": "GEN_005_032",
+      "verse_num": 32,
+      "text_raw": "Ri Noa vwọ ikpe uri ivẹ gbẹ ujori, ọ da rhe dia ọsẹ ri Shẹm, Ham kugbe Jafẹt.",
+      "text_normalized": "Ri Noa vwọ ikpe uri ivẹ gbẹ ujori, ọ da rhe dia ọsẹ ri Shẹm, Ham kugbe Jafẹt.",
+      "alignment_token": "Ri Noa vwọ ikpe uri ivẹ gbẹ ujori, ọ da rhe dia ọsẹ ri Shẹm, Ham kugbe Jafẹt."
+    }
+  ]
+}

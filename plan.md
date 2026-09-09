@@ -140,9 +140,9 @@ urhobo-tts/
 - **This module is dual-purpose:** it's needed here for correctly rendering any digits in the Bible text before alignment, and it's the exact same module your app's Numbers lesson will use later (Phase 12), including for the compositional runtime-concatenation approach described in 11.1 — build it with explicit access to the tens/units/connector morphemes, not just a flat lookup table, so both uses can share it. Pay attention to the liaison detail you already noticed (e.g., "iyori" → "iyorin" in connected speech): decide explicitly whether the written spellout should include that final -n or whether it's a purely phonetic/audio phenomenon not reflected in text, and apply that decision consistently.
 
 ### DoD for Phase 2
-- [ ] Every chapter has a verse-ordered text file with BCV IDs.
-- [ ] Non-verse narration spans identified and flagged for star-token handling.
-- [ ] `urhobo_numerals.py` written and unit-tested against your curriculum's number list, with morphemes accessible individually (not just full-number strings).
+- [x] Every chapter has a verse-ordered text file with BCV IDs.
+- [x] Non-verse narration spans identified and flagged for star-token handling.
+- [x] `urhobo_numerals.py` written and unit-tested against your curriculum's number list, with morphemes accessible individually (not just full-number strings).
 
 ---
 
