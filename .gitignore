@@ -26,6 +26,7 @@ data/raw/dictionaries/*
 !data/raw/dictionaries/manifest.json
 data/interim/wav/*
 !data/interim/wav/.gitkeep
+!data/interim/wav/*.json
 data/interim/alignments/*
 !data/interim/alignments/.gitkeep
 data/processed/segments/*

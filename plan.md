@@ -157,9 +157,9 @@ urhobo-tts/
 - Confirm chapter audio duration is plausible relative to verse count and text length (a chapter that's suspiciously short or long relative to its text is worth spot-checking before you invest alignment compute in it).
 
 ### DoD for Phase 3
-- [ ] All chapter audio converted to a consistent WAV format (16kHz mono).
-- [ ] Loudness normalization and high-pass filtering applied.
-- [ ] Duration sanity check script run over the whole corpus, outliers flagged.
+- [x] All chapter audio converted to a consistent WAV format (16kHz mono).
+- [x] Loudness normalization and high-pass filtering applied.
+- [x] Duration sanity check script run over the whole corpus, outliers flagged.
 
 ---
 
