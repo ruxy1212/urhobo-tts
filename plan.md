@@ -114,10 +114,10 @@ urhobo-tts/
 - **New constraint for stories & conversations specifically:** unlike isolated vocabulary (alphabet, numbers, greetings, objects), full sentences need sentence-level prosody that this plan explicitly does not model (Phase 6.3 skips phrase-level downstep). To keep sentence-level content inside the same closed, QA'able set as everything else, **author your story and conversation content by selecting or lightly adapting sentences that already exist in the aligned Bible corpus**, rather than writing new Urhobo sentences freely and hoping the model generalizes to them. This is more constraining than a typical curriculum design process, but it converts "does this sentence sound natural?" from a model-quality gamble into the same listen-and-approve check you're already doing for words. Revisit this constraint in v2 if you later add a native-speaker recording budget for downstep coverage.
 
 ### DoD for Phase 1
-- [ ] Audio+text source decided and archived locally.
-- [ ] Both licensing gates checked against the actual source terms (not just assumed).
-- [ ] All dictionary/reference PDFs archived locally with source names preserved.
-- [ ] Curriculum vocabulary seed list written, with story/conversation entries specifically flagged as corpus-derived or corpus-adapted (even if incomplete — it will grow).
+- [x] Audio+text source decided and archived locally.
+- [x] Both licensing gates checked against the actual source terms (not just assumed).
+- [x] All dictionary/reference PDFs archived locally with source names preserved.
+- [x] Curriculum vocabulary seed list written, with story/conversation entries specifically flagged as corpus-derived or corpus-adapted (even if incomplete — it will grow).
 
 ---
 

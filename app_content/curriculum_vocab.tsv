@@ -1,19 +1,135 @@
 id	urhobo_raw	urhobo_toned	english	category	audio_source	status
-voc_001	mẹ	mẹ́	I / me	pronoun	pending	seed
-voc_002	wẹ	wẹ́	you (singular)	pronoun	pending	seed
-voc_003	ọye	ọ́ye	he / she / him / her	pronoun	pending	seed
-voc_004	avwanre	avwanre	we / us	pronoun	pending	seed
-voc_005	wevwe	wevwe	you (plural)	pronoun	pending	seed
-voc_006	aye	ayé	they / them	pronoun	pending	seed
-voc_007	ọvo	ọ́vo	one (1)	number	pending	seed
-voc_008	ive	ǐve	two (2)	number	pending	seed
-voc_009	erha	ẹ́rha	three (3)	number	pending	seed
-voc_010	ẹne	ẹ́ne	four (4)	number	pending	seed
-voc_011	iyori	iyórĩ	five (5)	number	pending	seed
-voc_012	esan	esán	six (6)	number	pending	seed
-voc_013	ighwrẹ	ighwrẹ́	seven (7)	number	pending	seed
-voc_014	ẹrẹnren	ẹrẹ́nrẹn	eight (8)	number	pending	seed
-voc_015	irhirhi	irhírhi	nine (9)	number	pending	seed
-voc_016	ihwe	ihwé	ten (10)	number	pending	seed
-voc_017	migwo	migwó	greeting (general / elders)	greeting	pending	seed
-voc_018	vredo	vradó	greeting (response / well done)	greeting	pending	seed
+voc_001	mẹ	mẹ́	I / me	pronoun	corpus_search	seed_pronoun
+voc_002	mẹvwẹ	mẹ́vwẹ	I (emphatic) / me	pronoun	corpus_search	seed_pronoun
+voc_003	wẹ	wẹ́	you (singular)	pronoun	corpus_search	seed_pronoun
+voc_004	wẹvwẹ	wẹ́vwẹ	you (singular emphatic)	pronoun	corpus_search	seed_pronoun
+voc_005	ọye	ọ́ye	he / she / him / her	pronoun	corpus_search	seed_pronoun
+voc_006	avwanre	avwanre	we / us	pronoun	corpus_search	seed_pronoun
+voc_007	wevwe	wevwe	you (plural)	pronoun	corpus_search	seed_pronoun
+voc_008	aye	ayé	they / them	pronoun	corpus_search	seed_pronoun
+voc_009	A	A	Letter A / sound /a/	alphabet	synthetic_lexicon	seed_alphabet
+voc_010	B	B	Letter B / sound /b/	alphabet	synthetic_lexicon	seed_alphabet
+voc_011	CH	CH	Digraph CH / sound /tʃ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_012	D	D	Letter D / sound /d/	alphabet	synthetic_lexicon	seed_alphabet
+voc_013	DJ	DJ	Digraph DJ / sound /dʒ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_014	E	E	Letter E (close-mid) / sound /e/	alphabet	synthetic_lexicon	seed_alphabet
+voc_015	Ẹ	Ẹ	Letter Ẹ (open-mid) / sound /ɛ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_016	F	F	Letter F / sound /f/	alphabet	synthetic_lexicon	seed_alphabet
+voc_017	G	G	Letter G / sound /ɡ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_018	GB	GB	Digraph GB / sound /ɡ͡b/	alphabet	synthetic_lexicon	seed_alphabet
+voc_019	GH	GH	Digraph GH / sound /ɣ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_020	GHW	GHW	Trigraph GHW / sound /ɣʷ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_021	H	H	Letter H / sound /h/	alphabet	synthetic_lexicon	seed_alphabet
+voc_022	HW	HW	Digraph HW / sound /hʷ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_023	I	I	Letter I / sound /i/	alphabet	synthetic_lexicon	seed_alphabet
+voc_024	J	J	Letter J / sound /dʒ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_025	K	K	Letter K / sound /k/	alphabet	synthetic_lexicon	seed_alphabet
+voc_026	KP	KP	Digraph KP / sound /k͡p/	alphabet	synthetic_lexicon	seed_alphabet
+voc_027	L	L	Letter L / sound /l/	alphabet	synthetic_lexicon	seed_alphabet
+voc_028	M	M	Letter M / sound /m/	alphabet	synthetic_lexicon	seed_alphabet
+voc_029	N	N	Letter N / sound /n/	alphabet	synthetic_lexicon	seed_alphabet
+voc_030	NY	NY	Digraph NY / sound /ɲ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_031	O	O	Letter O (close-mid) / sound /o/	alphabet	synthetic_lexicon	seed_alphabet
+voc_032	Ọ	Ọ	Letter Ọ (open-mid) / sound /ɔ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_033	P	P	Letter P / sound /p/	alphabet	synthetic_lexicon	seed_alphabet
+voc_034	PH	PH	Digraph PH / sound /ɸ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_035	R	R	Letter R / sound /r/	alphabet	synthetic_lexicon	seed_alphabet
+voc_036	RH	RH	Digraph RH / sound /r̥/	alphabet	synthetic_lexicon	seed_alphabet
+voc_037	S	S	Letter S / sound /s/	alphabet	synthetic_lexicon	seed_alphabet
+voc_038	SH	SH	Digraph SH / sound /ʃ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_039	T	T	Letter T / sound /t/	alphabet	synthetic_lexicon	seed_alphabet
+voc_040	U	U	Letter U / sound /u/	alphabet	synthetic_lexicon	seed_alphabet
+voc_041	V	V	Letter V / sound /v/	alphabet	synthetic_lexicon	seed_alphabet
+voc_042	VW	VW	Digraph VW / sound /ʋ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_043	VWR	VWR	Trigraph VWR / sound /ʋʳ/	alphabet	synthetic_lexicon	seed_alphabet
+voc_044	W	W	Letter W / sound /w/	alphabet	synthetic_lexicon	seed_alphabet
+voc_045	Y	Y	Letter Y / sound /j/	alphabet	synthetic_lexicon	seed_alphabet
+voc_046	Z	Z	Letter Z / sound /z/	alphabet	synthetic_lexicon	seed_alphabet
+voc_047	ọvo	ọ́vo	one (1)	number	corpus_search	seed_number
+voc_048	ive	ǐve	two (2)	number	corpus_search	seed_number
+voc_049	erha	ẹ́rha	three (3)	number	corpus_search	seed_number
+voc_050	ẹne	ẹ́ne	four (4)	number	corpus_search	seed_number
+voc_051	iyori	iyórĩ	five (5)	number	corpus_search	seed_number
+voc_052	esan	esán	six (6)	number	corpus_search	seed_number
+voc_053	ighwrẹ	ighwrẹ́	seven (7)	number	corpus_search	seed_number
+voc_054	ẹrẹnren	ẹrẹ́nrẹn	eight (8)	number	corpus_search	seed_number
+voc_055	irhirhi	irhírhi	nine (9)	number	corpus_search	seed_number
+voc_056	ihwe	ihwé	ten (10)	number	corpus_search	seed_number
+voc_057	ihwegbọvo	ihwégbọ́vo	eleven (11)	number	corpus_search	seed_number
+voc_058	ihwegbive	ihwégbǐve	twelve (12)	number	corpus_search	seed_number
+voc_059	ihwegberha	ihwégbẹ́rha	thirteen (13)	number	corpus_search	seed_number
+voc_060	ihwegbẹne	ihwégbẹ́ne	fourteen (14)	number	corpus_search	seed_number
+voc_061	ihwegbiyori	ihwégbiyórĩ	fifteen (15)	number	corpus_search	seed_number
+voc_062	ihwegbesan	ihwégbesán	sixteen (16)	number	corpus_search	seed_number
+voc_063	ihwegbighwrẹ	ihwégbighwrẹ́	seventeen (17)	number	corpus_search	seed_number
+voc_064	ihwegbẹrẹnren	ihwégbẹrẹ́nrẹn	eighteen (18)	number	corpus_search	seed_number
+voc_065	ihwegbirhirhi	ihwégbirhírhi	nineteen (19)	number	corpus_search	seed_number
+voc_066	ucheve	uchéve	twenty (20)	number	corpus_search	seed_number
+voc_067	ucheve gbọvo	uchéve gbọ́vo	twenty-one (21)	number	corpus_search	seed_number
+voc_068	ucheve gbiyori	uchéve gbiyórĩ	twenty-five (25)	number	corpus_search	seed_number
+voc_069	ogba	ogbá	thirty (30)	number	corpus_search	seed_number
+voc_070	ogba gbiyori	ogbá gbiyórĩ	thirty-five (35)	number	corpus_search	seed_number
+voc_071	ucheye	uchéye	forty (40)	number	corpus_search	seed_number
+voc_072	ujuve gbihwe	ujǔve gbihwé	fifty (50)	number	corpus_search	seed_number
+voc_073	ujorha	ujọ́rha	sixty (60)	number	corpus_search	seed_number
+voc_074	ujorha gbihwe	ujọ́rha gbihwé	seventy (70)	number	corpus_search	seed_number
+voc_075	ujone	ujọ́ne	eighty (80)	number	corpus_search	seed_number
+voc_076	ujone gbihwe	ujọ́ne gbihwé	ninety (90)	number	corpus_search	seed_number
+voc_077	uri	urí	one hundred (100)	number	corpus_search	seed_number
+voc_078	migwo	migwó	greeting (respect to elders)	greeting	corpus_search	seed_greeting
+voc_079	vredo	vradó	greeting response (well done / arise)	greeting	corpus_search	seed_greeting
+voc_080	do	dóo	thank you / greetings / well done	greeting	corpus_search	seed_greeting
+voc_081	kọkọrọ	kọkọ́rọ	good morning	greeting	corpus_search	seed_greeting
+voc_082	ofuoma	ufuóma	peace / safe wellbeing	greeting	corpus_search	seed_greeting
+voc_083	yeroma	yerọ́ma	farewell / goodbye / take care	greeting	corpus_search	seed_greeting
+voc_084	maro	maró	how are you? / welcome	greeting	corpus_search	seed_greeting
+voc_085	otọvwe	otọ́vwe	good health / longevity greeting	greeting	corpus_search	seed_greeting
+voc_086	ame	amé	water	object	corpus_search	seed_object
+voc_087	emu	emú	food / thing	object	corpus_search	seed_object
+voc_088	uwevwi	uwévwi	house / building	object	corpus_search	seed_object
+voc_089	urhe	urhé	tree / wood	object	corpus_search	seed_object
+voc_090	oma	omá	body	object	corpus_search	seed_object
+voc_091	erhi	erhí	spirit / soul	object	corpus_search	seed_object
+voc_092	akpọ	akpọ́	world / life	object	corpus_search	seed_object
+voc_093	odjuvwu	odjúvwu	heaven / sky	object	corpus_search	seed_object
+voc_094	aghwa	ághwá	bush / forest / field	object	corpus_search	seed_object
+voc_095	okọ	ókọ̀	boat / canoe	object	corpus_search	seed_object
+voc_096	ẹkpeti	ẹkpetí	box / basket / chest	object	corpus_search	seed_object
+voc_097	ọbe	ọ́be	book / leaf / letter	object	corpus_search	seed_object
+voc_098	igho	ighó	money / cowry	object	corpus_search	seed_object
+voc_099	eranvwe	eránvwe	animal / meat	object	corpus_search	seed_object
+voc_100	aphia	aphíá	knife / cutlass	object	corpus_search	seed_object
+voc_101	ọshare	ọsháre	man / male	object	corpus_search	seed_object
+voc_102	aye	ayé	woman / wife	object	corpus_search	seed_object
+voc_103	ọmọ	ọ́mọ	child	object	corpus_search	seed_object
+voc_104	ọmọshare	ọ́mọsháre	boy / son	object	corpus_search	seed_object
+voc_105	ọmọtẹ	ọ́mọtẹ́	girl / daughter	object	corpus_search	seed_object
+voc_106	ovie	ovíé	king	object	corpus_search	seed_object
+voc_107	ọsẹ	ọ́sẹ	father	object	corpus_search	seed_object
+voc_108	oni	oní	mother	object	corpus_search	seed_object
+voc_109	oniọvo	oníọvo	sibling / brother / sister	object	corpus_search	seed_object
+voc_110	ẹdẹ	ẹ́dẹ	day	object	corpus_search	seed_object
+voc_111	uvo	uvó	sun / daytime / sunlight	object	corpus_search	seed_object
+voc_112	ason	asón	night / darkness	object	corpus_search	seed_object
+voc_113	Die kọye wo ruru na?	Die kọ́ye wo rúru na?	What is this that you have done?	phrase_corpus	corpus:GEN_004_010	corpus_derived
+voc_114	Die wo rori vwo ru emu nana?	Die wo róri vwo ru emú nana?	What did you think to do this thing?	phrase_corpus	corpus:GEN_020_010	corpus_derived
+voc_115	Ono ta kẹ wẹ?	Ọ́no ta kẹ́ wẹ?	Who told you?	phrase_corpus	corpus:GEN_003_011	corpus_derived
+voc_116	Me riẹnre-e.	Me riẹ́nrẹ-e.	I do not know.	phrase_corpus	corpus:GEN_004_009	corpus_derived
+voc_117	Tivọ wo nurhe ki tivọ wọ je ra?	Tivọ́ wo núrhe ki tivọ́ wọ je rá?	Where have you come from, and where are you going?	phrase_corpus	corpus:GEN_016_008	corpus_derived
+voc_118	Me cha rhe.	Me cha rhé.	I will come.	phrase_corpus	corpus:GEN_018_010	corpus_derived
+voc_119	Uwevwi herọ?	Uwévwi hérọ?	Is there a house/room?	phrase_corpus	corpus:GEN_024_023	corpus_adapted
+voc_120	Chere emu kpata kpata.	Chére emú kpata kpata.	Cook food quickly.	phrase_corpus	corpus:GEN_018_006	corpus_derived
+voc_121	Wọ wanvrẹn odibo wẹ-ẹn.	Wọ́ wanvrẹn odibo wẹ́-ẹn.	Do not pass by your servant.	phrase_corpus	corpus:GEN_018_003	corpus_derived
+voc_122	Ẹjo, ẹkẹvuọvo wọ ghine hwẹ.	Ẹ́jo, ẹkẹvuọ́vo wọ́ ghíne hwẹ́.	No, but you did laugh.	phrase_corpus	corpus:GEN_018_015	corpus_derived
+voc_123	E gbe jẹn orẹmrẹ dia.	E gbe jẹn orẹ́mrẹ dia.	Let there be light.	phrase_corpus	corpus:GEN_001_003	corpus_derived
+voc_124	Ọ da ghene dia ọtiọye.	Ọ da ghíne dia ọtiọ́ye.	And it was truly so.	phrase_corpus	corpus:GEN_001_007	corpus_derived
+voc_125	Gba ro evun rẹ okọ na.	Gba ro evún rẹ ókọ̀ na.	Come into the boat.	phrase_corpus	corpus:GEN_007_001	corpus_derived
+voc_126	Kivie wọ herọ?	Kivie wọ́ hérọ?	Where are you?	phrase_corpus	corpus:GEN_003_009	corpus_derived
+voc_127	Yanran vwẹ ufuoma.	Yánran vwẹ ufuóma.	Go in peace.	phrase_corpus	corpus:GEN_026_029	corpus_adapted
+voc_128	Ọghẹnẹ vẹ wẹ dia.	Ọghẹnẹ vẹ́ wẹ dia.	God be with you.	phrase_corpus	corpus:GEN_021_022	corpus_adapted
+voc_129	Wa ghwẹ oma koko.	Wa ghwẹ́ omá koko.	Gather yourselves together.	phrase_corpus	corpus:GEN_049_001	corpus_derived
+voc_130	Mẹ vẹ wẹ.	Mẹ́ vẹ́ wẹ.	Me and you.	phrase_corpus	corpus:GEN_031_044	corpus_derived
+voc_131	Odẹ mẹ kọ...	Odẹ́ mẹ kọ́...	My name is...	phrase_corpus	corpus:GEN_032_027	corpus_adapted
+voc_132	Ọsẹ mẹ vẹ iniọvo mẹ.	Ọ́sẹ mẹ vẹ iniọ́vo mẹ.	My father and my brethren.	phrase_corpus	corpus:GEN_047_001	corpus_derived
+voc_133	Mi vwiẹ ohwo.	Mi vwiẹ́ ohwó.	I have brought forth a person.	phrase_corpus	corpus:GEN_004_001	corpus_derived
+voc_134	Die wo guọnọre?	Die wo guọ́nọre?	What do you seek?	phrase_corpus	corpus:GEN_037_015	corpus_derived
