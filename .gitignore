@@ -23,6 +23,7 @@ data/raw/audio/*
 !data/raw/audio/.gitkeep
 data/raw/dictionaries/*
 !data/raw/dictionaries/.gitkeep
+!data/raw/dictionaries/manifest.json
 data/interim/wav/*
 !data/interim/wav/.gitkeep
 data/interim/alignments/*

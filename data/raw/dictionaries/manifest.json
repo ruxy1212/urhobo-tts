@@ -1,0 +1,102 @@
+{
+  "archive_directory": "data/raw/dictionaries",
+  "total_documents": 6,
+  "sources": [
+    {
+      "id": "ukere_1986",
+      "filename": "ukere_1986_dictionary.pdf",
+      "title": "Urhobo-English Dictionary",
+      "author": "Anthony Obakpọnọvwẹ Ukere (ed. Roger Blench 2005)",
+      "format": "PDF",
+      "pages": 53,
+      "size_bytes": 342001,
+      "classification": "Born-Digital (Direct Text Extraction)",
+      "ocr_required": false,
+      "features": [
+        "Tone marks (acute/grave)",
+        "Parts of speech",
+        "English glosses",
+        "Comprehensive headwords"
+      ]
+    },
+    {
+      "id": "okrokoto_2020",
+      "filename": "okrokoto_dictionary.pdf",
+      "title": "Urhobo to English Dictionary",
+      "author": "Ebireri Okrokoto (Urhobo Language Institute)",
+      "format": "PDF",
+      "pages": 64,
+      "size_bytes": 926045,
+      "classification": "Born-Digital (Direct Text Extraction)",
+      "ocr_required": false,
+      "features": [
+        "Alphabet tone guide",
+        "English definitions",
+        "Contemporary vocabulary"
+      ]
+    },
+    {
+      "id": "grammar_basic_course",
+      "filename": "urhobo_grammar_basic_course.pdf",
+      "title": "Ọjẹgbá rẹ Urhobo: Urhobo Grammar Basic Course",
+      "author": "Urhobo Language Committee / Linguists",
+      "format": "PDF",
+      "pages": 115,
+      "size_bytes": 3622043,
+      "classification": "Born-Digital (Direct Text Extraction)",
+      "ocr_required": false,
+      "features": [
+        "Grammatical rules",
+        "Tone rules",
+        "Vowel harmony (ẹ, ọ)",
+        "Number systems"
+      ]
+    },
+    {
+      "id": "language_primer",
+      "filename": "urhobo_Language_primer.pdf",
+      "title": "Urhobo Language Primer",
+      "author": "Urhobo Foundation",
+      "format": "PDF",
+      "pages": 71,
+      "size_bytes": 2749175,
+      "classification": "Born-Digital (Direct Text Extraction)",
+      "ocr_required": false,
+      "features": [
+        "Early reading vocabulary",
+        "Phonology primers",
+        "Common phrases and greetings"
+      ]
+    },
+    {
+      "id": "ucla_phonetics_wordlist",
+      "filename": "word_list_for_urhobo.html",
+      "title": "UCLA Phonetics Lab Urhobo Word List",
+      "author": "UCLA Phonetics Archive",
+      "format": "HTML + Audio Assets",
+      "size_bytes": 13412,
+      "classification": "Digital Lexical Resource",
+      "ocr_required": false,
+      "features": [
+        "IPA transcriptions",
+        "Grounded audio recordings",
+        "Phonemic contrasts"
+      ]
+    },
+    {
+      "id": "ucla_phonetics_1960_wordlist",
+      "filename": "word_list_for_urhobo_1960.html",
+      "title": "UCLA Phonetics Lab Urhobo Word List (1960 Archive)",
+      "author": "UCLA Phonetics Archive",
+      "format": "HTML + Audio Assets",
+      "size_bytes": 4697,
+      "classification": "Digital Lexical Resource",
+      "ocr_required": false,
+      "features": [
+        "Historical phonetic recordings",
+        "Vowel contrasts",
+        "Tone pitch comparisons"
+      ]
+    }
+  ]
+}
