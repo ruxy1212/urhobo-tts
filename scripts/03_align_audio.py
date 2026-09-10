@@ -263,7 +263,7 @@ def main():
     alignment_model, alignment_tokenizer = load_alignment_model(
         device=device,
         dtype=dtype,
-        model_name=args.model_name,
+        model_path=args.model_name,
     )
 
     print(f"[03_align_audio] Aligning {len(prep_files)} chapters for {args.book}...")
