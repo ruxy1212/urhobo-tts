@@ -29,8 +29,10 @@ data/interim/wav/*
 !data/interim/wav/*.json
 data/interim/alignments/*
 !data/interim/alignments/.gitkeep
+!data/interim/alignments/*/
 !data/interim/alignments/*.json
 !data/interim/alignments/**/*.json
+data/interim/spot_checks/*
 data/processed/segments/*
 !data/processed/segments/.gitkeep
 models/checkpoints/*

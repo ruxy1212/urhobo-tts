@@ -182,9 +182,9 @@ urhobo-tts/
 - Tag every verse segment with its alignment confidence score. Do not discard low-confidence segments yet — flag them, and use the flag in Phase 5.
 
 ### DoD for Phase 4
-- [ ] Every chapter aligned via `ctc-forced-aligner`, word-level timestamps stored per BCV ID.
-- [ ] Confidence score attached to every verse.
-- [ ] Spot-check: manually listen to 10–20 verses across the confidence-score range and confirm the scoring correlates with actual alignment quality before trusting it at scale.
+- [x] Every chapter aligned via `ctc-forced-aligner`, word-level timestamps stored per BCV ID.
+- [x] Confidence score attached to every verse.
+- [x] Spot-check: manually listen to 10–20 verses across the confidence-score range and confirm the scoring correlates with actual alignment quality before trusting it at scale.
 
 ---
 

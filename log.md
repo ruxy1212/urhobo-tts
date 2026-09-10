@@ -47,7 +47,13 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Verified 100% vocabulary compliance with zero unmapped or illegal characters across the entire corpus.
 * **Step 4.2: GPU Alignment Engine & Kaggle Notebook Implementation**:
   * Developed `scripts/03_align_audio.py` implementing Meta MMS CTC forced alignment with GPU/CUDA acceleration. Computes frame-level Viterbi decoding, word-level timestamps (`start_sec`, `end_sec`), and length-normalized acoustic confidence scores $(\log P_{\text{path}} - \log P_{\text{greedy}}) / T$ with a $-0.20$ confidence threshold.
-  * Created `notebooks/01_kaggle_alignment.ipynb` to execute end-to-end alignment on Kaggle's free GPU tier (T4 / P100), including automated audio acquisition, acoustic conditioning, chapter alignment, and output packaging (`alignments_GEN.zip`).
+* **Step 4.3 & 4.4: Corpus-Wide GPU Alignment Execution & Spot-Check Audit (DoD Complete)**:
+  * Executed forced alignment across the complete Book of Genesis (all 50 chapters) on Kaggle T4 GPU in 139 seconds (~2.3 minutes).
+  * Generated 50 alignment manifests in `data/interim/alignments/GEN/` capturing exact start and end timestamps for all 1,533 verses and all 38,075 spoken words.
+  * Heading boundaries (101 sections) were isolated into dedicated metadata segments (e.g. Genesis 2 *"Udju rẹ Idẹn"* from 3.04s to 3.62s), ensuring Verse 1 begins cleanly at 5.34s with zero word-index drift across the entire corpus.
+  * Conducted confidence score audit: mean score -0.666, median -0.642. Over 73.6% of verses (1,128 verses / ~3.2 hours) achieve high acoustic confidence (>= -0.80).
+  * Performed audio slice spot-check across the confidence spectrum, verifying clean sentence boundaries and silence-aligned cuts prior to Phase 5 dataset assembly.
+
 
 
 

@@ -1,0 +1,4748 @@
+{
+  "book": "GEN",
+  "chapter": 10,
+  "bcv_chapter": "GEN_010",
+  "audio_wav": "/kaggle/working/urhobo-tts/data/interim/wav/GEN/GEN_010.wav",
+  "audio_duration_sec": 257.33,
+  "total_verses": 32,
+  "total_headings": 3,
+  "total_words_expected": 474,
+  "total_words_aligned": 474,
+  "chapter_average_confidence": -0.5714,
+  "confidence_threshold": -0.2,
+  "flagged_verses_count": 23,
+  "verses": [
+    {
+      "bcv_id": "GEN_010_001",
+      "verse_num": 1,
+      "text_urhobo": "Enana ye orua rẹ emọ ri Noa, Shẹm, Ham, kugbe Jafẹt, rẹ oghwe na vwọ kpọnu ayen de rhi vwiẹ emọ.",
+      "text_romanized": "enana ye orua re emo ri noa shem ham kugbe jafet re oghwe na vwo kponu ayen de rhi vwie emo",
+      "start_sec": 8.92,
+      "end_sec": 16.6,
+      "duration_sec": 7.68,
+      "confidence_score": -0.5659,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 21,
+      "words": [
+        {
+          "word_index": 5,
+          "word_urhobo": "Enana",
+          "word_romanized": "enana",
+          "start_sec": 8.92,
+          "end_sec": 9.22,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0272
+        },
+        {
+          "word_index": 6,
+          "word_urhobo": "ye",
+          "word_romanized": "ye",
+          "start_sec": 9.3,
+          "end_sec": 9.36,
+          "duration_sec": 0.06,
+          "confidence_score": -1.1928
+        },
+        {
+          "word_index": 7,
+          "word_urhobo": "orua",
+          "word_romanized": "orua",
+          "start_sec": 9.38,
+          "end_sec": 9.6,
+          "duration_sec": 0.22,
+          "confidence_score": -0.1065
+        },
+        {
+          "word_index": 8,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 9.68,
+          "end_sec": 9.74,
+          "duration_sec": 0.06,
+          "confidence_score": -1.2213
+        },
+        {
+          "word_index": 9,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 9.78,
+          "end_sec": 9.92,
+          "duration_sec": 0.14,
+          "confidence_score": -0.0607
+        },
+        {
+          "word_index": 10,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 10.0,
+          "end_sec": 10.08,
+          "duration_sec": 0.08,
+          "confidence_score": -0.1704
+        },
+        {
+          "word_index": 11,
+          "word_urhobo": "Noa",
+          "word_romanized": "noa",
+          "start_sec": 10.16,
+          "end_sec": 10.32,
+          "duration_sec": 0.16,
+          "confidence_score": -0.9098
+        },
+        {
+          "word_index": 12,
+          "word_urhobo": "Shẹm",
+          "word_romanized": "shem",
+          "start_sec": 11.02,
+          "end_sec": 11.4,
+          "duration_sec": 0.38,
+          "confidence_score": -0.0603
+        },
+        {
+          "word_index": 13,
+          "word_urhobo": "Ham",
+          "word_romanized": "ham",
+          "start_sec": 11.84,
+          "end_sec": 12.08,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0218
+        },
+        {
+          "word_index": 14,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 12.14,
+          "end_sec": 12.38,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0212
+        },
+        {
+          "word_index": 15,
+          "word_urhobo": "Jafẹt",
+          "word_romanized": "jafet",
+          "start_sec": 12.48,
+          "end_sec": 13.02,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0752
+        },
+        {
+          "word_index": 16,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 13.7,
+          "end_sec": 13.8,
+          "duration_sec": 0.1,
+          "confidence_score": -0.3874
+        },
+        {
+          "word_index": 17,
+          "word_urhobo": "oghwe",
+          "word_romanized": "oghwe",
+          "start_sec": 13.9,
+          "end_sec": 14.1,
+          "duration_sec": 0.2,
+          "confidence_score": -0.5848
+        },
+        {
+          "word_index": 18,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 14.14,
+          "end_sec": 14.24,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0599
+        },
+        {
+          "word_index": 19,
+          "word_urhobo": "vwọ",
+          "word_romanized": "vwo",
+          "start_sec": 14.28,
+          "end_sec": 14.38,
+          "duration_sec": 0.1,
+          "confidence_score": -2.6731
+        },
+        {
+          "word_index": 20,
+          "word_urhobo": "kpọnu",
+          "word_romanized": "kponu",
+          "start_sec": 14.46,
+          "end_sec": 14.82,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0621
+        },
+        {
+          "word_index": 21,
+          "word_urhobo": "ayen",
+          "word_romanized": "ayen",
+          "start_sec": 15.5,
+          "end_sec": 15.68,
+          "duration_sec": 0.18,
+          "confidence_score": -1.0624
+        },
+        {
+          "word_index": 22,
+          "word_urhobo": "de",
+          "word_romanized": "de",
+          "start_sec": 15.72,
+          "end_sec": 15.8,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0385
+        },
+        {
+          "word_index": 23,
+          "word_urhobo": "rhi",
+          "word_romanized": "rhi",
+          "start_sec": 15.86,
+          "end_sec": 15.98,
+          "duration_sec": 0.12,
+          "confidence_score": -1.4111
+        },
+        {
+          "word_index": 24,
+          "word_urhobo": "vwiẹ",
+          "word_romanized": "vwie",
+          "start_sec": 16.04,
+          "end_sec": 16.2,
+          "duration_sec": 0.16,
+          "confidence_score": -1.7166
+        },
+        {
+          "word_index": 25,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 16.36,
+          "end_sec": 16.6,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0207
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_002",
+      "verse_num": 2,
+      "text_urhobo": "Emọ ri Jafẹt kẹ ena: Goma, Magog, Madai, Javan, Tubal, Mẹshẹk, Tiras.",
+      "text_romanized": "emo ri jafet ke ena goma magog madai javan tubal meshek tiras",
+      "start_sec": 17.48,
+      "end_sec": 26.52,
+      "duration_sec": 9.04,
+      "confidence_score": -0.0601,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 12,
+      "words": [
+        {
+          "word_index": 26,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 17.48,
+          "end_sec": 17.64,
+          "duration_sec": 0.16,
+          "confidence_score": -0.0076
+        },
+        {
+          "word_index": 27,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 17.72,
+          "end_sec": 17.8,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0787
+        },
+        {
+          "word_index": 28,
+          "word_urhobo": "Jafẹt",
+          "word_romanized": "jafet",
+          "start_sec": 17.88,
+          "end_sec": 18.26,
+          "duration_sec": 0.38,
+          "confidence_score": -0.1515
+        },
+        {
+          "word_index": 29,
+          "word_urhobo": "kẹ",
+          "word_romanized": "ke",
+          "start_sec": 18.36,
+          "end_sec": 18.46,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0201
+        },
+        {
+          "word_index": 30,
+          "word_urhobo": "ena",
+          "word_romanized": "ena",
+          "start_sec": 18.64,
+          "end_sec": 18.86,
+          "duration_sec": 0.22,
+          "confidence_score": -0.031
+        },
+        {
+          "word_index": 31,
+          "word_urhobo": "Goma",
+          "word_romanized": "goma",
+          "start_sec": 19.58,
+          "end_sec": 19.92,
+          "duration_sec": 0.34,
+          "confidence_score": -0.0041
+        },
+        {
+          "word_index": 32,
+          "word_urhobo": "Magog",
+          "word_romanized": "magog",
+          "start_sec": 20.6,
+          "end_sec": 21.14,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0232
+        },
+        {
+          "word_index": 33,
+          "word_urhobo": "Madai",
+          "word_romanized": "madai",
+          "start_sec": 21.7,
+          "end_sec": 22.26,
+          "duration_sec": 0.56,
+          "confidence_score": -0.0282
+        },
+        {
+          "word_index": 34,
+          "word_urhobo": "Javan",
+          "word_romanized": "javan",
+          "start_sec": 22.78,
+          "end_sec": 23.32,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0262
+        },
+        {
+          "word_index": 35,
+          "word_urhobo": "Tubal",
+          "word_romanized": "tubal",
+          "start_sec": 23.84,
+          "end_sec": 24.3,
+          "duration_sec": 0.46,
+          "confidence_score": -0.2581
+        },
+        {
+          "word_index": 36,
+          "word_urhobo": "Mẹshẹk",
+          "word_romanized": "meshek",
+          "start_sec": 24.92,
+          "end_sec": 25.5,
+          "duration_sec": 0.58,
+          "confidence_score": -0.0733
+        },
+        {
+          "word_index": 37,
+          "word_urhobo": "Tiras",
+          "word_romanized": "tiras",
+          "start_sec": 25.94,
+          "end_sec": 26.52,
+          "duration_sec": 0.58,
+          "confidence_score": -0.0192
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_003",
+      "verse_num": 3,
+      "text_urhobo": "Emọ ri Goma kẹ ena: Ashkenaz, Rifat, kugbe Togarma.",
+      "text_romanized": "emo ri goma ke ena ashkenaz rifat kugbe togarma",
+      "start_sec": 27.38,
+      "end_sec": 32.24,
+      "duration_sec": 4.86,
+      "confidence_score": -0.0843,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 9,
+      "words": [
+        {
+          "word_index": 38,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 27.38,
+          "end_sec": 27.56,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0197
+        },
+        {
+          "word_index": 39,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 27.64,
+          "end_sec": 27.72,
+          "duration_sec": 0.08,
+          "confidence_score": -0.1195
+        },
+        {
+          "word_index": 40,
+          "word_urhobo": "Goma",
+          "word_romanized": "goma",
+          "start_sec": 27.82,
+          "end_sec": 28.08,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0057
+        },
+        {
+          "word_index": 41,
+          "word_urhobo": "kẹ",
+          "word_romanized": "ke",
+          "start_sec": 28.2,
+          "end_sec": 28.3,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0179
+        },
+        {
+          "word_index": 42,
+          "word_urhobo": "ena",
+          "word_romanized": "ena",
+          "start_sec": 28.44,
+          "end_sec": 28.68,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0387
+        },
+        {
+          "word_index": 43,
+          "word_urhobo": "Ashkenaz",
+          "word_romanized": "ashkenaz",
+          "start_sec": 29.34,
+          "end_sec": 30.12,
+          "duration_sec": 0.78,
+          "confidence_score": -0.1101
+        },
+        {
+          "word_index": 44,
+          "word_urhobo": "Rifat",
+          "word_romanized": "rifat",
+          "start_sec": 30.62,
+          "end_sec": 31.16,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0742
+        },
+        {
+          "word_index": 45,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 31.32,
+          "end_sec": 31.56,
+          "duration_sec": 0.24,
+          "confidence_score": -0.1229
+        },
+        {
+          "word_index": 46,
+          "word_urhobo": "Togarma",
+          "word_romanized": "togarma",
+          "start_sec": 31.74,
+          "end_sec": 32.24,
+          "duration_sec": 0.5,
+          "confidence_score": -0.2501
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_004",
+      "verse_num": 4,
+      "text_urhobo": "Emọ ri Javan Elishah, Tarshish, Kitim, kugbe Dodanim.",
+      "text_romanized": "emo ri javan elishah tarshish kitim kugbe dodanim",
+      "start_sec": 33.24,
+      "end_sec": 39.1,
+      "duration_sec": 5.86,
+      "confidence_score": -0.1307,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 8,
+      "words": [
+        {
+          "word_index": 47,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 33.24,
+          "end_sec": 33.46,
+          "duration_sec": 0.22,
+          "confidence_score": -0.008
+        },
+        {
+          "word_index": 48,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 33.56,
+          "end_sec": 33.64,
+          "duration_sec": 0.08,
+          "confidence_score": -0.4935
+        },
+        {
+          "word_index": 49,
+          "word_urhobo": "Javan",
+          "word_romanized": "javan",
+          "start_sec": 33.74,
+          "end_sec": 34.28,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0567
+        },
+        {
+          "word_index": 50,
+          "word_urhobo": "Elishah",
+          "word_romanized": "elishah",
+          "start_sec": 34.84,
+          "end_sec": 35.4,
+          "duration_sec": 0.56,
+          "confidence_score": -0.2526
+        },
+        {
+          "word_index": 51,
+          "word_urhobo": "Tarshish",
+          "word_romanized": "tarshish",
+          "start_sec": 36.0,
+          "end_sec": 36.58,
+          "duration_sec": 0.58,
+          "confidence_score": -0.1723
+        },
+        {
+          "word_index": 52,
+          "word_urhobo": "Kitim",
+          "word_romanized": "kitim",
+          "start_sec": 37.08,
+          "end_sec": 37.58,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0296
+        },
+        {
+          "word_index": 53,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 37.9,
+          "end_sec": 38.2,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0068
+        },
+        {
+          "word_index": 54,
+          "word_urhobo": "Dodanim",
+          "word_romanized": "dodanim",
+          "start_sec": 38.42,
+          "end_sec": 39.1,
+          "duration_sec": 0.68,
+          "confidence_score": -0.026
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_005",
+      "verse_num": 5,
+      "text_urhobo": "Oma rẹ ihwo nana kọye ihwo rẹ orhoma rẹ urhie na nurhe. Enana keye emọ ri Jafẹt vwẹ otọ rayen, dohwo depherẹ rọye, vẹ uvwiẹ rayen, vwẹ evun rẹ ẹgborho rayen.",
+      "text_romanized": "oma re ihwo nana koye ihwo re orhoma re urhie na nurhe enana keye emo ri jafet vwe oto rayen dohwo dephere roye ve uvwie rayen vwe evun re egborho rayen",
+      "start_sec": 39.96,
+      "end_sec": 52.86,
+      "duration_sec": 12.9,
+      "confidence_score": -0.8693,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 31,
+      "words": [
+        {
+          "word_index": 55,
+          "word_urhobo": "Oma",
+          "word_romanized": "oma",
+          "start_sec": 39.96,
+          "end_sec": 40.16,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0066
+        },
+        {
+          "word_index": 56,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 40.26,
+          "end_sec": 40.3,
+          "duration_sec": 0.04,
+          "confidence_score": -2.5947
+        },
+        {
+          "word_index": 57,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 40.34,
+          "end_sec": 40.54,
+          "duration_sec": 0.2,
+          "confidence_score": -0.6564
+        },
+        {
+          "word_index": 58,
+          "word_urhobo": "nana",
+          "word_romanized": "nana",
+          "start_sec": 40.64,
+          "end_sec": 40.88,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0596
+        },
+        {
+          "word_index": 59,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 41.06,
+          "end_sec": 41.36,
+          "duration_sec": 0.3,
+          "confidence_score": -0.1992
+        },
+        {
+          "word_index": 60,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 41.66,
+          "end_sec": 41.9,
+          "duration_sec": 0.24,
+          "confidence_score": -0.6314
+        },
+        {
+          "word_index": 61,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 42.46,
+          "end_sec": 42.5,
+          "duration_sec": 0.04,
+          "confidence_score": -3.5703
+        },
+        {
+          "word_index": 62,
+          "word_urhobo": "orhoma",
+          "word_romanized": "orhoma",
+          "start_sec": 42.54,
+          "end_sec": 42.82,
+          "duration_sec": 0.28,
+          "confidence_score": -0.7803
+        },
+        {
+          "word_index": 63,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 42.88,
+          "end_sec": 42.92,
+          "duration_sec": 0.04,
+          "confidence_score": -3.1895
+        },
+        {
+          "word_index": 64,
+          "word_urhobo": "urhie",
+          "word_romanized": "urhie",
+          "start_sec": 42.94,
+          "end_sec": 43.12,
+          "duration_sec": 0.18,
+          "confidence_score": -1.2548
+        },
+        {
+          "word_index": 65,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 43.2,
+          "end_sec": 43.3,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0263
+        },
+        {
+          "word_index": 66,
+          "word_urhobo": "nurhe",
+          "word_romanized": "nurhe",
+          "start_sec": 43.44,
+          "end_sec": 43.76,
+          "duration_sec": 0.32,
+          "confidence_score": -0.6318
+        },
+        {
+          "word_index": 67,
+          "word_urhobo": "Enana",
+          "word_romanized": "enana",
+          "start_sec": 44.54,
+          "end_sec": 44.82,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0685
+        },
+        {
+          "word_index": 68,
+          "word_urhobo": "keye",
+          "word_romanized": "keye",
+          "start_sec": 44.9,
+          "end_sec": 45.1,
+          "duration_sec": 0.2,
+          "confidence_score": -0.2084
+        },
+        {
+          "word_index": 69,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 45.14,
+          "end_sec": 45.24,
+          "duration_sec": 0.1,
+          "confidence_score": -0.9335
+        },
+        {
+          "word_index": 70,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 45.32,
+          "end_sec": 45.4,
+          "duration_sec": 0.08,
+          "confidence_score": -0.5021
+        },
+        {
+          "word_index": 71,
+          "word_urhobo": "Jafẹt",
+          "word_romanized": "jafet",
+          "start_sec": 45.48,
+          "end_sec": 45.98,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0852
+        },
+        {
+          "word_index": 72,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 46.02,
+          "end_sec": 46.12,
+          "duration_sec": 0.1,
+          "confidence_score": -2.3927
+        },
+        {
+          "word_index": 73,
+          "word_urhobo": "otọ",
+          "word_romanized": "oto",
+          "start_sec": 46.24,
+          "end_sec": 46.42,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0127
+        },
+        {
+          "word_index": 74,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 46.5,
+          "end_sec": 46.92,
+          "duration_sec": 0.42,
+          "confidence_score": -0.5583
+        },
+        {
+          "word_index": 75,
+          "word_urhobo": "dohwo",
+          "word_romanized": "dohwo",
+          "start_sec": 47.82,
+          "end_sec": 48.1,
+          "duration_sec": 0.28,
+          "confidence_score": -0.4912
+        },
+        {
+          "word_index": 76,
+          "word_urhobo": "depherẹ",
+          "word_romanized": "dephere",
+          "start_sec": 48.24,
+          "end_sec": 48.64,
+          "duration_sec": 0.4,
+          "confidence_score": -0.7391
+        },
+        {
+          "word_index": 77,
+          "word_urhobo": "rọye",
+          "word_romanized": "roye",
+          "start_sec": 48.7,
+          "end_sec": 49.0,
+          "duration_sec": 0.3,
+          "confidence_score": -0.203
+        },
+        {
+          "word_index": 78,
+          "word_urhobo": "vẹ",
+          "word_romanized": "ve",
+          "start_sec": 49.62,
+          "end_sec": 49.72,
+          "duration_sec": 0.1,
+          "confidence_score": -0.016
+        },
+        {
+          "word_index": 79,
+          "word_urhobo": "uvwiẹ",
+          "word_romanized": "uvwie",
+          "start_sec": 50.02,
+          "end_sec": 50.26,
+          "duration_sec": 0.24,
+          "confidence_score": -1.335
+        },
+        {
+          "word_index": 80,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 50.34,
+          "end_sec": 50.78,
+          "duration_sec": 0.44,
+          "confidence_score": -0.5134
+        },
+        {
+          "word_index": 81,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 51.22,
+          "end_sec": 51.38,
+          "duration_sec": 0.16,
+          "confidence_score": -1.5356
+        },
+        {
+          "word_index": 82,
+          "word_urhobo": "evun",
+          "word_romanized": "evun",
+          "start_sec": 51.64,
+          "end_sec": 51.84,
+          "duration_sec": 0.2,
+          "confidence_score": -0.88
+        },
+        {
+          "word_index": 83,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 51.88,
+          "end_sec": 51.94,
+          "duration_sec": 0.06,
+          "confidence_score": -2.0159
+        },
+        {
+          "word_index": 84,
+          "word_urhobo": "ẹgborho",
+          "word_romanized": "egborho",
+          "start_sec": 51.96,
+          "end_sec": 52.38,
+          "duration_sec": 0.42,
+          "confidence_score": -0.4483
+        },
+        {
+          "word_index": 85,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 52.48,
+          "end_sec": 52.86,
+          "duration_sec": 0.38,
+          "confidence_score": -0.4077
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_006",
+      "verse_num": 6,
+      "text_urhobo": "Emọ ri Ham Kush, Ijipt, Put, kugbe Kenan",
+      "text_romanized": "emo ri ham kush ijipt put kugbe kenan",
+      "start_sec": 53.62,
+      "end_sec": 58.04,
+      "duration_sec": 4.42,
+      "confidence_score": -0.0883,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 8,
+      "words": [
+        {
+          "word_index": 86,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 53.62,
+          "end_sec": 53.82,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0119
+        },
+        {
+          "word_index": 87,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 53.9,
+          "end_sec": 53.98,
+          "duration_sec": 0.08,
+          "confidence_score": -0.3815
+        },
+        {
+          "word_index": 88,
+          "word_urhobo": "Ham",
+          "word_romanized": "ham",
+          "start_sec": 54.06,
+          "end_sec": 54.36,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0464
+        },
+        {
+          "word_index": 89,
+          "word_urhobo": "Kush",
+          "word_romanized": "kush",
+          "start_sec": 54.84,
+          "end_sec": 55.2,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0594
+        },
+        {
+          "word_index": 90,
+          "word_urhobo": "Ijipt",
+          "word_romanized": "ijipt",
+          "start_sec": 55.76,
+          "end_sec": 56.22,
+          "duration_sec": 0.46,
+          "confidence_score": -0.1627
+        },
+        {
+          "word_index": 91,
+          "word_urhobo": "Put",
+          "word_romanized": "put",
+          "start_sec": 56.56,
+          "end_sec": 56.88,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0112
+        },
+        {
+          "word_index": 92,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 57.16,
+          "end_sec": 57.42,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0101
+        },
+        {
+          "word_index": 93,
+          "word_urhobo": "Kenan",
+          "word_romanized": "kenan",
+          "start_sec": 57.56,
+          "end_sec": 58.04,
+          "duration_sec": 0.48,
+          "confidence_score": -0.0235
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_007",
+      "verse_num": 7,
+      "text_urhobo": "Emọ ri Kush Seba, Havilah, Sabta, Raama, kugbe Sabteka. Emọ ri Raama Sheba kugbe Dedan.",
+      "text_romanized": "emo ri kush seba havilah sabta raama kugbe sabteka emo ri raama sheba kugbe dedan",
+      "start_sec": 58.62,
+      "end_sec": 69.22,
+      "duration_sec": 10.6,
+      "confidence_score": -0.0782,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 15,
+      "words": [
+        {
+          "word_index": 94,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 58.62,
+          "end_sec": 58.82,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0074
+        },
+        {
+          "word_index": 95,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 58.92,
+          "end_sec": 59.02,
+          "duration_sec": 0.1,
+          "confidence_score": -0.367
+        },
+        {
+          "word_index": 96,
+          "word_urhobo": "Kush",
+          "word_romanized": "kush",
+          "start_sec": 59.14,
+          "end_sec": 59.46,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0463
+        },
+        {
+          "word_index": 97,
+          "word_urhobo": "Seba",
+          "word_romanized": "seba",
+          "start_sec": 60.02,
+          "end_sec": 60.36,
+          "duration_sec": 0.34,
+          "confidence_score": -0.0255
+        },
+        {
+          "word_index": 98,
+          "word_urhobo": "Havilah",
+          "word_romanized": "havilah",
+          "start_sec": 60.92,
+          "end_sec": 61.54,
+          "duration_sec": 0.62,
+          "confidence_score": -0.2248
+        },
+        {
+          "word_index": 99,
+          "word_urhobo": "Sabta",
+          "word_romanized": "sabta",
+          "start_sec": 62.16,
+          "end_sec": 62.62,
+          "duration_sec": 0.46,
+          "confidence_score": -0.083
+        },
+        {
+          "word_index": 100,
+          "word_urhobo": "Raama",
+          "word_romanized": "raama",
+          "start_sec": 63.26,
+          "end_sec": 63.64,
+          "duration_sec": 0.38,
+          "confidence_score": -0.026
+        },
+        {
+          "word_index": 101,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 64.18,
+          "end_sec": 64.5,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0043
+        },
+        {
+          "word_index": 102,
+          "word_urhobo": "Sabteka",
+          "word_romanized": "sabteka",
+          "start_sec": 64.74,
+          "end_sec": 65.34,
+          "duration_sec": 0.6,
+          "confidence_score": -0.1127
+        },
+        {
+          "word_index": 103,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 66.18,
+          "end_sec": 66.38,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0114
+        },
+        {
+          "word_index": 104,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 66.44,
+          "end_sec": 66.54,
+          "duration_sec": 0.1,
+          "confidence_score": -0.1508
+        },
+        {
+          "word_index": 105,
+          "word_urhobo": "Raama",
+          "word_romanized": "raama",
+          "start_sec": 66.62,
+          "end_sec": 66.98,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0333
+        },
+        {
+          "word_index": 106,
+          "word_urhobo": "Sheba",
+          "word_romanized": "sheba",
+          "start_sec": 67.6,
+          "end_sec": 67.98,
+          "duration_sec": 0.38,
+          "confidence_score": -0.0563
+        },
+        {
+          "word_index": 107,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 68.16,
+          "end_sec": 68.44,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0062
+        },
+        {
+          "word_index": 108,
+          "word_urhobo": "Dedan",
+          "word_romanized": "dedan",
+          "start_sec": 68.72,
+          "end_sec": 69.22,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0176
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_008",
+      "verse_num": 8,
+      "text_urhobo": "Kush kọye ọsẹ ri Nimrọd, ọye ohwo rẹ ẹsosuọ vwẹ akpọ na rọ to dia ọgban.",
+      "text_romanized": "kush koye ose ri nimrod oye ohwo re esosuo vwe akpo na ro to dia ogban",
+      "start_sec": 69.84,
+      "end_sec": 75.54,
+      "duration_sec": 5.7,
+      "confidence_score": -0.6681,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 16,
+      "words": [
+        {
+          "word_index": 109,
+          "word_urhobo": "Kush",
+          "word_romanized": "kush",
+          "start_sec": 69.84,
+          "end_sec": 70.18,
+          "duration_sec": 0.34,
+          "confidence_score": -0.107
+        },
+        {
+          "word_index": 110,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 70.24,
+          "end_sec": 70.38,
+          "duration_sec": 0.14,
+          "confidence_score": -1.6975
+        },
+        {
+          "word_index": 111,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 70.42,
+          "end_sec": 70.62,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0322
+        },
+        {
+          "word_index": 112,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 70.7,
+          "end_sec": 70.78,
+          "duration_sec": 0.08,
+          "confidence_score": -0.9296
+        },
+        {
+          "word_index": 113,
+          "word_urhobo": "Nimrọd",
+          "word_romanized": "nimrod",
+          "start_sec": 70.86,
+          "end_sec": 71.44,
+          "duration_sec": 0.58,
+          "confidence_score": -0.0117
+        },
+        {
+          "word_index": 114,
+          "word_urhobo": "ọye",
+          "word_romanized": "oye",
+          "start_sec": 71.92,
+          "end_sec": 72.06,
+          "duration_sec": 0.14,
+          "confidence_score": -0.5814
+        },
+        {
+          "word_index": 115,
+          "word_urhobo": "ohwo",
+          "word_romanized": "ohwo",
+          "start_sec": 72.08,
+          "end_sec": 72.28,
+          "duration_sec": 0.2,
+          "confidence_score": -1.0164
+        },
+        {
+          "word_index": 116,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 72.34,
+          "end_sec": 72.44,
+          "duration_sec": 0.1,
+          "confidence_score": -0.8727
+        },
+        {
+          "word_index": 117,
+          "word_urhobo": "ẹsosuọ",
+          "word_romanized": "esosuo",
+          "start_sec": 72.46,
+          "end_sec": 72.92,
+          "duration_sec": 0.46,
+          "confidence_score": -0.2506
+        },
+        {
+          "word_index": 118,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 73.1,
+          "end_sec": 73.2,
+          "duration_sec": 0.1,
+          "confidence_score": -4.1707
+        },
+        {
+          "word_index": 119,
+          "word_urhobo": "akpọ",
+          "word_romanized": "akpo",
+          "start_sec": 73.26,
+          "end_sec": 73.54,
+          "duration_sec": 0.28,
+          "confidence_score": -0.1489
+        },
+        {
+          "word_index": 120,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 73.62,
+          "end_sec": 73.74,
+          "duration_sec": 0.12,
+          "confidence_score": -0.0132
+        },
+        {
+          "word_index": 121,
+          "word_urhobo": "rọ",
+          "word_romanized": "ro",
+          "start_sec": 74.4,
+          "end_sec": 74.5,
+          "duration_sec": 0.1,
+          "confidence_score": -0.3002
+        },
+        {
+          "word_index": 122,
+          "word_urhobo": "to",
+          "word_romanized": "to",
+          "start_sec": 74.58,
+          "end_sec": 74.68,
+          "duration_sec": 0.1,
+          "confidence_score": -0.036
+        },
+        {
+          "word_index": 123,
+          "word_urhobo": "dia",
+          "word_romanized": "dia",
+          "start_sec": 74.78,
+          "end_sec": 74.96,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0079
+        },
+        {
+          "word_index": 124,
+          "word_urhobo": "ọgban",
+          "word_romanized": "ogban",
+          "start_sec": 75.2,
+          "end_sec": 75.54,
+          "duration_sec": 0.34,
+          "confidence_score": -0.5138
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_009",
+      "verse_num": 9,
+      "text_urhobo": "Ọ da dia ọgban rẹ ibefii rode vwẹ obaro rẹ Ọrovwohwo, fiki rẹ ọtiọye kọye a vwọ tanẹ, Kiri Nimrọd ọgban rẹ ibefi rode vwẹ obaro rẹ Ọrovwohwo.",
+      "text_romanized": "o da dia ogban re ibefii rode vwe obaro re orovwohwo fiki re otioye koye a vwo tane kiri nimrod ogban re ibefi rode vwe obaro re orovwohwo",
+      "start_sec": 76.22,
+      "end_sec": 87.46,
+      "duration_sec": 11.24,
+      "confidence_score": -1.1072,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 28,
+      "words": [
+        {
+          "word_index": 125,
+          "word_urhobo": "Ọ",
+          "word_romanized": "o",
+          "start_sec": 76.22,
+          "end_sec": 76.24,
+          "duration_sec": 0.02,
+          "confidence_score": -0.0062
+        },
+        {
+          "word_index": 126,
+          "word_urhobo": "da",
+          "word_romanized": "da",
+          "start_sec": 76.32,
+          "end_sec": 76.4,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0057
+        },
+        {
+          "word_index": 127,
+          "word_urhobo": "dia",
+          "word_romanized": "dia",
+          "start_sec": 76.54,
+          "end_sec": 76.68,
+          "duration_sec": 0.14,
+          "confidence_score": -0.0104
+        },
+        {
+          "word_index": 128,
+          "word_urhobo": "ọgban",
+          "word_romanized": "ogban",
+          "start_sec": 76.82,
+          "end_sec": 77.12,
+          "duration_sec": 0.3,
+          "confidence_score": -0.6028
+        },
+        {
+          "word_index": 129,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 77.18,
+          "end_sec": 77.26,
+          "duration_sec": 0.08,
+          "confidence_score": -1.0903
+        },
+        {
+          "word_index": 130,
+          "word_urhobo": "ibefii",
+          "word_romanized": "ibefii",
+          "start_sec": 77.36,
+          "end_sec": 77.78,
+          "duration_sec": 0.42,
+          "confidence_score": -0.2499
+        },
+        {
+          "word_index": 131,
+          "word_urhobo": "rode",
+          "word_romanized": "rode",
+          "start_sec": 77.8,
+          "end_sec": 78.08,
+          "duration_sec": 0.28,
+          "confidence_score": -0.4055
+        },
+        {
+          "word_index": 132,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 78.46,
+          "end_sec": 78.52,
+          "duration_sec": 0.06,
+          "confidence_score": -6.7513
+        },
+        {
+          "word_index": 133,
+          "word_urhobo": "obaro",
+          "word_romanized": "obaro",
+          "start_sec": 78.54,
+          "end_sec": 78.82,
+          "duration_sec": 0.28,
+          "confidence_score": -0.5317
+        },
+        {
+          "word_index": 134,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 78.84,
+          "end_sec": 78.88,
+          "duration_sec": 0.04,
+          "confidence_score": -2.4795
+        },
+        {
+          "word_index": 135,
+          "word_urhobo": "Ọrovwohwo",
+          "word_romanized": "orovwohwo",
+          "start_sec": 78.94,
+          "end_sec": 79.4,
+          "duration_sec": 0.46,
+          "confidence_score": -1.549
+        },
+        {
+          "word_index": 136,
+          "word_urhobo": "fiki",
+          "word_romanized": "fiki",
+          "start_sec": 79.98,
+          "end_sec": 80.2,
+          "duration_sec": 0.22,
+          "confidence_score": -0.0635
+        },
+        {
+          "word_index": 137,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 80.24,
+          "end_sec": 80.28,
+          "duration_sec": 0.04,
+          "confidence_score": -0.7859
+        },
+        {
+          "word_index": 138,
+          "word_urhobo": "ọtiọye",
+          "word_romanized": "otioye",
+          "start_sec": 80.32,
+          "end_sec": 80.82,
+          "duration_sec": 0.5,
+          "confidence_score": -0.1495
+        },
+        {
+          "word_index": 139,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 81.28,
+          "end_sec": 81.62,
+          "duration_sec": 0.34,
+          "confidence_score": -0.1469
+        },
+        {
+          "word_index": 140,
+          "word_urhobo": "a",
+          "word_romanized": "a",
+          "start_sec": 81.94,
+          "end_sec": 81.96,
+          "duration_sec": 0.02,
+          "confidence_score": -0.0243
+        },
+        {
+          "word_index": 141,
+          "word_urhobo": "vwọ",
+          "word_romanized": "vwo",
+          "start_sec": 82.04,
+          "end_sec": 82.12,
+          "duration_sec": 0.08,
+          "confidence_score": -4.3163
+        },
+        {
+          "word_index": 142,
+          "word_urhobo": "tanẹ",
+          "word_romanized": "tane",
+          "start_sec": 82.26,
+          "end_sec": 82.56,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0085
+        },
+        {
+          "word_index": 143,
+          "word_urhobo": "Kiri",
+          "word_romanized": "kiri",
+          "start_sec": 83.18,
+          "end_sec": 83.42,
+          "duration_sec": 0.24,
+          "confidence_score": -0.1567
+        },
+        {
+          "word_index": 144,
+          "word_urhobo": "Nimrọd",
+          "word_romanized": "nimrod",
+          "start_sec": 83.54,
+          "end_sec": 84.1,
+          "duration_sec": 0.56,
+          "confidence_score": -0.0143
+        },
+        {
+          "word_index": 145,
+          "word_urhobo": "ọgban",
+          "word_romanized": "ogban",
+          "start_sec": 84.42,
+          "end_sec": 84.72,
+          "duration_sec": 0.3,
+          "confidence_score": -0.6048
+        },
+        {
+          "word_index": 146,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 84.78,
+          "end_sec": 84.84,
+          "duration_sec": 0.06,
+          "confidence_score": -1.5823
+        },
+        {
+          "word_index": 147,
+          "word_urhobo": "ibefi",
+          "word_romanized": "ibefi",
+          "start_sec": 84.88,
+          "end_sec": 85.22,
+          "duration_sec": 0.34,
+          "confidence_score": -0.062
+        },
+        {
+          "word_index": 148,
+          "word_urhobo": "rode",
+          "word_romanized": "rode",
+          "start_sec": 85.3,
+          "end_sec": 85.58,
+          "duration_sec": 0.28,
+          "confidence_score": -0.3364
+        },
+        {
+          "word_index": 149,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 86.08,
+          "end_sec": 86.14,
+          "duration_sec": 0.06,
+          "confidence_score": -6.8685
+        },
+        {
+          "word_index": 150,
+          "word_urhobo": "obaro",
+          "word_romanized": "obaro",
+          "start_sec": 86.18,
+          "end_sec": 86.58,
+          "duration_sec": 0.4,
+          "confidence_score": -0.0571
+        },
+        {
+          "word_index": 151,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 86.64,
+          "end_sec": 86.74,
+          "duration_sec": 0.1,
+          "confidence_score": -0.8093
+        },
+        {
+          "word_index": 152,
+          "word_urhobo": "Ọrovwohwo",
+          "word_romanized": "orovwohwo",
+          "start_sec": 86.96,
+          "end_sec": 87.46,
+          "duration_sec": 0.5,
+          "confidence_score": -1.3336
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_010",
+      "verse_num": 10,
+      "text_urhobo": "Emuophihọ rẹ uvie rọye ki Babẹl, Erẹk kugbe Akad, enana ejobi kẹ otọ ri Shinar epha.",
+      "text_romanized": "emuophiho re uvie roye ki babel erek kugbe akad enana ejobi ke oto ri shinar epha",
+      "start_sec": 88.34,
+      "end_sec": 95.96,
+      "duration_sec": 7.62,
+      "confidence_score": -0.391,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 16,
+      "words": [
+        {
+          "word_index": 153,
+          "word_urhobo": "Emuophihọ",
+          "word_romanized": "emuophiho",
+          "start_sec": 88.34,
+          "end_sec": 88.8,
+          "duration_sec": 0.46,
+          "confidence_score": -0.903
+        },
+        {
+          "word_index": 154,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 88.86,
+          "end_sec": 88.9,
+          "duration_sec": 0.04,
+          "confidence_score": -2.3345
+        },
+        {
+          "word_index": 155,
+          "word_urhobo": "uvie",
+          "word_romanized": "uvie",
+          "start_sec": 88.92,
+          "end_sec": 89.18,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0908
+        },
+        {
+          "word_index": 156,
+          "word_urhobo": "rọye",
+          "word_romanized": "roye",
+          "start_sec": 89.24,
+          "end_sec": 89.54,
+          "duration_sec": 0.3,
+          "confidence_score": -0.15
+        },
+        {
+          "word_index": 157,
+          "word_urhobo": "ki",
+          "word_romanized": "ki",
+          "start_sec": 89.88,
+          "end_sec": 89.98,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0422
+        },
+        {
+          "word_index": 158,
+          "word_urhobo": "Babẹl",
+          "word_romanized": "babel",
+          "start_sec": 90.16,
+          "end_sec": 90.62,
+          "duration_sec": 0.46,
+          "confidence_score": -0.0573
+        },
+        {
+          "word_index": 159,
+          "word_urhobo": "Erẹk",
+          "word_romanized": "erek",
+          "start_sec": 91.24,
+          "end_sec": 91.7,
+          "duration_sec": 0.46,
+          "confidence_score": -0.0425
+        },
+        {
+          "word_index": 160,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 92.04,
+          "end_sec": 92.3,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0091
+        },
+        {
+          "word_index": 161,
+          "word_urhobo": "Akad",
+          "word_romanized": "akad",
+          "start_sec": 92.56,
+          "end_sec": 93.04,
+          "duration_sec": 0.48,
+          "confidence_score": -0.0231
+        },
+        {
+          "word_index": 162,
+          "word_urhobo": "enana",
+          "word_romanized": "enana",
+          "start_sec": 93.58,
+          "end_sec": 93.82,
+          "duration_sec": 0.24,
+          "confidence_score": -0.9454
+        },
+        {
+          "word_index": 163,
+          "word_urhobo": "ejobi",
+          "word_romanized": "ejobi",
+          "start_sec": 93.84,
+          "end_sec": 94.22,
+          "duration_sec": 0.38,
+          "confidence_score": -0.215
+        },
+        {
+          "word_index": 164,
+          "word_urhobo": "kẹ",
+          "word_romanized": "ke",
+          "start_sec": 94.3,
+          "end_sec": 94.4,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0046
+        },
+        {
+          "word_index": 165,
+          "word_urhobo": "otọ",
+          "word_romanized": "oto",
+          "start_sec": 94.72,
+          "end_sec": 94.92,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0093
+        },
+        {
+          "word_index": 166,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 95.0,
+          "end_sec": 95.08,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0877
+        },
+        {
+          "word_index": 167,
+          "word_urhobo": "Shinar",
+          "word_romanized": "shinar",
+          "start_sec": 95.2,
+          "end_sec": 95.6,
+          "duration_sec": 0.4,
+          "confidence_score": -0.4931
+        },
+        {
+          "word_index": 168,
+          "word_urhobo": "epha",
+          "word_romanized": "epha",
+          "start_sec": 95.74,
+          "end_sec": 95.96,
+          "duration_sec": 0.22,
+          "confidence_score": -0.8478
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_011",
+      "verse_num": 11,
+      "text_urhobo": "Otọ yena kọye o nu kpo Asiria, ọ da ra bọ Ninivẹh, Rehobọt-Ir, Kala, kugbe",
+      "text_romanized": "oto yena koye o nu kpo asiria o da ra bo niniveh rehobot ir kala kugbe",
+      "start_sec": 96.92,
+      "end_sec": 104.46,
+      "duration_sec": 7.54,
+      "confidence_score": -0.3472,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 16,
+      "words": [
+        {
+          "word_index": 169,
+          "word_urhobo": "Otọ",
+          "word_romanized": "oto",
+          "start_sec": 96.92,
+          "end_sec": 97.12,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0127
+        },
+        {
+          "word_index": 170,
+          "word_urhobo": "yena",
+          "word_romanized": "yena",
+          "start_sec": 97.24,
+          "end_sec": 97.48,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0173
+        },
+        {
+          "word_index": 171,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 97.6,
+          "end_sec": 97.88,
+          "duration_sec": 0.28,
+          "confidence_score": -0.1484
+        },
+        {
+          "word_index": 172,
+          "word_urhobo": "o",
+          "word_romanized": "o",
+          "start_sec": 97.94,
+          "end_sec": 97.96,
+          "duration_sec": 0.02,
+          "confidence_score": -0.4797
+        },
+        {
+          "word_index": 173,
+          "word_urhobo": "nu",
+          "word_romanized": "nu",
+          "start_sec": 98.0,
+          "end_sec": 98.1,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0212
+        },
+        {
+          "word_index": 174,
+          "word_urhobo": "kpo",
+          "word_romanized": "kpo",
+          "start_sec": 98.2,
+          "end_sec": 98.34,
+          "duration_sec": 0.14,
+          "confidence_score": -0.0043
+        },
+        {
+          "word_index": 175,
+          "word_urhobo": "Asiria",
+          "word_romanized": "asiria",
+          "start_sec": 98.56,
+          "end_sec": 99.06,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0486
+        },
+        {
+          "word_index": 176,
+          "word_urhobo": "ọ",
+          "word_romanized": "o",
+          "start_sec": 99.84,
+          "end_sec": 99.86,
+          "duration_sec": 0.02,
+          "confidence_score": -0.0064
+        },
+        {
+          "word_index": 177,
+          "word_urhobo": "da",
+          "word_romanized": "da",
+          "start_sec": 99.94,
+          "end_sec": 100.02,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0054
+        },
+        {
+          "word_index": 178,
+          "word_urhobo": "ra",
+          "word_romanized": "ra",
+          "start_sec": 100.1,
+          "end_sec": 100.18,
+          "duration_sec": 0.08,
+          "confidence_score": -0.2381
+        },
+        {
+          "word_index": 179,
+          "word_urhobo": "bọ",
+          "word_romanized": "bo",
+          "start_sec": 100.34,
+          "end_sec": 100.42,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0132
+        },
+        {
+          "word_index": 180,
+          "word_urhobo": "Ninivẹh",
+          "word_romanized": "niniveh",
+          "start_sec": 100.62,
+          "end_sec": 101.22,
+          "duration_sec": 0.6,
+          "confidence_score": -0.2434
+        },
+        {
+          "word_index": 181,
+          "word_urhobo": "Rehobọt",
+          "word_romanized": "rehobot",
+          "start_sec": 101.92,
+          "end_sec": 102.5,
+          "duration_sec": 0.58,
+          "confidence_score": -0.0463
+        },
+        {
+          "word_index": 182,
+          "word_urhobo": "Ir",
+          "word_romanized": "ir",
+          "start_sec": 102.54,
+          "end_sec": 102.6,
+          "duration_sec": 0.06,
+          "confidence_score": -4.2577
+        },
+        {
+          "word_index": 183,
+          "word_urhobo": "Kala",
+          "word_romanized": "kala",
+          "start_sec": 102.92,
+          "end_sec": 103.22,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0086
+        },
+        {
+          "word_index": 184,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 104.14,
+          "end_sec": 104.46,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0037
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_012",
+      "verse_num": 12,
+      "text_urhobo": "Resẹn vwẹ uvwre ri Ninivẹh vi Kala, kọye orere rode na.",
+      "text_romanized": "resen vwe uvwre ri niniveh vi kala koye orere rode na",
+      "start_sec": 104.76,
+      "end_sec": 109.26,
+      "duration_sec": 4.5,
+      "confidence_score": -0.5886,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 11,
+      "words": [
+        {
+          "word_index": 185,
+          "word_urhobo": "Resẹn",
+          "word_romanized": "resen",
+          "start_sec": 104.76,
+          "end_sec": 105.14,
+          "duration_sec": 0.38,
+          "confidence_score": -0.3665
+        },
+        {
+          "word_index": 186,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 105.72,
+          "end_sec": 105.8,
+          "duration_sec": 0.08,
+          "confidence_score": -3.4608
+        },
+        {
+          "word_index": 187,
+          "word_urhobo": "uvwre",
+          "word_romanized": "uvwre",
+          "start_sec": 105.88,
+          "end_sec": 106.06,
+          "duration_sec": 0.18,
+          "confidence_score": -1.7155
+        },
+        {
+          "word_index": 188,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 106.12,
+          "end_sec": 106.18,
+          "duration_sec": 0.06,
+          "confidence_score": -0.089
+        },
+        {
+          "word_index": 189,
+          "word_urhobo": "Ninivẹh",
+          "word_romanized": "niniveh",
+          "start_sec": 106.26,
+          "end_sec": 106.82,
+          "duration_sec": 0.56,
+          "confidence_score": -0.2542
+        },
+        {
+          "word_index": 190,
+          "word_urhobo": "vi",
+          "word_romanized": "vi",
+          "start_sec": 106.94,
+          "end_sec": 107.04,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0865
+        },
+        {
+          "word_index": 191,
+          "word_urhobo": "Kala",
+          "word_romanized": "kala",
+          "start_sec": 107.16,
+          "end_sec": 107.46,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0103
+        },
+        {
+          "word_index": 192,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 107.76,
+          "end_sec": 108.14,
+          "duration_sec": 0.38,
+          "confidence_score": -0.1501
+        },
+        {
+          "word_index": 193,
+          "word_urhobo": "orere",
+          "word_romanized": "orere",
+          "start_sec": 108.46,
+          "end_sec": 108.74,
+          "duration_sec": 0.28,
+          "confidence_score": -0.286
+        },
+        {
+          "word_index": 194,
+          "word_urhobo": "rode",
+          "word_romanized": "rode",
+          "start_sec": 108.8,
+          "end_sec": 109.06,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0419
+        },
+        {
+          "word_index": 195,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 109.16,
+          "end_sec": 109.26,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0136
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_013",
+      "verse_num": 13,
+      "text_urhobo": "Ijipt, da dia ọsẹ ri Ludim, Anamim, Lehabim, Naftu-him,",
+      "text_romanized": "ijipt da dia ose ri ludim anamim lehabim naftu him",
+      "start_sec": 110.22,
+      "end_sec": 116.1,
+      "duration_sec": 5.88,
+      "confidence_score": -0.2172,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 10,
+      "words": [
+        {
+          "word_index": 196,
+          "word_urhobo": "Ijipt",
+          "word_romanized": "ijipt",
+          "start_sec": 110.22,
+          "end_sec": 110.54,
+          "duration_sec": 0.32,
+          "confidence_score": -0.1833
+        },
+        {
+          "word_index": 197,
+          "word_urhobo": "da",
+          "word_romanized": "da",
+          "start_sec": 110.56,
+          "end_sec": 110.66,
+          "duration_sec": 0.1,
+          "confidence_score": -0.041
+        },
+        {
+          "word_index": 198,
+          "word_urhobo": "dia",
+          "word_romanized": "dia",
+          "start_sec": 110.78,
+          "end_sec": 110.94,
+          "duration_sec": 0.16,
+          "confidence_score": -0.0209
+        },
+        {
+          "word_index": 199,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 111.16,
+          "end_sec": 111.34,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0116
+        },
+        {
+          "word_index": 200,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 111.4,
+          "end_sec": 111.46,
+          "duration_sec": 0.06,
+          "confidence_score": -0.7273
+        },
+        {
+          "word_index": 201,
+          "word_urhobo": "Ludim",
+          "word_romanized": "ludim",
+          "start_sec": 111.56,
+          "end_sec": 112.02,
+          "duration_sec": 0.46,
+          "confidence_score": -0.031
+        },
+        {
+          "word_index": 202,
+          "word_urhobo": "Anamim",
+          "word_romanized": "anamim",
+          "start_sec": 112.72,
+          "end_sec": 113.3,
+          "duration_sec": 0.58,
+          "confidence_score": -0.253
+        },
+        {
+          "word_index": 203,
+          "word_urhobo": "Lehabim",
+          "word_romanized": "lehabim",
+          "start_sec": 114.12,
+          "end_sec": 114.74,
+          "duration_sec": 0.62,
+          "confidence_score": -0.222
+        },
+        {
+          "word_index": 204,
+          "word_urhobo": "Naftu",
+          "word_romanized": "naftu",
+          "start_sec": 115.48,
+          "end_sec": 115.86,
+          "duration_sec": 0.38,
+          "confidence_score": -0.6248
+        },
+        {
+          "word_index": 205,
+          "word_urhobo": "him",
+          "word_romanized": "him",
+          "start_sec": 115.88,
+          "end_sec": 116.1,
+          "duration_sec": 0.22,
+          "confidence_score": -0.0566
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_014",
+      "verse_num": 14,
+      "text_urhobo": "Patrusim, Kaslu-him (kẹ Etiyin Filistia nurhe), kugbe Kaftorim.",
+      "text_romanized": "patrusim kaslu him ke etiyin filistia nurhe kugbe kaftorim",
+      "start_sec": 116.74,
+      "end_sec": 122.64,
+      "duration_sec": 5.9,
+      "confidence_score": -0.3344,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 9,
+      "words": [
+        {
+          "word_index": 206,
+          "word_urhobo": "Patrusim",
+          "word_romanized": "patrusim",
+          "start_sec": 116.74,
+          "end_sec": 117.44,
+          "duration_sec": 0.7,
+          "confidence_score": -0.0507
+        },
+        {
+          "word_index": 207,
+          "word_urhobo": "Kaslu",
+          "word_romanized": "kaslu",
+          "start_sec": 118.06,
+          "end_sec": 118.34,
+          "duration_sec": 0.28,
+          "confidence_score": -0.5975
+        },
+        {
+          "word_index": 208,
+          "word_urhobo": "him",
+          "word_romanized": "him",
+          "start_sec": 118.48,
+          "end_sec": 118.76,
+          "duration_sec": 0.28,
+          "confidence_score": -0.3543
+        },
+        {
+          "word_index": 209,
+          "word_urhobo": "kẹ",
+          "word_romanized": "ke",
+          "start_sec": 119.42,
+          "end_sec": 119.5,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0054
+        },
+        {
+          "word_index": 210,
+          "word_urhobo": "Etiyin",
+          "word_romanized": "etiyin",
+          "start_sec": 119.78,
+          "end_sec": 120.06,
+          "duration_sec": 0.28,
+          "confidence_score": -0.8591
+        },
+        {
+          "word_index": 211,
+          "word_urhobo": "Filistia",
+          "word_romanized": "filistia",
+          "start_sec": 120.08,
+          "end_sec": 120.5,
+          "duration_sec": 0.42,
+          "confidence_score": -0.4004
+        },
+        {
+          "word_index": 212,
+          "word_urhobo": "nurhe",
+          "word_romanized": "nurhe",
+          "start_sec": 120.62,
+          "end_sec": 120.94,
+          "duration_sec": 0.32,
+          "confidence_score": -0.6597
+        },
+        {
+          "word_index": 213,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 121.44,
+          "end_sec": 121.74,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0124
+        },
+        {
+          "word_index": 214,
+          "word_urhobo": "Kaftorim",
+          "word_romanized": "kaftorim",
+          "start_sec": 121.94,
+          "end_sec": 122.64,
+          "duration_sec": 0.7,
+          "confidence_score": -0.0701
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_015",
+      "verse_num": 15,
+      "text_urhobo": "Kenan kọye ọsẹ ri Sidọn, ọmọkpako rọye, kugbe Hẹt,",
+      "text_romanized": "kenan koye ose ri sidon omokpako roye kugbe het",
+      "start_sec": 123.4,
+      "end_sec": 127.68,
+      "duration_sec": 4.28,
+      "confidence_score": -0.2556,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 9,
+      "words": [
+        {
+          "word_index": 215,
+          "word_urhobo": "Kenan",
+          "word_romanized": "kenan",
+          "start_sec": 123.4,
+          "end_sec": 123.72,
+          "duration_sec": 0.32,
+          "confidence_score": -0.4447
+        },
+        {
+          "word_index": 216,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 123.82,
+          "end_sec": 124.02,
+          "duration_sec": 0.2,
+          "confidence_score": -0.5625
+        },
+        {
+          "word_index": 217,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 124.06,
+          "end_sec": 124.18,
+          "duration_sec": 0.12,
+          "confidence_score": -0.3013
+        },
+        {
+          "word_index": 218,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 124.24,
+          "end_sec": 124.32,
+          "duration_sec": 0.08,
+          "confidence_score": -0.7553
+        },
+        {
+          "word_index": 219,
+          "word_urhobo": "Sidọn",
+          "word_romanized": "sidon",
+          "start_sec": 124.44,
+          "end_sec": 124.98,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0063
+        },
+        {
+          "word_index": 220,
+          "word_urhobo": "ọmọkpako",
+          "word_romanized": "omokpako",
+          "start_sec": 125.56,
+          "end_sec": 126.12,
+          "duration_sec": 0.56,
+          "confidence_score": -0.0152
+        },
+        {
+          "word_index": 221,
+          "word_urhobo": "rọye",
+          "word_romanized": "roye",
+          "start_sec": 126.22,
+          "end_sec": 126.52,
+          "duration_sec": 0.3,
+          "confidence_score": -0.1712
+        },
+        {
+          "word_index": 222,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 126.88,
+          "end_sec": 127.16,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0077
+        },
+        {
+          "word_index": 223,
+          "word_urhobo": "Hẹt",
+          "word_romanized": "het",
+          "start_sec": 127.32,
+          "end_sec": 127.68,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0362
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_016",
+      "verse_num": 16,
+      "text_urhobo": "kugbe ihwo ri Jebus, ihwo ri Amọr, ihwo ri Gergas,",
+      "text_romanized": "kugbe ihwo ri jebus ihwo ri amor ihwo ri gergas",
+      "start_sec": 128.2,
+      "end_sec": 132.6,
+      "duration_sec": 4.4,
+      "confidence_score": -0.7182,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 10,
+      "words": [
+        {
+          "word_index": 224,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 128.2,
+          "end_sec": 128.48,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0079
+        },
+        {
+          "word_index": 225,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 128.54,
+          "end_sec": 128.7,
+          "duration_sec": 0.16,
+          "confidence_score": -0.9292
+        },
+        {
+          "word_index": 226,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 128.78,
+          "end_sec": 128.86,
+          "duration_sec": 0.08,
+          "confidence_score": -0.8979
+        },
+        {
+          "word_index": 227,
+          "word_urhobo": "Jebus",
+          "word_romanized": "jebus",
+          "start_sec": 128.94,
+          "end_sec": 129.48,
+          "duration_sec": 0.54,
+          "confidence_score": -0.0274
+        },
+        {
+          "word_index": 228,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 130.0,
+          "end_sec": 130.2,
+          "duration_sec": 0.2,
+          "confidence_score": -0.7361
+        },
+        {
+          "word_index": 229,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 130.26,
+          "end_sec": 130.34,
+          "duration_sec": 0.08,
+          "confidence_score": -2.6926
+        },
+        {
+          "word_index": 230,
+          "word_urhobo": "Amọr",
+          "word_romanized": "amor",
+          "start_sec": 130.58,
+          "end_sec": 130.94,
+          "duration_sec": 0.36,
+          "confidence_score": -0.336
+        },
+        {
+          "word_index": 231,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 131.54,
+          "end_sec": 131.72,
+          "duration_sec": 0.18,
+          "confidence_score": -0.5502
+        },
+        {
+          "word_index": 232,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 131.8,
+          "end_sec": 131.9,
+          "duration_sec": 0.1,
+          "confidence_score": -0.8505
+        },
+        {
+          "word_index": 233,
+          "word_urhobo": "Gergas",
+          "word_romanized": "gergas",
+          "start_sec": 132.02,
+          "end_sec": 132.6,
+          "duration_sec": 0.58,
+          "confidence_score": -0.1539
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_017",
+      "verse_num": 17,
+      "text_urhobo": "ihwo ri Hiv, ihwo ri Arka, ihwo ri Sin,",
+      "text_romanized": "ihwo ri hiv ihwo ri arka ihwo ri sin",
+      "start_sec": 133.12,
+      "end_sec": 136.84,
+      "duration_sec": 3.72,
+      "confidence_score": -0.7748,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 9,
+      "words": [
+        {
+          "word_index": 234,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 133.12,
+          "end_sec": 133.28,
+          "duration_sec": 0.16,
+          "confidence_score": -0.8857
+        },
+        {
+          "word_index": 235,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 133.38,
+          "end_sec": 133.46,
+          "duration_sec": 0.08,
+          "confidence_score": -1.0334
+        },
+        {
+          "word_index": 236,
+          "word_urhobo": "Hiv",
+          "word_romanized": "hiv",
+          "start_sec": 133.6,
+          "end_sec": 133.9,
+          "duration_sec": 0.3,
+          "confidence_score": -0.1958
+        },
+        {
+          "word_index": 237,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 134.48,
+          "end_sec": 134.68,
+          "duration_sec": 0.2,
+          "confidence_score": -0.5943
+        },
+        {
+          "word_index": 238,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 134.76,
+          "end_sec": 134.84,
+          "duration_sec": 0.08,
+          "confidence_score": -2.3824
+        },
+        {
+          "word_index": 239,
+          "word_urhobo": "Arka",
+          "word_romanized": "arka",
+          "start_sec": 135.08,
+          "end_sec": 135.36,
+          "duration_sec": 0.28,
+          "confidence_score": -0.2786
+        },
+        {
+          "word_index": 240,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 136.02,
+          "end_sec": 136.2,
+          "duration_sec": 0.18,
+          "confidence_score": -0.6891
+        },
+        {
+          "word_index": 241,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 136.3,
+          "end_sec": 136.38,
+          "duration_sec": 0.08,
+          "confidence_score": -0.8559
+        },
+        {
+          "word_index": 242,
+          "word_urhobo": "Sin",
+          "word_romanized": "sin",
+          "start_sec": 136.52,
+          "end_sec": 136.84,
+          "duration_sec": 0.32,
+          "confidence_score": -0.058
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_018",
+      "verse_num": 18,
+      "text_urhobo": "ihwo ri Arvad, ihwo ri Zema kugbe ihwo ri Hamat. Ukuko rọye uvwiẹ ri Kenan na da rhe hrabọ.",
+      "text_romanized": "ihwo ri arvad ihwo ri zema kugbe ihwo ri hamat ukuko roye uvwie ri kenan na da rhe hrabo",
+      "start_sec": 137.42,
+      "end_sec": 146.9,
+      "duration_sec": 9.48,
+      "confidence_score": -0.7014,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 19,
+      "words": [
+        {
+          "word_index": 243,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 137.42,
+          "end_sec": 137.6,
+          "duration_sec": 0.18,
+          "confidence_score": -0.6129
+        },
+        {
+          "word_index": 244,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 137.7,
+          "end_sec": 137.78,
+          "duration_sec": 0.08,
+          "confidence_score": -2.5704
+        },
+        {
+          "word_index": 245,
+          "word_urhobo": "Arvad",
+          "word_romanized": "arvad",
+          "start_sec": 138.04,
+          "end_sec": 138.54,
+          "duration_sec": 0.5,
+          "confidence_score": -0.1821
+        },
+        {
+          "word_index": 246,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 139.02,
+          "end_sec": 139.24,
+          "duration_sec": 0.22,
+          "confidence_score": -0.6617
+        },
+        {
+          "word_index": 247,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 139.36,
+          "end_sec": 139.44,
+          "duration_sec": 0.08,
+          "confidence_score": -2.387
+        },
+        {
+          "word_index": 248,
+          "word_urhobo": "Zema",
+          "word_romanized": "zema",
+          "start_sec": 139.7,
+          "end_sec": 140.02,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0224
+        },
+        {
+          "word_index": 249,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 140.94,
+          "end_sec": 141.3,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0121
+        },
+        {
+          "word_index": 250,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 141.52,
+          "end_sec": 141.7,
+          "duration_sec": 0.18,
+          "confidence_score": -0.7995
+        },
+        {
+          "word_index": 251,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 141.78,
+          "end_sec": 141.86,
+          "duration_sec": 0.08,
+          "confidence_score": -0.8386
+        },
+        {
+          "word_index": 252,
+          "word_urhobo": "Hamat",
+          "word_romanized": "hamat",
+          "start_sec": 141.96,
+          "end_sec": 142.46,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0371
+        },
+        {
+          "word_index": 253,
+          "word_urhobo": "Ukuko",
+          "word_romanized": "ukuko",
+          "start_sec": 143.38,
+          "end_sec": 143.7,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0279
+        },
+        {
+          "word_index": 254,
+          "word_urhobo": "rọye",
+          "word_romanized": "roye",
+          "start_sec": 143.78,
+          "end_sec": 144.1,
+          "duration_sec": 0.32,
+          "confidence_score": -0.167
+        },
+        {
+          "word_index": 255,
+          "word_urhobo": "uvwiẹ",
+          "word_romanized": "uvwie",
+          "start_sec": 144.7,
+          "end_sec": 144.86,
+          "duration_sec": 0.16,
+          "confidence_score": -1.7032
+        },
+        {
+          "word_index": 256,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 144.94,
+          "end_sec": 145.02,
+          "duration_sec": 0.08,
+          "confidence_score": -0.651
+        },
+        {
+          "word_index": 257,
+          "word_urhobo": "Kenan",
+          "word_romanized": "kenan",
+          "start_sec": 145.12,
+          "end_sec": 145.46,
+          "duration_sec": 0.34,
+          "confidence_score": -0.4718
+        },
+        {
+          "word_index": 258,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 145.56,
+          "end_sec": 145.66,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0227
+        },
+        {
+          "word_index": 259,
+          "word_urhobo": "da",
+          "word_romanized": "da",
+          "start_sec": 146.12,
+          "end_sec": 146.2,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0361
+        },
+        {
+          "word_index": 260,
+          "word_urhobo": "rhe",
+          "word_romanized": "rhe",
+          "start_sec": 146.32,
+          "end_sec": 146.42,
+          "duration_sec": 0.1,
+          "confidence_score": -2.0884
+        },
+        {
+          "word_index": 261,
+          "word_urhobo": "hrabọ",
+          "word_romanized": "hrabo",
+          "start_sec": 146.52,
+          "end_sec": 146.9,
+          "duration_sec": 0.38,
+          "confidence_score": -0.0338
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_019",
+      "verse_num": 19,
+      "text_urhobo": "Otọ rẹ ihwo ri Kenan da hẹre nẹ Sodọm vwẹ ẹbẹre ri Gẹra, re te Gaza, vwẹ abọ ri Sidọn, Gomora, Adma kugbe Zẹboiim, rhiri re te Lasha.",
+      "text_romanized": "oto re ihwo ri kenan da here ne sodom vwe ebere ri gera re te gaza vwe abo ri sidon gomora adma kugbe zeboiim rhiri re te lasha",
+      "start_sec": 147.72,
+      "end_sec": 159.78,
+      "duration_sec": 12.06,
+      "confidence_score": -0.5033,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 28,
+      "words": [
+        {
+          "word_index": 262,
+          "word_urhobo": "Otọ",
+          "word_romanized": "oto",
+          "start_sec": 147.72,
+          "end_sec": 147.92,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0087
+        },
+        {
+          "word_index": 263,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 148.0,
+          "end_sec": 148.06,
+          "duration_sec": 0.06,
+          "confidence_score": -2.6143
+        },
+        {
+          "word_index": 264,
+          "word_urhobo": "ihwo",
+          "word_romanized": "ihwo",
+          "start_sec": 148.08,
+          "end_sec": 148.22,
+          "duration_sec": 0.14,
+          "confidence_score": -0.7816
+        },
+        {
+          "word_index": 265,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 148.3,
+          "end_sec": 148.38,
+          "duration_sec": 0.08,
+          "confidence_score": -1.1804
+        },
+        {
+          "word_index": 266,
+          "word_urhobo": "Kenan",
+          "word_romanized": "kenan",
+          "start_sec": 148.48,
+          "end_sec": 148.72,
+          "duration_sec": 0.24,
+          "confidence_score": -0.5901
+        },
+        {
+          "word_index": 267,
+          "word_urhobo": "da",
+          "word_romanized": "da",
+          "start_sec": 148.78,
+          "end_sec": 148.86,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0814
+        },
+        {
+          "word_index": 268,
+          "word_urhobo": "hẹre",
+          "word_romanized": "here",
+          "start_sec": 149.02,
+          "end_sec": 149.26,
+          "duration_sec": 0.24,
+          "confidence_score": -0.17
+        },
+        {
+          "word_index": 269,
+          "word_urhobo": "nẹ",
+          "word_romanized": "ne",
+          "start_sec": 149.3,
+          "end_sec": 149.4,
+          "duration_sec": 0.1,
+          "confidence_score": -0.03
+        },
+        {
+          "word_index": 270,
+          "word_urhobo": "Sodọm",
+          "word_romanized": "sodom",
+          "start_sec": 149.54,
+          "end_sec": 150.02,
+          "duration_sec": 0.48,
+          "confidence_score": -0.0864
+        },
+        {
+          "word_index": 271,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 150.04,
+          "end_sec": 150.6,
+          "duration_sec": 0.56,
+          "confidence_score": -0.4887
+        },
+        {
+          "word_index": 272,
+          "word_urhobo": "ẹbẹre",
+          "word_romanized": "ebere",
+          "start_sec": 150.68,
+          "end_sec": 151.0,
+          "duration_sec": 0.32,
+          "confidence_score": -0.2265
+        },
+        {
+          "word_index": 273,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 151.02,
+          "end_sec": 151.06,
+          "duration_sec": 0.04,
+          "confidence_score": -4.0706
+        },
+        {
+          "word_index": 274,
+          "word_urhobo": "Gẹra",
+          "word_romanized": "gera",
+          "start_sec": 151.18,
+          "end_sec": 151.5,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0148
+        },
+        {
+          "word_index": 275,
+          "word_urhobo": "re",
+          "word_romanized": "re",
+          "start_sec": 151.84,
+          "end_sec": 151.94,
+          "duration_sec": 0.1,
+          "confidence_score": -0.2103
+        },
+        {
+          "word_index": 276,
+          "word_urhobo": "te",
+          "word_romanized": "te",
+          "start_sec": 152.02,
+          "end_sec": 152.12,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0158
+        },
+        {
+          "word_index": 277,
+          "word_urhobo": "Gaza",
+          "word_romanized": "gaza",
+          "start_sec": 152.24,
+          "end_sec": 152.6,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0099
+        },
+        {
+          "word_index": 278,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 152.68,
+          "end_sec": 153.32,
+          "duration_sec": 0.64,
+          "confidence_score": -0.4212
+        },
+        {
+          "word_index": 279,
+          "word_urhobo": "abọ",
+          "word_romanized": "abo",
+          "start_sec": 153.6,
+          "end_sec": 153.78,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0044
+        },
+        {
+          "word_index": 280,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 153.86,
+          "end_sec": 153.94,
+          "duration_sec": 0.08,
+          "confidence_score": -0.396
+        },
+        {
+          "word_index": 281,
+          "word_urhobo": "Sidọn",
+          "word_romanized": "sidon",
+          "start_sec": 154.08,
+          "end_sec": 154.58,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0042
+        },
+        {
+          "word_index": 282,
+          "word_urhobo": "Gomora",
+          "word_romanized": "gomora",
+          "start_sec": 155.2,
+          "end_sec": 155.7,
+          "duration_sec": 0.5,
+          "confidence_score": -0.0127
+        },
+        {
+          "word_index": 283,
+          "word_urhobo": "Adma",
+          "word_romanized": "adma",
+          "start_sec": 156.26,
+          "end_sec": 156.58,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0334
+        },
+        {
+          "word_index": 284,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 157.04,
+          "end_sec": 157.3,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0148
+        },
+        {
+          "word_index": 285,
+          "word_urhobo": "Zẹboiim",
+          "word_romanized": "zeboiim",
+          "start_sec": 157.48,
+          "end_sec": 158.0,
+          "duration_sec": 0.52,
+          "confidence_score": -0.3816
+        },
+        {
+          "word_index": 286,
+          "word_urhobo": "rhiri",
+          "word_romanized": "rhiri",
+          "start_sec": 158.64,
+          "end_sec": 158.8,
+          "duration_sec": 0.16,
+          "confidence_score": -1.9671
+        },
+        {
+          "word_index": 287,
+          "word_urhobo": "re",
+          "word_romanized": "re",
+          "start_sec": 158.88,
+          "end_sec": 158.98,
+          "duration_sec": 0.1,
+          "confidence_score": -0.2306
+        },
+        {
+          "word_index": 288,
+          "word_urhobo": "te",
+          "word_romanized": "te",
+          "start_sec": 159.12,
+          "end_sec": 159.22,
+          "duration_sec": 0.1,
+          "confidence_score": -0.013
+        },
+        {
+          "word_index": 289,
+          "word_urhobo": "Lasha",
+          "word_romanized": "lasha",
+          "start_sec": 159.42,
+          "end_sec": 159.78,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0332
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_020",
+      "verse_num": 20,
+      "text_urhobo": "Enana eye emọ ri Ham, vwẹ ekrekru rayen, vẹ ephẹrẹ rayen, otọ rayen, kugbe ẹgborho rayen.",
+      "text_romanized": "enana eye emo ri ham vwe ekrekru rayen ve ephere rayen oto rayen kugbe egborho rayen",
+      "start_sec": 160.6,
+      "end_sec": 168.02,
+      "duration_sec": 7.42,
+      "confidence_score": -0.397,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 16,
+      "words": [
+        {
+          "word_index": 290,
+          "word_urhobo": "Enana",
+          "word_romanized": "enana",
+          "start_sec": 160.6,
+          "end_sec": 160.98,
+          "duration_sec": 0.38,
+          "confidence_score": -0.009
+        },
+        {
+          "word_index": 291,
+          "word_urhobo": "eye",
+          "word_romanized": "eye",
+          "start_sec": 161.16,
+          "end_sec": 161.32,
+          "duration_sec": 0.16,
+          "confidence_score": -0.2091
+        },
+        {
+          "word_index": 292,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 161.34,
+          "end_sec": 161.52,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0322
+        },
+        {
+          "word_index": 293,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 161.6,
+          "end_sec": 161.7,
+          "duration_sec": 0.1,
+          "confidence_score": -0.2877
+        },
+        {
+          "word_index": 294,
+          "word_urhobo": "Ham",
+          "word_romanized": "ham",
+          "start_sec": 161.8,
+          "end_sec": 162.1,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0494
+        },
+        {
+          "word_index": 295,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 162.54,
+          "end_sec": 162.68,
+          "duration_sec": 0.14,
+          "confidence_score": -2.0267
+        },
+        {
+          "word_index": 296,
+          "word_urhobo": "ekrekru",
+          "word_romanized": "ekrekru",
+          "start_sec": 162.94,
+          "end_sec": 163.36,
+          "duration_sec": 0.42,
+          "confidence_score": -0.1141
+        },
+        {
+          "word_index": 297,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 163.42,
+          "end_sec": 163.82,
+          "duration_sec": 0.4,
+          "confidence_score": -0.462
+        },
+        {
+          "word_index": 298,
+          "word_urhobo": "vẹ",
+          "word_romanized": "ve",
+          "start_sec": 164.34,
+          "end_sec": 164.38,
+          "duration_sec": 0.04,
+          "confidence_score": -0.9116
+        },
+        {
+          "word_index": 299,
+          "word_urhobo": "ephẹrẹ",
+          "word_romanized": "ephere",
+          "start_sec": 164.42,
+          "end_sec": 164.74,
+          "duration_sec": 0.32,
+          "confidence_score": -0.2431
+        },
+        {
+          "word_index": 300,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 164.82,
+          "end_sec": 165.16,
+          "duration_sec": 0.34,
+          "confidence_score": -0.4421
+        },
+        {
+          "word_index": 301,
+          "word_urhobo": "otọ",
+          "word_romanized": "oto",
+          "start_sec": 165.84,
+          "end_sec": 166.1,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0088
+        },
+        {
+          "word_index": 302,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 166.2,
+          "end_sec": 166.52,
+          "duration_sec": 0.32,
+          "confidence_score": -0.5355
+        },
+        {
+          "word_index": 303,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 166.72,
+          "end_sec": 166.98,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0113
+        },
+        {
+          "word_index": 304,
+          "word_urhobo": "ẹgborho",
+          "word_romanized": "egborho",
+          "start_sec": 167.1,
+          "end_sec": 167.54,
+          "duration_sec": 0.44,
+          "confidence_score": -0.4474
+        },
+        {
+          "word_index": 305,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 167.66,
+          "end_sec": 168.02,
+          "duration_sec": 0.36,
+          "confidence_score": -0.5627
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_021",
+      "verse_num": 21,
+      "text_urhobo": "Ji vwi Shẹm na, ọye ọsẹ rẹ emọ rẹ Ẹber ejobi, oniọvo ri Jafẹt rẹ ọkpako, ọye vwiẹ emọ kẹ.",
+      "text_romanized": "ji vwi shem na oye ose re emo re eber ejobi oniovo ri jafet re okpako oye vwie emo ke",
+      "start_sec": 168.88,
+      "end_sec": 177.42,
+      "duration_sec": 8.54,
+      "confidence_score": -0.4738,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 20,
+      "words": [
+        {
+          "word_index": 306,
+          "word_urhobo": "Ji",
+          "word_romanized": "ji",
+          "start_sec": 168.88,
+          "end_sec": 168.98,
+          "duration_sec": 0.1,
+          "confidence_score": -0.7118
+        },
+        {
+          "word_index": 307,
+          "word_urhobo": "vwi",
+          "word_romanized": "vwi",
+          "start_sec": 169.02,
+          "end_sec": 169.12,
+          "duration_sec": 0.1,
+          "confidence_score": -2.9349
+        },
+        {
+          "word_index": 308,
+          "word_urhobo": "Shẹm",
+          "word_romanized": "shem",
+          "start_sec": 169.24,
+          "end_sec": 169.52,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0803
+        },
+        {
+          "word_index": 309,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 169.6,
+          "end_sec": 169.7,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0131
+        },
+        {
+          "word_index": 310,
+          "word_urhobo": "ọye",
+          "word_romanized": "oye",
+          "start_sec": 170.42,
+          "end_sec": 170.62,
+          "duration_sec": 0.2,
+          "confidence_score": -0.2202
+        },
+        {
+          "word_index": 311,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 170.72,
+          "end_sec": 170.96,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0091
+        },
+        {
+          "word_index": 312,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 171.04,
+          "end_sec": 171.1,
+          "duration_sec": 0.06,
+          "confidence_score": -0.833
+        },
+        {
+          "word_index": 313,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 171.14,
+          "end_sec": 171.34,
+          "duration_sec": 0.2,
+          "confidence_score": -0.0157
+        },
+        {
+          "word_index": 314,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 171.74,
+          "end_sec": 171.84,
+          "duration_sec": 0.1,
+          "confidence_score": -0.1486
+        },
+        {
+          "word_index": 315,
+          "word_urhobo": "Ẹber",
+          "word_romanized": "eber",
+          "start_sec": 172.2,
+          "end_sec": 172.52,
+          "duration_sec": 0.32,
+          "confidence_score": -0.4903
+        },
+        {
+          "word_index": 316,
+          "word_urhobo": "ejobi",
+          "word_romanized": "ejobi",
+          "start_sec": 172.56,
+          "end_sec": 173.0,
+          "duration_sec": 0.44,
+          "confidence_score": -0.1783
+        },
+        {
+          "word_index": 317,
+          "word_urhobo": "oniọvo",
+          "word_romanized": "oniovo",
+          "start_sec": 173.84,
+          "end_sec": 174.24,
+          "duration_sec": 0.4,
+          "confidence_score": -0.142
+        },
+        {
+          "word_index": 318,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 174.28,
+          "end_sec": 174.36,
+          "duration_sec": 0.08,
+          "confidence_score": -0.4414
+        },
+        {
+          "word_index": 319,
+          "word_urhobo": "Jafẹt",
+          "word_romanized": "jafet",
+          "start_sec": 174.44,
+          "end_sec": 174.8,
+          "duration_sec": 0.36,
+          "confidence_score": -0.8054
+        },
+        {
+          "word_index": 320,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 174.84,
+          "end_sec": 174.9,
+          "duration_sec": 0.06,
+          "confidence_score": -0.5798
+        },
+        {
+          "word_index": 321,
+          "word_urhobo": "ọkpako",
+          "word_romanized": "okpako",
+          "start_sec": 174.94,
+          "end_sec": 175.38,
+          "duration_sec": 0.44,
+          "confidence_score": -0.0337
+        },
+        {
+          "word_index": 322,
+          "word_urhobo": "ọye",
+          "word_romanized": "oye",
+          "start_sec": 176.28,
+          "end_sec": 176.46,
+          "duration_sec": 0.18,
+          "confidence_score": -0.2273
+        },
+        {
+          "word_index": 323,
+          "word_urhobo": "vwiẹ",
+          "word_romanized": "vwie",
+          "start_sec": 176.58,
+          "end_sec": 176.78,
+          "duration_sec": 0.2,
+          "confidence_score": -1.4249
+        },
+        {
+          "word_index": 324,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 176.98,
+          "end_sec": 177.16,
+          "duration_sec": 0.18,
+          "confidence_score": -0.1788
+        },
+        {
+          "word_index": 325,
+          "word_urhobo": "kẹ",
+          "word_romanized": "ke",
+          "start_sec": 177.3,
+          "end_sec": 177.42,
+          "duration_sec": 0.12,
+          "confidence_score": -0.0079
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_022",
+      "verse_num": 22,
+      "text_urhobo": "Emọ ri Shẹm: Elam, Asshur, Apak-shad, Lud, kugbe Aram.",
+      "text_romanized": "emo ri shem elam asshur apak shad lud kugbe aram",
+      "start_sec": 178.16,
+      "end_sec": 184.44,
+      "duration_sec": 6.28,
+      "confidence_score": -0.1187,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 10,
+      "words": [
+        {
+          "word_index": 326,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 178.16,
+          "end_sec": 178.42,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0247
+        },
+        {
+          "word_index": 327,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 178.54,
+          "end_sec": 178.62,
+          "duration_sec": 0.08,
+          "confidence_score": -0.35
+        },
+        {
+          "word_index": 328,
+          "word_urhobo": "Shẹm",
+          "word_romanized": "shem",
+          "start_sec": 178.72,
+          "end_sec": 179.06,
+          "duration_sec": 0.34,
+          "confidence_score": -0.135
+        },
+        {
+          "word_index": 329,
+          "word_urhobo": "Elam",
+          "word_romanized": "elam",
+          "start_sec": 179.62,
+          "end_sec": 180.1,
+          "duration_sec": 0.48,
+          "confidence_score": -0.0208
+        },
+        {
+          "word_index": 330,
+          "word_urhobo": "Asshur",
+          "word_romanized": "asshur",
+          "start_sec": 180.7,
+          "end_sec": 181.22,
+          "duration_sec": 0.52,
+          "confidence_score": -0.4357
+        },
+        {
+          "word_index": 331,
+          "word_urhobo": "Apak",
+          "word_romanized": "apak",
+          "start_sec": 181.78,
+          "end_sec": 182.1,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0174
+        },
+        {
+          "word_index": 332,
+          "word_urhobo": "shad",
+          "word_romanized": "shad",
+          "start_sec": 182.18,
+          "end_sec": 182.54,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0222
+        },
+        {
+          "word_index": 333,
+          "word_urhobo": "Lud",
+          "word_romanized": "lud",
+          "start_sec": 183.06,
+          "end_sec": 183.4,
+          "duration_sec": 0.34,
+          "confidence_score": -0.1358
+        },
+        {
+          "word_index": 334,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 183.56,
+          "end_sec": 183.82,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0438
+        },
+        {
+          "word_index": 335,
+          "word_urhobo": "Aram",
+          "word_romanized": "aram",
+          "start_sec": 184.02,
+          "end_sec": 184.44,
+          "duration_sec": 0.42,
+          "confidence_score": -0.0019
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_023",
+      "verse_num": 23,
+      "text_urhobo": "Emọ ri Aram: Uz, Hul, Gether kugbe Mash.",
+      "text_romanized": "emo ri aram uz hul gether kugbe mash",
+      "start_sec": 185.06,
+      "end_sec": 190.02,
+      "duration_sec": 4.96,
+      "confidence_score": -0.1422,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 8,
+      "words": [
+        {
+          "word_index": 336,
+          "word_urhobo": "Emọ",
+          "word_romanized": "emo",
+          "start_sec": 185.06,
+          "end_sec": 185.28,
+          "duration_sec": 0.22,
+          "confidence_score": -0.0048
+        },
+        {
+          "word_index": 337,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 185.36,
+          "end_sec": 185.44,
+          "duration_sec": 0.08,
+          "confidence_score": -0.037
+        },
+        {
+          "word_index": 338,
+          "word_urhobo": "Aram",
+          "word_romanized": "aram",
+          "start_sec": 185.6,
+          "end_sec": 186.02,
+          "duration_sec": 0.42,
+          "confidence_score": -0.0023
+        },
+        {
+          "word_index": 339,
+          "word_urhobo": "Uz",
+          "word_romanized": "uz",
+          "start_sec": 186.62,
+          "end_sec": 186.94,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0826
+        },
+        {
+          "word_index": 340,
+          "word_urhobo": "Hul",
+          "word_romanized": "hul",
+          "start_sec": 187.54,
+          "end_sec": 187.92,
+          "duration_sec": 0.38,
+          "confidence_score": -0.0798
+        },
+        {
+          "word_index": 341,
+          "word_urhobo": "Gether",
+          "word_romanized": "gether",
+          "start_sec": 188.42,
+          "end_sec": 188.86,
+          "duration_sec": 0.44,
+          "confidence_score": -0.8945
+        },
+        {
+          "word_index": 342,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 189.22,
+          "end_sec": 189.48,
+          "duration_sec": 0.26,
+          "confidence_score": -0.01
+        },
+        {
+          "word_index": 343,
+          "word_urhobo": "Mash",
+          "word_romanized": "mash",
+          "start_sec": 189.62,
+          "end_sec": 190.02,
+          "duration_sec": 0.4,
+          "confidence_score": -0.0266
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_024",
+      "verse_num": 24,
+      "text_urhobo": "Apak-shad kọye rha ọsẹ ri Shelah; Shelah ke rha dia ọsẹ rẹ Eber.",
+      "text_romanized": "apak shad koye rha ose ri shelah shelah ke rha dia ose re eber",
+      "start_sec": 190.7,
+      "end_sec": 196.48,
+      "duration_sec": 5.78,
+      "confidence_score": -1.163,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 14,
+      "words": [
+        {
+          "word_index": 344,
+          "word_urhobo": "Apak",
+          "word_romanized": "apak",
+          "start_sec": 190.7,
+          "end_sec": 191.02,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0141
+        },
+        {
+          "word_index": 345,
+          "word_urhobo": "shad",
+          "word_romanized": "shad",
+          "start_sec": 191.08,
+          "end_sec": 191.46,
+          "duration_sec": 0.38,
+          "confidence_score": -0.0418
+        },
+        {
+          "word_index": 346,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 192.18,
+          "end_sec": 192.5,
+          "duration_sec": 0.32,
+          "confidence_score": -0.2823
+        },
+        {
+          "word_index": 347,
+          "word_urhobo": "rha",
+          "word_romanized": "rha",
+          "start_sec": 192.56,
+          "end_sec": 192.66,
+          "duration_sec": 0.1,
+          "confidence_score": -2.3493
+        },
+        {
+          "word_index": 348,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 192.88,
+          "end_sec": 193.16,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0072
+        },
+        {
+          "word_index": 349,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 193.3,
+          "end_sec": 193.4,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0593
+        },
+        {
+          "word_index": 350,
+          "word_urhobo": "Shelah",
+          "word_romanized": "shelah",
+          "start_sec": 193.5,
+          "end_sec": 193.9,
+          "duration_sec": 0.4,
+          "confidence_score": -0.4746
+        },
+        {
+          "word_index": 351,
+          "word_urhobo": "Shelah",
+          "word_romanized": "shelah",
+          "start_sec": 194.56,
+          "end_sec": 194.88,
+          "duration_sec": 0.32,
+          "confidence_score": -0.6593
+        },
+        {
+          "word_index": 352,
+          "word_urhobo": "ke",
+          "word_romanized": "ke",
+          "start_sec": 194.94,
+          "end_sec": 195.02,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0126
+        },
+        {
+          "word_index": 353,
+          "word_urhobo": "rha",
+          "word_romanized": "rha",
+          "start_sec": 195.1,
+          "end_sec": 195.18,
+          "duration_sec": 0.08,
+          "confidence_score": -3.2345
+        },
+        {
+          "word_index": 354,
+          "word_urhobo": "dia",
+          "word_romanized": "dia",
+          "start_sec": 195.2,
+          "end_sec": 195.26,
+          "duration_sec": 0.06,
+          "confidence_score": -8.3398
+        },
+        {
+          "word_index": 355,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 195.3,
+          "end_sec": 195.58,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0033
+        },
+        {
+          "word_index": 356,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 195.68,
+          "end_sec": 195.76,
+          "duration_sec": 0.08,
+          "confidence_score": -0.2599
+        },
+        {
+          "word_index": 357,
+          "word_urhobo": "Eber",
+          "word_romanized": "eber",
+          "start_sec": 196.06,
+          "end_sec": 196.48,
+          "duration_sec": 0.42,
+          "confidence_score": -0.5442
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_025",
+      "verse_num": 25,
+      "text_urhobo": "Eber de vwiẹ emọ ivẹ odẹ rẹ ọvo ki Pẹlẹg, ọke rọye akpọ na vwọ hẹriẹ, odẹ rẹ oniọvo rọye ke rha Joktan.",
+      "text_romanized": "eber de vwie emo ive ode re ovo ki peleg oke roye akpo na vwo herie ode re oniovo roye ke rha joktan",
+      "start_sec": 197.14,
+      "end_sec": 207.88,
+      "duration_sec": 10.74,
+      "confidence_score": -0.7957,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 23,
+      "words": [
+        {
+          "word_index": 358,
+          "word_urhobo": "Eber",
+          "word_romanized": "eber",
+          "start_sec": 197.14,
+          "end_sec": 197.36,
+          "duration_sec": 0.22,
+          "confidence_score": -1.3768
+        },
+        {
+          "word_index": 359,
+          "word_urhobo": "de",
+          "word_romanized": "de",
+          "start_sec": 197.48,
+          "end_sec": 197.62,
+          "duration_sec": 0.14,
+          "confidence_score": -0.1162
+        },
+        {
+          "word_index": 360,
+          "word_urhobo": "vwiẹ",
+          "word_romanized": "vwie",
+          "start_sec": 197.7,
+          "end_sec": 197.98,
+          "duration_sec": 0.28,
+          "confidence_score": -1.4776
+        },
+        {
+          "word_index": 361,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 198.2,
+          "end_sec": 198.44,
+          "duration_sec": 0.24,
+          "confidence_score": -0.014
+        },
+        {
+          "word_index": 362,
+          "word_urhobo": "ivẹ",
+          "word_romanized": "ive",
+          "start_sec": 198.72,
+          "end_sec": 199.0,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0112
+        },
+        {
+          "word_index": 363,
+          "word_urhobo": "odẹ",
+          "word_romanized": "ode",
+          "start_sec": 199.82,
+          "end_sec": 200.0,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0155
+        },
+        {
+          "word_index": 364,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 200.3,
+          "end_sec": 200.34,
+          "duration_sec": 0.04,
+          "confidence_score": -5.8584
+        },
+        {
+          "word_index": 365,
+          "word_urhobo": "ọvo",
+          "word_romanized": "ovo",
+          "start_sec": 200.94,
+          "end_sec": 201.2,
+          "duration_sec": 0.26,
+          "confidence_score": -0.3192
+        },
+        {
+          "word_index": 366,
+          "word_urhobo": "ki",
+          "word_romanized": "ki",
+          "start_sec": 201.22,
+          "end_sec": 201.42,
+          "duration_sec": 0.2,
+          "confidence_score": -1.6475
+        },
+        {
+          "word_index": 367,
+          "word_urhobo": "Pẹlẹg",
+          "word_romanized": "peleg",
+          "start_sec": 201.44,
+          "end_sec": 202.06,
+          "duration_sec": 0.62,
+          "confidence_score": -0.0074
+        },
+        {
+          "word_index": 368,
+          "word_urhobo": "ọke",
+          "word_romanized": "oke",
+          "start_sec": 202.9,
+          "end_sec": 203.16,
+          "duration_sec": 0.26,
+          "confidence_score": -0.052
+        },
+        {
+          "word_index": 369,
+          "word_urhobo": "rọye",
+          "word_romanized": "roye",
+          "start_sec": 203.24,
+          "end_sec": 203.54,
+          "duration_sec": 0.3,
+          "confidence_score": -0.1231
+        },
+        {
+          "word_index": 370,
+          "word_urhobo": "akpọ",
+          "word_romanized": "akpo",
+          "start_sec": 203.84,
+          "end_sec": 204.12,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0027
+        },
+        {
+          "word_index": 371,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 204.2,
+          "end_sec": 204.3,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0381
+        },
+        {
+          "word_index": 372,
+          "word_urhobo": "vwọ",
+          "word_romanized": "vwo",
+          "start_sec": 204.36,
+          "end_sec": 204.46,
+          "duration_sec": 0.1,
+          "confidence_score": -3.1514
+        },
+        {
+          "word_index": 373,
+          "word_urhobo": "hẹriẹ",
+          "word_romanized": "herie",
+          "start_sec": 204.62,
+          "end_sec": 204.96,
+          "duration_sec": 0.34,
+          "confidence_score": -0.0213
+        },
+        {
+          "word_index": 374,
+          "word_urhobo": "odẹ",
+          "word_romanized": "ode",
+          "start_sec": 205.7,
+          "end_sec": 205.86,
+          "duration_sec": 0.16,
+          "confidence_score": -0.0033
+        },
+        {
+          "word_index": 375,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 205.92,
+          "end_sec": 205.96,
+          "duration_sec": 0.04,
+          "confidence_score": -0.8055
+        },
+        {
+          "word_index": 376,
+          "word_urhobo": "oniọvo",
+          "word_romanized": "oniovo",
+          "start_sec": 206.0,
+          "end_sec": 206.4,
+          "duration_sec": 0.4,
+          "confidence_score": -0.0394
+        },
+        {
+          "word_index": 377,
+          "word_urhobo": "rọye",
+          "word_romanized": "roye",
+          "start_sec": 206.46,
+          "end_sec": 206.7,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0785
+        },
+        {
+          "word_index": 378,
+          "word_urhobo": "ke",
+          "word_romanized": "ke",
+          "start_sec": 206.8,
+          "end_sec": 206.9,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0107
+        },
+        {
+          "word_index": 379,
+          "word_urhobo": "rha",
+          "word_romanized": "rha",
+          "start_sec": 206.98,
+          "end_sec": 207.06,
+          "duration_sec": 0.08,
+          "confidence_score": -3.1109
+        },
+        {
+          "word_index": 380,
+          "word_urhobo": "Joktan",
+          "word_romanized": "joktan",
+          "start_sec": 207.26,
+          "end_sec": 207.88,
+          "duration_sec": 0.62,
+          "confidence_score": -0.021
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_026",
+      "verse_num": 26,
+      "text_urhobo": "Joktan kọye ọsẹ ri Almodad, Shelef, Hazarmaveth, Jerah,",
+      "text_romanized": "joktan koye ose ri almodad shelef hazarmaveth jerah",
+      "start_sec": 208.48,
+      "end_sec": 214.12,
+      "duration_sec": 5.64,
+      "confidence_score": -0.3651,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 8,
+      "words": [
+        {
+          "word_index": 381,
+          "word_urhobo": "Joktan",
+          "word_romanized": "joktan",
+          "start_sec": 208.48,
+          "end_sec": 208.94,
+          "duration_sec": 0.46,
+          "confidence_score": -0.0329
+        },
+        {
+          "word_index": 382,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 209.0,
+          "end_sec": 209.18,
+          "duration_sec": 0.18,
+          "confidence_score": -0.7348
+        },
+        {
+          "word_index": 383,
+          "word_urhobo": "ọsẹ",
+          "word_romanized": "ose",
+          "start_sec": 209.22,
+          "end_sec": 209.52,
+          "duration_sec": 0.3,
+          "confidence_score": -0.0153
+        },
+        {
+          "word_index": 384,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 209.6,
+          "end_sec": 209.7,
+          "duration_sec": 0.1,
+          "confidence_score": -1.3896
+        },
+        {
+          "word_index": 385,
+          "word_urhobo": "Almodad",
+          "word_romanized": "almodad",
+          "start_sec": 210.14,
+          "end_sec": 210.8,
+          "duration_sec": 0.66,
+          "confidence_score": -0.2689
+        },
+        {
+          "word_index": 386,
+          "word_urhobo": "Shelef",
+          "word_romanized": "shelef",
+          "start_sec": 211.26,
+          "end_sec": 211.74,
+          "duration_sec": 0.48,
+          "confidence_score": -0.0345
+        },
+        {
+          "word_index": 387,
+          "word_urhobo": "Hazarmaveth",
+          "word_romanized": "hazarmaveth",
+          "start_sec": 212.16,
+          "end_sec": 213.12,
+          "duration_sec": 0.96,
+          "confidence_score": -0.2045
+        },
+        {
+          "word_index": 388,
+          "word_urhobo": "Jerah",
+          "word_romanized": "jerah",
+          "start_sec": 213.68,
+          "end_sec": 214.12,
+          "duration_sec": 0.44,
+          "confidence_score": -0.2407
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_027",
+      "verse_num": 27,
+      "text_urhobo": "Hadoram, Uzal, Diklah,",
+      "text_romanized": "hadoram uzal diklah",
+      "start_sec": 214.64,
+      "end_sec": 217.36,
+      "duration_sec": 2.72,
+      "confidence_score": -0.1454,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 3,
+      "words": [
+        {
+          "word_index": 389,
+          "word_urhobo": "Hadoram",
+          "word_romanized": "hadoram",
+          "start_sec": 214.64,
+          "end_sec": 215.32,
+          "duration_sec": 0.68,
+          "confidence_score": -0.0292
+        },
+        {
+          "word_index": 390,
+          "word_urhobo": "Uzal",
+          "word_romanized": "uzal",
+          "start_sec": 215.86,
+          "end_sec": 216.3,
+          "duration_sec": 0.44,
+          "confidence_score": -0.1836
+        },
+        {
+          "word_index": 391,
+          "word_urhobo": "Diklah",
+          "word_romanized": "diklah",
+          "start_sec": 216.86,
+          "end_sec": 217.36,
+          "duration_sec": 0.5,
+          "confidence_score": -0.2233
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_028",
+      "verse_num": 28,
+      "text_urhobo": "Obal, Abima-el, Sheba,",
+      "text_romanized": "obal abima el sheba",
+      "start_sec": 217.96,
+      "end_sec": 220.54,
+      "duration_sec": 2.58,
+      "confidence_score": -0.5498,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 4,
+      "words": [
+        {
+          "word_index": 392,
+          "word_urhobo": "Obal",
+          "word_romanized": "obal",
+          "start_sec": 217.96,
+          "end_sec": 218.38,
+          "duration_sec": 0.42,
+          "confidence_score": -0.2619
+        },
+        {
+          "word_index": 393,
+          "word_urhobo": "Abima",
+          "word_romanized": "abima",
+          "start_sec": 219.06,
+          "end_sec": 219.46,
+          "duration_sec": 0.4,
+          "confidence_score": -0.0131
+        },
+        {
+          "word_index": 394,
+          "word_urhobo": "el",
+          "word_romanized": "el",
+          "start_sec": 219.66,
+          "end_sec": 219.7,
+          "duration_sec": 0.04,
+          "confidence_score": -1.884
+        },
+        {
+          "word_index": 395,
+          "word_urhobo": "Sheba",
+          "word_romanized": "sheba",
+          "start_sec": 220.18,
+          "end_sec": 220.54,
+          "duration_sec": 0.36,
+          "confidence_score": -0.0403
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_029",
+      "verse_num": 29,
+      "text_urhobo": "Ofir Havilah, kugbe Jobab; enana ejobi na emọ ri Joktan.",
+      "text_romanized": "ofir havilah kugbe jobab enana ejobi na emo ri joktan",
+      "start_sec": 221.44,
+      "end_sec": 226.9,
+      "duration_sec": 5.46,
+      "confidence_score": -0.1285,
+      "status": "HIGH_CONFIDENCE",
+      "word_count": 10,
+      "words": [
+        {
+          "word_index": 396,
+          "word_urhobo": "Ofir",
+          "word_romanized": "ofir",
+          "start_sec": 221.44,
+          "end_sec": 221.94,
+          "duration_sec": 0.5,
+          "confidence_score": -0.3512
+        },
+        {
+          "word_index": 397,
+          "word_urhobo": "Havilah",
+          "word_romanized": "havilah",
+          "start_sec": 222.42,
+          "end_sec": 223.02,
+          "duration_sec": 0.6,
+          "confidence_score": -0.2028
+        },
+        {
+          "word_index": 398,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 223.32,
+          "end_sec": 223.56,
+          "duration_sec": 0.24,
+          "confidence_score": -0.0188
+        },
+        {
+          "word_index": 399,
+          "word_urhobo": "Jobab",
+          "word_romanized": "jobab",
+          "start_sec": 223.68,
+          "end_sec": 224.22,
+          "duration_sec": 0.54,
+          "confidence_score": -0.1434
+        },
+        {
+          "word_index": 400,
+          "word_urhobo": "enana",
+          "word_romanized": "enana",
+          "start_sec": 224.86,
+          "end_sec": 225.12,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0194
+        },
+        {
+          "word_index": 401,
+          "word_urhobo": "ejobi",
+          "word_romanized": "ejobi",
+          "start_sec": 225.2,
+          "end_sec": 225.54,
+          "duration_sec": 0.34,
+          "confidence_score": -0.16
+        },
+        {
+          "word_index": 402,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 225.6,
+          "end_sec": 225.7,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0178
+        },
+        {
+          "word_index": 403,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 225.92,
+          "end_sec": 226.08,
+          "duration_sec": 0.16,
+          "confidence_score": -0.0093
+        },
+        {
+          "word_index": 404,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 226.16,
+          "end_sec": 226.24,
+          "duration_sec": 0.08,
+          "confidence_score": -0.2844
+        },
+        {
+          "word_index": 405,
+          "word_urhobo": "Joktan",
+          "word_romanized": "joktan",
+          "start_sec": 226.32,
+          "end_sec": 226.9,
+          "duration_sec": 0.58,
+          "confidence_score": -0.078
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_030",
+      "verse_num": 30,
+      "text_urhobo": "Otọ rẹ ayen diare hẹre ni Mesha vwẹ ẹbẹre ri Sefar re te orho rẹ ugbenu rẹ ọnre va nẹcha na.",
+      "text_romanized": "oto re ayen diare here ni mesha vwe ebere ri sefar re te orho re ugbenu re onre va necha na",
+      "start_sec": 227.72,
+      "end_sec": 236.0,
+      "duration_sec": 8.28,
+      "confidence_score": -0.5485,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 21,
+      "words": [
+        {
+          "word_index": 406,
+          "word_urhobo": "Otọ",
+          "word_romanized": "oto",
+          "start_sec": 227.72,
+          "end_sec": 228.04,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0725
+        },
+        {
+          "word_index": 407,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 228.18,
+          "end_sec": 228.26,
+          "duration_sec": 0.08,
+          "confidence_score": -0.5776
+        },
+        {
+          "word_index": 408,
+          "word_urhobo": "ayen",
+          "word_romanized": "ayen",
+          "start_sec": 228.36,
+          "end_sec": 228.62,
+          "duration_sec": 0.26,
+          "confidence_score": -0.5133
+        },
+        {
+          "word_index": 409,
+          "word_urhobo": "diare",
+          "word_romanized": "diare",
+          "start_sec": 228.68,
+          "end_sec": 229.06,
+          "duration_sec": 0.38,
+          "confidence_score": -0.1064
+        },
+        {
+          "word_index": 410,
+          "word_urhobo": "hẹre",
+          "word_romanized": "here",
+          "start_sec": 229.52,
+          "end_sec": 229.78,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0753
+        },
+        {
+          "word_index": 411,
+          "word_urhobo": "ni",
+          "word_romanized": "ni",
+          "start_sec": 229.9,
+          "end_sec": 230.0,
+          "duration_sec": 0.1,
+          "confidence_score": -0.7909
+        },
+        {
+          "word_index": 412,
+          "word_urhobo": "Mesha",
+          "word_romanized": "mesha",
+          "start_sec": 230.2,
+          "end_sec": 230.56,
+          "duration_sec": 0.36,
+          "confidence_score": -0.1387
+        },
+        {
+          "word_index": 413,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 231.22,
+          "end_sec": 231.3,
+          "duration_sec": 0.08,
+          "confidence_score": -3.0327
+        },
+        {
+          "word_index": 414,
+          "word_urhobo": "ẹbẹre",
+          "word_romanized": "ebere",
+          "start_sec": 231.4,
+          "end_sec": 231.76,
+          "duration_sec": 0.36,
+          "confidence_score": -0.2014
+        },
+        {
+          "word_index": 415,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 231.82,
+          "end_sec": 231.9,
+          "duration_sec": 0.08,
+          "confidence_score": -0.1612
+        },
+        {
+          "word_index": 416,
+          "word_urhobo": "Sefar",
+          "word_romanized": "sefar",
+          "start_sec": 232.04,
+          "end_sec": 232.52,
+          "duration_sec": 0.48,
+          "confidence_score": -0.1927
+        },
+        {
+          "word_index": 417,
+          "word_urhobo": "re",
+          "word_romanized": "re",
+          "start_sec": 233.14,
+          "end_sec": 233.26,
+          "duration_sec": 0.12,
+          "confidence_score": -0.1821
+        },
+        {
+          "word_index": 418,
+          "word_urhobo": "te",
+          "word_romanized": "te",
+          "start_sec": 233.42,
+          "end_sec": 233.54,
+          "duration_sec": 0.12,
+          "confidence_score": -0.0114
+        },
+        {
+          "word_index": 419,
+          "word_urhobo": "orho",
+          "word_romanized": "orho",
+          "start_sec": 233.76,
+          "end_sec": 233.9,
+          "duration_sec": 0.14,
+          "confidence_score": -1.6018
+        },
+        {
+          "word_index": 420,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 233.96,
+          "end_sec": 234.02,
+          "duration_sec": 0.06,
+          "confidence_score": -1.8334
+        },
+        {
+          "word_index": 421,
+          "word_urhobo": "ugbenu",
+          "word_romanized": "ugbenu",
+          "start_sec": 234.04,
+          "end_sec": 234.48,
+          "duration_sec": 0.44,
+          "confidence_score": -0.0272
+        },
+        {
+          "word_index": 422,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 234.86,
+          "end_sec": 234.94,
+          "duration_sec": 0.08,
+          "confidence_score": -0.4607
+        },
+        {
+          "word_index": 423,
+          "word_urhobo": "ọnre",
+          "word_romanized": "onre",
+          "start_sec": 235.02,
+          "end_sec": 235.18,
+          "duration_sec": 0.16,
+          "confidence_score": -1.4607
+        },
+        {
+          "word_index": 424,
+          "word_urhobo": "va",
+          "word_romanized": "va",
+          "start_sec": 235.3,
+          "end_sec": 235.4,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0159
+        },
+        {
+          "word_index": 425,
+          "word_urhobo": "nẹcha",
+          "word_romanized": "necha",
+          "start_sec": 235.48,
+          "end_sec": 235.8,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0537
+        },
+        {
+          "word_index": 426,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 235.9,
+          "end_sec": 236.0,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0099
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_031",
+      "verse_num": 31,
+      "text_urhobo": "Enana emọ ri Shẹm, vwẹ ekrekru rayen, vẹ ephẹrẹ rayen, otọ rayen kugbe ẹgborho rayen.",
+      "text_romanized": "enana emo ri shem vwe ekrekru rayen ve ephere rayen oto rayen kugbe egborho rayen",
+      "start_sec": 236.72,
+      "end_sec": 243.9,
+      "duration_sec": 7.18,
+      "confidence_score": -0.5762,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 15,
+      "words": [
+        {
+          "word_index": 427,
+          "word_urhobo": "Enana",
+          "word_romanized": "enana",
+          "start_sec": 236.72,
+          "end_sec": 237.1,
+          "duration_sec": 0.38,
+          "confidence_score": -0.022
+        },
+        {
+          "word_index": 428,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 237.34,
+          "end_sec": 237.56,
+          "duration_sec": 0.22,
+          "confidence_score": -0.013
+        },
+        {
+          "word_index": 429,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 237.64,
+          "end_sec": 237.72,
+          "duration_sec": 0.08,
+          "confidence_score": -0.2022
+        },
+        {
+          "word_index": 430,
+          "word_urhobo": "Shẹm",
+          "word_romanized": "shem",
+          "start_sec": 237.82,
+          "end_sec": 238.14,
+          "duration_sec": 0.32,
+          "confidence_score": -0.0763
+        },
+        {
+          "word_index": 431,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 238.44,
+          "end_sec": 238.52,
+          "duration_sec": 0.08,
+          "confidence_score": -2.7429
+        },
+        {
+          "word_index": 432,
+          "word_urhobo": "ekrekru",
+          "word_romanized": "ekrekru",
+          "start_sec": 238.56,
+          "end_sec": 238.92,
+          "duration_sec": 0.36,
+          "confidence_score": -0.4742
+        },
+        {
+          "word_index": 433,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 238.98,
+          "end_sec": 239.38,
+          "duration_sec": 0.4,
+          "confidence_score": -0.4156
+        },
+        {
+          "word_index": 434,
+          "word_urhobo": "vẹ",
+          "word_romanized": "ve",
+          "start_sec": 239.88,
+          "end_sec": 239.92,
+          "duration_sec": 0.04,
+          "confidence_score": -1.5947
+        },
+        {
+          "word_index": 435,
+          "word_urhobo": "ephẹrẹ",
+          "word_romanized": "ephere",
+          "start_sec": 239.94,
+          "end_sec": 240.28,
+          "duration_sec": 0.34,
+          "confidence_score": -0.4974
+        },
+        {
+          "word_index": 436,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 240.38,
+          "end_sec": 240.7,
+          "duration_sec": 0.32,
+          "confidence_score": -0.775
+        },
+        {
+          "word_index": 437,
+          "word_urhobo": "otọ",
+          "word_romanized": "oto",
+          "start_sec": 241.28,
+          "end_sec": 241.54,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0081
+        },
+        {
+          "word_index": 438,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 241.64,
+          "end_sec": 241.9,
+          "duration_sec": 0.26,
+          "confidence_score": -1.0444
+        },
+        {
+          "word_index": 439,
+          "word_urhobo": "kugbe",
+          "word_romanized": "kugbe",
+          "start_sec": 241.98,
+          "end_sec": 242.26,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0156
+        },
+        {
+          "word_index": 440,
+          "word_urhobo": "ẹgborho",
+          "word_romanized": "egborho",
+          "start_sec": 242.46,
+          "end_sec": 242.84,
+          "duration_sec": 0.38,
+          "confidence_score": -0.4884
+        },
+        {
+          "word_index": 441,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 242.9,
+          "end_sec": 243.9,
+          "duration_sec": 1.0,
+          "confidence_score": -0.273
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_032",
+      "verse_num": 32,
+      "text_urhobo": "Enana eye ekru rẹ emọ ri Noa, kirobo rẹ orua rayen wanre, vwẹ ẹgborho rayen; vwẹ oma rẹ enana kọye ẹgborho rẹ akpọ na ejobi hra nurhe rẹ oghwe na vwọ kponu.",
+      "text_romanized": "enana eye ekru re emo ri noa kirobo re orua rayen wanre vwe egborho rayen vwe oma re enana koye egborho re akpo na ejobi hra nurhe re oghwe na vwo kponu",
+      "start_sec": 243.96,
+      "end_sec": 257.34,
+      "duration_sec": 13.38,
+      "confidence_score": -1.0418,
+      "status": "FLAGGED_LOW_CONFIDENCE",
+      "word_count": 32,
+      "words": [
+        {
+          "word_index": 442,
+          "word_urhobo": "Enana",
+          "word_romanized": "enana",
+          "start_sec": 243.96,
+          "end_sec": 244.36,
+          "duration_sec": 0.4,
+          "confidence_score": -0.0157
+        },
+        {
+          "word_index": 443,
+          "word_urhobo": "eye",
+          "word_romanized": "eye",
+          "start_sec": 244.52,
+          "end_sec": 244.7,
+          "duration_sec": 0.18,
+          "confidence_score": -0.0926
+        },
+        {
+          "word_index": 444,
+          "word_urhobo": "ekru",
+          "word_romanized": "ekru",
+          "start_sec": 244.72,
+          "end_sec": 244.9,
+          "duration_sec": 0.18,
+          "confidence_score": -0.7627
+        },
+        {
+          "word_index": 445,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 244.94,
+          "end_sec": 244.98,
+          "duration_sec": 0.04,
+          "confidence_score": -2.4927
+        },
+        {
+          "word_index": 446,
+          "word_urhobo": "emọ",
+          "word_romanized": "emo",
+          "start_sec": 245.04,
+          "end_sec": 245.2,
+          "duration_sec": 0.16,
+          "confidence_score": -0.0449
+        },
+        {
+          "word_index": 447,
+          "word_urhobo": "ri",
+          "word_romanized": "ri",
+          "start_sec": 245.26,
+          "end_sec": 245.36,
+          "duration_sec": 0.1,
+          "confidence_score": -0.6739
+        },
+        {
+          "word_index": 448,
+          "word_urhobo": "Noa",
+          "word_romanized": "noa",
+          "start_sec": 245.42,
+          "end_sec": 245.64,
+          "duration_sec": 0.22,
+          "confidence_score": -0.5069
+        },
+        {
+          "word_index": 449,
+          "word_urhobo": "kirobo",
+          "word_romanized": "kirobo",
+          "start_sec": 246.2,
+          "end_sec": 246.56,
+          "duration_sec": 0.36,
+          "confidence_score": -0.4202
+        },
+        {
+          "word_index": 450,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 246.6,
+          "end_sec": 246.66,
+          "duration_sec": 0.06,
+          "confidence_score": -3.3861
+        },
+        {
+          "word_index": 451,
+          "word_urhobo": "orua",
+          "word_romanized": "orua",
+          "start_sec": 246.68,
+          "end_sec": 246.78,
+          "duration_sec": 0.1,
+          "confidence_score": -2.133
+        },
+        {
+          "word_index": 452,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 246.84,
+          "end_sec": 247.16,
+          "duration_sec": 0.32,
+          "confidence_score": -0.4043
+        },
+        {
+          "word_index": 453,
+          "word_urhobo": "wanre",
+          "word_romanized": "wanre",
+          "start_sec": 247.18,
+          "end_sec": 247.5,
+          "duration_sec": 0.32,
+          "confidence_score": -0.4316
+        },
+        {
+          "word_index": 454,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 248.08,
+          "end_sec": 248.16,
+          "duration_sec": 0.08,
+          "confidence_score": -2.7998
+        },
+        {
+          "word_index": 455,
+          "word_urhobo": "ẹgborho",
+          "word_romanized": "egborho",
+          "start_sec": 248.26,
+          "end_sec": 248.62,
+          "duration_sec": 0.36,
+          "confidence_score": -0.4879
+        },
+        {
+          "word_index": 456,
+          "word_urhobo": "rayen",
+          "word_romanized": "rayen",
+          "start_sec": 248.66,
+          "end_sec": 249.0,
+          "duration_sec": 0.34,
+          "confidence_score": -0.7477
+        },
+        {
+          "word_index": 457,
+          "word_urhobo": "vwẹ",
+          "word_romanized": "vwe",
+          "start_sec": 249.54,
+          "end_sec": 249.6,
+          "duration_sec": 0.06,
+          "confidence_score": -4.3293
+        },
+        {
+          "word_index": 458,
+          "word_urhobo": "oma",
+          "word_romanized": "oma",
+          "start_sec": 249.7,
+          "end_sec": 249.84,
+          "duration_sec": 0.14,
+          "confidence_score": -0.0439
+        },
+        {
+          "word_index": 459,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 249.92,
+          "end_sec": 249.98,
+          "duration_sec": 0.06,
+          "confidence_score": -2.338
+        },
+        {
+          "word_index": 460,
+          "word_urhobo": "enana",
+          "word_romanized": "enana",
+          "start_sec": 250.0,
+          "end_sec": 250.34,
+          "duration_sec": 0.34,
+          "confidence_score": -0.0392
+        },
+        {
+          "word_index": 461,
+          "word_urhobo": "kọye",
+          "word_romanized": "koye",
+          "start_sec": 250.44,
+          "end_sec": 250.7,
+          "duration_sec": 0.26,
+          "confidence_score": -0.0914
+        },
+        {
+          "word_index": 462,
+          "word_urhobo": "ẹgborho",
+          "word_romanized": "egborho",
+          "start_sec": 250.72,
+          "end_sec": 251.02,
+          "duration_sec": 0.3,
+          "confidence_score": -1.0651
+        },
+        {
+          "word_index": 463,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 251.06,
+          "end_sec": 251.1,
+          "duration_sec": 0.04,
+          "confidence_score": -5.1504
+        },
+        {
+          "word_index": 464,
+          "word_urhobo": "akpọ",
+          "word_romanized": "akpo",
+          "start_sec": 251.14,
+          "end_sec": 251.42,
+          "duration_sec": 0.28,
+          "confidence_score": -0.0367
+        },
+        {
+          "word_index": 465,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 251.48,
+          "end_sec": 251.56,
+          "duration_sec": 0.08,
+          "confidence_score": -0.0818
+        },
+        {
+          "word_index": 466,
+          "word_urhobo": "ejobi",
+          "word_romanized": "ejobi",
+          "start_sec": 251.68,
+          "end_sec": 252.08,
+          "duration_sec": 0.4,
+          "confidence_score": -0.4458
+        },
+        {
+          "word_index": 467,
+          "word_urhobo": "hra",
+          "word_romanized": "hra",
+          "start_sec": 252.16,
+          "end_sec": 252.3,
+          "duration_sec": 0.14,
+          "confidence_score": -0.1981
+        },
+        {
+          "word_index": 468,
+          "word_urhobo": "nurhe",
+          "word_romanized": "nurhe",
+          "start_sec": 252.4,
+          "end_sec": 252.68,
+          "duration_sec": 0.28,
+          "confidence_score": -0.7886
+        },
+        {
+          "word_index": 469,
+          "word_urhobo": "rẹ",
+          "word_romanized": "re",
+          "start_sec": 253.26,
+          "end_sec": 253.36,
+          "duration_sec": 0.1,
+          "confidence_score": -0.7919
+        },
+        {
+          "word_index": 470,
+          "word_urhobo": "oghwe",
+          "word_romanized": "oghwe",
+          "start_sec": 253.52,
+          "end_sec": 253.8,
+          "duration_sec": 0.28,
+          "confidence_score": -0.1289
+        },
+        {
+          "word_index": 471,
+          "word_urhobo": "na",
+          "word_romanized": "na",
+          "start_sec": 253.88,
+          "end_sec": 253.98,
+          "duration_sec": 0.1,
+          "confidence_score": -0.0155
+        },
+        {
+          "word_index": 472,
+          "word_urhobo": "vwọ",
+          "word_romanized": "vwo",
+          "start_sec": 254.32,
+          "end_sec": 254.42,
+          "duration_sec": 0.1,
+          "confidence_score": -2.3881
+        },
+        {
+          "word_index": 473,
+          "word_urhobo": "kponu",
+          "word_romanized": "kponu",
+          "start_sec": 254.6,
+          "end_sec": 257.34,
+          "duration_sec": 2.74,
+          "confidence_score": -0.0037
+        }
+      ]
+    }
+  ],
+  "headings": [
+    {
+      "bcv_id": "GEN_010_H01",
+      "type": "heading",
+      "text_urhobo": "Uvwiẹ re Emọ ri Noa",
+      "text_romanized": "uvwie re emo ri noa",
+      "start_sec": 5.28,
+      "end_sec": 7.12,
+      "duration_sec": 1.84,
+      "words": [
+        {
+          "word_index": 0,
+          "word_romanized": "uvwie",
+          "start_sec": 5.28,
+          "end_sec": 5.68
+        },
+        {
+          "word_index": 1,
+          "word_romanized": "re",
+          "start_sec": 6.42,
+          "end_sec": 6.46
+        },
+        {
+          "word_index": 2,
+          "word_romanized": "emo",
+          "start_sec": 6.5,
+          "end_sec": 6.68
+        },
+        {
+          "word_index": 3,
+          "word_romanized": "ri",
+          "start_sec": 6.76,
+          "end_sec": 6.86
+        },
+        {
+          "word_index": 4,
+          "word_romanized": "noa",
+          "start_sec": 6.92,
+          "end_sec": 7.12
+        }
+      ]
+    },
+    {
+      "bcv_id": "GEN_010_H02",
+      "type": "heading",
+      "text_urhobo": "(",
+      "text_romanized": "",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "duration_sec": 0.0,
+      "words": []
+    },
+    {
+      "bcv_id": "GEN_010_H03",
+      "type": "heading",
+      "text_urhobo": ")",
+      "text_romanized": "",
+      "start_sec": 0.0,
+      "end_sec": 0.0,
+      "duration_sec": 0.0,
+      "words": []
+    }
+  ]
+}
