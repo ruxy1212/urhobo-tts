@@ -7,3 +7,5 @@ python scripts/02_convert_audio.py --book GEN
 python scripts/03_prepare_alignment_text.py --book GEN
 
 python scripts/03_align_audio.py --book GEN --device cuda
+
+python scripts/04_slice_audio.py --book GEN --confidence-threshold -0.85

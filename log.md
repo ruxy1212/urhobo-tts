@@ -54,6 +54,16 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Conducted confidence score audit: mean score -0.666, median -0.642. Over 73.6% of verses (1,128 verses / ~3.2 hours) achieve high acoustic confidence (>= -0.80).
   * Performed audio slice spot-check across the confidence spectrum, verifying clean sentence boundaries and silence-aligned cuts prior to Phase 5 dataset assembly.
 
+---
+
+### Phase 5: Segmentation, Edge Conditioning & Dataset Assembly
+* **Step 5.1: Studio Audio Slicer & Raised-Cosine Edge Conditioning**:
+  * Engineered `scripts/04_slice_audio.py` implementing zero-click audio cutting with 50ms boundary padding and a 10ms raised-cosine (half-Hann) fade-in/fade-out envelope to eliminate digital pops and preserve breath/consonant decays.
+  * Extracted and conditioned **1,190 studio-grade verse audio clips** (2.97 hours / 178.3 minutes of speech, average clip duration 8.99s, mean confidence score -0.560).
+  * Filtered against strict TTS training bounds (confidence >= -0.85, duration 1.0s–18.0s), automatically quarantining 343 marginal/noisy outliers into `data/processed/quarantine/`.
+  * Slicing audit cataloged in `data/processed/segments/GEN_slicing_report.json`.
+
+
 
 
 
