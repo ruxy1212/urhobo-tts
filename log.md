@@ -38,3 +38,12 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Executed EBU R128 two-pass integrated loudness normalization targeting -23 LUFS (LRA: 7, true-peak: -2.0 dBTP), guaranteeing uniform gain and dynamic range across all 4.29 hours of speech.
 * **Corpus-Wide Speech-Rate & Duration Sanity Audit**: Evaluated chapter audio duration against normalized text character and verse counts. Across all 50 chapters (257.43 minutes total), the speech rate maintained a remarkably consistent average of 11.18 characters/second with zero outlier anomalies, confirming zero missing verses, audio truncation, or desynchronized files prior to forced alignment.
 
+---
+
+### Phase 4: Forced Alignment & Audio-Text Temporal Synchronization
+* **Step 4.1: Romanization & MMS Alignment Manifest Generator**: Engineered `scripts/03_prepare_alignment_text.py` leveraging `uroman` to translate Urhobo orthography into clean Latin ASCII tokens matched to Meta MMS's 28-token CTC dictionary (`a-z`, `'`, `*`, ` `).
+  * Generated 50 chapter-level alignment payloads in `data/interim/alignment_prep/GEN/` covering all 1,533 verses (37,630 words) and 101 narrative headings wrapped in `*` wildcard tokens.
+  * Formatted each verse with exact 1:1 token-level spans and word-index pointers back to the original diacritic text, enabling zero-drift timestamp attribution during downstream segmentation.
+  * Verified 100% vocabulary compliance with zero unmapped or illegal characters across the entire corpus.
+
+

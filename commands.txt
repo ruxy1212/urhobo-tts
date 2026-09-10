@@ -3,3 +3,5 @@ python scripts/01_scrape_text.py --book EXO --chapters 1-10
 python scripts/02_normalize_text.py --book GEN
 
 python scripts/02_convert_audio.py --book GEN
+
+python scripts/03_prepare_alignment_text.py --book GEN

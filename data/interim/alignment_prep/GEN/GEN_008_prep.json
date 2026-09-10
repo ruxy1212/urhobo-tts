@@ -1,0 +1,4553 @@
+{
+  "book": "GEN",
+  "chapter": 8,
+  "bcv_chapter": "GEN_008",
+  "audio_wav": "data/interim/wav/GEN/GEN_008.wav",
+  "total_verses": 22,
+  "total_headings": 1,
+  "total_words": 598,
+  "full_alignment_text": "* oba re oghwe na * ekevuovo oghene da rhe karoho noa ve eranvwe re aghwa na ejobi kugbe uchuru ejobi re ve oye gba ro evun re oko na oghene da vwe odju rhe ne o gbe dju enu re akpo na ame na de rhi rhiren ogbugbu re ame na da tangbe evakpo re obo odjuvwu na ejobi de rhurhu osio ro rho ne enu cha da daji ame na de si reyo koke koke vwe oba re ede ujori gbe ujuve gbe ihwe re ame na da rhe kpo vwe emeranvwe re ighwre vwe ede re ihwe gbe ighwre re emeranvwe na oko na da rhe kpo muoto vwe enu re ugbenu ri ararat ame na ke ekpo ekpo besie ro rhi vwo te emeranvwe re ihwe vwe ede re esosuo re emeranvwe na enu re igbenu na ejobi da rhe kpo phia vwe ede ujuve vwo wan nu noa de rhie evakpo re oko na ro kare na o de siobo ne okpemu o da rha kpene kpene besie re ame na rhe vwo kpo ne akpo na o da rhoma siobo ne inekuku ro re ni se ame na kpo ne oto na re ekevuovo inekuku na mre asan ro rhan mu u o da rhoma rhan bro rhe vwe evun re oko na kidie ye ame na ji phoro enu re oto na ejobi etiyin o da rien obo roye vwo reyo phiho evun re oko na o da rha herhe ede ighwre efa o ke rhoma siobo ne inekuku na ne evun re oko na inekuku na da rha bro rhe vwe ovwonvwon e vwo no o mu obe re olive okpokpo vwo hwunu noa ke rhe rien ne ame na kpo ne akpo na re o ke je rhoma herhe ede ighwre efa o da rhoma siobo ne inekuku na o gbe rhoma rhan bro rhe ofa a vwe evun re ikpe uri erha gbe ovo vwe emeranvwe re esosuo ede re esosuo re emeranvwe na ame na da kpo ne oto na kakare noa da fan uwevwi re oko na nu o vwo ni nighe enu re oto na ejobi kpore vwe emeranvwe rive vwe ede ujuve gbe ighwre re emeranvwe na oto na da kpore oghene da ta ki noa gba yan phia ne evun re oko na we te aye wen ve emo wen te eya re emo wen reyo kemu kemu ejobi ro vwo arho re ve owe gba hero vwe evun re oko na ejobi ephra kugbe eranvwe kugbe emu kemu ri kpono vwe enu re oto na rere ayen mre asan vwie buebu vwe enu re akpo na re ayen mo re ayen bu phiho vwe enu re akpo na koye noa da yan phia o ve emo roye te aye roye te eya re emo roye keranvwe keranvwe kemu kemu ro kpono kophra kophra kemu kemu ro yan vwe akpo na e da yan otuotu ne evun re oko na rhe noa da so agbada ke orovwohwo o da reyo eranvwe keranvwe ro tete oma kugbe kophra kophra ro tete oma o de ze izobo re etorhe vwe enu re agbada na oke re orovwohwo vwo nyo onrhe ghwoghwo re izobo na orovwohwo da ta vwe udu roye me gbe harhe oto na ofa vwi fiki re ohwo o kidie iroro re evun roye ne oke emo rhe pha brabra eye me gbe ghworo emu kemu ro vwo arho re me mare ofa a oke re akpo na dia krite na oke ekankon kugbe oke orho ekpae kugbe oheri okeuvo kugbe ohwahwa uvo kugbe ason se re bede e",
+  "chapter_words_romanized": [
+    "ekevuovo",
+    "oghene",
+    "da",
+    "rhe",
+    "karoho",
+    "noa",
+    "ve",
+    "eranvwe",
+    "re",
+    "aghwa",
+    "na",
+    "ejobi",
+    "kugbe",
+    "uchuru",
+    "ejobi",
+    "re",
+    "ve",
+    "oye",
+    "gba",
+    "ro",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "oghene",
+    "da",
+    "vwe",
+    "odju",
+    "rhe",
+    "ne",
+    "o",
+    "gbe",
+    "dju",
+    "enu",
+    "re",
+    "akpo",
+    "na",
+    "ame",
+    "na",
+    "de",
+    "rhi",
+    "rhiren",
+    "ogbugbu",
+    "re",
+    "ame",
+    "na",
+    "da",
+    "tangbe",
+    "evakpo",
+    "re",
+    "obo",
+    "odjuvwu",
+    "na",
+    "ejobi",
+    "de",
+    "rhurhu",
+    "osio",
+    "ro",
+    "rho",
+    "ne",
+    "enu",
+    "cha",
+    "da",
+    "daji",
+    "ame",
+    "na",
+    "de",
+    "si",
+    "reyo",
+    "koke",
+    "koke",
+    "vwe",
+    "oba",
+    "re",
+    "ede",
+    "ujori",
+    "gbe",
+    "ujuve",
+    "gbe",
+    "ihwe",
+    "re",
+    "ame",
+    "na",
+    "da",
+    "rhe",
+    "kpo",
+    "vwe",
+    "emeranvwe",
+    "re",
+    "ighwre",
+    "vwe",
+    "ede",
+    "re",
+    "ihwe",
+    "gbe",
+    "ighwre",
+    "re",
+    "emeranvwe",
+    "na",
+    "oko",
+    "na",
+    "da",
+    "rhe",
+    "kpo",
+    "muoto",
+    "vwe",
+    "enu",
+    "re",
+    "ugbenu",
+    "ri",
+    "ararat",
+    "ame",
+    "na",
+    "ke",
+    "ekpo",
+    "ekpo",
+    "besie",
+    "ro",
+    "rhi",
+    "vwo",
+    "te",
+    "emeranvwe",
+    "re",
+    "ihwe",
+    "vwe",
+    "ede",
+    "re",
+    "esosuo",
+    "re",
+    "emeranvwe",
+    "na",
+    "enu",
+    "re",
+    "igbenu",
+    "na",
+    "ejobi",
+    "da",
+    "rhe",
+    "kpo",
+    "phia",
+    "vwe",
+    "ede",
+    "ujuve",
+    "vwo",
+    "wan",
+    "nu",
+    "noa",
+    "de",
+    "rhie",
+    "evakpo",
+    "re",
+    "oko",
+    "na",
+    "ro",
+    "kare",
+    "na",
+    "o",
+    "de",
+    "siobo",
+    "ne",
+    "okpemu",
+    "o",
+    "da",
+    "rha",
+    "kpene",
+    "kpene",
+    "besie",
+    "re",
+    "ame",
+    "na",
+    "rhe",
+    "vwo",
+    "kpo",
+    "ne",
+    "akpo",
+    "na",
+    "o",
+    "da",
+    "rhoma",
+    "siobo",
+    "ne",
+    "inekuku",
+    "ro",
+    "re",
+    "ni",
+    "se",
+    "ame",
+    "na",
+    "kpo",
+    "ne",
+    "oto",
+    "na",
+    "re",
+    "ekevuovo",
+    "inekuku",
+    "na",
+    "mre",
+    "asan",
+    "ro",
+    "rhan",
+    "mu",
+    "u",
+    "o",
+    "da",
+    "rhoma",
+    "rhan",
+    "bro",
+    "rhe",
+    "vwe",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "kidie",
+    "ye",
+    "ame",
+    "na",
+    "ji",
+    "phoro",
+    "enu",
+    "re",
+    "oto",
+    "na",
+    "ejobi",
+    "etiyin",
+    "o",
+    "da",
+    "rien",
+    "obo",
+    "roye",
+    "vwo",
+    "reyo",
+    "phiho",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "o",
+    "da",
+    "rha",
+    "herhe",
+    "ede",
+    "ighwre",
+    "efa",
+    "o",
+    "ke",
+    "rhoma",
+    "siobo",
+    "ne",
+    "inekuku",
+    "na",
+    "ne",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "inekuku",
+    "na",
+    "da",
+    "rha",
+    "bro",
+    "rhe",
+    "vwe",
+    "ovwonvwon",
+    "e",
+    "vwo",
+    "no",
+    "o",
+    "mu",
+    "obe",
+    "re",
+    "olive",
+    "okpokpo",
+    "vwo",
+    "hwunu",
+    "noa",
+    "ke",
+    "rhe",
+    "rien",
+    "ne",
+    "ame",
+    "na",
+    "kpo",
+    "ne",
+    "akpo",
+    "na",
+    "re",
+    "o",
+    "ke",
+    "je",
+    "rhoma",
+    "herhe",
+    "ede",
+    "ighwre",
+    "efa",
+    "o",
+    "da",
+    "rhoma",
+    "siobo",
+    "ne",
+    "inekuku",
+    "na",
+    "o",
+    "gbe",
+    "rhoma",
+    "rhan",
+    "bro",
+    "rhe",
+    "ofa",
+    "a",
+    "vwe",
+    "evun",
+    "re",
+    "ikpe",
+    "uri",
+    "erha",
+    "gbe",
+    "ovo",
+    "vwe",
+    "emeranvwe",
+    "re",
+    "esosuo",
+    "ede",
+    "re",
+    "esosuo",
+    "re",
+    "emeranvwe",
+    "na",
+    "ame",
+    "na",
+    "da",
+    "kpo",
+    "ne",
+    "oto",
+    "na",
+    "kakare",
+    "noa",
+    "da",
+    "fan",
+    "uwevwi",
+    "re",
+    "oko",
+    "na",
+    "nu",
+    "o",
+    "vwo",
+    "ni",
+    "nighe",
+    "enu",
+    "re",
+    "oto",
+    "na",
+    "ejobi",
+    "kpore",
+    "vwe",
+    "emeranvwe",
+    "rive",
+    "vwe",
+    "ede",
+    "ujuve",
+    "gbe",
+    "ighwre",
+    "re",
+    "emeranvwe",
+    "na",
+    "oto",
+    "na",
+    "da",
+    "kpore",
+    "oghene",
+    "da",
+    "ta",
+    "ki",
+    "noa",
+    "gba",
+    "yan",
+    "phia",
+    "ne",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "we",
+    "te",
+    "aye",
+    "wen",
+    "ve",
+    "emo",
+    "wen",
+    "te",
+    "eya",
+    "re",
+    "emo",
+    "wen",
+    "reyo",
+    "kemu",
+    "kemu",
+    "ejobi",
+    "ro",
+    "vwo",
+    "arho",
+    "re",
+    "ve",
+    "owe",
+    "gba",
+    "hero",
+    "vwe",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "ejobi",
+    "ephra",
+    "kugbe",
+    "eranvwe",
+    "kugbe",
+    "emu",
+    "kemu",
+    "ri",
+    "kpono",
+    "vwe",
+    "enu",
+    "re",
+    "oto",
+    "na",
+    "rere",
+    "ayen",
+    "mre",
+    "asan",
+    "vwie",
+    "buebu",
+    "vwe",
+    "enu",
+    "re",
+    "akpo",
+    "na",
+    "re",
+    "ayen",
+    "mo",
+    "re",
+    "ayen",
+    "bu",
+    "phiho",
+    "vwe",
+    "enu",
+    "re",
+    "akpo",
+    "na",
+    "koye",
+    "noa",
+    "da",
+    "yan",
+    "phia",
+    "o",
+    "ve",
+    "emo",
+    "roye",
+    "te",
+    "aye",
+    "roye",
+    "te",
+    "eya",
+    "re",
+    "emo",
+    "roye",
+    "keranvwe",
+    "keranvwe",
+    "kemu",
+    "kemu",
+    "ro",
+    "kpono",
+    "kophra",
+    "kophra",
+    "kemu",
+    "kemu",
+    "ro",
+    "yan",
+    "vwe",
+    "akpo",
+    "na",
+    "e",
+    "da",
+    "yan",
+    "otuotu",
+    "ne",
+    "evun",
+    "re",
+    "oko",
+    "na",
+    "rhe",
+    "noa",
+    "da",
+    "so",
+    "agbada",
+    "ke",
+    "orovwohwo",
+    "o",
+    "da",
+    "reyo",
+    "eranvwe",
+    "keranvwe",
+    "ro",
+    "tete",
+    "oma",
+    "kugbe",
+    "kophra",
+    "kophra",
+    "ro",
+    "tete",
+    "oma",
+    "o",
+    "de",
+    "ze",
+    "izobo",
+    "re",
+    "etorhe",
+    "vwe",
+    "enu",
+    "re",
+    "agbada",
+    "na",
+    "oke",
+    "re",
+    "orovwohwo",
+    "vwo",
+    "nyo",
+    "onrhe",
+    "ghwoghwo",
+    "re",
+    "izobo",
+    "na",
+    "orovwohwo",
+    "da",
+    "ta",
+    "vwe",
+    "udu",
+    "roye",
+    "me",
+    "gbe",
+    "harhe",
+    "oto",
+    "na",
+    "ofa",
+    "vwi",
+    "fiki",
+    "re",
+    "ohwo",
+    "o",
+    "kidie",
+    "iroro",
+    "re",
+    "evun",
+    "roye",
+    "ne",
+    "oke",
+    "emo",
+    "rhe",
+    "pha",
+    "brabra",
+    "eye",
+    "me",
+    "gbe",
+    "ghworo",
+    "emu",
+    "kemu",
+    "ro",
+    "vwo",
+    "arho",
+    "re",
+    "me",
+    "mare",
+    "ofa",
+    "a",
+    "oke",
+    "re",
+    "akpo",
+    "na",
+    "dia",
+    "krite",
+    "na",
+    "oke",
+    "ekankon",
+    "kugbe",
+    "oke",
+    "orho",
+    "ekpae",
+    "kugbe",
+    "oheri",
+    "okeuvo",
+    "kugbe",
+    "ohwahwa",
+    "uvo",
+    "kugbe",
+    "ason",
+    "se",
+    "re",
+    "bede",
+    "e"
+  ],
+  "chapter_words_urhobo": [
+    "Ẹkẹvuọvo",
+    "Ọghẹnẹ",
+    "da",
+    "rhe",
+    "karohọ",
+    "Noa",
+    "vẹ",
+    "eranvwe",
+    "rẹ",
+    "aghwa",
+    "na",
+    "ejobi",
+    "kugbe",
+    "uchuru",
+    "ejobi",
+    "re",
+    "vẹ",
+    "ọye",
+    "gba",
+    "ro",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "Ọghẹnẹ",
+    "da",
+    "vwẹ",
+    "odju",
+    "rhe",
+    "nẹ",
+    "o",
+    "gbe",
+    "dju",
+    "enu",
+    "rẹ",
+    "akpọ",
+    "na",
+    "ame",
+    "na",
+    "de",
+    "rhi",
+    "rhirẹn",
+    "ogbugbu",
+    "rẹ",
+    "ame",
+    "na",
+    "da",
+    "tangbe",
+    "evakpo",
+    "rẹ",
+    "obo",
+    "odjuvwu",
+    "na",
+    "ejobi",
+    "de",
+    "rhurhu",
+    "osio",
+    "rọ",
+    "rhọ",
+    "nẹ",
+    "enu",
+    "cha",
+    "da",
+    "daji",
+    "ame",
+    "na",
+    "de",
+    "si",
+    "reyọ",
+    "kọke",
+    "kọke",
+    "Vwẹ",
+    "oba",
+    "rẹ",
+    "ẹdẹ",
+    "ujori",
+    "gbẹ",
+    "ujuvẹ",
+    "gbẹ",
+    "ihwe",
+    "re",
+    "ame",
+    "na",
+    "da",
+    "rhe",
+    "kpọ",
+    "vwẹ",
+    "emeranvwe",
+    "rẹ",
+    "ighwrẹ",
+    "vwẹ",
+    "ẹdẹ",
+    "rẹ",
+    "ihwe",
+    "gbẹ",
+    "ighwrẹ",
+    "rẹ",
+    "emeranvwe",
+    "na",
+    "okọ",
+    "na",
+    "da",
+    "rhe",
+    "kpọ",
+    "muotọ",
+    "vwẹ",
+    "enu",
+    "rẹ",
+    "ugbenu",
+    "ri",
+    "Ararat",
+    "Ame",
+    "na",
+    "kẹ",
+    "ẹkpọ",
+    "ẹkpọ",
+    "bẹsiẹ",
+    "ro",
+    "rhi",
+    "vwo",
+    "te",
+    "emeranvwe",
+    "rẹ",
+    "ihwe",
+    "vwẹ",
+    "ẹdẹ",
+    "rẹ",
+    "ẹsosuọ",
+    "rẹ",
+    "emeranvwe",
+    "na",
+    "enu",
+    "rẹ",
+    "igbenu",
+    "na",
+    "ejobi",
+    "da",
+    "rhe",
+    "kpọ",
+    "phia",
+    "Vwẹ",
+    "ẹdẹ",
+    "ujuvẹ",
+    "vwọ",
+    "wan",
+    "nu",
+    "Noa",
+    "de",
+    "rhie",
+    "evakpo",
+    "rẹ",
+    "okọ",
+    "na",
+    "rọ",
+    "kare",
+    "na",
+    "o",
+    "de",
+    "siobọ",
+    "nẹ",
+    "okpemu",
+    "o",
+    "da",
+    "rha",
+    "kpenẹ",
+    "kpenẹ",
+    "bẹsiẹ",
+    "rẹ",
+    "ame",
+    "na",
+    "rhe",
+    "vwọ",
+    "kpọ",
+    "nẹ",
+    "akpọ",
+    "na",
+    "Ọ",
+    "da",
+    "rhoma",
+    "siobọ",
+    "nẹ",
+    "inekuku",
+    "ro",
+    "re",
+    "ni",
+    "sẹ",
+    "ame",
+    "na",
+    "kpọ",
+    "nẹ",
+    "otọ",
+    "na",
+    "re",
+    "ẹkẹvuọvo",
+    "inekuku",
+    "na",
+    "mrẹ",
+    "asan",
+    "rọ",
+    "rhan",
+    "mu",
+    "u",
+    "ọ",
+    "da",
+    "rhoma",
+    "rhan",
+    "bro",
+    "rhe",
+    "vwẹ",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "kidie",
+    "yẹ",
+    "ame",
+    "na",
+    "ji",
+    "phoro",
+    "enu",
+    "rẹ",
+    "otọ",
+    "na",
+    "ejobi",
+    "Etiyin",
+    "ọ",
+    "da",
+    "riẹn",
+    "obọ",
+    "rọye",
+    "vwọ",
+    "reyọ",
+    "phihọ",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "Ọ",
+    "da",
+    "rha",
+    "hẹrhẹ",
+    "ẹdẹ",
+    "ighwrẹ",
+    "efa",
+    "ọ",
+    "ke",
+    "rhoma",
+    "siobọ",
+    "nẹ",
+    "inekuku",
+    "na",
+    "nẹ",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "inekuku",
+    "na",
+    "da",
+    "rha",
+    "bro",
+    "rhe",
+    "vwẹ",
+    "ovwọnvwọn",
+    "e",
+    "vwo",
+    "no",
+    "o",
+    "mu",
+    "ọbe",
+    "rẹ",
+    "olive",
+    "ọkpokpọ",
+    "vwọ",
+    "hwunu",
+    "Noa",
+    "ke",
+    "rhe",
+    "riẹn",
+    "nẹ",
+    "ame",
+    "na",
+    "kpọ",
+    "nẹ",
+    "akpọ",
+    "na",
+    "re",
+    "Ọ",
+    "ke",
+    "je",
+    "rhoma",
+    "hẹrhẹ",
+    "ẹdẹ",
+    "ighwrẹ",
+    "efa",
+    "ọ",
+    "da",
+    "rhoma",
+    "siobọ",
+    "nẹ",
+    "inekuku",
+    "na",
+    "ọ",
+    "gbe",
+    "rhoma",
+    "rhan",
+    "bro",
+    "rhe",
+    "ọfa",
+    "a",
+    "Vwẹ",
+    "evun",
+    "rẹ",
+    "ikpe",
+    "uri",
+    "erha",
+    "gbẹ",
+    "ọvo",
+    "vwẹ",
+    "emeranvwe",
+    "rẹ",
+    "ẹsosuọ",
+    "ẹdẹ",
+    "rẹ",
+    "ẹsosuọ",
+    "rẹ",
+    "emeranvwe",
+    "na",
+    "ame",
+    "na",
+    "da",
+    "kpọ",
+    "nẹ",
+    "otọ",
+    "na",
+    "kakare",
+    "Noa",
+    "da",
+    "fan",
+    "uwevwi",
+    "rẹ",
+    "okọ",
+    "na",
+    "nu",
+    "o",
+    "vwo",
+    "ni",
+    "nighe",
+    "enu",
+    "rẹ",
+    "otọ",
+    "na",
+    "ejobi",
+    "kpọre",
+    "Vwẹ",
+    "emeranvwe",
+    "rivẹ",
+    "vwẹ",
+    "ẹdẹ",
+    "ujuvẹ",
+    "gbẹ",
+    "ighwrẹ",
+    "rẹ",
+    "emeranvwe",
+    "na",
+    "otọ",
+    "na",
+    "da",
+    "kpọre",
+    "Ọghẹnẹ",
+    "da",
+    "ta",
+    "ki",
+    "Noa",
+    "Gba",
+    "yan",
+    "phia",
+    "nẹ",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "wẹ",
+    "te",
+    "aye",
+    "wẹn",
+    "vẹ",
+    "emọ",
+    "wẹn",
+    "te",
+    "eya",
+    "rẹ",
+    "emọ",
+    "wẹn",
+    "Reyọ",
+    "kemu",
+    "kemu",
+    "ejobi",
+    "ro",
+    "vwo",
+    "arhọ",
+    "re",
+    "vẹ",
+    "owẹ",
+    "gba",
+    "herọ",
+    "vwẹ",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "ejobi",
+    "ephra",
+    "kugbe",
+    "eranvwe",
+    "kugbe",
+    "emu",
+    "kemu",
+    "ri",
+    "kpono",
+    "vwẹ",
+    "enu",
+    "rẹ",
+    "otọ",
+    "na",
+    "rere",
+    "ayen",
+    "mrẹ",
+    "asan",
+    "vwiẹ",
+    "buebu",
+    "vwẹ",
+    "enu",
+    "rẹ",
+    "akpọ",
+    "na",
+    "re",
+    "ayen",
+    "mo",
+    "re",
+    "ayen",
+    "bu",
+    "phihọ",
+    "vwẹ",
+    "enu",
+    "rẹ",
+    "akpọ",
+    "na",
+    "Kọye",
+    "Noa",
+    "da",
+    "yan",
+    "phia",
+    "ọ",
+    "vẹ",
+    "emọ",
+    "rọye",
+    "te",
+    "aye",
+    "rọye",
+    "te",
+    "eya",
+    "rẹ",
+    "emọ",
+    "rọye",
+    "Keranvwe",
+    "keranvwe",
+    "kemu",
+    "kemu",
+    "ro",
+    "kpono",
+    "kọphra",
+    "kọphra",
+    "kemu",
+    "kemu",
+    "ro",
+    "yan",
+    "vwẹ",
+    "akpọ",
+    "na",
+    "e",
+    "da",
+    "yan",
+    "otuotu",
+    "nẹ",
+    "evun",
+    "rẹ",
+    "okọ",
+    "na",
+    "rhe",
+    "Noa",
+    "da",
+    "so",
+    "agbada",
+    "kẹ",
+    "Ọrovwohwo",
+    "ọ",
+    "da",
+    "reyọ",
+    "eranvwe",
+    "keranvwe",
+    "ro",
+    "tete",
+    "oma",
+    "kugbe",
+    "kọphra",
+    "kọphra",
+    "ro",
+    "tete",
+    "oma",
+    "o",
+    "de",
+    "ze",
+    "izobo",
+    "rẹ",
+    "ẹtorhẹ",
+    "vwẹ",
+    "enu",
+    "rẹ",
+    "agbada",
+    "na",
+    "Ọke",
+    "rẹ",
+    "Ọrovwohwo",
+    "vwo",
+    "nyo",
+    "ọnrhe",
+    "ghwoghwo",
+    "rẹ",
+    "izobo",
+    "na",
+    "Ọrovwohwo",
+    "da",
+    "ta",
+    "vwẹ",
+    "udu",
+    "rọye",
+    "Me",
+    "gbe",
+    "harhe",
+    "otọ",
+    "na",
+    "ọfa",
+    "vwi",
+    "fiki",
+    "rẹ",
+    "ohwo",
+    "o",
+    "kidie",
+    "iroro",
+    "rẹ",
+    "evun",
+    "rọye",
+    "nẹ",
+    "ọke",
+    "emọ",
+    "rhe",
+    "pha",
+    "brabra",
+    "eyẹ",
+    "Me",
+    "gbe",
+    "ghwọrọ",
+    "emu",
+    "kemu",
+    "ro",
+    "vwo",
+    "arhọ",
+    "re",
+    "Me",
+    "mare",
+    "ọfa",
+    "a",
+    "Ọke",
+    "rẹ",
+    "akpọ",
+    "na",
+    "dia",
+    "krite",
+    "na",
+    "ọke",
+    "ekankọn",
+    "kugbe",
+    "ọke",
+    "orhọ",
+    "ekpae",
+    "kugbe",
+    "oheri",
+    "ọkeuvo",
+    "kugbe",
+    "ohwahwa",
+    "uvo",
+    "kugbe",
+    "ason",
+    "se",
+    "re",
+    "bẹdẹ",
+    "ẹ"
+  ],
+  "segments": [
+    {
+      "bcv_id": "GEN_008_H01",
+      "type": "heading",
+      "verse_num": null,
+      "text_urhobo": "Oba re Oghwe na",
+      "text_romanized": "oba re oghwe na",
+      "alignment_token": "* oba re oghwe na *",
+      "words_urhobo": [
+        "Oba",
+        "re",
+        "Oghwe",
+        "na"
+      ],
+      "words_romanized": [
+        "oba",
+        "re",
+        "oghwe",
+        "na"
+      ],
+      "word_span": null
+    },
+    {
+      "bcv_id": "GEN_008_001",
+      "type": "verse",
+      "verse_num": 1,
+      "text_urhobo": "Ẹkẹvuọvo Ọghẹnẹ da rhe karohọ Noa vẹ eranvwe rẹ aghwa na ejobi kugbe uchuru ejobi re vẹ ọye gba ro evun rẹ okọ na Ọghẹnẹ da vwẹ odju rhe nẹ o gbe dju enu rẹ akpọ na, ame na de rhi rhirẹn,",
+      "text_romanized": "ekevuovo oghene da rhe karoho noa ve eranvwe re aghwa na ejobi kugbe uchuru ejobi re ve oye gba ro evun re oko na oghene da vwe odju rhe ne o gbe dju enu re akpo na ame na de rhi rhiren",
+      "alignment_token": "ekevuovo oghene da rhe karoho noa ve eranvwe re aghwa na ejobi kugbe uchuru ejobi re ve oye gba ro evun re oko na oghene da vwe odju rhe ne o gbe dju enu re akpo na ame na de rhi rhiren",
+      "words": [
+        {
+          "word_index": 0,
+          "urhobo": "Ẹkẹvuọvo",
+          "romanized": "ekevuovo"
+        },
+        {
+          "word_index": 1,
+          "urhobo": "Ọghẹnẹ",
+          "romanized": "oghene"
+        },
+        {
+          "word_index": 2,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 3,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 4,
+          "urhobo": "karohọ",
+          "romanized": "karoho"
+        },
+        {
+          "word_index": 5,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        },
+        {
+          "word_index": 6,
+          "urhobo": "vẹ",
+          "romanized": "ve"
+        },
+        {
+          "word_index": 7,
+          "urhobo": "eranvwe",
+          "romanized": "eranvwe"
+        },
+        {
+          "word_index": 8,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 9,
+          "urhobo": "aghwa",
+          "romanized": "aghwa"
+        },
+        {
+          "word_index": 10,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 11,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 12,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 13,
+          "urhobo": "uchuru",
+          "romanized": "uchuru"
+        },
+        {
+          "word_index": 14,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 15,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 16,
+          "urhobo": "vẹ",
+          "romanized": "ve"
+        },
+        {
+          "word_index": 17,
+          "urhobo": "ọye",
+          "romanized": "oye"
+        },
+        {
+          "word_index": 18,
+          "urhobo": "gba",
+          "romanized": "gba"
+        },
+        {
+          "word_index": 19,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 20,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 21,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 22,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 23,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 24,
+          "urhobo": "Ọghẹnẹ",
+          "romanized": "oghene"
+        },
+        {
+          "word_index": 25,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 26,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 27,
+          "urhobo": "odju",
+          "romanized": "odju"
+        },
+        {
+          "word_index": 28,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 29,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 30,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 31,
+          "urhobo": "gbe",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 32,
+          "urhobo": "dju",
+          "romanized": "dju"
+        },
+        {
+          "word_index": 33,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 34,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 35,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 36,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 37,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 38,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 39,
+          "urhobo": "de",
+          "romanized": "de"
+        },
+        {
+          "word_index": 40,
+          "urhobo": "rhi",
+          "romanized": "rhi"
+        },
+        {
+          "word_index": 41,
+          "urhobo": "rhirẹn",
+          "romanized": "rhiren"
+        }
+      ],
+      "word_span": [
+        0,
+        41
+      ],
+      "word_count": 42
+    },
+    {
+      "bcv_id": "GEN_008_002",
+      "type": "verse",
+      "verse_num": 2,
+      "text_urhobo": "ogbugbu rẹ ame na da tangbe, evakpo rẹ obo odjuvwu na ejobi de rhurhu, osio rọ rhọ nẹ enu cha da daji,",
+      "text_romanized": "ogbugbu re ame na da tangbe evakpo re obo odjuvwu na ejobi de rhurhu osio ro rho ne enu cha da daji",
+      "alignment_token": "ogbugbu re ame na da tangbe evakpo re obo odjuvwu na ejobi de rhurhu osio ro rho ne enu cha da daji",
+      "words": [
+        {
+          "word_index": 42,
+          "urhobo": "ogbugbu",
+          "romanized": "ogbugbu"
+        },
+        {
+          "word_index": 43,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 44,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 45,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 46,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 47,
+          "urhobo": "tangbe",
+          "romanized": "tangbe"
+        },
+        {
+          "word_index": 48,
+          "urhobo": "evakpo",
+          "romanized": "evakpo"
+        },
+        {
+          "word_index": 49,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 50,
+          "urhobo": "obo",
+          "romanized": "obo"
+        },
+        {
+          "word_index": 51,
+          "urhobo": "odjuvwu",
+          "romanized": "odjuvwu"
+        },
+        {
+          "word_index": 52,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 53,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 54,
+          "urhobo": "de",
+          "romanized": "de"
+        },
+        {
+          "word_index": 55,
+          "urhobo": "rhurhu",
+          "romanized": "rhurhu"
+        },
+        {
+          "word_index": 56,
+          "urhobo": "osio",
+          "romanized": "osio"
+        },
+        {
+          "word_index": 57,
+          "urhobo": "rọ",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 58,
+          "urhobo": "rhọ",
+          "romanized": "rho"
+        },
+        {
+          "word_index": 59,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 60,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 61,
+          "urhobo": "cha",
+          "romanized": "cha"
+        },
+        {
+          "word_index": 62,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 63,
+          "urhobo": "daji",
+          "romanized": "daji"
+        }
+      ],
+      "word_span": [
+        42,
+        63
+      ],
+      "word_count": 22
+    },
+    {
+      "bcv_id": "GEN_008_003",
+      "type": "verse",
+      "verse_num": 3,
+      "text_urhobo": "ame na de si reyọ kọke kọke. Vwẹ oba rẹ ẹdẹ ujori gbẹ ujuvẹ gbẹ ihwe re, ame na da rhe kpọ;",
+      "text_romanized": "ame na de si reyo koke koke vwe oba re ede ujori gbe ujuve gbe ihwe re ame na da rhe kpo",
+      "alignment_token": "ame na de si reyo koke koke vwe oba re ede ujori gbe ujuve gbe ihwe re ame na da rhe kpo",
+      "words": [
+        {
+          "word_index": 64,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 65,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 66,
+          "urhobo": "de",
+          "romanized": "de"
+        },
+        {
+          "word_index": 67,
+          "urhobo": "si",
+          "romanized": "si"
+        },
+        {
+          "word_index": 68,
+          "urhobo": "reyọ",
+          "romanized": "reyo"
+        },
+        {
+          "word_index": 69,
+          "urhobo": "kọke",
+          "romanized": "koke"
+        },
+        {
+          "word_index": 70,
+          "urhobo": "kọke",
+          "romanized": "koke"
+        },
+        {
+          "word_index": 71,
+          "urhobo": "Vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 72,
+          "urhobo": "oba",
+          "romanized": "oba"
+        },
+        {
+          "word_index": 73,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 74,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 75,
+          "urhobo": "ujori",
+          "romanized": "ujori"
+        },
+        {
+          "word_index": 76,
+          "urhobo": "gbẹ",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 77,
+          "urhobo": "ujuvẹ",
+          "romanized": "ujuve"
+        },
+        {
+          "word_index": 78,
+          "urhobo": "gbẹ",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 79,
+          "urhobo": "ihwe",
+          "romanized": "ihwe"
+        },
+        {
+          "word_index": 80,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 81,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 82,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 83,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 84,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 85,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        }
+      ],
+      "word_span": [
+        64,
+        85
+      ],
+      "word_count": 22
+    },
+    {
+      "bcv_id": "GEN_008_004",
+      "type": "verse",
+      "verse_num": 4,
+      "text_urhobo": "vwẹ emeranvwe rẹ ighwrẹ, vwẹ ẹdẹ rẹ ihwe gbẹ ighwrẹ rẹ emeranvwe na, okọ na da rhe kpọ muotọ vwẹ enu rẹ ugbenu ri Ararat.",
+      "text_romanized": "vwe emeranvwe re ighwre vwe ede re ihwe gbe ighwre re emeranvwe na oko na da rhe kpo muoto vwe enu re ugbenu ri ararat",
+      "alignment_token": "vwe emeranvwe re ighwre vwe ede re ihwe gbe ighwre re emeranvwe na oko na da rhe kpo muoto vwe enu re ugbenu ri ararat",
+      "words": [
+        {
+          "word_index": 86,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 87,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 88,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 89,
+          "urhobo": "ighwrẹ",
+          "romanized": "ighwre"
+        },
+        {
+          "word_index": 90,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 91,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 92,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 93,
+          "urhobo": "ihwe",
+          "romanized": "ihwe"
+        },
+        {
+          "word_index": 94,
+          "urhobo": "gbẹ",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 95,
+          "urhobo": "ighwrẹ",
+          "romanized": "ighwre"
+        },
+        {
+          "word_index": 96,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 97,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 98,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 99,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 100,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 101,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 102,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 103,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        },
+        {
+          "word_index": 104,
+          "urhobo": "muotọ",
+          "romanized": "muoto"
+        },
+        {
+          "word_index": 105,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 106,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 107,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 108,
+          "urhobo": "ugbenu",
+          "romanized": "ugbenu"
+        },
+        {
+          "word_index": 109,
+          "urhobo": "ri",
+          "romanized": "ri"
+        },
+        {
+          "word_index": 110,
+          "urhobo": "Ararat",
+          "romanized": "ararat"
+        }
+      ],
+      "word_span": [
+        86,
+        110
+      ],
+      "word_count": 25
+    },
+    {
+      "bcv_id": "GEN_008_005",
+      "type": "verse",
+      "verse_num": 5,
+      "text_urhobo": "Ame na kẹ ẹkpọ ẹkpọ bẹsiẹ ro rhi vwo te emeranvwe rẹ ihwe vwẹ ẹdẹ rẹ ẹsosuọ rẹ emeranvwe na, enu rẹ igbenu na ejobi da rhe kpọ phia.",
+      "text_romanized": "ame na ke ekpo ekpo besie ro rhi vwo te emeranvwe re ihwe vwe ede re esosuo re emeranvwe na enu re igbenu na ejobi da rhe kpo phia",
+      "alignment_token": "ame na ke ekpo ekpo besie ro rhi vwo te emeranvwe re ihwe vwe ede re esosuo re emeranvwe na enu re igbenu na ejobi da rhe kpo phia",
+      "words": [
+        {
+          "word_index": 111,
+          "urhobo": "Ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 112,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 113,
+          "urhobo": "kẹ",
+          "romanized": "ke"
+        },
+        {
+          "word_index": 114,
+          "urhobo": "ẹkpọ",
+          "romanized": "ekpo"
+        },
+        {
+          "word_index": 115,
+          "urhobo": "ẹkpọ",
+          "romanized": "ekpo"
+        },
+        {
+          "word_index": 116,
+          "urhobo": "bẹsiẹ",
+          "romanized": "besie"
+        },
+        {
+          "word_index": 117,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 118,
+          "urhobo": "rhi",
+          "romanized": "rhi"
+        },
+        {
+          "word_index": 119,
+          "urhobo": "vwo",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 120,
+          "urhobo": "te",
+          "romanized": "te"
+        },
+        {
+          "word_index": 121,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 122,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 123,
+          "urhobo": "ihwe",
+          "romanized": "ihwe"
+        },
+        {
+          "word_index": 124,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 125,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 126,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 127,
+          "urhobo": "ẹsosuọ",
+          "romanized": "esosuo"
+        },
+        {
+          "word_index": 128,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 129,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 130,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 131,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 132,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 133,
+          "urhobo": "igbenu",
+          "romanized": "igbenu"
+        },
+        {
+          "word_index": 134,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 135,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 136,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 137,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 138,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        },
+        {
+          "word_index": 139,
+          "urhobo": "phia",
+          "romanized": "phia"
+        }
+      ],
+      "word_span": [
+        111,
+        139
+      ],
+      "word_count": 29
+    },
+    {
+      "bcv_id": "GEN_008_006",
+      "type": "verse",
+      "verse_num": 6,
+      "text_urhobo": "Vwẹ ẹdẹ ujuvẹ vwọ wan nu Noa de rhie evakpo rẹ okọ na rọ kare na,",
+      "text_romanized": "vwe ede ujuve vwo wan nu noa de rhie evakpo re oko na ro kare na",
+      "alignment_token": "vwe ede ujuve vwo wan nu noa de rhie evakpo re oko na ro kare na",
+      "words": [
+        {
+          "word_index": 140,
+          "urhobo": "Vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 141,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 142,
+          "urhobo": "ujuvẹ",
+          "romanized": "ujuve"
+        },
+        {
+          "word_index": 143,
+          "urhobo": "vwọ",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 144,
+          "urhobo": "wan",
+          "romanized": "wan"
+        },
+        {
+          "word_index": 145,
+          "urhobo": "nu",
+          "romanized": "nu"
+        },
+        {
+          "word_index": 146,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        },
+        {
+          "word_index": 147,
+          "urhobo": "de",
+          "romanized": "de"
+        },
+        {
+          "word_index": 148,
+          "urhobo": "rhie",
+          "romanized": "rhie"
+        },
+        {
+          "word_index": 149,
+          "urhobo": "evakpo",
+          "romanized": "evakpo"
+        },
+        {
+          "word_index": 150,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 151,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 152,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 153,
+          "urhobo": "rọ",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 154,
+          "urhobo": "kare",
+          "romanized": "kare"
+        },
+        {
+          "word_index": 155,
+          "urhobo": "na",
+          "romanized": "na"
+        }
+      ],
+      "word_span": [
+        140,
+        155
+      ],
+      "word_count": 16
+    },
+    {
+      "bcv_id": "GEN_008_007",
+      "type": "verse",
+      "verse_num": 7,
+      "text_urhobo": "o de siobọ nẹ okpemu, o da rha kpenẹ kpenẹ bẹsiẹ rẹ ame na rhe vwọ kpọ nẹ akpọ na.",
+      "text_romanized": "o de siobo ne okpemu o da rha kpene kpene besie re ame na rhe vwo kpo ne akpo na",
+      "alignment_token": "o de siobo ne okpemu o da rha kpene kpene besie re ame na rhe vwo kpo ne akpo na",
+      "words": [
+        {
+          "word_index": 156,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 157,
+          "urhobo": "de",
+          "romanized": "de"
+        },
+        {
+          "word_index": 158,
+          "urhobo": "siobọ",
+          "romanized": "siobo"
+        },
+        {
+          "word_index": 159,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 160,
+          "urhobo": "okpemu",
+          "romanized": "okpemu"
+        },
+        {
+          "word_index": 161,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 162,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 163,
+          "urhobo": "rha",
+          "romanized": "rha"
+        },
+        {
+          "word_index": 164,
+          "urhobo": "kpenẹ",
+          "romanized": "kpene"
+        },
+        {
+          "word_index": 165,
+          "urhobo": "kpenẹ",
+          "romanized": "kpene"
+        },
+        {
+          "word_index": 166,
+          "urhobo": "bẹsiẹ",
+          "romanized": "besie"
+        },
+        {
+          "word_index": 167,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 168,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 169,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 170,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 171,
+          "urhobo": "vwọ",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 172,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        },
+        {
+          "word_index": 173,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 174,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 175,
+          "urhobo": "na",
+          "romanized": "na"
+        }
+      ],
+      "word_span": [
+        156,
+        175
+      ],
+      "word_count": 20
+    },
+    {
+      "bcv_id": "GEN_008_008",
+      "type": "verse",
+      "verse_num": 8,
+      "text_urhobo": "Ọ da rhoma siobọ nẹ inekuku ro re ni sẹ ame na kpọ nẹ otọ na re;",
+      "text_romanized": "o da rhoma siobo ne inekuku ro re ni se ame na kpo ne oto na re",
+      "alignment_token": "o da rhoma siobo ne inekuku ro re ni se ame na kpo ne oto na re",
+      "words": [
+        {
+          "word_index": 176,
+          "urhobo": "Ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 177,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 178,
+          "urhobo": "rhoma",
+          "romanized": "rhoma"
+        },
+        {
+          "word_index": 179,
+          "urhobo": "siobọ",
+          "romanized": "siobo"
+        },
+        {
+          "word_index": 180,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 181,
+          "urhobo": "inekuku",
+          "romanized": "inekuku"
+        },
+        {
+          "word_index": 182,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 183,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 184,
+          "urhobo": "ni",
+          "romanized": "ni"
+        },
+        {
+          "word_index": 185,
+          "urhobo": "sẹ",
+          "romanized": "se"
+        },
+        {
+          "word_index": 186,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 187,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 188,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        },
+        {
+          "word_index": 189,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 190,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 191,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 192,
+          "urhobo": "re",
+          "romanized": "re"
+        }
+      ],
+      "word_span": [
+        176,
+        192
+      ],
+      "word_count": 17
+    },
+    {
+      "bcv_id": "GEN_008_009",
+      "type": "verse",
+      "verse_num": 9,
+      "text_urhobo": "ẹkẹvuọvo inekuku na mrẹ asan rọ rhan mu-u, ọ da rhoma rhan bro rhe vwẹ evun rẹ okọ na, kidie yẹ ame na ji phoro enu rẹ otọ na ejobi. Etiyin ọ da riẹn obọ rọye vwọ reyọ phihọ evun rẹ okọ na.",
+      "text_romanized": "ekevuovo inekuku na mre asan ro rhan mu u o da rhoma rhan bro rhe vwe evun re oko na kidie ye ame na ji phoro enu re oto na ejobi etiyin o da rien obo roye vwo reyo phiho evun re oko na",
+      "alignment_token": "ekevuovo inekuku na mre asan ro rhan mu u o da rhoma rhan bro rhe vwe evun re oko na kidie ye ame na ji phoro enu re oto na ejobi etiyin o da rien obo roye vwo reyo phiho evun re oko na",
+      "words": [
+        {
+          "word_index": 193,
+          "urhobo": "ẹkẹvuọvo",
+          "romanized": "ekevuovo"
+        },
+        {
+          "word_index": 194,
+          "urhobo": "inekuku",
+          "romanized": "inekuku"
+        },
+        {
+          "word_index": 195,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 196,
+          "urhobo": "mrẹ",
+          "romanized": "mre"
+        },
+        {
+          "word_index": 197,
+          "urhobo": "asan",
+          "romanized": "asan"
+        },
+        {
+          "word_index": 198,
+          "urhobo": "rọ",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 199,
+          "urhobo": "rhan",
+          "romanized": "rhan"
+        },
+        {
+          "word_index": 200,
+          "urhobo": "mu",
+          "romanized": "mu"
+        },
+        {
+          "word_index": 201,
+          "urhobo": "u",
+          "romanized": "u"
+        },
+        {
+          "word_index": 202,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 203,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 204,
+          "urhobo": "rhoma",
+          "romanized": "rhoma"
+        },
+        {
+          "word_index": 205,
+          "urhobo": "rhan",
+          "romanized": "rhan"
+        },
+        {
+          "word_index": 206,
+          "urhobo": "bro",
+          "romanized": "bro"
+        },
+        {
+          "word_index": 207,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 208,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 209,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 210,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 211,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 212,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 213,
+          "urhobo": "kidie",
+          "romanized": "kidie"
+        },
+        {
+          "word_index": 214,
+          "urhobo": "yẹ",
+          "romanized": "ye"
+        },
+        {
+          "word_index": 215,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 216,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 217,
+          "urhobo": "ji",
+          "romanized": "ji"
+        },
+        {
+          "word_index": 218,
+          "urhobo": "phoro",
+          "romanized": "phoro"
+        },
+        {
+          "word_index": 219,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 220,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 221,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 222,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 223,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 224,
+          "urhobo": "Etiyin",
+          "romanized": "etiyin"
+        },
+        {
+          "word_index": 225,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 226,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 227,
+          "urhobo": "riẹn",
+          "romanized": "rien"
+        },
+        {
+          "word_index": 228,
+          "urhobo": "obọ",
+          "romanized": "obo"
+        },
+        {
+          "word_index": 229,
+          "urhobo": "rọye",
+          "romanized": "roye"
+        },
+        {
+          "word_index": 230,
+          "urhobo": "vwọ",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 231,
+          "urhobo": "reyọ",
+          "romanized": "reyo"
+        },
+        {
+          "word_index": 232,
+          "urhobo": "phihọ",
+          "romanized": "phiho"
+        },
+        {
+          "word_index": 233,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 234,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 235,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 236,
+          "urhobo": "na",
+          "romanized": "na"
+        }
+      ],
+      "word_span": [
+        193,
+        236
+      ],
+      "word_count": 44
+    },
+    {
+      "bcv_id": "GEN_008_010",
+      "type": "verse",
+      "verse_num": 10,
+      "text_urhobo": "Ọ da rha hẹrhẹ ẹdẹ ighwrẹ efa, ọ ke rhoma siobọ nẹ inekuku na nẹ evun rẹ okọ na;",
+      "text_romanized": "o da rha herhe ede ighwre efa o ke rhoma siobo ne inekuku na ne evun re oko na",
+      "alignment_token": "o da rha herhe ede ighwre efa o ke rhoma siobo ne inekuku na ne evun re oko na",
+      "words": [
+        {
+          "word_index": 237,
+          "urhobo": "Ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 238,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 239,
+          "urhobo": "rha",
+          "romanized": "rha"
+        },
+        {
+          "word_index": 240,
+          "urhobo": "hẹrhẹ",
+          "romanized": "herhe"
+        },
+        {
+          "word_index": 241,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 242,
+          "urhobo": "ighwrẹ",
+          "romanized": "ighwre"
+        },
+        {
+          "word_index": 243,
+          "urhobo": "efa",
+          "romanized": "efa"
+        },
+        {
+          "word_index": 244,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 245,
+          "urhobo": "ke",
+          "romanized": "ke"
+        },
+        {
+          "word_index": 246,
+          "urhobo": "rhoma",
+          "romanized": "rhoma"
+        },
+        {
+          "word_index": 247,
+          "urhobo": "siobọ",
+          "romanized": "siobo"
+        },
+        {
+          "word_index": 248,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 249,
+          "urhobo": "inekuku",
+          "romanized": "inekuku"
+        },
+        {
+          "word_index": 250,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 251,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 252,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 253,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 254,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 255,
+          "urhobo": "na",
+          "romanized": "na"
+        }
+      ],
+      "word_span": [
+        237,
+        255
+      ],
+      "word_count": 19
+    },
+    {
+      "bcv_id": "GEN_008_011",
+      "type": "verse",
+      "verse_num": 11,
+      "text_urhobo": "inekuku na da rha bro rhe vwẹ ovwọnvwọn, e vwo no, o mu ọbe rẹ olive ọkpokpọ vwọ hwunu, Noa ke rhe riẹn nẹ ame na kpọ nẹ akpọ na re.",
+      "text_romanized": "inekuku na da rha bro rhe vwe ovwonvwon e vwo no o mu obe re olive okpokpo vwo hwunu noa ke rhe rien ne ame na kpo ne akpo na re",
+      "alignment_token": "inekuku na da rha bro rhe vwe ovwonvwon e vwo no o mu obe re olive okpokpo vwo hwunu noa ke rhe rien ne ame na kpo ne akpo na re",
+      "words": [
+        {
+          "word_index": 256,
+          "urhobo": "inekuku",
+          "romanized": "inekuku"
+        },
+        {
+          "word_index": 257,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 258,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 259,
+          "urhobo": "rha",
+          "romanized": "rha"
+        },
+        {
+          "word_index": 260,
+          "urhobo": "bro",
+          "romanized": "bro"
+        },
+        {
+          "word_index": 261,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 262,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 263,
+          "urhobo": "ovwọnvwọn",
+          "romanized": "ovwonvwon"
+        },
+        {
+          "word_index": 264,
+          "urhobo": "e",
+          "romanized": "e"
+        },
+        {
+          "word_index": 265,
+          "urhobo": "vwo",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 266,
+          "urhobo": "no",
+          "romanized": "no"
+        },
+        {
+          "word_index": 267,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 268,
+          "urhobo": "mu",
+          "romanized": "mu"
+        },
+        {
+          "word_index": 269,
+          "urhobo": "ọbe",
+          "romanized": "obe"
+        },
+        {
+          "word_index": 270,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 271,
+          "urhobo": "olive",
+          "romanized": "olive"
+        },
+        {
+          "word_index": 272,
+          "urhobo": "ọkpokpọ",
+          "romanized": "okpokpo"
+        },
+        {
+          "word_index": 273,
+          "urhobo": "vwọ",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 274,
+          "urhobo": "hwunu",
+          "romanized": "hwunu"
+        },
+        {
+          "word_index": 275,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        },
+        {
+          "word_index": 276,
+          "urhobo": "ke",
+          "romanized": "ke"
+        },
+        {
+          "word_index": 277,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 278,
+          "urhobo": "riẹn",
+          "romanized": "rien"
+        },
+        {
+          "word_index": 279,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 280,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 281,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 282,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        },
+        {
+          "word_index": 283,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 284,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 285,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 286,
+          "urhobo": "re",
+          "romanized": "re"
+        }
+      ],
+      "word_span": [
+        256,
+        286
+      ],
+      "word_count": 31
+    },
+    {
+      "bcv_id": "GEN_008_012",
+      "type": "verse",
+      "verse_num": 12,
+      "text_urhobo": "Ọ ke je rhoma hẹrhẹ ẹdẹ ighwrẹ efa, ọ da rhoma siobọ nẹ inekuku na, ọ gbe rhoma rhan bro rhe ọfa-a.",
+      "text_romanized": "o ke je rhoma herhe ede ighwre efa o da rhoma siobo ne inekuku na o gbe rhoma rhan bro rhe ofa a",
+      "alignment_token": "o ke je rhoma herhe ede ighwre efa o da rhoma siobo ne inekuku na o gbe rhoma rhan bro rhe ofa a",
+      "words": [
+        {
+          "word_index": 287,
+          "urhobo": "Ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 288,
+          "urhobo": "ke",
+          "romanized": "ke"
+        },
+        {
+          "word_index": 289,
+          "urhobo": "je",
+          "romanized": "je"
+        },
+        {
+          "word_index": 290,
+          "urhobo": "rhoma",
+          "romanized": "rhoma"
+        },
+        {
+          "word_index": 291,
+          "urhobo": "hẹrhẹ",
+          "romanized": "herhe"
+        },
+        {
+          "word_index": 292,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 293,
+          "urhobo": "ighwrẹ",
+          "romanized": "ighwre"
+        },
+        {
+          "word_index": 294,
+          "urhobo": "efa",
+          "romanized": "efa"
+        },
+        {
+          "word_index": 295,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 296,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 297,
+          "urhobo": "rhoma",
+          "romanized": "rhoma"
+        },
+        {
+          "word_index": 298,
+          "urhobo": "siobọ",
+          "romanized": "siobo"
+        },
+        {
+          "word_index": 299,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 300,
+          "urhobo": "inekuku",
+          "romanized": "inekuku"
+        },
+        {
+          "word_index": 301,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 302,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 303,
+          "urhobo": "gbe",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 304,
+          "urhobo": "rhoma",
+          "romanized": "rhoma"
+        },
+        {
+          "word_index": 305,
+          "urhobo": "rhan",
+          "romanized": "rhan"
+        },
+        {
+          "word_index": 306,
+          "urhobo": "bro",
+          "romanized": "bro"
+        },
+        {
+          "word_index": 307,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 308,
+          "urhobo": "ọfa",
+          "romanized": "ofa"
+        },
+        {
+          "word_index": 309,
+          "urhobo": "a",
+          "romanized": "a"
+        }
+      ],
+      "word_span": [
+        287,
+        309
+      ],
+      "word_count": 23
+    },
+    {
+      "bcv_id": "GEN_008_013",
+      "type": "verse",
+      "verse_num": 13,
+      "text_urhobo": "Vwẹ evun rẹ ikpe uri erha gbẹ ọvo, vwẹ emeranvwe rẹ ẹsosuọ, ẹdẹ rẹ ẹsosuọ rẹ emeranvwe na, ame na da kpọ nẹ otọ na kakare; Noa da fan uwevwi rẹ okọ na nu, o vwo ni, nighe, enu rẹ otọ na ejobi kpọre.",
+      "text_romanized": "vwe evun re ikpe uri erha gbe ovo vwe emeranvwe re esosuo ede re esosuo re emeranvwe na ame na da kpo ne oto na kakare noa da fan uwevwi re oko na nu o vwo ni nighe enu re oto na ejobi kpore",
+      "alignment_token": "vwe evun re ikpe uri erha gbe ovo vwe emeranvwe re esosuo ede re esosuo re emeranvwe na ame na da kpo ne oto na kakare noa da fan uwevwi re oko na nu o vwo ni nighe enu re oto na ejobi kpore",
+      "words": [
+        {
+          "word_index": 310,
+          "urhobo": "Vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 311,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 312,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 313,
+          "urhobo": "ikpe",
+          "romanized": "ikpe"
+        },
+        {
+          "word_index": 314,
+          "urhobo": "uri",
+          "romanized": "uri"
+        },
+        {
+          "word_index": 315,
+          "urhobo": "erha",
+          "romanized": "erha"
+        },
+        {
+          "word_index": 316,
+          "urhobo": "gbẹ",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 317,
+          "urhobo": "ọvo",
+          "romanized": "ovo"
+        },
+        {
+          "word_index": 318,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 319,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 320,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 321,
+          "urhobo": "ẹsosuọ",
+          "romanized": "esosuo"
+        },
+        {
+          "word_index": 322,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 323,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 324,
+          "urhobo": "ẹsosuọ",
+          "romanized": "esosuo"
+        },
+        {
+          "word_index": 325,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 326,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 327,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 328,
+          "urhobo": "ame",
+          "romanized": "ame"
+        },
+        {
+          "word_index": 329,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 330,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 331,
+          "urhobo": "kpọ",
+          "romanized": "kpo"
+        },
+        {
+          "word_index": 332,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 333,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 334,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 335,
+          "urhobo": "kakare",
+          "romanized": "kakare"
+        },
+        {
+          "word_index": 336,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        },
+        {
+          "word_index": 337,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 338,
+          "urhobo": "fan",
+          "romanized": "fan"
+        },
+        {
+          "word_index": 339,
+          "urhobo": "uwevwi",
+          "romanized": "uwevwi"
+        },
+        {
+          "word_index": 340,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 341,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 342,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 343,
+          "urhobo": "nu",
+          "romanized": "nu"
+        },
+        {
+          "word_index": 344,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 345,
+          "urhobo": "vwo",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 346,
+          "urhobo": "ni",
+          "romanized": "ni"
+        },
+        {
+          "word_index": 347,
+          "urhobo": "nighe",
+          "romanized": "nighe"
+        },
+        {
+          "word_index": 348,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 349,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 350,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 351,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 352,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 353,
+          "urhobo": "kpọre",
+          "romanized": "kpore"
+        }
+      ],
+      "word_span": [
+        310,
+        353
+      ],
+      "word_count": 44
+    },
+    {
+      "bcv_id": "GEN_008_014",
+      "type": "verse",
+      "verse_num": 14,
+      "text_urhobo": "Vwẹ emeranvwe rivẹ, vwẹ ẹdẹ ujuvẹ gbẹ ighwrẹ rẹ emeranvwe na, otọ na da kpọre.",
+      "text_romanized": "vwe emeranvwe rive vwe ede ujuve gbe ighwre re emeranvwe na oto na da kpore",
+      "alignment_token": "vwe emeranvwe rive vwe ede ujuve gbe ighwre re emeranvwe na oto na da kpore",
+      "words": [
+        {
+          "word_index": 354,
+          "urhobo": "Vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 355,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 356,
+          "urhobo": "rivẹ",
+          "romanized": "rive"
+        },
+        {
+          "word_index": 357,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 358,
+          "urhobo": "ẹdẹ",
+          "romanized": "ede"
+        },
+        {
+          "word_index": 359,
+          "urhobo": "ujuvẹ",
+          "romanized": "ujuve"
+        },
+        {
+          "word_index": 360,
+          "urhobo": "gbẹ",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 361,
+          "urhobo": "ighwrẹ",
+          "romanized": "ighwre"
+        },
+        {
+          "word_index": 362,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 363,
+          "urhobo": "emeranvwe",
+          "romanized": "emeranvwe"
+        },
+        {
+          "word_index": 364,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 365,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 366,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 367,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 368,
+          "urhobo": "kpọre",
+          "romanized": "kpore"
+        }
+      ],
+      "word_span": [
+        354,
+        368
+      ],
+      "word_count": 15
+    },
+    {
+      "bcv_id": "GEN_008_015",
+      "type": "verse",
+      "verse_num": 15,
+      "text_urhobo": "Ọghẹnẹ da ta ki Noa,",
+      "text_romanized": "oghene da ta ki noa",
+      "alignment_token": "oghene da ta ki noa",
+      "words": [
+        {
+          "word_index": 369,
+          "urhobo": "Ọghẹnẹ",
+          "romanized": "oghene"
+        },
+        {
+          "word_index": 370,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 371,
+          "urhobo": "ta",
+          "romanized": "ta"
+        },
+        {
+          "word_index": 372,
+          "urhobo": "ki",
+          "romanized": "ki"
+        },
+        {
+          "word_index": 373,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        }
+      ],
+      "word_span": [
+        369,
+        373
+      ],
+      "word_count": 5
+    },
+    {
+      "bcv_id": "GEN_008_016",
+      "type": "verse",
+      "verse_num": 16,
+      "text_urhobo": "Gba yan phia nẹ evun rẹ okọ na, wẹ te aye wẹn, vẹ emọ wẹn te eya rẹ emọ wẹn",
+      "text_romanized": "gba yan phia ne evun re oko na we te aye wen ve emo wen te eya re emo wen",
+      "alignment_token": "gba yan phia ne evun re oko na we te aye wen ve emo wen te eya re emo wen",
+      "words": [
+        {
+          "word_index": 374,
+          "urhobo": "Gba",
+          "romanized": "gba"
+        },
+        {
+          "word_index": 375,
+          "urhobo": "yan",
+          "romanized": "yan"
+        },
+        {
+          "word_index": 376,
+          "urhobo": "phia",
+          "romanized": "phia"
+        },
+        {
+          "word_index": 377,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 378,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 379,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 380,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 381,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 382,
+          "urhobo": "wẹ",
+          "romanized": "we"
+        },
+        {
+          "word_index": 383,
+          "urhobo": "te",
+          "romanized": "te"
+        },
+        {
+          "word_index": 384,
+          "urhobo": "aye",
+          "romanized": "aye"
+        },
+        {
+          "word_index": 385,
+          "urhobo": "wẹn",
+          "romanized": "wen"
+        },
+        {
+          "word_index": 386,
+          "urhobo": "vẹ",
+          "romanized": "ve"
+        },
+        {
+          "word_index": 387,
+          "urhobo": "emọ",
+          "romanized": "emo"
+        },
+        {
+          "word_index": 388,
+          "urhobo": "wẹn",
+          "romanized": "wen"
+        },
+        {
+          "word_index": 389,
+          "urhobo": "te",
+          "romanized": "te"
+        },
+        {
+          "word_index": 390,
+          "urhobo": "eya",
+          "romanized": "eya"
+        },
+        {
+          "word_index": 391,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 392,
+          "urhobo": "emọ",
+          "romanized": "emo"
+        },
+        {
+          "word_index": 393,
+          "urhobo": "wẹn",
+          "romanized": "wen"
+        }
+      ],
+      "word_span": [
+        374,
+        393
+      ],
+      "word_count": 20
+    },
+    {
+      "bcv_id": "GEN_008_017",
+      "type": "verse",
+      "verse_num": 17,
+      "text_urhobo": "Reyọ kemu kemu ejobi ro vwo arhọ re vẹ owẹ gba herọ vwẹ evun rẹ okọ na ejobi - ephra kugbe eranvwe kugbe emu kemu ri kpono vwẹ enu rẹ otọ na rere ayen mrẹ asan vwiẹ buebu vwẹ enu rẹ akpọ na, re ayen mo re ayen bu phihọ vwẹ enu rẹ akpọ na.",
+      "text_romanized": "reyo kemu kemu ejobi ro vwo arho re ve owe gba hero vwe evun re oko na ejobi ephra kugbe eranvwe kugbe emu kemu ri kpono vwe enu re oto na rere ayen mre asan vwie buebu vwe enu re akpo na re ayen mo re ayen bu phiho vwe enu re akpo na",
+      "alignment_token": "reyo kemu kemu ejobi ro vwo arho re ve owe gba hero vwe evun re oko na ejobi ephra kugbe eranvwe kugbe emu kemu ri kpono vwe enu re oto na rere ayen mre asan vwie buebu vwe enu re akpo na re ayen mo re ayen bu phiho vwe enu re akpo na",
+      "words": [
+        {
+          "word_index": 394,
+          "urhobo": "Reyọ",
+          "romanized": "reyo"
+        },
+        {
+          "word_index": 395,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 396,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 397,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 398,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 399,
+          "urhobo": "vwo",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 400,
+          "urhobo": "arhọ",
+          "romanized": "arho"
+        },
+        {
+          "word_index": 401,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 402,
+          "urhobo": "vẹ",
+          "romanized": "ve"
+        },
+        {
+          "word_index": 403,
+          "urhobo": "owẹ",
+          "romanized": "owe"
+        },
+        {
+          "word_index": 404,
+          "urhobo": "gba",
+          "romanized": "gba"
+        },
+        {
+          "word_index": 405,
+          "urhobo": "herọ",
+          "romanized": "hero"
+        },
+        {
+          "word_index": 406,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 407,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 408,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 409,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 410,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 411,
+          "urhobo": "ejobi",
+          "romanized": "ejobi"
+        },
+        {
+          "word_index": 412,
+          "urhobo": "ephra",
+          "romanized": "ephra"
+        },
+        {
+          "word_index": 413,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 414,
+          "urhobo": "eranvwe",
+          "romanized": "eranvwe"
+        },
+        {
+          "word_index": 415,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 416,
+          "urhobo": "emu",
+          "romanized": "emu"
+        },
+        {
+          "word_index": 417,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 418,
+          "urhobo": "ri",
+          "romanized": "ri"
+        },
+        {
+          "word_index": 419,
+          "urhobo": "kpono",
+          "romanized": "kpono"
+        },
+        {
+          "word_index": 420,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 421,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 422,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 423,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 424,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 425,
+          "urhobo": "rere",
+          "romanized": "rere"
+        },
+        {
+          "word_index": 426,
+          "urhobo": "ayen",
+          "romanized": "ayen"
+        },
+        {
+          "word_index": 427,
+          "urhobo": "mrẹ",
+          "romanized": "mre"
+        },
+        {
+          "word_index": 428,
+          "urhobo": "asan",
+          "romanized": "asan"
+        },
+        {
+          "word_index": 429,
+          "urhobo": "vwiẹ",
+          "romanized": "vwie"
+        },
+        {
+          "word_index": 430,
+          "urhobo": "buebu",
+          "romanized": "buebu"
+        },
+        {
+          "word_index": 431,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 432,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 433,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 434,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 435,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 436,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 437,
+          "urhobo": "ayen",
+          "romanized": "ayen"
+        },
+        {
+          "word_index": 438,
+          "urhobo": "mo",
+          "romanized": "mo"
+        },
+        {
+          "word_index": 439,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 440,
+          "urhobo": "ayen",
+          "romanized": "ayen"
+        },
+        {
+          "word_index": 441,
+          "urhobo": "bu",
+          "romanized": "bu"
+        },
+        {
+          "word_index": 442,
+          "urhobo": "phihọ",
+          "romanized": "phiho"
+        },
+        {
+          "word_index": 443,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 444,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 445,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 446,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 447,
+          "urhobo": "na",
+          "romanized": "na"
+        }
+      ],
+      "word_span": [
+        394,
+        447
+      ],
+      "word_count": 54
+    },
+    {
+      "bcv_id": "GEN_008_018",
+      "type": "verse",
+      "verse_num": 18,
+      "text_urhobo": "Kọye Noa da yan phia, ọ vẹ emọ rọye te aye rọye te eya rẹ emọ rọye",
+      "text_romanized": "koye noa da yan phia o ve emo roye te aye roye te eya re emo roye",
+      "alignment_token": "koye noa da yan phia o ve emo roye te aye roye te eya re emo roye",
+      "words": [
+        {
+          "word_index": 448,
+          "urhobo": "Kọye",
+          "romanized": "koye"
+        },
+        {
+          "word_index": 449,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        },
+        {
+          "word_index": 450,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 451,
+          "urhobo": "yan",
+          "romanized": "yan"
+        },
+        {
+          "word_index": 452,
+          "urhobo": "phia",
+          "romanized": "phia"
+        },
+        {
+          "word_index": 453,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 454,
+          "urhobo": "vẹ",
+          "romanized": "ve"
+        },
+        {
+          "word_index": 455,
+          "urhobo": "emọ",
+          "romanized": "emo"
+        },
+        {
+          "word_index": 456,
+          "urhobo": "rọye",
+          "romanized": "roye"
+        },
+        {
+          "word_index": 457,
+          "urhobo": "te",
+          "romanized": "te"
+        },
+        {
+          "word_index": 458,
+          "urhobo": "aye",
+          "romanized": "aye"
+        },
+        {
+          "word_index": 459,
+          "urhobo": "rọye",
+          "romanized": "roye"
+        },
+        {
+          "word_index": 460,
+          "urhobo": "te",
+          "romanized": "te"
+        },
+        {
+          "word_index": 461,
+          "urhobo": "eya",
+          "romanized": "eya"
+        },
+        {
+          "word_index": 462,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 463,
+          "urhobo": "emọ",
+          "romanized": "emo"
+        },
+        {
+          "word_index": 464,
+          "urhobo": "rọye",
+          "romanized": "roye"
+        }
+      ],
+      "word_span": [
+        448,
+        464
+      ],
+      "word_count": 17
+    },
+    {
+      "bcv_id": "GEN_008_019",
+      "type": "verse",
+      "verse_num": 19,
+      "text_urhobo": "Keranvwe keranvwe, kemu kemu ro kpono, kọphra kọphra, kemu kemu ro yan vwẹ akpọ na, e da yan otuotu nẹ evun rẹ okọ na rhe.",
+      "text_romanized": "keranvwe keranvwe kemu kemu ro kpono kophra kophra kemu kemu ro yan vwe akpo na e da yan otuotu ne evun re oko na rhe",
+      "alignment_token": "keranvwe keranvwe kemu kemu ro kpono kophra kophra kemu kemu ro yan vwe akpo na e da yan otuotu ne evun re oko na rhe",
+      "words": [
+        {
+          "word_index": 465,
+          "urhobo": "Keranvwe",
+          "romanized": "keranvwe"
+        },
+        {
+          "word_index": 466,
+          "urhobo": "keranvwe",
+          "romanized": "keranvwe"
+        },
+        {
+          "word_index": 467,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 468,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 469,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 470,
+          "urhobo": "kpono",
+          "romanized": "kpono"
+        },
+        {
+          "word_index": 471,
+          "urhobo": "kọphra",
+          "romanized": "kophra"
+        },
+        {
+          "word_index": 472,
+          "urhobo": "kọphra",
+          "romanized": "kophra"
+        },
+        {
+          "word_index": 473,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 474,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 475,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 476,
+          "urhobo": "yan",
+          "romanized": "yan"
+        },
+        {
+          "word_index": 477,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 478,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 479,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 480,
+          "urhobo": "e",
+          "romanized": "e"
+        },
+        {
+          "word_index": 481,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 482,
+          "urhobo": "yan",
+          "romanized": "yan"
+        },
+        {
+          "word_index": 483,
+          "urhobo": "otuotu",
+          "romanized": "otuotu"
+        },
+        {
+          "word_index": 484,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 485,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 486,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 487,
+          "urhobo": "okọ",
+          "romanized": "oko"
+        },
+        {
+          "word_index": 488,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 489,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        }
+      ],
+      "word_span": [
+        465,
+        489
+      ],
+      "word_count": 25
+    },
+    {
+      "bcv_id": "GEN_008_020",
+      "type": "verse",
+      "verse_num": 20,
+      "text_urhobo": "Noa da so agbada kẹ Ọrovwohwo, ọ da reyọ eranvwe keranvwe ro tete oma, kugbe kọphra kọphra ro tete oma, o de ze izobo rẹ ẹtorhẹ vwẹ enu rẹ agbada na.",
+      "text_romanized": "noa da so agbada ke orovwohwo o da reyo eranvwe keranvwe ro tete oma kugbe kophra kophra ro tete oma o de ze izobo re etorhe vwe enu re agbada na",
+      "alignment_token": "noa da so agbada ke orovwohwo o da reyo eranvwe keranvwe ro tete oma kugbe kophra kophra ro tete oma o de ze izobo re etorhe vwe enu re agbada na",
+      "words": [
+        {
+          "word_index": 490,
+          "urhobo": "Noa",
+          "romanized": "noa"
+        },
+        {
+          "word_index": 491,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 492,
+          "urhobo": "so",
+          "romanized": "so"
+        },
+        {
+          "word_index": 493,
+          "urhobo": "agbada",
+          "romanized": "agbada"
+        },
+        {
+          "word_index": 494,
+          "urhobo": "kẹ",
+          "romanized": "ke"
+        },
+        {
+          "word_index": 495,
+          "urhobo": "Ọrovwohwo",
+          "romanized": "orovwohwo"
+        },
+        {
+          "word_index": 496,
+          "urhobo": "ọ",
+          "romanized": "o"
+        },
+        {
+          "word_index": 497,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 498,
+          "urhobo": "reyọ",
+          "romanized": "reyo"
+        },
+        {
+          "word_index": 499,
+          "urhobo": "eranvwe",
+          "romanized": "eranvwe"
+        },
+        {
+          "word_index": 500,
+          "urhobo": "keranvwe",
+          "romanized": "keranvwe"
+        },
+        {
+          "word_index": 501,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 502,
+          "urhobo": "tete",
+          "romanized": "tete"
+        },
+        {
+          "word_index": 503,
+          "urhobo": "oma",
+          "romanized": "oma"
+        },
+        {
+          "word_index": 504,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 505,
+          "urhobo": "kọphra",
+          "romanized": "kophra"
+        },
+        {
+          "word_index": 506,
+          "urhobo": "kọphra",
+          "romanized": "kophra"
+        },
+        {
+          "word_index": 507,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 508,
+          "urhobo": "tete",
+          "romanized": "tete"
+        },
+        {
+          "word_index": 509,
+          "urhobo": "oma",
+          "romanized": "oma"
+        },
+        {
+          "word_index": 510,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 511,
+          "urhobo": "de",
+          "romanized": "de"
+        },
+        {
+          "word_index": 512,
+          "urhobo": "ze",
+          "romanized": "ze"
+        },
+        {
+          "word_index": 513,
+          "urhobo": "izobo",
+          "romanized": "izobo"
+        },
+        {
+          "word_index": 514,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 515,
+          "urhobo": "ẹtorhẹ",
+          "romanized": "etorhe"
+        },
+        {
+          "word_index": 516,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 517,
+          "urhobo": "enu",
+          "romanized": "enu"
+        },
+        {
+          "word_index": 518,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 519,
+          "urhobo": "agbada",
+          "romanized": "agbada"
+        },
+        {
+          "word_index": 520,
+          "urhobo": "na",
+          "romanized": "na"
+        }
+      ],
+      "word_span": [
+        490,
+        520
+      ],
+      "word_count": 31
+    },
+    {
+      "bcv_id": "GEN_008_021",
+      "type": "verse",
+      "verse_num": 21,
+      "text_urhobo": "Ọke rẹ Ọrovwohwo vwo nyo ọnrhe ghwoghwo rẹ izobo na, Ọrovwohwo da ta vwẹ udu rọye, Me gbe harhe otọ na ọfa vwi fiki rẹ ohwo-o, kidie iroro rẹ evun rọye nẹ ọke-emọ rhe pha brabra, eyẹ Me gbe ghwọrọ emu kemu ro vwo arhọ re Me mare ọfa-a.",
+      "text_romanized": "oke re orovwohwo vwo nyo onrhe ghwoghwo re izobo na orovwohwo da ta vwe udu roye me gbe harhe oto na ofa vwi fiki re ohwo o kidie iroro re evun roye ne oke emo rhe pha brabra eye me gbe ghworo emu kemu ro vwo arho re me mare ofa a",
+      "alignment_token": "oke re orovwohwo vwo nyo onrhe ghwoghwo re izobo na orovwohwo da ta vwe udu roye me gbe harhe oto na ofa vwi fiki re ohwo o kidie iroro re evun roye ne oke emo rhe pha brabra eye me gbe ghworo emu kemu ro vwo arho re me mare ofa a",
+      "words": [
+        {
+          "word_index": 521,
+          "urhobo": "Ọke",
+          "romanized": "oke"
+        },
+        {
+          "word_index": 522,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 523,
+          "urhobo": "Ọrovwohwo",
+          "romanized": "orovwohwo"
+        },
+        {
+          "word_index": 524,
+          "urhobo": "vwo",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 525,
+          "urhobo": "nyo",
+          "romanized": "nyo"
+        },
+        {
+          "word_index": 526,
+          "urhobo": "ọnrhe",
+          "romanized": "onrhe"
+        },
+        {
+          "word_index": 527,
+          "urhobo": "ghwoghwo",
+          "romanized": "ghwoghwo"
+        },
+        {
+          "word_index": 528,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 529,
+          "urhobo": "izobo",
+          "romanized": "izobo"
+        },
+        {
+          "word_index": 530,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 531,
+          "urhobo": "Ọrovwohwo",
+          "romanized": "orovwohwo"
+        },
+        {
+          "word_index": 532,
+          "urhobo": "da",
+          "romanized": "da"
+        },
+        {
+          "word_index": 533,
+          "urhobo": "ta",
+          "romanized": "ta"
+        },
+        {
+          "word_index": 534,
+          "urhobo": "vwẹ",
+          "romanized": "vwe"
+        },
+        {
+          "word_index": 535,
+          "urhobo": "udu",
+          "romanized": "udu"
+        },
+        {
+          "word_index": 536,
+          "urhobo": "rọye",
+          "romanized": "roye"
+        },
+        {
+          "word_index": 537,
+          "urhobo": "Me",
+          "romanized": "me"
+        },
+        {
+          "word_index": 538,
+          "urhobo": "gbe",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 539,
+          "urhobo": "harhe",
+          "romanized": "harhe"
+        },
+        {
+          "word_index": 540,
+          "urhobo": "otọ",
+          "romanized": "oto"
+        },
+        {
+          "word_index": 541,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 542,
+          "urhobo": "ọfa",
+          "romanized": "ofa"
+        },
+        {
+          "word_index": 543,
+          "urhobo": "vwi",
+          "romanized": "vwi"
+        },
+        {
+          "word_index": 544,
+          "urhobo": "fiki",
+          "romanized": "fiki"
+        },
+        {
+          "word_index": 545,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 546,
+          "urhobo": "ohwo",
+          "romanized": "ohwo"
+        },
+        {
+          "word_index": 547,
+          "urhobo": "o",
+          "romanized": "o"
+        },
+        {
+          "word_index": 548,
+          "urhobo": "kidie",
+          "romanized": "kidie"
+        },
+        {
+          "word_index": 549,
+          "urhobo": "iroro",
+          "romanized": "iroro"
+        },
+        {
+          "word_index": 550,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 551,
+          "urhobo": "evun",
+          "romanized": "evun"
+        },
+        {
+          "word_index": 552,
+          "urhobo": "rọye",
+          "romanized": "roye"
+        },
+        {
+          "word_index": 553,
+          "urhobo": "nẹ",
+          "romanized": "ne"
+        },
+        {
+          "word_index": 554,
+          "urhobo": "ọke",
+          "romanized": "oke"
+        },
+        {
+          "word_index": 555,
+          "urhobo": "emọ",
+          "romanized": "emo"
+        },
+        {
+          "word_index": 556,
+          "urhobo": "rhe",
+          "romanized": "rhe"
+        },
+        {
+          "word_index": 557,
+          "urhobo": "pha",
+          "romanized": "pha"
+        },
+        {
+          "word_index": 558,
+          "urhobo": "brabra",
+          "romanized": "brabra"
+        },
+        {
+          "word_index": 559,
+          "urhobo": "eyẹ",
+          "romanized": "eye"
+        },
+        {
+          "word_index": 560,
+          "urhobo": "Me",
+          "romanized": "me"
+        },
+        {
+          "word_index": 561,
+          "urhobo": "gbe",
+          "romanized": "gbe"
+        },
+        {
+          "word_index": 562,
+          "urhobo": "ghwọrọ",
+          "romanized": "ghworo"
+        },
+        {
+          "word_index": 563,
+          "urhobo": "emu",
+          "romanized": "emu"
+        },
+        {
+          "word_index": 564,
+          "urhobo": "kemu",
+          "romanized": "kemu"
+        },
+        {
+          "word_index": 565,
+          "urhobo": "ro",
+          "romanized": "ro"
+        },
+        {
+          "word_index": 566,
+          "urhobo": "vwo",
+          "romanized": "vwo"
+        },
+        {
+          "word_index": 567,
+          "urhobo": "arhọ",
+          "romanized": "arho"
+        },
+        {
+          "word_index": 568,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 569,
+          "urhobo": "Me",
+          "romanized": "me"
+        },
+        {
+          "word_index": 570,
+          "urhobo": "mare",
+          "romanized": "mare"
+        },
+        {
+          "word_index": 571,
+          "urhobo": "ọfa",
+          "romanized": "ofa"
+        },
+        {
+          "word_index": 572,
+          "urhobo": "a",
+          "romanized": "a"
+        }
+      ],
+      "word_span": [
+        521,
+        572
+      ],
+      "word_count": 52
+    },
+    {
+      "bcv_id": "GEN_008_022",
+      "type": "verse",
+      "verse_num": 22,
+      "text_urhobo": "Ọke rẹ akpọ na dia krite na, ọke ekankọn kugbe ọke orhọ ekpae kugbe oheri, ọkeuvo kugbe ohwahwa, uvo kugbe ason se re bẹdẹ-ẹ.",
+      "text_romanized": "oke re akpo na dia krite na oke ekankon kugbe oke orho ekpae kugbe oheri okeuvo kugbe ohwahwa uvo kugbe ason se re bede e",
+      "alignment_token": "oke re akpo na dia krite na oke ekankon kugbe oke orho ekpae kugbe oheri okeuvo kugbe ohwahwa uvo kugbe ason se re bede e",
+      "words": [
+        {
+          "word_index": 573,
+          "urhobo": "Ọke",
+          "romanized": "oke"
+        },
+        {
+          "word_index": 574,
+          "urhobo": "rẹ",
+          "romanized": "re"
+        },
+        {
+          "word_index": 575,
+          "urhobo": "akpọ",
+          "romanized": "akpo"
+        },
+        {
+          "word_index": 576,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 577,
+          "urhobo": "dia",
+          "romanized": "dia"
+        },
+        {
+          "word_index": 578,
+          "urhobo": "krite",
+          "romanized": "krite"
+        },
+        {
+          "word_index": 579,
+          "urhobo": "na",
+          "romanized": "na"
+        },
+        {
+          "word_index": 580,
+          "urhobo": "ọke",
+          "romanized": "oke"
+        },
+        {
+          "word_index": 581,
+          "urhobo": "ekankọn",
+          "romanized": "ekankon"
+        },
+        {
+          "word_index": 582,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 583,
+          "urhobo": "ọke",
+          "romanized": "oke"
+        },
+        {
+          "word_index": 584,
+          "urhobo": "orhọ",
+          "romanized": "orho"
+        },
+        {
+          "word_index": 585,
+          "urhobo": "ekpae",
+          "romanized": "ekpae"
+        },
+        {
+          "word_index": 586,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 587,
+          "urhobo": "oheri",
+          "romanized": "oheri"
+        },
+        {
+          "word_index": 588,
+          "urhobo": "ọkeuvo",
+          "romanized": "okeuvo"
+        },
+        {
+          "word_index": 589,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 590,
+          "urhobo": "ohwahwa",
+          "romanized": "ohwahwa"
+        },
+        {
+          "word_index": 591,
+          "urhobo": "uvo",
+          "romanized": "uvo"
+        },
+        {
+          "word_index": 592,
+          "urhobo": "kugbe",
+          "romanized": "kugbe"
+        },
+        {
+          "word_index": 593,
+          "urhobo": "ason",
+          "romanized": "ason"
+        },
+        {
+          "word_index": 594,
+          "urhobo": "se",
+          "romanized": "se"
+        },
+        {
+          "word_index": 595,
+          "urhobo": "re",
+          "romanized": "re"
+        },
+        {
+          "word_index": 596,
+          "urhobo": "bẹdẹ",
+          "romanized": "bede"
+        },
+        {
+          "word_index": 597,
+          "urhobo": "ẹ",
+          "romanized": "e"
+        }
+      ],
+      "word_span": [
+        573,
+        597
+      ],
+      "word_count": 25
+    }
+  ]
+}
