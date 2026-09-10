@@ -233,7 +233,7 @@ def scrape_chapter(book: str, chapter: int, version_id: int = 2616, force: bool 
 def main():
     parser = argparse.ArgumentParser(description="Scrape Urhobo Bible text and chapter audio (UBV77).")
     parser.add_argument("--book", type=str, default="GEN", help="Book code (e.g., GEN, EXO)")
-    parser.add_argument("--chapters", type=str, default="1", help="Comma-separated or range (e.g. 1, 1-3, 1-50)")
+    parser.add_argument("--chapters", type=str, default="1-50", help="Comma-separated or range (e.g. 1, 1-3, 1-50)")
     parser.add_argument("--force", action="store_true", help="Force re-downloading audio and text")
     args = parser.parse_args()
 

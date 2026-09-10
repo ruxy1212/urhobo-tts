@@ -99,7 +99,7 @@ def align_chapter(
     # Filter out wildcard star tokens to retain real spoken words
     real_words = [
         w for w in raw_word_results
-        if w.get("word", "").strip() not in ("<star>", "*", "")
+        if (w.get("text") or w.get("word") or "").strip() not in ("<star>", "*", "")
     ]
 
     # Map timestamps back to verse segments
@@ -107,7 +107,7 @@ def align_chapter(
     aligned_headings: List[Dict[str, Any]] = []
 
     total_words_aligned = len(real_words)
-    scores_list = [w.get("score", 0.0) for w in real_words if "score" in w]
+    scores_list = [float(w.get("score", 0.0)) for w in real_words if "score" in w]
     chapter_avg_score = round(sum(scores_list) / len(scores_list), 4) if scores_list else 0.0
 
     # Build word index lookup
@@ -153,16 +153,17 @@ def align_chapter(
         for i in range(w_start_idx, min(w_end_idx + 1, len(real_words))):
             aligned_w = real_words[i]
             orig_meta = verse_words_meta[i - w_start_idx] if (i - w_start_idx) < len(verse_words_meta) else {}
-            w_score = round(aligned_w.get("score", 0.0), 4)
+            w_score = round(float(aligned_w.get("score", 0.0)), 4)
             verse_scores.append(w_score)
+            word_str = aligned_w.get("text") or aligned_w.get("word", "")
 
             verse_word_records.append({
                 "word_index": i,
-                "word_urhobo": orig_meta.get("urhobo", aligned_w.get("word", "")),
-                "word_romanized": aligned_w.get("word", ""),
-                "start_sec": round(aligned_w.get("start", 0.0), 3),
-                "end_sec": round(aligned_w.get("end", 0.0), 3),
-                "duration_sec": round(aligned_w.get("end", 0.0) - aligned_w.get("start", 0.0), 3),
+                "word_urhobo": orig_meta.get("urhobo", word_str),
+                "word_romanized": word_str,
+                "start_sec": round(float(aligned_w.get("start", 0.0)), 3),
+                "end_sec": round(float(aligned_w.get("end", 0.0)), 3),
+                "duration_sec": round(float(aligned_w.get("end", 0.0)) - float(aligned_w.get("start", 0.0)), 3),
                 "confidence_score": w_score,
             })
 
