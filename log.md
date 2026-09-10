@@ -45,5 +45,9 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Generated 50 chapter-level alignment payloads in `data/interim/alignment_prep/GEN/` covering all 1,533 verses (37,630 words) and 101 narrative headings wrapped in `*` wildcard tokens.
   * Formatted each verse with exact 1:1 token-level spans and word-index pointers back to the original diacritic text, enabling zero-drift timestamp attribution during downstream segmentation.
   * Verified 100% vocabulary compliance with zero unmapped or illegal characters across the entire corpus.
+* **Step 4.2: GPU Alignment Engine & Kaggle Notebook Implementation**:
+  * Developed `scripts/03_align_audio.py` implementing Meta MMS CTC forced alignment with GPU/CUDA acceleration. Computes frame-level Viterbi decoding, word-level timestamps (`start_sec`, `end_sec`), and length-normalized acoustic confidence scores $(\log P_{\text{path}} - \log P_{\text{greedy}}) / T$ with a $-0.20$ confidence threshold.
+  * Created `notebooks/01_kaggle_alignment.ipynb` to execute end-to-end alignment on Kaggle's free GPU tier (T4 / P100), including automated audio acquisition, acoustic conditioning, chapter alignment, and output packaging (`alignments_GEN.zip`).
+
 
 

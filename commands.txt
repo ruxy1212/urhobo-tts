@@ -5,3 +5,5 @@ python scripts/02_normalize_text.py --book GEN
 python scripts/02_convert_audio.py --book GEN
 
 python scripts/03_prepare_alignment_text.py --book GEN
+
+python scripts/03_align_audio.py --book GEN --device cuda
