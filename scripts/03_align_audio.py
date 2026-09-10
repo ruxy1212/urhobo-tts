@@ -116,11 +116,29 @@ def align_chapter(
         bcv_id = seg.get("bcv_id", "")
 
         if seg_type == "heading":
+            word_span = seg.get("word_span")
+            h_words = []
+            if word_span and word_span[0] is not None:
+                w_start_idx, w_end_idx = word_span[0], word_span[1]
+                for i in range(w_start_idx, min(w_end_idx + 1, len(real_words))):
+                    aligned_w = real_words[i]
+                    h_words.append({
+                        "word_index": i,
+                        "word_romanized": aligned_w.get("text") or aligned_w.get("word", ""),
+                        "start_sec": round(float(aligned_w.get("start", 0.0)), 3),
+                        "end_sec": round(float(aligned_w.get("end", 0.0)), 3),
+                    })
+            h_start = h_words[0]["start_sec"] if h_words else 0.0
+            h_end = h_words[-1]["end_sec"] if h_words else 0.0
             aligned_headings.append({
                 "bcv_id": bcv_id,
                 "type": "heading",
                 "text_urhobo": seg.get("text_urhobo", ""),
                 "text_romanized": seg.get("text_romanized", ""),
+                "start_sec": h_start,
+                "end_sec": h_end,
+                "duration_sec": round(h_end - h_start, 3),
+                "words": h_words,
             })
             continue
 

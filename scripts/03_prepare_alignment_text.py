@@ -87,6 +87,23 @@ def process_chapter_manifest(
             heading_words_rom = extract_clean_words(heading_rom.lower())
             heading_words_urh = extract_clean_words(text_urhobo)
 
+            h_start_idx = current_word_idx
+            h_end_idx = current_word_idx + len(heading_words_rom) - 1 if heading_words_rom else h_start_idx
+
+            heading_word_items = []
+            for i, rom_w in enumerate(heading_words_rom):
+                urh_w = heading_words_urh[i] if i < len(heading_words_urh) else rom_w
+                global_idx = current_word_idx + i
+                heading_word_items.append({
+                    "word_index": global_idx,
+                    "urhobo": urh_w,
+                    "romanized": rom_w,
+                })
+                chapter_words_urhobo.append(urh_w)
+                chapter_words_romanized.append(rom_w)
+
+            current_word_idx += len(heading_words_rom)
+
             # In alignment token representation:
             # We insert '*' before and after heading text so CTC aligner can absorb filler audio
             heading_align_str = f"* {' '.join(heading_words_rom)} *" if heading_words_rom else "*"
@@ -98,9 +115,11 @@ def process_chapter_manifest(
                 "text_urhobo": text_urhobo,
                 "text_romanized": " ".join(heading_words_rom),
                 "alignment_token": heading_align_str,
+                "words": heading_word_items,
                 "words_urhobo": heading_words_urh,
                 "words_romanized": heading_words_rom,
-                "word_span": None,
+                "word_span": [h_start_idx, h_end_idx] if heading_words_rom else None,
+                "word_count": len(heading_words_rom),
             }
             prepared_segments.append(prep_seg)
             chapter_tokens_for_alignment.append(heading_align_str)
