@@ -61,7 +61,15 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Engineered `scripts/04_slice_audio.py` implementing zero-click audio cutting with 50ms boundary padding and a 10ms raised-cosine (half-Hann) fade-in/fade-out envelope to eliminate digital pops and preserve breath/consonant decays.
   * Extracted and conditioned **1,190 studio-grade verse audio clips** (2.97 hours / 178.3 minutes of speech, average clip duration 8.99s, mean confidence score -0.560).
   * Filtered against strict TTS training bounds (confidence >= -0.85, duration 1.0s–18.0s), automatically quarantining 343 marginal/noisy outliers into `data/processed/quarantine/`.
-  * Slicing audit cataloged in `data/processed/segments/GEN_slicing_report.json`.
+* **Step 5.2: Dataset Assembly, Stratified Splitting & Curriculum Anchoring (DoD Complete)**:
+  * Engineered `scripts/05_assemble_dataset.py` to assemble the 1,190 segmented clips into model-ready manifests for Meta VITS fine-tuning (`ylacombe/finetune-hf-vits`).
+  * Implemented strict chapter-level splitting to prevent acoustic data leakage across splits:
+    * **Train Split**: 998 clips across 41 chapters (2.52 hours, 84.68% of audio, average clip confidence -0.564).
+    * **Dev / Validation Split**: 101 clips across 4 chapters (0.22 hours / 13.38 minutes, 7.50% of audio, average confidence -0.499).
+    * **Test / Evaluation Split**: 91 clips across 5 chapters (0.23 hours / 13.94 minutes, 7.82% of audio, average confidence -0.584).
+  * Anchored test split chapters (`GEN_001`, `GEN_003`, `GEN_004`, `GEN_016`, `GEN_018`) to held-out mobile curriculum phrases, capturing 9 exact corpus-derived phrases (including Genesis 1:3 *"E gbe jẹn orẹmrẹ dia"*, Genesis 3:9 *"Kivie wọ herọ?"*, Genesis 4:1 *"Mi vwiẹ ohwo"*).
+  * Generated model training manifests in `data/processed/`: `train.jsonl`, `dev.jsonl`, `test.jsonl`, universal LJSpeech `metadata.csv`, and comprehensive audit report `dataset_summary.json`.
+  * Phase 5 Definition of Done (DoD) is 100% complete and verified.
 
 
 

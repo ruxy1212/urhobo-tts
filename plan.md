@@ -206,10 +206,10 @@ urhobo-tts/
 - Split by book or by random verse sampling, not by re-shuffling within a chapter (avoid leaking near-duplicate adjacent verses across splits). Reserve a held-out set specifically containing verses whose text includes any word from your curriculum vocabulary seed list (Phase 1.3) — you'll want these for targeted evaluation in Phase 10. Also flag which held-out verses are candidates for the corpus-derived story/conversation content from 1.3.
 
 ### DoD for Phase 5
-- [ ] Verse-level WAV clips written with 50ms boundary padding and fade-in/fade-out.
-- [ ] Top 5–10 hours of high-confidence segments selected for fine-tuning.
-- [ ] Dataset manifest created in the exact format the fine-tuning repo expects.
-- [ ] Train/dev/test split created, with a curriculum-relevant held-out subset identified.
+- [x] Verse-level WAV clips written with 50ms boundary padding and fade-in/fade-out.
+- [x] Top 5–10 hours of high-confidence segments selected for fine-tuning.
+- [x] Dataset manifest created in the exact format the fine-tuning repo expects.
+- [x] Train/dev/test split created, with a curriculum-relevant held-out subset identified.
 
 ---
 
