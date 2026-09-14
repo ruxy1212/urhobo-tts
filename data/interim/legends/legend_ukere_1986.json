@@ -1,0 +1,24 @@
+{
+  "source_id": "ukere_1986",
+  "source_title": "Urhobo-English Dictionary (Anthony Obakpọnọvwẹ Ukere 1986, ed. Roger Blench 2005)",
+  "notation_system": {
+    "description": "Ukere treats Urhobo as having two tones: High and Low, plus glides (rising/falling). Only High tone is overtly marked; unmarked vowels represent Low tone or default register.",
+    "marks": {
+      "acute": {
+        "symbol": "´",
+        "unicode": "U+0301",
+        "meaning": "High tone (H)",
+        "example": "án (excl.), abé (guilt), abívẹ (twice), áda (forked stick)"
+      },
+      "unmarked": {
+        "symbol": "none",
+        "meaning": "Low tone (L) or default register",
+        "example": "abaka (grasshopper), ada (outing)"
+      }
+    },
+    "allophonic_notes": [
+      "/l/ is considered an allophone of /n/ and is absent from headwords in this dictionary.",
+      "Vowels ẹ and ọ represent open-mid /ɛ/ and /ɔ/."
+    ]
+  }
+}

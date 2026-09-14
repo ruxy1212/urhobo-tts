@@ -1,0 +1,17 @@
+{
+  "source_id": "language_primer",
+  "source_title": "Urhobo Language Primer (Urhobo Foundation / Urhobo Language Centre)",
+  "notation_system": {
+    "description": "Primary pedagogical reader focusing on conversational phrases, greetings (Uyere), numbers, and family vocabulary. Employs acute accent for lexical high pitch and standard Urhobo sub-dots (ẹ, ọ).",
+    "marks": {
+      "acute": {
+        "symbol": "´",
+        "meaning": "High pitch on accented vowel"
+      },
+      "unmarked": {
+        "symbol": "none",
+        "meaning": "Neutral / default register"
+      }
+    }
+  }
+}

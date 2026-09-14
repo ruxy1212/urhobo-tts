@@ -1,0 +1,35 @@
+{
+  "source_id": "okrokoto_2020",
+  "source_title": "Urhobo to English Dictionary (Ebireri Okrokoto 2020, Urhobo Language Institute)",
+  "notation_system": {
+    "description": "Okrokoto explicitly defines four tone categories in his front-matter (page 1) using pedagogical shorthand 'd, r, m, ~'.",
+    "marks": {
+      "grave": {
+        "symbol": "`",
+        "unicode": "U+0300",
+        "shorthand": "d (for 'lowered voice' / do)",
+        "meaning": "Low tone (L)",
+        "description": "Has a short stroke pointing left."
+      },
+      "acute": {
+        "symbol": "´",
+        "unicode": "U+0301",
+        "shorthand": "m (for 'raised voice' / mi)",
+        "meaning": "High tone (H)",
+        "description": "Has a short stroke pointing right."
+      },
+      "tilde": {
+        "symbol": "~",
+        "unicode": "U+0303",
+        "shorthand": "~ (slur)",
+        "meaning": "Slur / prolonged drawn vocal sound (often in negation or elision)",
+        "description": "Drawing the voice on the sound of the vowel represented by a wave-like mark."
+      },
+      "unmarked": {
+        "symbol": "none",
+        "shorthand": "r (for 'flat tone' / re)",
+        "meaning": "Flat tone / middle voice (M)"
+      }
+    }
+  }
+}

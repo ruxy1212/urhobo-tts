@@ -1,0 +1,40 @@
+{
+  "source_id": "grammar_basic_course",
+  "source_title": "Ọjẹgbá rẹ Urhobo: Urhobo Grammar Basic Course (Urhobo Language Committee)",
+  "notation_system": {
+    "description": "Grammar course dedicates Chapter 1 (pages 8-15) to heteronyms and tone marks, defining the 4 canonical musical tones (M, R, D, ~).",
+    "marks": {
+      "acute": {
+        "symbol": "´",
+        "unicode": "U+0301",
+        "musical_pitch": "M (as in 'mi')",
+        "meaning": "Raised voice / High tone (H)",
+        "example": "Ató (chewing stick), Óma (statue), Ódẹ́ (tomorrow)"
+      },
+      "unmarked": {
+        "symbol": "none",
+        "musical_pitch": "R (as in 're')",
+        "meaning": "Flat / middle tone (M)",
+        "example": "Ato (desert), Oma (body), Odẹ (name)"
+      },
+      "grave": {
+        "symbol": "`",
+        "unicode": "U+0300",
+        "musical_pitch": "D (as in 'do')",
+        "meaning": "Lowered voice / Low tone (L)",
+        "example": "òkà (style)"
+      },
+      "tilde": {
+        "symbol": "~",
+        "unicode": "U+0303",
+        "musical_pitch": "~ (slur / prolonged tone)",
+        "meaning": "Prolonged / drawn contour vowel (used in negative constructions and elisions)",
+        "example": "Me reyõ; do (I will not take; thank you), ẽrha (palm oil shaft for fire)"
+      }
+    },
+    "orthographic_rules": [
+      "Prolonged / negative vowels can be represented either by the tilde (~) or vowel doubling with a hyphen (e.g. 'Ọ diẹ ọyẽ' or 'Ọ diẹ ọye-e').",
+      "Homographs are systematically distinguished by tone: Oma (body) vs Óma (statute); Ẹvwé (goat) vs Ẹvwe (kola nut); Úko (back) vs Úkó (cup)."
+    ]
+  }
+}

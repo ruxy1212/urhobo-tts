@@ -1,0 +1,34 @@
+{
+  "source_id": "ucla_phonetics",
+  "source_title": "UCLA Phonetics Archive Urhobo Wordlists (1960 and Contemporary)",
+  "notation_system": {
+    "description": "Rigorous phonetic transcriptions accompanied by studio-recorded acoustic audio. Employs standard International Phonetic Alphabet (IPA) diacritics for all vowels.",
+    "marks": {
+      "acute": {
+        "symbol": "´",
+        "unicode": "U+0301",
+        "meaning": "High tone (H)",
+        "example": "úpe (scar), écá (coming)"
+      },
+      "grave": {
+        "symbol": "`",
+        "unicode": "U+0300",
+        "meaning": "Low tone (L)",
+        "example": "òdà (cutlass), òtá (talk [L-H])"
+      },
+      "unmarked": {
+        "symbol": "none",
+        "meaning": "Mid tone (M) or unperturbed base pitch",
+        "example": "ame (water), efi (rope)"
+      },
+      "contour": {
+        "symbols": [
+          "` + ´ (Rising)",
+          "´ + ` (Falling)"
+        ],
+        "meaning": "Pitch glides across syllables",
+        "example": "òtá (talk = L+H), úpè (scar = H+L)"
+      }
+    }
+  }
+}

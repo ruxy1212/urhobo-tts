@@ -71,6 +71,24 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Generated model training manifests in `data/processed/`: `train.jsonl`, `dev.jsonl`, `test.jsonl`, universal LJSpeech `metadata.csv`, and comprehensive audit report `dataset_summary.json`.
   * Phase 5 Definition of Done (DoD) is 100% complete and verified.
 
+---
+
+### Phase 6: Tone-Marked Lexicon Construction (LLM-assisted)
+* **Step 6.1: Raw Text Extraction & Tonal Legend Documentation**:
+  * Engineered `scripts/06_extract_raw_texts.py` to extract clean, uncompressed textual records from all 6 reference dictionaries and archives into `data/interim/lexicon_raw/`:
+    * `ukere_1986_raw.txt`: 2,148 dictionary entries across 50 pages.
+    * `okrokoto_2020_raw.txt`: 870 entries across 63 pages.
+    * `grammar_basic_course_raw.txt`: 3,423 lines of phonetic and tone exercises across 115 pages.
+    * `language_primer_raw.txt`: 2,885 lines across 71 pages.
+    * `ucla_phonetics_raw.tsv`: 107 IPA-transcribed entries with grounded acoustic audio links.
+    * `ucla_phonetics_1960_raw.tsv`: 32 comparative historical phonetic entries.
+  * Researched authors' front matter, tone keys, and phonological sections to author 5 explicit per-source notation legends in `data/interim/legends/`:
+    * `legend_ukere_1986.json`: High tone (`´`), unmarked vowels for Low/default register.
+    * `legend_okrokoto_2020.json`: 4 pedagogical tone markers (`d` = Low, `r` = Mid, `m` = High, `~` = Slur/Prolonged).
+    * `legend_grammar_basic_course.json`: 4 musical tone keys (`M` = High `´`, `R` = Mid unmarked, `D` = Low `` ` ``, `~` = Slur `~`).
+    * `legend_language_primer.json`: Acute accent on stressed lexical syllables, sub-dot vowels.
+    * `legend_ucla_phonetics.json`: Full IPA tone markers (`´` High, `` ` `` Low, contour pitch glides).
+
 
 
 

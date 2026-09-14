@@ -253,7 +253,7 @@ This is a project convention you are defining, independent of any single source'
 - `data/lexicon/lexicon.tsv` (or `.jsonl`) with columns: `plain_form, canonical_tone_form, gloss_en, pos, source_ids, agreement, needs_review, reviewed`.
 
 ### DoD for Phase 6
-- [ ] Per-source legends documented.
+- [x] Per-source legends documented.
 - [ ] Canonical scheme documented in the lexicon file header.
 - [ ] LLM extraction run per source with confidence flags preserved (not discarded).
 - [ ] 100% of curriculum-vocabulary entries and all detected homograph pairs manually reviewed.
