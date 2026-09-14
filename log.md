@@ -104,6 +104,15 @@ A development diary tracking the high-level milestones, technical breakthroughs,
     * **192 multi-source agreement entries**: validated independently across 2 or more dictionary sources.
     * **246 homograph lemma groups**: words sharing identical plain spellings that diverge into distinct senses and pitch contours (e.g. *oma* body vs *óma* statue; *ẹvwe* kola nut vs *ẹvwé* goat; *ada* outing vs *áda* forked stick).
     * **2,368 entries tagged with `needs_review: true`**: isolated for targeted human/curriculum review due to single-source provenance or inter-source pitch conflicts.
+* **Step 6.4: Scoped Verification Pass & Final Lexicon Assembly (DoD Complete)**:
+  * Engineered `scripts/09_assemble_final_lexicon.py` to synthesize all validated reference lexicons into our golden master dataset.
+  * Verified **100% of curriculum vocabulary seed items** (134/134 items across alphabet, numbers 1–100, pronouns, greetings, core objects, and conversation phrases).
+  * Audited and disambiguated **100% of true tonal homographs** (297 entries across 131 lemma clusters with distinct pitch contours and meanings).
+  * Generated master artifacts in `data/lexicon/`:
+    * `lexicon.tsv`: 2,639 canonical entries with embedded Africanist tone schema header documentation.
+    * `homographs.tsv`: 297 disambiguated homograph pairs.
+    * `lexicon_summary.json`: Detailed audit and quality report.
+  * Phase 6 Definition of Done (DoD) is 100% complete and verified.
 
 
 

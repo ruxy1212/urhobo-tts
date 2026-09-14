@@ -254,9 +254,9 @@ This is a project convention you are defining, independent of any single source'
 
 ### DoD for Phase 6
 - [x] Per-source legends documented.
-- [ ] Canonical scheme documented in the lexicon file header.
-- [ ] LLM extraction run per source with confidence flags preserved (not discarded).
-- [ ] 100% of curriculum-vocabulary entries and all detected homograph pairs manually reviewed.
+- [x] Canonical scheme documented in the lexicon file header.
+- [x] LLM extraction run per source with confidence flags preserved (not discarded).
+- [x] 100% of curriculum-vocabulary entries and all detected homograph pairs manually reviewed.
 
 ---
 

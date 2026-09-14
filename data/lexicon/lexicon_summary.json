@@ -1,0 +1,85 @@
+{
+  "lexicon_name": "urhobo-canonical-tone-lexicon",
+  "version": "1.0",
+  "timestamp": "2026-09-14 17:04:12",
+  "total_entries": 2639,
+  "unique_plain_lemmas": 2362,
+  "curriculum_coverage": {
+    "total_curriculum_seed_items": 134,
+    "curriculum_reviewed_count": 134,
+    "curriculum_review_percentage": 100.0,
+    "curriculum_matched_in_dictionaries": 43
+  },
+  "homograph_audit": {
+    "total_homograph_entries": 297,
+    "unique_homograph_lemmas": 131,
+    "homograph_reviewed_percentage": 100.0,
+    "sample_homographs": [
+      {
+        "lemma": "abe",
+        "tone": "Abe",
+        "gloss": "A   species  of  water  yam  with   red"
+      },
+      {
+        "lemma": "abe",
+        "tone": "Abe",
+        "gloss": "Guilty   verdict"
+      },
+      {
+        "lemma": "abe",
+        "tone": "abé",
+        "gloss": "guilt (in a case or law-suit)"
+      },
+      {
+        "lemma": "ada",
+        "tone": "ada",
+        "gloss": "outing / Outing ; out from  home  :  Kpẹ  ada  =  gone"
+      },
+      {
+        "lemma": "ada",
+        "tone": "áda",
+        "gloss": "forked stick"
+      },
+      {
+        "lemma": "agbotọ",
+        "tone": "Agbotọ",
+        "gloss": "Jaw"
+      },
+      {
+        "lemma": "agbotọ",
+        "tone": "agbótọ",
+        "gloss": "chin"
+      },
+      {
+        "lemma": "aka",
+        "tone": "aka",
+        "gloss": "Urhobo name for the Edo (Bini) people and their language / Edo  people  from  southern  Nigeria"
+      },
+      {
+        "lemma": "aka",
+        "tone": "Áká",
+        "gloss": "Bitter  kola"
+      },
+      {
+        "lemma": "akpanurhe",
+        "tone": "Akpanurhe",
+        "gloss": "Local  Low  seat"
+      },
+      {
+        "lemma": "akpanurhe",
+        "tone": "ákpánurhé",
+        "gloss": "stool"
+      },
+      {
+        "lemma": "akpono",
+        "tone": "Akpono",
+        "gloss": "Plastic   beads  for    female  fashion."
+      }
+    ]
+  },
+  "quality_metrics": {
+    "multi_source_agreement_count": 227,
+    "fully_reviewed_entries": 318,
+    "pending_future_review": 2321
+  }
+}

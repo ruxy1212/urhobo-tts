@@ -1,0 +1,2649 @@
+# Urhobo Tone-Marked Reference Lexicon (v1.0)
+# Canonical Africanist Tone System:
+#   High (H): acute accent (´) -> e.g. á, é, ẹ́, í, ó, ọ́, ú
+#   Low (L): grave accent (`) -> e.g. à, è, ẹ̀, ì, ò, ọ̀, ù
+#   Rising (LH): caron (ˇ) -> e.g. ǎ, ǐ, ǒ
+#   Falling (HL): circumflex (ˆ) -> e.g. â, ô
+#   Mid / Neutral (M): unmarked vowel -> e.g. a, e, ẹ, i, o, ọ, u
+# Orthographic vowels: a, e, ẹ (U+1EB9), i, o, ọ (U+1ECD), u
+# Columns: plain_form	canonical_tone_form	gloss_en	pos	source_ids	agreement	needs_review	reviewed
+plain_form	canonical_tone_form	gloss_en	pos	source_ids	agreement	needs_review	reviewed
+a	A	Letter A / sound /a/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+a dẹ ayẹ	a dɛ́ ayɛ̃	they are bought	phr.	ucla_phonetics	False	True	False
+a dẹ wẹ	a dɛ́ wɛ́	you (sg.) are bought	phr.	ucla_phonetics	False	True	False
+abaka	abaka	grasshopper / Grasshopper	n.	okrokoto_2020,ukere_1986	True	False	True
+abamwa	Abamwa	Rag  ;   torn  piece  of  cloth	n.	okrokoto_2020	False	True	False
+abavo	abavo	equal	a.	ukere_1986	False	True	False
+abe	Abe	A   species  of  water  yam  with   red	n.	okrokoto_2020	False	True	False
+abe	Abe	Guilty   verdict	n.	okrokoto_2020	False	True	False
+abe	abé	guilt (in a case or law-suit)	n.	ukere_1986	False	True	False
+abemuo	abémuó	wrestling	n.	ukere_1986	False	True	False
+aberha	abérha	thrice	adv.	ukere_1986	False	True	False
+abivẹ	abívẹ	twice	adv.	ukere_1986	False	True	False
+abo	Abo	Wrestling. Also  means   HANDS - plural  form	n.	okrokoto_2020	False	True	False
+abotu	Abotu	Group  effort	n.	okrokoto_2020	False	True	False
+abẹrẹn	abẹrẹn	sword	n.	ukere_1986	False	True	False
+ada	ada	outing / Outing ; out from  home  :  Kpẹ  ada  =  gone	n.	okrokoto_2020,ukere_1986	True	False	True
+ada	áda	forked stick	n.	ukere_1986	False	True	False
+aderha	adérha	three-way junction	n.	ukere_1986	False	True	False
+adie	ádié	position/part	n.	ukere_1986	False	True	False
+adja	Adja	Bat	n.	okrokoto_2020	False	True	False
+adjan	aɟnã́ (does not sound nasal)	bat	n.	ucla_phonetics,ukere_1986	False	True	False
+adjaọghẹnẹ	adjaọ́ghẹnẹ́	swallow	n.	ukere_1986	False	True	False
+adjeghwọghwọ	ádjeghwọghwọ	camphor	n.	ukere_1986	False	True	False
+adjene	adjené	self acclaimed witch or wizard	n.	ukere_1986	False	True	False
+adjudju	adjudju	fan / Hand-held  fan  usually   made from  animal skin	n.	okrokoto_2020,ukere_1986	True	False	True
+adjugẹ	adjugẹ	wheel	n.	ukere_1986	False	True	False
+adjọkrotẹgba	ádjọkrótẹgba	pants	n.	ukere_1986	False	True	False
+afe	áfe	menstruation	n.	ukere_1986	False	True	False
+afiedjọ	áfiédjọ	masquerade playground	n.	ukere_1986	False	True	False
+afieha	áfiéha	stadium, playground	n.	ukere_1986	False	True	False
+afiotọ	afiotọ	rabbit / Giant  African  rabbit	n.	okrokoto_2020,ukere_1986	True	False	True
+afọrhe	afọrhe	brain / Brain	n.	okrokoto_2020,ukere_1986	True	False	True
+agada	agada	crotch, area between the legs	n.	ukere_1986	False	True	False
+agba	agbá	oil bean seed	n.	ukere_1986	False	True	False
+agbada	agbada	bridge / Bridge	n.	okrokoto_2020,ukere_1986	True	False	True
+agbadarizobo	agbadarizobo	altar	n.	ukere_1986	False	True	False
+agbagba	agbagba	cross / Cross	n.	okrokoto_2020,ukere_1986	True	False	True
+agbakara	agbakara	raffia and oil-palm beetle	n.	ukere_1986	False	True	False
+agbara	agbara	chair / Chair	n.	okrokoto_2020,ukere_1986	True	False	True
+agbariko	Agbariko	King  fisher	n.	okrokoto_2020	False	True	False
+agbogu	agbogu	dagger / Dagger	n.	okrokoto_2020,ukere_1986	True	False	True
+agboro	agboro	echo / Radio ;  echo	n.	okrokoto_2020,ukere_1986	True	False	True
+agbotọ	Agbotọ	Jaw	n.	okrokoto_2020	False	True	False
+agbotọ	agbótọ	chin	n.	ukere_1986	False	True	False
+agbrara	agbrara	thunder	n.	ukere_1986	False	True	False
+agbuna	agbuna	matches / Matches	n.	okrokoto_2020,ukere_1986	True	False	True
+agbọn	agbọn	placenta	n.	ukere_1986	False	True	False
+agha	aɣá	broom	n.	ucla_phonetics	False	True	False
+aghan	aghán	broom	n.	ukere_1986	False	True	False
+aghighọn	aghighọn	chain of coral beads worn round the neck by chiefs	n.	ukere_1986	False	True	False
+aghwa	ághwá	bush / forest / field [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+aghwaghwa	aghwaghwa	bush dog / Bush  dog ( a  nocturnal,  tree  climbing  animal  )	n.	okrokoto_2020,ukere_1986	True	False	True
+aghware	aghware	wisdom	n.	ukere_1986	False	True	False
+aghwoghwo	aghwoghwo	announcement / Announcement	n.	okrokoto_2020,ukere_1986	True	False	True
+aghwọn	aghwọn	‘hamster’ [N.B. there are no hamsters in Nigeria. Perhaps a bush-rat?]	n.	ukere_1986	False	True	False
+aghọghọ	aghọghọ	joy/happiness	n.	ukere_1986	False	True	False
+agh	Agh	Branch	n.	okrokoto_2020	False	True	False
+aghgh	Aghgh	Joy	n.	okrokoto_2020	False	True	False
+agogo	ágógó	gong, bell / Bell ; Gong	n.	okrokoto_2020,ukere_1986	False	True	False
+aguare	aguare	court	n.	ukere_1986	False	True	False
+agọ	agọ	camp, temporary settlement	n.	ukere_1986	False	True	False
+aha  !	Aha  !	A   shout   of  surprise	n.	okrokoto_2020	False	True	False
+ahanre	Ahanre	Lower deck  of  fireplace  platform.	n.	okrokoto_2020	False	True	False
+ahe	áhe	owl-like bird / Night  owl	n.	okrokoto_2020,ukere_1986	False	True	False
+ahwa	Ahwa	A  beaked  non climbing  giant  squirrel	n.	okrokoto_2020	False	True	False
+ahwa	ahwa	pliers	n.	ukere_1986	False	True	False
+ahworhẹ	ahworhẹ	sponge	n.	ukere_1986	False	True	False
+ahọnre	ahọnre	sound of snoring	n.	ukere_1986	False	True	False
+aka	aka	Urhobo name for the Edo (Bini) people and their language / Edo  people  from  southern  Nigeria	n.	okrokoto_2020,ukere_1986	True	False	True
+aka	Áká	Bitter  kola	n.	okrokoto_2020	False	True	False
+akaba	akaba	specie of gong	n.	ukere_1986	False	True	False
+akainọrọ	akaínọrọ	snake monitor	n.	ukere_1986	False	True	False
+akan	ákán	bitter kola	n.	ukere_1986	False	True	False
+akara	akara	bean-cake	n.	ukere_1986	False	True	False
+akaunọrọ	Akaunọrọ	Lizard	n.	okrokoto_2020	False	True	False
+akikọ	akikọ́	water-snail	n.	ukere_1986	False	True	False
+ako	Ako	Tooth	n.	okrokoto_2020	False	True	False
+akobẹ	akobẹ	metal trap used for catching small animals such as rats	n.	ukere_1986	False	True	False
+akon	akõ	tooth	n.	ucla_phonetics	False	True	False
+akoriruo	akoríruo	office	n.	ukere_1986	False	True	False
+akoroda	Akoroda	Cutlass  sheath.	n.	okrokoto_2020	False	True	False
+akpakpa	Akpãkpa	Mat   woven  out  of  palm  branch back	n.	okrokoto_2020	False	True	False
+akpakpasimagha	akpakpasímagha	scorpion / Scorpion	n.	okrokoto_2020,ukere_1986	False	True	False
+akpan	akpan	baldness, bald head	n.	ukere_1986	False	True	False
+akpanurhe	Akpanurhe	Local  Low  seat	n.	okrokoto_2020	False	True	False
+akpanurhe	ákpánurhé	stool	n.	ukere_1986	False	True	False
+akpata	ákpátá	mouth-organ, organ	n.	ukere_1986	False	True	False
+akperẹ	Àkpérẹ̀	Bull   horn	n.	okrokoto_2020	False	True	False
+akpeyere	akpéyéré	way of life	n.	ukere_1986	False	True	False
+akpine	Akpine	Lead  singer	n.	okrokoto_2020	False	True	False
+akpono	Akpono	Plastic   beads  for    female  fashion.	n.	okrokoto_2020	False	True	False
+akpono	akpóno	very flat bead made from rubber or palm kernel shells	n.	ukere_1986	False	True	False
+akpọ	akpọ	world, earth	n.	ucla_phonetics	False	True	False
+akpẹ	Akpẹ	Padlock  ; Bird’s  gizzard ; container of items	n.	okrokoto_2020	False	True	False
+akpẹriọ	akpẹ́riọ	enjoyment	n.	ukere_1986	False	True	False
+akpẹrusiavwrẹ	akpẹ́rusiavwrẹ	padlock	n.	ukere_1986	False	True	False
+akpẹrẹ	Akpẹrẹ	Basket	n.	okrokoto_2020	False	True	False
+akpẹrẹ	akpẹ́rẹ	elephant tusk horn	n.	ukere_1986	False	True	False
+akpẹtẹ	Akpẹtẹ	Chief  cook  ;  cook	n.	okrokoto_2020	False	True	False
+akpẹvwẹ	ákpẹvwẹ	thanksgiving	n.	ukere_1986	False	True	False
+akpọ	akpọ́	world / life [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+akrẹ	akrẹ	small lizard	n.	ukere_1986	False	True	False
+akuakua	akuakua	wooden slit-gong	n.	ukere_1986	False	True	False
+ama	ama	bell	n.	ukere_1986	False	True	False
+amakashe	ámakáshe	angel	n.	ukere_1986	False	True	False
+ame	amé	water [Curriculum: object]	n.	curriculum_seed,grammar_basic_course,okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+amereka	amereka	locally brewed gin, ogogoro	n.	ukere_1986	False	True	False
+amerisaguẹ	amerísaguẹ	groundnut oil	n.	ukere_1986	False	True	False
+ameọbe	ameọ́be	ink	n.	ukere_1986	False	True	False
+amiedi	amiédi	banga soup / Palm  oil  soup	n.	okrokoto_2020,ukere_1986	False	True	False
+amioviẹ	amióviẹ	tears	n.	ukere_1986	False	True	False
+amirika	Amirika	Ethanol ; drinkable  alcohol .	n.	okrokoto_2020	False	True	False
+amono	amóno	who (coll.)	int.	ukere_1986	False	True	False
+amradjẹ	ámrádjẹ	charm for protection against the dead	n.	ukere_1986	False	True	False
+amwa	aŋmá	cloth	n.	ucla_phonetics,ukere_1986	False	True	False
+an	án	exclamation of disbelief, shock or surprise, also used for questioning.	excl.	ukere_1986	False	True	False
+anama	Anama	Show   off  ; stylish  ; proud	n.	okrokoto_2020	False	True	False
+anama	anama	pride	n.	ukere_1986	False	True	False
+ane	ané	April	n.	ukere_1986	False	True	False
+aniku	anikú	lower wrapper (of the two) worn by women	n.	ukere_1986	False	True	False
+anini	áníní	old coin, originally a tenth of a penny	n.	ukere_1986	False	True	False
+anurhoro	Anurhoro	Entrance  to  a  house  or  room  ; doorway	n.	okrokoto_2020	False	True	False
+apata	Apata	Unauthorized  release  of  someone  else’s	n.	okrokoto_2020	False	True	False
+apene	apene	draughts	n.	ukere_1986	False	True	False
+aphia	aphíá	knife / cutlass [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+aphopho	Aphopho	Breeze	n.	okrokoto_2020	False	True	False
+apia, aphia	àɸyá	knife	phr.	ucla_phonetics	False	True	False
+apiapia	ápiápiá	hornbill	n.	ukere_1986	False	True	False
+aranto	Aranto	Small  ant  hill  with  a  hat-like  top  cover.	n.	okrokoto_2020	False	True	False
+are	Are	Razor  blade  ( also  known  as  Erakivẹ̣̣   )	n.	okrokoto_2020	False	True	False
+areba	areba	very poisonous seed / A  poisonous wild  garden  egg  plant .	n.	okrokoto_2020,ukere_1986	True	False	True
+arere	arere	baby louse	n.	ukere_1986	False	True	False
+arha	arhá	March	n.	ukere_1986	False	True	False
+arhare	arhare	forehead / Forehead	n.	okrokoto_2020,ukere_1986	True	False	True
+arhuẹrẹ	árhuẹrẹ	development	n.	ukere_1986	False	True	False
+arhọ	arhọ	salvation	n.	ukere_1986	False	True	False
+arhọghọ	árhọ́ghọ	contribution / Contribution	n.	okrokoto_2020,ukere_1986	False	True	False
+arhọvwefe	árhọvwefe	special bead worn on the neck like a bow-tie by traditional rulers	n.	ukere_1986	False	True	False
+arh	Arh	Salvation  ;     Having   life	n.	okrokoto_2020	False	True	False
+ariakpa	áriákpa	charm for protection against any poisonous thing taken in by mouth	n.	ukere_1986	False	True	False
+arido	arido	charm for sharp remembrance/knowledge	n.	ukere_1986	False	True	False
+arirhiri	Arirhiri	Tortoise; name   indicative  of  its  crafty  behavior.	n.	okrokoto_2020	False	True	False
+ariri	árírí	fishing net / Fish  net	n.	okrokoto_2020,ukere_1986	False	True	False
+arodọvwẹ	Arodọvwẹ	Pity ; Mercy	n.	okrokoto_2020	False	True	False
+aruerivwi	aruérivwi	designated spot where traditional rites are offered to the ancestors	n.	ukere_1986	False	True	False
+aruvwẹ	Aruvwẹ	Dawn  ;  daylight  period.	n.	okrokoto_2020	False	True	False
+aruẹdọ	aruẹdọ	mercy	n.	ukere_1986	False	True	False
+aruẹmrẹ	aruẹmrẹ	prophesy	n.	ukere_1986	False	True	False
+asa	Asa	place / Place	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+asa	Asá	bird with red beak that bores hole in the pit / A bird's name	n.	grammar_basic_course,ukere_1986	True	False	True
+asadaveravwe	asadáveravwe	abattoir	n.	ukere_1986	False	True	False
+asakuẹ	Asakuẹ	Multiplied  by .	n.	okrokoto_2020	False	True	False
+asan	asán	June	n.	ukere_1986	False	True	False
+ase	asé	acquittal / Non  guilty  verdict  ;  Acquittal	n.	okrokoto_2020,ukere_1986	True	False	True
+aseje	aseje	everywhere	n.	ukere_1986	False	True	False
+asen	asén	odd	a.	ukere_1986	False	True	False
+asiweri	ásiweri	mamba	n.	ukere_1986	False	True	False
+aso	aso	night / Night	n.	okrokoto_2020,ukere_1986	True	False	True
+ason	asón	night / darkness [Curriculum: object]	n.	curriculum_seed	False	False	True
+atamu	atámu	charm for effective balance	n.	ukere_1986	False	True	False
+atanẹ	atánẹ	it is said	exp.	ukere_1986	False	True	False
+atarhe	Atarhe	Pre- destination	n.	okrokoto_2020	False	True	False
+atarhọvwe	átárhọvwe	charm for easy acceptance/answer	n.	ukere_1986	False	True	False
+atikprere	atikprere	rumour monger	n.	ukere_1986	False	True	False
+ato	Ato	Desert	n.	grammar_basic_course,okrokoto_2020	True	False	True
+ato	Ató	chewing stick / Chewing   stick. / Chewing stick	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+aton	aton	savanna	n.	ukere_1986	False	True	False
+atẹtẹ	Atẹtẹ	A  seller/hawker’s  ware  display  platform	n.	okrokoto_2020	False	True	False
+atẹtẹ	atẹtẹ	tray, flat basin (made locally from a plant called éti)	n.	ukere_1986	False	True	False
+ava	avá	February	n.	ukere_1986	False	True	False
+aviavwe	áviávwe	armpit	n.	ukere_1986	False	True	False
+avwanre	avwanre	we / us [Curriculum: pronoun]	pron.	curriculum_seed	False	False	True
+avware	avware	wide area with collection of ponds	n.	ukere_1986	False	True	False
+avware	avwáre	we	pron.	ukere_1986	False	True	False
+avwarhe	ávwárhé	charm for lightness	n.	ukere_1986	False	True	False
+avwarẹn	avwárẹn	us	pron.	ukere_1986	False	True	False
+avwebọ	Avwebọ	Favorite  person	n.	okrokoto_2020	False	True	False
+avwebọ	ávwebọ	favourite (e.g. wife)	n.	ukere_1986	False	True	False
+avwerhe	avwerhe	sweetness	n.	ukere_1986	False	True	False
+avwiana	avwiana	flag	n.	ukere_1986	False	True	False
+avwikpe	ávwíkpe	charm for postponing evil days such as death	n.	ukere_1986	False	True	False
+avwiorọvwe	ávwiórọvwe	wife always treated with disdain by the husband	n.	ukere_1986	False	True	False
+avworo	ávworo	rainbow	n.	ukere_1986	False	True	False
+avwre	avwré	gill	n.	ukere_1986	False	True	False
+avwro	avwro	argument / Argument ; Expression  of  a  second  opinion.	n.	okrokoto_2020,ukere_1986	True	False	True
+awa	awa	hour	n.	ukere_1986	False	True	False
+awanre	Awanre	Ancient	n.	okrokoto_2020	False	True	False
+aware	aware	ancient	n.	ukere_1986	False	True	False
+awusa	áwúsá	Urhobo name for the Hausa people and their language	n.	ukere_1986	False	True	False
+ayarọ	ayarọ	basket used by women in fishing	n.	ukere_1986	False	True	False
+ayar	Ayar	Fish   trapping   basket	n.	okrokoto_2020	False	True	False
+aye	ayé	they / them [Curriculum: pronoun]	pron.	curriculum_seed,okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+aye	ayé	woman / wife [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+ayen	ayen	they	pron.	ukere_1986	False	True	False
+ayen	áyen	them	pron.	ukere_1986	False	True	False
+ayerorọvwe	ayerórọvwe	Mrs.	n.	ukere_1986	False	True	False
+ayeruwevwi	ayerúwevwi	housewife	n.	ukere_1986	False	True	False
+ayevevu	ayevevu	pregnant woman	n.	ukere_1986	False	True	False
+ayọni	ayọni	pressing iron	n.	ukere_1986	False	True	False
+azagba	Azagba	Presence  of  everyone;  un- hidden  ;	n.	okrokoto_2020	False	True	False
+azagba	azagba	public place	n.	ukere_1986	False	True	False
+aziza	aziza	spirit roaming in the forest which gives rise to whirlwind	n.	ukere_1986	False	True	False
+aŋ͡ma	àŋ͡má	cloth	n.	ucla_phonetics_1960	False	True	False
+b	B	Letter B / sound /b/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ba	bá	be loose (of a baby carried on the back)	v.t	ukere_1986	False	True	False
+baba	Baba	Father	n.	okrokoto_2020	False	True	False
+beroma	Beroma	Lament  in  despair	n.	okrokoto_2020	False	True	False
+bi	bi	push	v.t	ukere_1986	False	True	False
+bi	bi	to row	n.	ucla_phonetics	False	True	False
+bibi	bibi	grope, roam aimlessly	v.i	ukere_1986	False	True	False
+biebi	biebí	black / Black	a.	okrokoto_2020,ukere_1986	False	True	False
+biko	biko	please / Please   ;   I  beg  you	v.i	okrokoto_2020,ukere_1986	True	False	True
+bio	Bio	Push	n.	okrokoto_2020	False	True	False
+bioma	bioma	make way for / Excuse  me  ; get  out  of  my  way	v.i	okrokoto_2020,ukere_1986	True	False	True
+bitoboyi	Bitoboyi	Dress  there ;Excuse  me ; move there	n.	okrokoto_2020	False	True	False
+bo	bo	crow	v.i	ukere_1986	False	True	False
+bo	bo	swim (of fish)	v.i	ukere_1986	False	True	False
+bov	Bov	Where ?	n.	okrokoto_2020	False	True	False
+bra	Bra	Bad	n.	okrokoto_2020	False	True	False
+brabra	brabra	bad / Very  bad	a.	okrokoto_2020,ukere_1986	True	False	True
+branama	Branama	Display  style  ;   Proud  ;  Show  off.	n.	okrokoto_2020	False	True	False
+brigho	Brigho	How  much  is  the  price  tag ?	n.	okrokoto_2020	False	True	False
+brisẹ	Brisẹ	Add  a “Proverb” ; Clarify with a proverb.	n.	okrokoto_2020	False	True	False
+bro	Bro	Cut  it.	n.	okrokoto_2020	False	True	False
+bro	bró	how many? / how much? / How  many ?	int.	okrokoto_2020,ukere_1986	True	False	True
+broma	Broma	Hurry  up ;  Walk  fast.	n.	okrokoto_2020	False	True	False
+bruche	brúche	advise / Advise	v.t	okrokoto_2020,ukere_1986	False	True	False
+brudu	brúdú	worry (about/over something) / Worry	v.i	okrokoto_2020,ukere_1986	False	True	False
+brẹdẹ	Brẹdẹ	Make   an  appointment  date.	n.	okrokoto_2020	False	True	False
+bu	bu	be plentiful	v.i	ukere_1986	False	True	False
+bubu	búbú	awkward, clumsy	a.	ukere_1986	False	True	False
+bue	bue	scrape	v.t	ukere_1986	False	True	False
+buebu	buebu	Many ;  Plenty  ;  a  lot. / plenty	n.	grammar_basic_course,okrokoto_2020	True	False	True
+bẹdẹ	bẹdẹ	never	adv.	ukere_1986	False	True	False
+bẹdẹbẹdẹ	bẹdẹbẹdẹ	forever, continuously (of time)	adv.	ukere_1986	False	True	False
+bẹnẹ	bẹnẹ	romance / Romance	v.t	okrokoto_2020,ukere_1986	True	False	True
+bẹre	Bẹre	Tear	n.	okrokoto_2020	False	True	False
+bẹrẹ	bẹrẹ́	tear	v.t	ukere_1986	False	True	False
+bẹsiẹye	bẹsiẹye	until / Until  then ; Until  that  time	conj.	okrokoto_2020,ukere_1986	True	False	True
+bọ	bọ	build / Build	v.t	okrokoto_2020,ukere_1986	True	False	True
+bọrọ	bọrọ	comfort	v.t	ukere_1986	False	True	False
+bọrọbọrọ	bọrọbọrọ	warm	a.	ukere_1986	False	True	False
+ch	CH	Digraph CH / sound /tʃ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+cha	Cha	Coming  e.g. Mẽ   cha = I am  coming.	n.	okrokoto_2020	False	True	False
+cha	chá	support/aid / Support ; Add  to  it  ;  augment.	v.t	okrokoto_2020,ukere_1986	True	False	True
+charha	charha	umbrella	n.	ukere_1986	False	True	False
+chavwọ	chavwọ	screw	v.t	ukere_1986	False	True	False
+chere	chere	cook / Cook	v.t	okrokoto_2020,ukere_1986	True	False	True
+chere emu kpata kpata.	Chére emú kpata kpata.	Cook food quickly. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+chirako	Chirako	Endure	n.	okrokoto_2020	False	True	False
+chiyi	chiyi	tread (on something)	v.t	ukere_1986	False	True	False
+cho	cho	steal / Steal	v.t	okrokoto_2020,ukere_1986	True	False	True
+choja	Choja	Avenge  a  long  time  grudge.	n.	okrokoto_2020	False	True	False
+choma	choma	Be  prepared  ;  Get   ready. / be  prepared	n.	grammar_basic_course,okrokoto_2020	True	False	True
+chuji	Chuji	Steal	n.	okrokoto_2020	False	True	False
+chuko	chúko	help / Help ; Lend  a  hand ; Support.	v.t	okrokoto_2020,ukere_1986	False	True	False
+churo	Churo	Tie  it	n.	okrokoto_2020	False	True	False
+d	D	Letter D / sound /d/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+da	da	Drink / drink	n.	grammar_basic_course,okrokoto_2020	True	False	True
+dada	dádá	sharp	a.	ukere_1986	False	True	False
+dame	Dame	Drink  water	n.	okrokoto_2020	False	True	False
+davwe	Davwe	Try   ;  Test	n.	okrokoto_2020	False	True	False
+davw	Davw	Test  it ; Try    it.	n.	okrokoto_2020	False	True	False
+dede	Dẽdè	Welcome / Welcome   him/her.	n.	okrokoto_2020	False	True	False
+dedede	Dedẽde	Without  fear ; Without  discrimination.	n.	okrokoto_2020	False	True	False
+dedevwo	dédévwo	nevertheless	conj.	ukere_1986	False	True	False
+di	di	block	v.t	ukere_1986	False	True	False
+dia	dia	menstruate	v.i	ukere_1986	False	True	False
+didiemu  ?	Didiemu  ?	What  is  it  ?	n.	okrokoto_2020	False	True	False
+die	dié	what	int.	ukere_1986	False	True	False
+die ?	Die ?	What ?	n.	okrokoto_2020	False	True	False
+die kọye wo ruru na?	Die kọ́ye wo rúru na?	What is this that you have done? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+die wo guọnọre?	Die wo guọ́nọre?	What do you seek? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+die wo rori vwo ru emu nana?	Die wo róri vwo ru emú nana?	What did you think to do this thing? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+dierhare	Dierhare	Warm  up  around  fire.	n.	okrokoto_2020	False	True	False
+diguẹ	Diguẹ	Greet  with  knees  down  or  bent .	n.	okrokoto_2020	False	True	False
+diguẹ	diguẹ	request one to say	v.t	ukere_1986	False	True	False
+dino	dino	nearly	adv.	ukere_1986	False	True	False
+divwi	Divwi	Sink ; Dive ;(divwi  ame = dive  into  water ).	n.	okrokoto_2020	False	True	False
+dj	DJ	Digraph DJ / sound /dʒ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+dja	Dja	Spicy  ;  Pepper-like  taste  ;	n.	okrokoto_2020	False	True	False
+djadja	Djadja	Very hot and spicy  ; Very	n.	okrokoto_2020	False	True	False
+djadja	djádjá	peppery	a.	ukere_1986	False	True	False
+djavwe	djávwe	hide	v.t	ukere_1986	False	True	False
+dje	dje	spray (somebody with medicine by mouth)	v.t	ukere_1986	False	True	False
+dje	djé	show/explain	v.t	ukere_1986	False	True	False
+djidji	djídjí	foolishly	adv.	ukere_1986	False	True	False
+djidji1	djídjí1	foolish	a.	ukere_1986	False	True	False
+djoma	djoma	introduce (oneself to)	v.i	ukere_1986	False	True	False
+djonẹ	Djonẹ	Run  a  race	n.	okrokoto_2020	False	True	False
+dju	dju	fan	v.t	ukere_1986	False	True	False
+djẹ	djẹ	run / Run	v.i	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+djẹ	djẹ	germinate	v.i	ukere_1986	False	True	False
+djẹ	djẹ́	drive away (animate objects)	v.t	ukere_1986	False	True	False
+do	dóo	thank you / greetings / well done [Curriculum: greeting]	phr.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+do2	dó2	throw	v.t	ukere_1986	False	True	False
+doghodogho	doghodogho	slack	a.	ukere_1986	False	True	False
+dọn	dnɔ̃̀	to grow lean	n.	ucla_phonetics	False	True	False
+du	du	mate	v.t	ukere_1986	False	True	False
+duvwu	duvwu	pound	v.t	ukere_1986	False	True	False
+dẹ	Dẹ	Buy	n.	okrokoto_2020	False	True	False
+dẹdẹ	Dẹ́dẹ́	Gently  (also  Dẹ́ẹ́dẹ́).	n.	okrokoto_2020	False	True	False
+dẹdẹ	dẹ́dẹ́	careful	a.	ukere_1986	False	True	False
+dọdọn	dọdọn	lean/thin	a.	ukere_1986	False	True	False
+d’udi	D’udi	Drink  liquor  (  da    udi  ).	n.	okrokoto_2020	False	True	False
+e	E	Letter E (close-mid) / sound /e/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+e gbe jẹn orẹmrẹ dia.	E gbe jẹn orẹ́mrẹ dia.	Let there be light. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+e se aye	é sé ayẽ	they are called	phr.	ucla_phonetics	False	True	False
+e se we	e sé wé	you (sg.) are called	phr.	ucla_phonetics	False	True	False
+ebo	ebó	act of crowing	n.	ukere_1986	False	True	False
+ebo	ébo	woven native bag made of raffia palm / Local woven package bag	n.	okrokoto_2020,ukere_1986	False	True	False
+ebri	ébri	darkness / Darkness	n.	okrokoto_2020,ukere_1986	False	True	False
+ebruba	Ebruba	Blessing	n.	okrokoto_2020	False	True	False
+ebun	bnũ̀	increase	n.	ucla_phonetics	False	True	False
+ebẹn	ebẹ́n	sharp grass	n.	ukere_1986	False	True	False
+ebọ	ebọ́	thatch/roof	n.	ukere_1986	False	True	False
+eb	Eb	House  roofing  with   attached  leaves	n.	okrokoto_2020	False	True	False
+eca	écá	coming	n.	ucla_phonetics_1960	False	True	False
+echa	echa	bad omen	n.	ukere_1986	False	True	False
+echo	echó	stealing	n.	ukere_1986	False	True	False
+echon	cnɔ̃̀	to defend	n.	ucla_phonetics	False	True	False
+echẹ	échẹ	door	n.	ukere_1986	False	True	False
+echẹro	echẹ́ro	forgetfulness	n.	ukere_1986	False	True	False
+edede	edede	reception/welcome	n.	ukere_1986	False	True	False
+edi	Edi	Palm  tree  fruit	n.	okrokoto_2020	False	True	False
+ediri	ediri	patience	n.	ukere_1986	False	True	False
+edja	Edja	Helminths ; Parasitic  worms	n.	okrokoto_2020	False	True	False
+edjakekete	edjákekete	spider sp.	n.	ukere_1986	False	True	False
+edje	Edje	Mates  ;  Equals	n.	okrokoto_2020	False	True	False
+edje	edje	peer	n.	ukere_1986	False	True	False
+edje	édjé	explanation/description	n.	ukere_1986	False	True	False
+edjenekpo	edjenékpo	leopard, ‘tiger’	n.	ukere_1986	False	True	False
+edjere	edjere	crocodile / Crocodile	n.	okrokoto_2020,ukere_1986	True	False	True
+edo	edo	noise	n.	ukere_1986	False	True	False
+edovi	edovi	door frame	n.	ukere_1986	False	True	False
+eduvwo	dũ̀ʋ̃ũ̀	to pound	n.	ucla_phonetics	False	True	False
+efa	éfã̀	others	n.	ucla_phonetics_1960	False	True	False
+efan	éfã̀	others	n.	ucla_phonetics	False	True	False
+efe	Efe	Riches	n.	okrokoto_2020	False	True	False
+efe	efe	wealth	n.	ukere_1986	False	True	False
+efenudu	efenudu	wrapper	n.	ukere_1986	False	True	False
+eferifẹn	eferifẹn	bird sp.	n.	ukere_1986	False	True	False
+efi	efi	rope used by palm collector in climbing the palm tree / Palm  tree  climbing  rope / rope for climbing palms	n.	okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+efi	éfi	fenced hidden place where masquerades and the like are dressed	n.	ukere_1986	False	True	False
+efia	Efia	Lie	n.	okrokoto_2020	False	True	False
+egaga	egaga	hob	n.	ukere_1986	False	True	False
+eganase	eganase	glass for drinking wine	n.	ukere_1986	False	True	False
+egba	égba	jaw	n.	ukere_1986	False	True	False
+egbede	egbedé	injection	n.	ukere_1986	False	True	False
+egbede1	egbedé1	needle	n.	ukere_1986	False	True	False
+egbedi	egbedi	barrel once used for storing commercial oil for export	n.	ukere_1986	False	True	False
+egbemuo	egbémuó	preparation	n.	ukere_1986	False	True	False
+egbesasa	égbésásá	charm for glorious dance	n.	ukere_1986	False	True	False
+egbo	egbo	ram	n.	ukere_1986	False	True	False
+egbo	égbó	forest jungle	n.	ukere_1986	False	True	False
+egbri	egbrí	Bahama grass	n.	ukere_1986	False	True	False
+egbru	egbru	wrapper worn by men	n.	ukere_1986	False	True	False
+egbn	Egbn	Bullets	n.	okrokoto_2020	False	True	False
+egede	égede	bowel	n.	ukere_1986	False	True	False
+egedege	Egedege	Multiple  floor  building	n.	okrokoto_2020	False	True	False
+egenege	égenége	storey building	n.	ukere_1986	False	True	False
+egerẹ	égérẹ́	vomit	n.	ukere_1986	False	True	False
+eghanran	eghanran	west	n.	ukere_1986	False	True	False
+eghene	éghene	young man	n.	ukere_1986	False	True	False
+eghre	éghre	enmity	n.	ukere_1986	False	True	False
+eghrobọ	éghróbọ	elbow	n.	ukere_1986	False	True	False
+eghrowọ	éghrówọ	ankle	n.	ukere_1986	False	True	False
+eghrugbo	éghrúgbo	knee	n.	ukere_1986	False	True	False
+eghwa	Eghwa	Load	n.	okrokoto_2020	False	True	False
+eghwo	éghwo	funnel	n.	ukere_1986	False	True	False
+eghworo	eghwóro	massage	n.	ukere_1986	False	True	False
+eghwro	eghwro	hoe	n.	ukere_1986	False	True	False
+eghwrẹ	eghwrẹ́	July	n.	ukere_1986	False	True	False
+eghwughwẹ	éghwughwẹ	chameleon / Chameleon	n.	okrokoto_2020,ukere_1986	False	True	False
+eghwọghwọ	eghwọghwọ	clothes’ moth	n.	ukere_1986	False	True	False
+egodi	égodi	kite	n.	ukere_1986	False	True	False
+egodo	égodo	compound	n.	ukere_1986	False	True	False
+egu	egú	pounded yam	n.	ukere_1986	False	True	False
+egẹnẹ	Egẹnẹ	Bullets	n.	okrokoto_2020	False	True	False
+eha	éxà	game, play / Play / dance, game	n.	okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+eha1	éha1	dance	n.	ukere_1986	False	True	False
+ehapho	éhapho	white sand	n.	ukere_1986	False	True	False
+eheri	Eheri	Fashion	n.	okrokoto_2020	False	True	False
+eho	eho	fine / Fine ; Consequence  of a guilty  verdict.	n.	okrokoto_2020,ukere_1986	True	False	True
+ehoho	éhóhó	hidden place	n.	ukere_1986	False	True	False
+ehuhu	Ehuhu	Armadillo   ; Pangolin	n.	okrokoto_2020	False	True	False
+ehuhu	ehuhu	bat	n.	ukere_1986	False	True	False
+ehun	éhún	waist	n.	ukere_1986	False	True	False
+ehwa	èʍá	bed	n.	ucla_phonetics	False	True	False
+ehware	ehware	(coitus) sexual intercourse	n.	ukere_1986	False	True	False
+ehwe	éhwé	punishment, beating	n.	ukere_1986	False	True	False
+ehwẹ	ehwẹ	laughter	n.	ukere_1986	False	True	False
+ehwẹjẹ	ehwẹ́jẹ́	joke, jest	n.	ukere_1986	False	True	False
+ehwọrhọ	éhwọrhọ	swamp	n.	ukere_1986	False	True	False
+ejiro	éjíro	praise	n.	ukere_1986	False	True	False
+ejọrọ	Ejọ̃rọ	Metal  chain	n.	okrokoto_2020	False	True	False
+eka	Eka	Curse	n.	okrokoto_2020	False	True	False
+ekan	ékán	abuse	n.	ukere_1986	False	True	False
+ekanaka	Ekanaka	Breakable  Plate	n.	okrokoto_2020	False	True	False
+eki	èkì	market / Market	n.	okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+ekian	ékian	raffia palm	n.	ukere_1986	False	True	False
+ekidia	ékídia	sitting	n.	ukere_1986	False	True	False
+eko	ekó	sewing	n.	ukere_1986	False	True	False
+ekogho	ekogho	area / Area ; Neighborhood	n.	okrokoto_2020,ukere_1986	True	False	True
+ekpahe	ekpahe	cold	n.	ukere_1986	False	True	False
+ekpe	ékpé	sand	n.	ukere_1986	False	True	False
+ekpehruyovwi	ékpéhruyovwi	skull	n.	ukere_1986	False	True	False
+ekperẹ	ékpérẹ́	shout/exclamation	n.	ukere_1986	False	True	False
+ekpeti	ékpeti	box / Box	n.	okrokoto_2020,ukere_1986	False	True	False
+ekpo	ékpo	bag/pocket	n.	ukere_1986	False	True	False
+ekpoghowo	ékpóghówo	thigh	n.	ukere_1986	False	True	False
+ekpono	ekpono	act of dragging	n.	ukere_1986	False	True	False
+ekpu	Ekpu	Pocket	n.	okrokoto_2020	False	True	False
+ekpu	ékpù	bag	n.	ucla_phonetics	False	True	False
+ekpẹ	Ekpẹ	Soil  ;  Sand	n.	okrokoto_2020	False	True	False
+ekrirhe	Ekrirhe	Bundle  of   firewood	n.	okrokoto_2020	False	True	False
+ekrirhekrẹbe	Ekrirhekrẹbe	Silk  Worm	n.	okrokoto_2020	False	True	False
+ekrirhekrẹbe	ekrirhékrẹbe	insect that builds a shelter of small pieces of wood round itself	n.	ukere_1986	False	True	False
+ekru	ekru	bundle / Bundle	n.	okrokoto_2020,ukere_1986	True	False	True
+ekru	ékru	family / Family	n.	okrokoto_2020,ukere_1986	True	False	True
+eku	Eku	Oppression  ; Subjection (through false  allegations)	n.	okrokoto_2020	False	True	False
+ekuakua	ekuakua	property	n.	ukere_1986	False	True	False
+ekugbe	ékúgbé	togetherness	n.	ukere_1986	False	True	False
+ekọ	ekọ́	ayo, warri, game with 12 holes played with 4 counters each in a hole	n.	ukere_1986	False	True	False
+ema	ema	dance done mainly by elderly people with the upper part of the body	n.	ukere_1986	False	True	False
+emamọ	Emamọ	A  good   one	n.	okrokoto_2020	False	True	False
+emamọ	Émámọ	Fruit	n.	okrokoto_2020	False	True	False
+emare	emare	ground yam or plantain used for sacrifice	n.	ukere_1986	False	True	False
+eme	emé	twine	n.	ukere_1986	False	True	False
+emeghene	éméghene	youth	n.	ukere_1986	False	True	False
+ememerha	ememerha	gently	adv.	ukere_1986	False	True	False
+emeraravwe	Emeraravwe	Ant	n.	okrokoto_2020	False	True	False
+emeravwe	éméravwe	moon / Moon ;  Month	n.	okrokoto_2020,ukere_1986	False	True	False
+emeravwe	éméravwe	month	n.	ukere_1986	False	True	False
+emu	emú	food / thing [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+emudia	émúdia	standing	n.	ukere_1986	False	True	False
+emudiaga	émúdiágá	solidarity	n.	ukere_1986	False	True	False
+emuore	emuore	foodstuff	n.	ukere_1986	False	True	False
+enakpukpu	enákpukpu	motor-cycle	n.	ukere_1986	False	True	False
+enanadja	Enanadja	Pineaple	n.	okrokoto_2020	False	True	False
+enanadja	enanadja	pineapple	n.	ukere_1986	False	True	False
+eni	Ení	Protective  bunch  of  clothes	n.	okrokoto_2020	False	True	False
+eni	ení	head-pad / Head pad / head pad	n.	grammar_basic_course,ucla_phonetics,ukere_1986	False	True	False
+eni	ení	elephant / Elephant	n.	grammar_basic_course,okrokoto_2020,ukere_1986	False	True	False
+eniame	eniáme	hippopotamus	n.	ukere_1986	False	True	False
+enivwọvo	énivwọvo	charm for the exclusive attention of one's husband or lover	n.	ukere_1986	False	True	False
+eno	enó	act of quitting	n.	ukere_1986	False	True	False
+eno	énó	brightness	n.	ukere_1986	False	True	False
+enu	énu	up/top / Up	prep.	okrokoto_2020,ukere_1986	False	True	False
+enuebro	enuebro	act of grumbling	n.	ukere_1986	False	True	False
+enuera	énuerá	ascension	n.	ukere_1986	False	True	False
+enya	enya	spittle	n.	ukere_1986	False	True	False
+epha	epha	oracle, divination / Oracle	n.	okrokoto_2020,ukere_1986	True	False	True
+epharo	Epharo	Face	n.	okrokoto_2020	False	True	False
+ephẹ	Ephẹ	Urine	n.	okrokoto_2020	False	True	False
+ephẹn	ephẹn	urine	n.	ukere_1986	False	True	False
+ephẹphẹ	ephẹphẹ	ringworm	n.	ukere_1986	False	True	False
+ephẹrẹ	éphẹ́rẹ	language / Urhobo name for the I jọ people and their language / Language	n.	okrokoto_2020,ukere_1986	False	True	False
+epini	epini	half kobo (½k) [No longer in use]	n.	ukere_1986	False	True	False
+erakive	erákive	native blade	n.	ukere_1986	False	True	False
+erako	eráko	dog	n.	ukere_1986	False	True	False
+eran	erán	crushed palm kernel fibre for making fire	n.	ukere_1986	False	True	False
+eranvwe	eránvwe	animal / meat [Curriculum: object]	n.	curriculum_seed	False	False	True
+eravwe	eravwe	animal, meat / Animal	n.	okrokoto_2020,ukere_1986	True	False	True
+ere	eré	kind of mat	n.	ukere_1986	False	True	False
+erere	Erere	Profit	n.	okrokoto_2020	False	True	False
+erere	erere	gain	n.	ukere_1986	False	True	False
+erha	ẹ́rha	three (3) [Curriculum: number]	n.	curriculum_seed,grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+erhare	erhare	fire / Fire	n.	okrokoto_2020,ukere_1986	True	False	True
+erhare	erhare	hell	n.	ukere_1986	False	True	False
+erhe	érhe	kind of spice	n.	ukere_1986	False	True	False
+erhe	érhe	yawn	n.	ukere_1986	False	True	False
+erherin	erherin	ceiling	n.	ukere_1986	False	True	False
+erhi	erhí	spirit / soul [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+erhia	érhia	tale-bearing	n.	ukere_1986	False	True	False
+erhie	erhié	alligator pepper / Grains  of  paradise ; Alligator   pepper	n.	okrokoto_2020,ukere_1986	False	True	False
+erhirhi	erhirhi	ant	n.	ukere_1986	False	True	False
+erhivwi	erhívwi	millipede / Millipede	n.	okrokoto_2020,ukere_1986	False	True	False
+erhu	erhu	hat / Hat	n.	okrokoto_2020,ukere_1986	True	False	True
+erhun	erhún	barn	n.	ukere_1986	False	True	False
+erhurhu	erhurhu	refuse dump / Garbage  dump	n.	okrokoto_2020,ukere_1986	True	False	True
+erhuru	Erhuru	Shore  ;  Beach  ; River’s  edge	n.	okrokoto_2020	False	True	False
+erhuru	erhuru	port	n.	ukere_1986	False	True	False
+erhuvwu	érhuvwu	beauty / Beauty	n.	okrokoto_2020,ukere_1986	False	True	False
+erhuẹ	erhuẹ́	cow / Cow	n.	okrokoto_2020,ukere_1986	False	True	False
+erhọ	Erhọ	Ear	n.	okrokoto_2020	False	True	False
+eri	eri	fish / Fish	n.	okrokoto_2020,ukere_1986	True	False	True
+eriariẹ	ériáriẹ	knowledge	n.	ukere_1986	False	True	False
+eriavọ	eriávọ	over-feeding	n.	ukere_1986	False	True	False
+erivwi	erivwi	land of the dead	n.	ukere_1986	False	True	False
+ero	ero	backbiting	n.	ukere_1986	False	True	False
+erurẹ	érurẹ	dove	n.	ukere_1986	False	True	False
+esabọ	esábọ	bail	n.	ukere_1986	False	True	False
+esakpa	ésákpa	ant sp.	n.	ukere_1986	False	True	False
+esakpogodi	esákpógodi	great-great-grandchild	n.	ukere_1986	False	True	False
+esan	esán	six (6) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+ese	esé	reading, calling	n.	ukere_1986	False	True	False
+esegbuyota	esegbúyóta	belief, faith	n.	ukere_1986	False	True	False
+esha	esha	grey hair / Grey  hair	n.	okrokoto_2020,ukere_1986	True	False	True
+eshe	Eshe	;  Fall	n.	okrokoto_2020	False	True	False
+eshe	eshé	failure	n.	ukere_1986	False	True	False
+eshe	éshé	act of falling	n.	ukere_1986	False	True	False
+eshu	eshu	devil / Devil	n.	okrokoto_2020,ukere_1986	True	False	True
+eshẹ	Eshẹ	Rash  ;  skin complaint	n.	okrokoto_2020	False	True	False
+eshẹ	eshẹ	rashes, crawcraw	n.	ukere_1986	False	True	False
+esi	esi	pig / Pig	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+esia	Esia	Fable	n.	okrokoto_2020	False	True	False
+esiaye	esiáye	sow	n.	ukere_1986	False	True	False
+esio	esió	writing	n.	ukere_1986	False	True	False
+esiono	esiónó	reduction	n.	ukere_1986	False	True	False
+esiraghwa	esirághwá	bush pig	n.	ukere_1986	False	True	False
+esiri	esiri	base	n.	ukere_1986	False	True	False
+esiso	esiso	sack	n.	ukere_1986	False	True	False
+esiso	esiso	two hundred Naira (N 200)	n.	ukere_1986	False	True	False
+esivwo	esivwo	treatment	n.	ukere_1986	False	True	False
+esivwo	esivwo	act of struggling for, contesting	n.	ukere_1986	False	True	False
+esivworhọ	esívwórhọ	redemption	n.	ukere_1986	False	True	False
+esẹ	Ésẹ́	Scale    (e.g.  fish  scale )	n.	okrokoto_2020	False	True	False
+eta	ètá	ward	n.	ucla_phonetics	False	True	False
+ete	ete	ward	n.	ukere_1986	False	True	False
+eti	éti	plant used locally for making trays and other things	n.	ukere_1986	False	True	False
+etinẹ	etinẹ	here	adv.	ukere_1986	False	True	False
+etiyi	etíyi	there	adv.	ukere_1986	False	True	False
+eto	Eto	Pumpkin	n.	okrokoto_2020	False	True	False
+eto	éto	watermelon	n.	ukere_1986	False	True	False
+etu	etu	heap	n.	ukere_1986	False	True	False
+eva	èvã̀	monitor lizard	n.	ucla_phonetics_1960	False	True	False
+evan	èvã̀	monitor lizard	n.	ucla_phonetics	False	True	False
+eve	evé	bargain	n.	ukere_1986	False	True	False
+evie	evie	breast	n.	ukere_1986	False	True	False
+evo	evo	some	a.	ukere_1986	False	True	False
+evrẹ	evrẹ́	rising	n.	ukere_1986	False	True	False
+evrẹnushi	evrẹ́núshi	resurrection	n.	ukere_1986	False	True	False
+evu	Evu	Stomach  ;   Belly	n.	okrokoto_2020	False	True	False
+evuetue	evuétué	diarrhoea/dysentery	n.	ukere_1986	False	True	False
+evughe	evúghe	recognition	n.	ukere_1986	False	True	False
+evun	evun	pregnancy	n.	ukere_1986	False	True	False
+evun	evun	in (side)	prep.	ukere_1986	False	True	False
+evun	évun	shop/store	n.	ukere_1986	False	True	False
+evun1	evun1	stomach, belly	n.	ukere_1986	False	True	False
+evuo	evuó	act of reaping, harvesting	n.	ukere_1986	False	True	False
+evurigho	évurígho	bank	n.	ukere_1986	False	True	False
+evuvwo	evúvwó	roasting	n.	ukere_1986	False	True	False
+evuẹkparọ	evuẹ́kpárọ	abortion	n.	ukere_1986	False	True	False
+evwerhẹ	évwérhẹ	dream	n.	ukere_1986	False	True	False
+evwiẹ	évwiẹ	birth	n.	ukere_1986	False	True	False
+evwoghovwo	evwóghóvwo	forgiveness	n.	ukere_1986	False	True	False
+evwomuẹ	evwómuẹ	coronation	n.	ukere_1986	False	True	False
+evwre	evwré	somersault	n.	ukere_1986	False	True	False
+evwri	evwri	palm oil, mineral oil	n.	ukere_1986	False	True	False
+evwru	evwrú	dew	n.	ukere_1986	False	True	False
+evwu	evwu	bat-like animal	n.	ukere_1986	False	True	False
+ewan	éwán	bush clearing	n.	ukere_1986	False	True	False
+ewavwe	ewavwe	palm branch with leaves on	n.	ukere_1986	False	True	False
+ewe	éwé	ponds	n.	ucla_phonetics,ucla_phonetics_1960	True	False	True
+ewene	ewéne	change, transfer	n.	ukere_1986	False	True	False
+eweri	ewéri	monkey	n.	ukere_1986	False	True	False
+ewewu	éwewu	expresses happiness	excl.	ukere_1986	False	True	False
+ewun	éwun	shirt	n.	ukere_1986	False	True	False
+ewunrawọ	éwunráwọ	trousers	n.	ukere_1986	False	True	False
+eya	eyá	bet	n.	ukere_1986	False	True	False
+eyareya	éyareya	guinea grass	n.	ukere_1986	False	True	False
+ezekẹ	ezekẹ	dedication	n.	ukere_1986	False	True	False
+eɲa	eɲa	saliva	n.	ucla_phonetics_1960	False	True	False
+eʃa	èʃà	grey hair	n.	ucla_phonetics_1960	False	True	False
+eʋa	eʋá	fortune-telling	n.	ucla_phonetics_1960	False	True	False
+eʍa	èʍá	bed	n.	ucla_phonetics_1960	False	True	False
+èsívwò	fũ̀ɛ̃̀	heal	n.	ucla_phonetics	False	True	False
+ẹsẹ	sẹ	seeking a miracle	n.	ucla_phonetics	False	True	False
+ẹvwe	ẹβé	goat	n.	ucla_phonetics	False	True	False
+f	F	Letter F / sound /f/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+fa	Fa	Kick   ( e.g.  Ball  ) / Reveal (e.g. Cause ) ; Expose	n.	okrokoto_2020	False	True	False
+fa	fa	confess	v.i	ukere_1986	False	True	False
+fa	fa	Flog / flog	n.	grammar_basic_course,okrokoto_2020	True	False	True
+fa	fá	translate	v.t	ukere_1986	False	True	False
+fa	fá	cane/whip	v.t	ukere_1986	False	True	False
+fan	fán	transport	v.t	ukere_1986	False	True	False
+faro	Faro	Intolerant ; Hash	n.	okrokoto_2020	False	True	False
+fe	fe	be rich / Get  rich   (efe  = riches )	v.i	okrokoto_2020,ukere_1986	True	False	True
+fefe	fefe	empty	a.	ukere_1986	False	True	False
+fi	fi	leak	v.t	ukere_1986	False	True	False
+fia	Fia	Cut  off   with  a  single  strike	n.	okrokoto_2020	False	True	False
+fia	Fia	Change; Reduce to smaller	n.	okrokoto_2020	False	True	False
+fia	fiá	split	v.t	ukere_1986	False	True	False
+fiabọ	Fiabọ	Empty  handed	n.	okrokoto_2020	False	True	False
+fiunu	fiunu	hiss / Hiss	v.i	okrokoto_2020,ukere_1986	True	False	True
+fiẹ	Fiẹ	Leak (e.g. Uko fiẹ= Cup leaks)	n.	okrokoto_2020	False	True	False
+fiọ	Fiọ	Sneeze  it  out	n.	okrokoto_2020	False	True	False
+fiọfiọ	Fiọfiọ	Leak  and  suck	n.	okrokoto_2020	False	True	False
+fobọrhe	fobọrhe	you may return soon (farewell)	exp.	ukere_1986	False	True	False
+foma	Foma	Confess one’s  misdeeds	n.	okrokoto_2020	False	True	False
+foma	Foma	Payment  of  travel  fare	n.	okrokoto_2020	False	True	False
+fon	fon	clean	a.	ukere_1986	False	True	False
+fori	fori	necessary	a.	ukere_1986	False	True	False
+fọ	fɔ̀	to be quiet	n.	ucla_phonetics	False	True	False
+frae	Frae	,   Light  weight	n.	okrokoto_2020	False	True	False
+fro	Fro	Snatch  it	n.	okrokoto_2020	False	True	False
+fronẹ	Fronẹ	Race  off; Run  away	n.	okrokoto_2020	False	True	False
+fru	fru	snatch / Snatch	v.t	okrokoto_2020,ukere_1986	True	False	True
+frẹ	frẹ́	juggle	v.t	ukere_1986	False	True	False
+fu	fu	quench	v.t	ukere_1986	False	True	False
+fuafo	Fuafo	White	n.	okrokoto_2020	False	True	False
+fue	Fue	Stop  it	n.	okrokoto_2020	False	True	False
+fuefu	Fuefu	Gentle	n.	okrokoto_2020	False	True	False
+fuefu	fuefú	quiet	a.	ukere_1986	False	True	False
+furhie	Furhie	Quench ; put out fire	n.	okrokoto_2020	False	True	False
+fuẹrẹ	Fuẹrẹ	Scrutinize ;Carefully examine ; research	n.	okrokoto_2020	False	True	False
+fẹnẹ	Fẹnẹ	Discriminate ; Different  from.	n.	okrokoto_2020	False	True	False
+fẹnẹ	fẹnẹ	differ, differentiate	v.i	ukere_1986	False	True	False
+fẹrẹ	Fẹrẹ	Flip  ;  Flip  it	n.	okrokoto_2020	False	True	False
+fọ	Fọ	Wait	n.	okrokoto_2020	False	True	False
+fọ	fọ	silence	v.t	ukere_1986	False	True	False
+fọrhọ	fọrhọ	wash (clothes) / Wash ( e.g.   wash  Cloth)	v.t	okrokoto_2020,ukere_1986	True	False	True
+fọrhọ	fọrhọ	extract liquid from leaves through squeezing	v.t	ukere_1986	False	True	False
+g	G	Letter G / sound /ɡ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ga	ga	serve / Serve  ;  Worship	v.t	okrokoto_2020,ukere_1986	True	False	True
+ga	ga	hold baby in squatting position to  ease its defecation and urination	v.t	ukere_1986	False	True	False
+gaga	Gaga	Strong  ;  Hard	n.	okrokoto_2020	False	True	False
+gagan	gagán	firmly, well	adv.	ukere_1986	False	True	False
+gb	GB	Digraph GB / sound /ɡ͡b/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+gba	gbá	tie / Tie	v.t	okrokoto_2020,ukere_1986	False	True	False
+gba ro evun rẹ okọ na.	Gba ro evún rẹ ókọ̀ na.	Come into the boat. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+gbagba	Gbagbá	Correct	n.	okrokoto_2020	False	True	False
+gbane	Gbane	Hug	n.	okrokoto_2020	False	True	False
+gbane	gbane	embrace	v.t	ukere_1986	False	True	False
+gbe	gbe	dance / Dance	v.i	okrokoto_2020,ukere_1986	True	False	True
+gbe	gbe	narrate	v.i	ukere_1986	False	True	False
+gbegbe	gbegbé	dirty / Dirty     ( also   Gbe )	a.	okrokoto_2020,ukere_1986	True	False	True
+gbeha	Gbeha	Dance	n.	okrokoto_2020	False	True	False
+gberi	gberi	underline, rule	v.t	ukere_1986	False	True	False
+gberuo	gberuo	please continue with your meal (sing.)	exp.	ukere_1986	False	True	False
+gbesia	Gbesia	Tell  fables	n.	okrokoto_2020	False	True	False
+gbiku	gbiku	Tell   story / tell a story	n.	grammar_basic_course,okrokoto_2020	True	False	True
+gbiẹyi	Gbiẹyi	Dead  silent	n.	okrokoto_2020	False	True	False
+gbo	Gbo	Smell	n.	okrokoto_2020	False	True	False
+gbo	Gbo	Search for   rummages ; Looking  around	n.	okrokoto_2020	False	True	False
+gbogbo	gbogbó	rotten / Rotten	a.	okrokoto_2020,ukere_1986	False	True	False
+gboma	Gboma	Dance   joyfully	n.	okrokoto_2020	False	True	False
+gbon	gbnõ̀	stink	n.	ucla_phonetics	False	True	False
+gbraka	Gbraka	Big   and  robust	n.	okrokoto_2020	False	True	False
+gbrogho	gbrogho	shake something like a tin of oil	v.t	ukere_1986	False	True	False
+gbrugho	gbrugho	shock	v.t	ukere_1986	False	True	False
+gbrẹrẹ	Gbrẹrẹ	Medium   size ; average shape	n.	okrokoto_2020	False	True	False
+gbunie	Gbunie	Rolling  on  the  floor ; Sign  of	n.	okrokoto_2020	False	True	False
+gbunu	Gbunu	Fasting ; Abstinence  from  food	n.	okrokoto_2020	False	True	False
+gbẹ	Gbẹ	Clear  weeds  ;  un-weed  with  cutlass	n.	okrokoto_2020	False	True	False
+gbẹ	gbẹ	cut grass	v.t	ukere_1986	False	True	False
+gbẹkẹ	Gbẹkẹ	Full  to  the  brim ; a  lot  (e.g.) of  food	n.	okrokoto_2020	False	True	False
+gbọgbọrọgbọn	gbọgbọrọgbọn	very long, tall or huge	id.	ukere_1986	False	True	False
+gbọn	gbọn	smell	v.i	ukere_1986	False	True	False
+gegerege	gegerege	very high	id.	ukere_1986	False	True	False
+geri	Geri	Vomit	n.	okrokoto_2020	False	True	False
+gh	GH	Digraph GH / sound /ɣ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+gha	Gha	Open  up  e.g.( Umbrella  or  eye	n.	okrokoto_2020	False	True	False
+gha	gha	forbid / Forbid	v.i	okrokoto_2020,ukere_1986	True	False	True
+ghaghare	ghagháre	costly, dear, expensive	a.	ukere_1986	False	True	False
+ghare	Ghare	Expensive	n.	okrokoto_2020	False	True	False
+ghare	ghare	divide / Divide	v.t	okrokoto_2020,ukere_1986	True	False	True
+gheregbe	gheregbe	expansive	a.	ukere_1986	False	True	False
+ghevweghe	ghevweghe	ordinary	a.	ukere_1986	False	True	False
+gho	gho	hoot at / Hoot   him/her	v.t	okrokoto_2020,ukere_1986	True	False	True
+ghoro	Ghoro	Roam ; Moving   around  without	n.	okrokoto_2020	False	True	False
+ghoro	ghoro	hawk	v.t	ukere_1986	False	True	False
+ghọ̀n	ɣ̃ɔ̃̀	be stiff	n.	ucla_phonetics	False	True	False
+ghroghro	ghroghro	transparent	a.	ukere_1986	False	True	False
+ghrẹghrẹ	ghrẹghrẹ	call someone's name poetically to make it more appealing	v.t	ukere_1986	False	True	False
+ghw	GHW	Trigraph GHW / sound /ɣʷ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ghwa	Ghwá	Gift  for  good  performance  e.g.  dancing	n.	okrokoto_2020	False	True	False
+ghwa	ghwa	carry, take along / Carry	v.t	okrokoto_2020,ukere_1986	True	False	True
+ghwaghwo	ghwaghwó	old	a.	ukere_1986	False	True	False
+ghware	ghware	castrate	v.t	ukere_1986	False	True	False
+ghwie	Ghwie	Uproot	n.	okrokoto_2020	False	True	False
+ghwi§ẹ	Ghwiẹ̣	Fold  up   (e.g.) sun-dried clothes  ; Slap	n.	okrokoto_2020	False	True	False
+ghwiẹ	ghwiẹ	slap	v.t	ukere_1986	False	True	False
+ghwo	Ghwo	Old  ;  Ripe	n.	okrokoto_2020	False	True	False
+ghwo	ghwo	exclamation of disappointment/surprise	excl.	ukere_1986	False	True	False
+ghwoghwo	ghwoghwo	announce / Announce	v.t	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ghwori§ẹ	Ghworiẹ̣	Slippery	n.	okrokoto_2020	False	True	False
+ghworiẹ	Ghworiẹ́	Rinse	n.	okrokoto_2020	False	True	False
+ghworiẹ	ghworiẹ	slippery	a.	ukere_1986	False	True	False
+ghworo	ghworo	massage	v.t	ukere_1986	False	True	False
+ghworo	ghworo	rub / Rub	v.t	okrokoto_2020,ukere_1986	True	False	True
+ghwru	Ghwru	Lost ; Cannot  find	n.	okrokoto_2020	False	True	False
+ghwu	ɣwù	die / Die	v.i	okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+ghw§ẹ	Ghwẹ̣	Pack   stuff  with  palm  of  your  hands	n.	okrokoto_2020	False	True	False
+ghw§ọ	Ghwọ̣	Quarrel  ;   Scold	n.	okrokoto_2020	False	True	False
+ghwẹ	ghwẹ	pack (things)	v.t	ukere_1986	False	True	False
+ghwọ	ghwọ	be angry	v.i	ukere_1986	False	True	False
+ghwọghwọghwọ	Ghwọghwọghwọ	Un-sanitary  ;  Filthy	n.	okrokoto_2020	False	True	False
+ghwọr§ọ	Ghwọrọ̣	Roam  in  a  road less  bush  or	n.	okrokoto_2020	False	True	False
+ghwọr§ọ	Ghwọrọ̣	Waste (ghwọrọ  kufia =waste  away)	n.	okrokoto_2020	False	True	False
+ghwọrọ	ghwọrọ	waste	v.t	ukere_1986	False	True	False
+ghẹrẹ	Ghẹrẹ	Nurture  a  child ; Up bringing ; Nourish	n.	okrokoto_2020	False	True	False
+ghọ	Ghọ	Presenting  kola  nut  and  money	n.	okrokoto_2020	False	True	False
+ghọ	ghọ	entertain	v.t	ukere_1986	False	True	False
+ghọghọ	ghọghọ	Rejoice / rejoice	n.	grammar_basic_course,okrokoto_2020	True	False	True
+ghọriẹ	ghọriẹ	walk majestically	v.i	ukere_1986	False	True	False
+gidigba	Gidigba	Very  big ; ( adj. showing  size.)	n.	okrokoto_2020	False	True	False
+gidigba	gidigba	stout, massive	id.	ukere_1986	False	True	False
+gidigidi	gidigidi	eager, impatient	id.	ukere_1986	False	True	False
+gidigidi	gidigidi	describes state of flame or heat	id.	ukere_1986	False	True	False
+go	Gò	Gloat  ;  Boast	n.	okrokoto_2020	False	True	False
+godogodo	Godogodo	Seldom	n.	okrokoto_2020	False	True	False
+gogo	Gogo	Publish ; Display	n.	okrokoto_2020	False	True	False
+gogorogo	gogorogo	very tall/high / Very  tall  ;  Very  huge	id.	okrokoto_2020,ukere_1986	True	False	True
+goma	Goma	Strong	n.	okrokoto_2020	False	True	False
+grogro	grogró	long/tall / Tall / tall /long	a.	grammar_basic_course,okrokoto_2020,ukere_1986	False	True	False
+gu	Gu	Make  a  statement	n.	okrokoto_2020	False	True	False
+gu	gu	judge	v.i	ukere_1986	False	True	False
+gua	gua	drive / Drive	v.t	okrokoto_2020,ukere_1986	True	False	True
+gue	gué	frighten	v.t	ukere_1986	False	True	False
+guegue	Guegue	Frighten	n.	okrokoto_2020	False	True	False
+gugunu	Gugunu	Not  straight	n.	okrokoto_2020	False	True	False
+gugunu	gugunu	bent	a.	ukere_1986	False	True	False
+gugurugu	Gugurugu	Huge  amount	n.	okrokoto_2020	False	True	False
+guma	Guma	Big	n.	okrokoto_2020	False	True	False
+gun	gnũ	to state a case	n.	ucla_phonetics	False	True	False
+guoguo	guoguo	weak, sluggish	a.	ukere_1986	False	True	False
+guo̠no̠	ɡwɔnɔ̃	like, look for	n.	ucla_phonetics	False	True	False
+guo̠no̠	ɡwɔ̀nɔ̃̀	find	n.	ucla_phonetics	False	True	False
+guọ	guọ	dissolve	v.t	ukere_1986	False	True	False
+guọghọ	guọghọ	destroy	v.t	ukere_1986	False	True	False
+guọnọ	guọnọ	find, look for	v.t	ukere_1986	False	True	False
+guọnọ2 v.i,	guọnọ2 v.i,	want, love	v.t	ukere_1986	False	True	False
+gẹngẹn	gẹ́ngẹ́n	very thin	id.	ukere_1986	False	True	False
+gẹrẹ	Gẹrẹ	Slant   it  ;  Bent	n.	okrokoto_2020	False	True	False
+gọ	gọ	worship	v.t	ukere_1986	False	True	False
+h	H	Letter H / sound /h/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ha	ha	play (e.g. have fun)	v.i	ukere_1986	False	True	False
+harhe	harhe	abuse	v.t	ukere_1986	False	True	False
+harhọ	Harhọ	Blame  him/her	n.	okrokoto_2020	False	True	False
+heha	Heha	Play	n.	okrokoto_2020	False	True	False
+hehe	héhé	expresses surprise	excl.	ukere_1986	False	True	False
+hirhe	Hirhe	Detour  ;  Return	n.	okrokoto_2020	False	True	False
+hi§ẹ	Hiẹ̣	Dig  in  ;  Scramble	n.	okrokoto_2020	False	True	False
+ho	ho	fine	v.t	ukere_1986	False	True	False
+hra	hra	disorganise/scatter / Scatter  ; undo  the  orderliness	v.t	okrokoto_2020,ukere_1986	True	False	True
+hrahrahra	hrahrahra	very dry	id.	ukere_1986	False	True	False
+hrahrọ	Hrahrọ	Apply  evenly ; Spread  equally	n.	okrokoto_2020	False	True	False
+hrohro	Hrohro	Scratch  out  the  last  remnant	n.	okrokoto_2020	False	True	False
+huhu	huhu	close/shut	v.t	ukere_1986	False	True	False
+hw	HW	Digraph HW / sound /hʷ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+hwa	hwa	pay / Pay	v.t	okrokoto_2020,ukere_1986	True	False	True
+hwa	hwá	tighten	v.t	ukere_1986	False	True	False
+hwahwa	hwahwá	narrow / Narrow	a.	grammar_basic_course,okrokoto_2020,ukere_1986	False	True	False
+hwe	hwe	kill, break (of glass, bottles, etc)	v.t	ukere_1986	False	True	False
+hwe	hwé	punish / Beat ; Punish ; pummel	v.t	okrokoto_2020,ukere_1986	False	True	False
+hwehwa	Hwehwa	Make  a  bed	n.	okrokoto_2020	False	True	False
+hwehwẹ	Hwehwẹ	Laugh	n.	okrokoto_2020	False	True	False
+hweke	hweké	expresses surprise resulting from fear	excl.	ukere_1986	False	True	False
+hwerhe	hwerhe	sweep	v.t	ukere_1986	False	True	False
+hwihwirihwi	Hwihwirihwi	Very  dark ; More  than  black	n.	okrokoto_2020	False	True	False
+hworhẹ	hworhẹ	wash	v.t	ukere_1986	False	True	False
+hwrẹhwrẹhwrẹ	hwrẹhwrẹhwrẹ	very clean	id.	ukere_1986	False	True	False
+hwẹ	hwẹ	laugh / Laugh	v.i	okrokoto_2020,ukere_1986	True	False	True
+hẹhẹre	hẹhẹre	wide	a.	ukere_1986	False	True	False
+hẹrhẹ	hẹrhẹ	wait / Wait	v.t	okrokoto_2020,ukere_1986	True	False	True
+họ	họ	bathe	v.t	ukere_1986	False	True	False
+họ	họ	expresses surprise	excl.	ukere_1986	False	True	False
+họ	họ	bath	n.	grammar_basic_course	False	True	False
+họh§ọre	Họhọ̣re	Look  alike	n.	okrokoto_2020	False	True	False
+họhọ	họhọ	similar	a.	ukere_1986	False	True	False
+họhọhọ	Họhọhọ	Heavy	n.	okrokoto_2020	False	True	False
+họrhọ	Họrhọ	Boil	n.	okrokoto_2020	False	True	False
+i	I	Letter I / sound /i/ [Curriculum: alphabet]	phr.	curriculum_seed,ukere_1986	True	False	True
+ibaba	ibába	one's father / Father	n.	okrokoto_2020,ukere_1986	False	True	False
+ibabode	ibábode	grandfather	n.	ukere_1986	False	True	False
+ibefi	ibefí	hunting	n.	ukere_1986	False	True	False
+ibehre	Ibehre	Mud	n.	okrokoto_2020	False	True	False
+ibi	Ibi	Charcoal	n.	okrokoto_2020	False	True	False
+ibiabọ	ibiabọ	charm for effective wrestling	n.	ukere_1986	False	True	False
+ibieta	íbietá	alphabet	n.	ukere_1986	False	True	False
+ibivu	Ibivu	Intestine	n.	okrokoto_2020	False	True	False
+ibosu	ibósu	red poplin	n.	ukere_1986	False	True	False
+ibrebru	íbrébru	tribal marks	n.	ukere_1986	False	True	False
+ibrehe	íbrehe	mud	n.	ukere_1986	False	True	False
+ibrẹro	ibrẹro	second (of time)	n.	ukere_1986	False	True	False
+ibunuku	ibunúku	skirt	n.	ukere_1986	False	True	False
+ibẹfi	Ibẹfi	Hunting	n.	okrokoto_2020	False	True	False
+ibẹtẹni	ibẹtẹni	maternity home	n.	ukere_1986	False	True	False
+ibọkpọ	ibọkpọ	mosquito net	n.	ukere_1986	False	True	False
+ichabọ	Ichabọ	Assistant	n.	okrokoto_2020	False	True	False
+ichibẹ	ichíbẹ	five kobo (5k)	n.	ukere_1986	False	True	False
+ichiyi	ichiyi	footprint	n.	ukere_1986	False	True	False
+idjagodo	idjagodo	kerosene tin	n.	ukere_1986	False	True	False
+idjahrohro	idjáhróhró	mumps	n.	ukere_1986	False	True	False
+idje	idjé	game played by young girls in which they clap hands and jump	n.	ukere_1986	False	True	False
+idjedje	Ídjédje	Explanation	n.	okrokoto_2020	False	True	False
+idjedje	ídjédje	example	n.	ukere_1986	False	True	False
+idjerhe	idjérhe	road / Road	n.	okrokoto_2020,ukere_1986	False	True	False
+idjighere	idjíghere	bicycle	n.	ukere_1986	False	True	False
+idjo	idjo	horn	n.	ukere_1986	False	True	False
+idjogba	idjogbá	raffle/gambling	n.	ukere_1986	False	True	False
+idu	ídu	cocoyam	n.	ukere_1986	False	True	False
+idọnọ	idọ́nọ	word used in reference to money mostly in the olden days	n.	ukere_1986	False	True	False
+idọrọ	idọrọ	cupboard	n.	ukere_1986	False	True	False
+ifada	ifada	Roman Catholic Father	n.	ukere_1986	False	True	False
+ifiaro	ifiaro	scorn	n.	ukere_1986	False	True	False
+ifikirẹ	ífikirẹ́	because (of)	conj.	ukere_1986	False	True	False
+ifio	ifio	money or material given to a person in appreciation of a good	n.	ukere_1986	False	True	False
+ifo	ifo	work or something done in return for the same gesture	n.	ukere_1986	False	True	False
+ifoto	ifotó	picture	n.	ukere_1986	False	True	False
+ifọ	Ifọ	Vegetable  ; Water leaf	n.	okrokoto_2020	False	True	False
+ifọ	ifọ́	waterleaf	n.	ukere_1986	False	True	False
+igabọ	igábọ	shoulder	n.	ukere_1986	False	True	False
+igari	igarí	garri	n.	ukere_1986	False	True	False
+igbe	igbe	Urhobo traditional religion	n.	ukere_1986	False	True	False
+igberadja	igberadja	prostitute / Prostitute	n.	okrokoto_2020,ukere_1986	True	False	True
+igbigbi	Igbigbi	Pretence ; Faking	n.	okrokoto_2020	False	True	False
+igbo	igbo	Urhobo name for the Igbo people and their language	n.	ukere_1986	False	True	False
+igbunegbu	igbunegbú	armed robber	n.	ukere_1986	False	True	False
+igbunu	Igbunu	Miracle	n.	okrokoto_2020	False	True	False
+igbunu	igbunu	mystery	n.	ukere_1986	False	True	False
+igbẹro	ígbẹro	eyebrow	n.	ukere_1986	False	True	False
+igbẹyi	igbẹ́yi	wall	n.	ukere_1986	False	True	False
+ige	igé	Indian hemp	n.	ukere_1986	False	True	False
+igede	igede	drum / Drum	n.	okrokoto_2020,ukere_1986	True	False	True
+igedu	igedú	timber	n.	ukere_1986	False	True	False
+igho	ighó	money / cowry [Curriculum: object]	n.	curriculum_seed,grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ighorofan	íghorofán	transport fare	n.	ukere_1986	False	True	False
+ighwrẹ	ighwrẹ́	seven (7) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+igogerha	ígógérha	triangle	n.	ukere_1986	False	True	False
+igogo	ígógó	angle	n.	ukere_1986	False	True	False
+igogono	igogono	bucket	n.	ukere_1986	False	True	False
+igogẹne	ígógẹ́ne	square	n.	ukere_1986	False	True	False
+igoni	Igoni	Handcuff	n.	okrokoto_2020	False	True	False
+igovinẹ	igóvinẹ	governor	n.	ukere_1986	False	True	False
+iguegu	íguégu	gossip	n.	ukere_1986	False	True	False
+ihwe	ihwé	ten (10) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+ihwe gbẹ ẹrere	íhwe gbẹ ẹ́rere	eighteen	num.	ukere_1986	False	True	False
+ihwegberha	ihwégbẹ́rha	thirteen (13) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbesan	ihwégbesán	sixteen (16) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbighwrẹ	ihwégbighwrẹ́	seventeen (17) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbirhirhi	ihwégbirhírhi	nineteen (19) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbive	ihwégbǐve	twelve (12) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbiyori	ihwégbiyórĩ	fifteen (15) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbẹ esan	íhwegbẹ ésan	sixteen	num.	ukere_1986	False	True	False
+ihwegbẹ ighwrẹ	íhwegbẹ íghwrẹ́	seventeen	num.	ukere_1986	False	True	False
+ihwegbẹ irhirin	íhwegbẹ írhirin	nineteen	num.	ukere_1986	False	True	False
+ihwegbẹne	ihwégbẹ́ne	fourteen (14) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbẹrẹnren	ihwégbẹrẹ́nrẹn	eighteen (18) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwegbọvo	ihwégbọ́vo	eleven (11) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ihwerha	íhwérhá	thirteen	num.	ukere_1986	False	True	False
+ihwiori	íhwiórí	fifteen	num.	ukere_1986	False	True	False
+ihwivẹ	íhwívẹ́	twelve	num.	ukere_1986	False	True	False
+ihwẹne	íhwẹ́né	fourteen	num.	ukere_1986	False	True	False
+iji	íjí	covenant	n.	ukere_1986	False	True	False
+ikadoro	ikadoro	candle	n.	ukere_1986	False	True	False
+ikebe	ikebe	buttocks	n.	ukere_1986	False	True	False
+ikenekene	ikenekene	hide-and-seek	n.	ukere_1986	False	True	False
+ikenike	íkeníke	stilt dance	n.	ukere_1986	False	True	False
+ikeri	ikeri	number	n.	ukere_1986	False	True	False
+ikoko	ikoko	cocoa	n.	ukere_1986	False	True	False
+ikonosha	ikonosha	mattress	n.	ukere_1986	False	True	False
+ikoro	íkoro	bangle made of elephant tusks	n.	ukere_1986	False	True	False
+ikoro1	íkoro1	cloud	n.	ukere_1986	False	True	False
+ikpacha	ikpachá	towel	n.	ukere_1986	False	True	False
+ikpakpane	íkpákpáne	(soya) beans	n.	ukere_1986	False	True	False
+ikpamaku	ikpámáku	zinc	n.	ukere_1986	False	True	False
+ikpekpa	Ikpekpa	Platform   over  the  fireplace	n.	okrokoto_2020	False	True	False
+ikpekpa	ikpekpa	shelf	n.	ukere_1986	False	True	False
+ikpogri	ikpógri	melon	n.	ukere_1986	False	True	False
+ikpukpuyẹkẹ	ikpukpuyẹkẹ	duck	n.	ukere_1986	False	True	False
+ikrasi	ikrasi	kerosene	n.	ukere_1986	False	True	False
+iku	Iku	Crawfish	n.	okrokoto_2020	False	True	False
+iku	Iku	Story	n.	okrokoto_2020	False	True	False
+iku	íku	crayfish	n.	ukere_1986	False	True	False
+ikun	íkun	story	n.	ukere_1986	False	True	False
+ikuru	ikurú	drum	n.	ukere_1986	False	True	False
+ikọhọ	Ikọhọ	Egg	n.	okrokoto_2020	False	True	False
+ikọkọ	ikọkọ	stammer	n.	ukere_1986	False	True	False
+ima	íma	trillion (1,000,000,000,000)	num.	ukere_1986	False	True	False
+imagoro	imágoro	mango	n.	ukere_1986	False	True	False
+imamiwọta	imamiwọta	mermaid	n.	ukere_1986	False	True	False
+imashini	imashini	machine	n.	ukere_1986	False	True	False
+imidaka	imidaka	cassava	n.	ukere_1986	False	True	False
+iminiti	iminiti	minute (of time)	n.	ukere_1986	False	True	False
+imiphopho	ímíphopho	termite	n.	ukere_1986	False	True	False
+imu	ímu	excommunication	n.	ukere_1986	False	True	False
+imuẹro	ímuẹró	assurance	n.	ukere_1986	False	True	False
+imẹjẹ	imẹ́jẹ	table	n.	ukere_1986	False	True	False
+imẹjẹrọghwrọrọ	imẹ́jẹrọ́ghwrọrọ	desk	n.	ukere_1986	False	True	False
+inama	ináma	cattle	n.	ukere_1986	False	True	False
+ine	Ine	Song	n.	okrokoto_2020	False	True	False
+inehweri	inehweri	charm for love	n.	ukere_1986	False	True	False
+inekuku	inékuku	pigeon	n.	ukere_1986	False	True	False
+inemẹ	inémẹ	file	n.	ukere_1986	False	True	False
+inene	inéne	one's mother / Mother	n.	okrokoto_2020,ukere_1986	False	True	False
+inenode	inénode	grandmother	n.	ukere_1986	False	True	False
+inonẹ	inónẹ	today	n.	ukere_1986	False	True	False
+inu	ínú	dirt	n.	ukere_1986	False	True	False
+inuhu	Inuhu	Dirt	n.	okrokoto_2020	False	True	False
+iporoma	Iporoma	Sword	n.	okrokoto_2020	False	True	False
+ipẹrẹ	Ipẹrẹ	Nail	n.	okrokoto_2020	False	True	False
+ipọto	ipọ́to	pot (imported)	n.	ukere_1986	False	True	False
+ipọtọ	ipọtọ́	button / Button	n.	grammar_basic_course,okrokoto_2020,ukere_1986	False	True	False
+ire	íre	beans (white)	n.	ukere_1986	False	True	False
+iredio	iredio	radio	n.	ukere_1986	False	True	False
+irharo	irháro	presence	n.	ukere_1986	False	True	False
+irhe	Irhe	Wood	n.	okrokoto_2020	False	True	False
+irhibo	irhíbo	pepper	n.	ukere_1986	False	True	False
+irhirhi	irhírhi	nine (9) [Curriculum: number]	n.	curriculum_seed	False	False	True
+irhirin	írhirin	nine	num.	ukere_1986	False	True	False
+irho	Irho	Dew	n.	okrokoto_2020	False	True	False
+irhobo	írhóbo	Urhobo name for the Itsekiri people and their language	n.	ukere_1986	False	True	False
+irhue	irhue	liver	n.	ukere_1986	False	True	False
+irhuo	irhuó	mode of dressing	n.	ukere_1986	False	True	False
+iriorha gbẹ ujorin	iriórha gbẹ ujórin	seven hundred	num.	ukere_1986	False	True	False
+iroba	iróba	rubber tree, rubber	n.	ukere_1986	False	True	False
+iroro	iroro	thought / Thought  ;  To  think	n.	okrokoto_2020,ukere_1986	True	False	True
+irosu	irósu	rice	n.	ukere_1986	False	True	False
+irueru	íruéru	activity	n.	ukere_1986	False	True	False
+iruo	Iruo	Work	n.	okrokoto_2020	False	True	False
+iruo	íruo	job	n.	ukere_1986	False	True	False
+iruobọ	íruobọ	handiwork	n.	ukere_1986	False	True	False
+iruorugbobọ	íruorugbóbọ	manual work	n.	ukere_1986	False	True	False
+isa	Isa	Ring	n.	okrokoto_2020	False	True	False
+isabato	isabato	shoe	n.	ukere_1986	False	True	False
+isama	isáma	sardine	n.	ukere_1986	False	True	False
+isara	isara	saw, carpenter's implement	n.	ukere_1986	False	True	False
+isene	iséné	camwood	n.	ukere_1986	False	True	False
+isha	ísha	beans (brown) / Beans	n.	okrokoto_2020,ukere_1986	False	True	False
+ishasha	ísháshá	black pepper / Small  seeds  like  alligator pepper  from  a	n.	okrokoto_2020,ukere_1986	False	True	False
+ishene	ishéne	ten kobo (10k)	n.	ukere_1986	False	True	False
+ishene ihwe	ishéne íhwe	one Naira (N1)	n.	ukere_1986	False	True	False
+ishene iyorin	ishéne íyorin	fifty kobo (50k)	n.	ukere_1986	False	True	False
+ishu	Ishu	Lice	n.	okrokoto_2020	False	True	False
+ishuawusa	ishuáwúsá	bedbugs	n.	ukere_1986	False	True	False
+isi	isí	East, also used in addressing a group of people / Multitude  of  people	n.	okrokoto_2020,ukere_1986	False	True	False
+isigati	isigáti	cigarette	n.	ukere_1986	False	True	False
+isio	ísio	star / Star	n.	okrokoto_2020,ukere_1986	False	True	False
+isiorho	isiórho	foreign land	n.	ukere_1986	False	True	False
+isirogbo	isírógbo	special bed designed for a bride on circumcision	n.	ukere_1986	False	True	False
+isodje	isódje	soldier	n.	ukere_1986	False	True	False
+isọn	ís̃ɔ̃̀	faeces	n.	ucla_phonetics	False	True	False
+isuesu	ísuésu	administration	n.	ukere_1986	False	True	False
+isueta	isuéta	cardigan	n.	ukere_1986	False	True	False
+isẹ	isẹ	amen	n.	ukere_1986	False	True	False
+isẹ	isẹ́	proverb / Proverb	n.	okrokoto_2020,ukere_1986	False	True	False
+isọ	ísọ	excreta, stool, faeces / Excreta	n.	okrokoto_2020,ukere_1986	False	True	False
+itaba	ítába	tobacco	n.	ukere_1986	False	True	False
+itason	itáson	pot (imported)	n.	ukere_1986	False	True	False
+itetebe	itetebe	water lettuce	n.	ukere_1986	False	True	False
+itiani	itiani	blanket	n.	ukere_1986	False	True	False
+itiro	itiró	black eyeliner substance used by women as cosmetic on the eyes	n.	ukere_1986	False	True	False
+itomatosi	itomátosi	tomato	n.	ukere_1986	False	True	False
+itonotono	itonotono	turkey	n.	ukere_1986	False	True	False
+itu	itú	mushroom / Mushroom	n.	okrokoto_2020,ukere_1986	False	True	False
+itutu	itutu	fungus	n.	ukere_1986	False	True	False
+itẹ	Itẹ	Proverb  directed  at  a specific  person	n.	okrokoto_2020	False	True	False
+itẹ	itẹ́	parable-like statement	n.	ukere_1986	False	True	False
+itọshi	itọshi	torch	n.	ukere_1986	False	True	False
+ive	ǐve	two (2) [Curriculum: number]	n.	curriculum_seed	False	False	True
+iveve	ívévé	promise	n.	ukere_1986	False	True	False
+iviẹwa	iviẹwa	guarantor	n.	ukere_1986	False	True	False
+ivuemiovwo	ivuémióvwó	annoyance	n.	ukere_1986	False	True	False
+ivwirhi	ívwirhi	smoke	n.	ukere_1986	False	True	False
+ivwo	ivwo	bud	n.	ukere_1986	False	True	False
+ivworhiya	ivworhíya	tapioca	n.	ukere_1986	False	True	False
+ivwori	ívwori	stream	n.	ukere_1986	False	True	False
+ivwri	Ivwri	Tailor  Ant	n.	okrokoto_2020	False	True	False
+ivwri	ivwri	fat / Fat ;  Animal/ Fish  fat	n.	okrokoto_2020,ukere_1986	True	False	True
+ivwri	ivwri	ants that build their nest beneath the leaves	n.	ukere_1986	False	True	False
+ivwrite	ivwríte	scrotum	n.	ukere_1986	False	True	False
+ivwughẹ	ivwughẹ	foam	n.	ukere_1986	False	True	False
+ivẹ	ívẹ	two	num.	ukere_1986	False	True	False
+iwurhie	íwurhie	ash	n.	ukere_1986	False	True	False
+iyako	íyáko	gum (teeth)	n.	ukere_1986	False	True	False
+iyawọ	íyáwọ	soldier ant	n.	ukere_1986	False	True	False
+iye	iye	word for appreciating an ideal situation	excl.	ukere_1986	False	True	False
+iye	íye	sacrifice	n.	ukere_1986	False	True	False
+iyesi	iyési	horse / Horse	n.	okrokoto_2020,ukere_1986	False	True	False
+iyori	iyórĩ	five (5) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+iyorin	íyorin	five	num.	ukere_1986	False	True	False
+iyẹnrẹn	iyẹnrẹn	news	n.	ukere_1986	False	True	False
+iyẹsiri	iyẹ́siri	gospel	n.	ukere_1986	False	True	False
+izegede	Izegede	Unfinished   building ;Un-completed,	n.	okrokoto_2020	False	True	False
+izobo	izóbo	offering	n.	ukere_1986	False	True	False
+izẹbu	izẹbu	counterfeit (of money)	a.	ukere_1986	False	True	False
+izẹn	izẹn	strawberry	n.	ukere_1986	False	True	False
+ígue	ìɡw̃ɛ̃̀	to kneel	n.	ucla_phonetics	False	True	False
+ímwó	íŋwũ̀	shirt, robe	n.	ucla_phonetics	False	True	False
+j	J	Letter J / sound /dʒ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+je	Je	Admire ;  Like	n.	okrokoto_2020	False	True	False
+ji	ji	send	v.t	ukere_1986	False	True	False
+jio	Jio	Send  him/her	n.	okrokoto_2020	False	True	False
+jiro	jiro	praise / Praise  him	v.t	okrokoto_2020,ukere_1986	True	False	True
+jokpa	Jokpa	Except ; Unless	n.	okrokoto_2020	False	True	False
+jokpa nẹ	jokpa nẹ	unless	conj.	ukere_1986	False	True	False
+joma	joma	almost	adv.	ukere_1986	False	True	False
+jomaotọ	jomaótọ	be careful	a.	ukere_1986	False	True	False
+jomaotọ	jomaótọ	carefully	adv.	ukere_1986	False	True	False
+jovwo	jovwo	leave off	v.i	ukere_1986	False	True	False
+jovwo	jovwo	Do  not  proceed  ;  Discontinue / discontinue	n.	grammar_basic_course,okrokoto_2020	True	False	True
+jurhi	Jurhi	Proclaim  an  edit ; Make  a  law  or  regulation	n.	okrokoto_2020	False	True	False
+jẹ	Jẹ	Pick ; Selecting  in  turns	n.	okrokoto_2020	False	True	False
+jẹ	jẹ	choose	v.t	ukere_1986	False	True	False
+jẹ	jẹ	speak	v.t	ukere_1986	False	True	False
+jẹ	jẹ́	let	v.t	ukere_1986	False	True	False
+jẹ	jẹ́	yet	conj.	ukere_1986	False	True	False
+k	K	Letter K / sound /k/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+kada	kada	response of kings and chiefs to the greetings and praise-singing of their	exp.	ukere_1986	False	True	False
+kaka	Kaka	Not  at  all	n.	okrokoto_2020	False	True	False
+kakan	kákán	at all	adv.	ukere_1986	False	True	False
+kare	kare	lock	v.t	ukere_1986	False	True	False
+kare	kare	scratch	v.t	ukere_1986	False	True	False
+karohọ	karohọ	Remember  ;  Do  not  forget / remember	n.	grammar_basic_course,okrokoto_2020	True	False	True
+karovwiyọ	karovwiyọ	remember	v.i	ukere_1986	False	True	False
+kasakasa	kasakasa	anywhere	n.	ukere_1986	False	True	False
+ke	ke	give	v.t	ukere_1986	False	True	False
+ken	Ken	Sour	n.	okrokoto_2020	False	True	False
+kere	kere	count	v.t	ukere_1986	False	True	False
+kerhọ	kerhọ	listen / Listen	v.i	okrokoto_2020,ukere_1986	True	False	True
+kidia	kidia	sit	v.t	ukere_1986	False	True	False
+kidie	kídié	what else	int.	ukere_1986	False	True	False
+kio	Kio	Go  round ; wrap  it  round	n.	okrokoto_2020	False	True	False
+kirẹ	kírẹ́	as/like	conj.	ukere_1986	False	True	False
+kivie wọ herọ?	Kivie wọ́ hérọ?	Where are you? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+ko	ko	sew / Sew  ( with  a  sewing  machine )	v.t	okrokoto_2020,ukere_1986	True	False	True
+kodẹ	kódẹ	till tomorrow/goodnight	exp.	ukere_1986	False	True	False
+kohwokohwo	kohwokohwo	anybody	pron.	ukere_1986	False	True	False
+koka	Koka	Make  a  mark	n.	okrokoto_2020	False	True	False
+kokakoka	kokakoka	all kinds, any kind	id.	ukere_1986	False	True	False
+koko	Koko	Gather	n.	okrokoto_2020	False	True	False
+koko	koko	together	adv.	ukere_1986	False	True	False
+kokodo	kokódo	deep	a.	ukere_1986	False	True	False
+kokodo	kokódo	deeply	adv.	ukere_1986	False	True	False
+kokoroko	Kokoroko	Very  strong	n.	okrokoto_2020	False	True	False
+kokoroko	kókórókó	firmly, tight	adv.	ukere_1986	False	True	False
+koravwọkoravwọ	kóravwọkóravwọ	anything	pron.	ukere_1986	False	True	False
+korhokorho	korhokorho	every town	n.	ukere_1986	False	True	False
+kotakota	kotakota	every word	n.	ukere_1986	False	True	False
+kọn	knɔ̃̀	plant; move out	n.	ucla_phonetics	False	True	False
+kp	KP	Digraph KP / sound /k͡p/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+kpa	kpa	vomit	v.t	ukere_1986	False	True	False
+kpahe	kpahe	about/on	prep.	ukere_1986	False	True	False
+kpaikpai	Kpaikpai	All  and  leaving  nothing  behind	n.	okrokoto_2020	False	True	False
+kpare	kpare	lift	v.t	ukere_1986	False	True	False
+kpare	kpare	postpone	v.t	ukere_1986	False	True	False
+kpatakpata	kpatakpata	quickly / Quickly	adv.	okrokoto_2020,ukere_1986	True	False	True
+kpavwiyọ	kpavwiyọ	answer/reply	v.t	ukere_1986	False	True	False
+kpe	kpé	knit	v.t	ukere_1986	False	True	False
+kpenu	kpénu	high	a.	ukere_1986	False	True	False
+kperi	kperi	shout / Shout	v.i	okrokoto_2020,ukere_1986	True	False	True
+kpirhi	kpirhi	fold	v.t	ukere_1986	False	True	False
+kpo	kpo	Go  home / go home	n.	grammar_basic_course,okrokoto_2020	True	False	True
+kpogho	kpogho	shake / Shake	v.t	okrokoto_2020,ukere_1986	True	False	True
+kpokpo	kpokpo	worry/trouble	v.t	ukere_1986	False	True	False
+kpokpọ	kpókpọ	fresh/new	a.	ukere_1986	False	True	False
+kpono	kpono	drag	v.t	ukere_1986	False	True	False
+kpono2	kpono2	crawl	v.i	ukere_1986	False	True	False
+kporo	Kporo	Break  down ( e.g.  of  a  wall)	n.	okrokoto_2020	False	True	False
+kpotọ	kpótọ	low	a.	ukere_1986	False	True	False
+kpregede	kprégédé	suddenly, unexpectedly	adv.	ukere_1986	False	True	False
+kprekpre	Kprekpre	Forceful push ; Series of	n.	okrokoto_2020	False	True	False
+kprẹsẹ	Kprẹsẹ	Dwarfish  stature	n.	okrokoto_2020	False	True	False
+kpuhru	Kpuhru	Short  ; Describing how  short	n.	okrokoto_2020	False	True	False
+kpẹ	Kpẹ	Peel	n.	okrokoto_2020	False	True	False
+kpẹhrẹ	Kpẹhrẹ	Small  ;  Not  tall	n.	okrokoto_2020	False	True	False
+kpẹkpẹrẹkpẹ	Kpẹkpẹrẹkpẹ	For  ever	n.	okrokoto_2020	False	True	False
+kpẹkpẹrẹkpẹ	kpẹkpẹrẹkpẹ	till dawn (staying awake)	adv.	ukere_1986	False	True	False
+kpẹkpẹvwiẹ	kpẹkpẹvwiẹ	shallow	a.	ukere_1986	False	True	False
+kpẹn	kpẹn	peel	v.t	ukere_1986	False	True	False
+kpẹvwẹ	kpẹvwẹ	be grateful to	v.t	ukere_1986	False	True	False
+kpọ	kpọ	dry	v.i	ukere_1986	False	True	False
+kpọ	kpọ́	deflect	v.t	ukere_1986	False	True	False
+kpọnọkpọnọ	kpọnọkpọnọ	lumpy	a.	ukere_1986	False	True	False
+kpọrhọ	kpọrhọ	make wet	v.t	ukere_1986	False	True	False
+krekri	Krekri	For  a  long  time	n.	okrokoto_2020	False	True	False
+kri	Kri	Late  arrival  or  late  departure	n.	okrokoto_2020	False	True	False
+kri	kri	keep long	v.i	ukere_1986	False	True	False
+kro	Kro	Bundle it up	n.	okrokoto_2020	False	True	False
+kru	Kru	Bundle  it  up	n.	okrokoto_2020	False	True	False
+kru	kru	assemble (of things)	v.t	ukere_1986	False	True	False
+krẹkrẹ	Krẹkrẹ	Short	n.	okrokoto_2020	False	True	False
+krẹnkren	krẹ́nkrén	piecemeal	adv.	ukere_1986	False	True	False
+ku	ku	pour	v.t	ukere_1986	False	True	False
+kua	kua	pack (property)	v.t	ukere_1986	False	True	False
+kuako	Kuakó	Stunted  growth	n.	okrokoto_2020	False	True	False
+kueki	kueki	depreciate in value	v.i	ukere_1986	False	True	False
+kueku	Kueku	Cheap	n.	okrokoto_2020	False	True	False
+kuere	kuere	fence	v.t	ukere_1986	False	True	False
+kugbẹ	kugbẹ́	and	conj.	ukere_1986	False	True	False
+kuo	Kuo	Pour	n.	okrokoto_2020	False	True	False
+kuomagbe	kuomagbe	unite	v.t	ukere_1986	False	True	False
+kẹ	Kẹ́	Give	n.	okrokoto_2020	False	True	False
+kẹdẹkẹdẹ	kẹdẹkẹdẹ	everyday, daily	adv.	ukere_1986	False	True	False
+kẹdọfa	kẹ́dọ́fa	till another day/goodbye	exp.	ukere_1986	False	True	False
+kẹkẹrẹkẹ	Kẹkẹrẹkẹ	Portable ;Medium shape size	n.	okrokoto_2020	False	True	False
+kẹkẹrẹkẹ	kẹkẹrẹkẹ	precise or required amount	adv.	ukere_1986	False	True	False
+kẹrẹ	kẹrẹ́	near, next, by	prep.	ukere_1986	False	True	False
+kẹsiẹfa	kẹ́siẹ́fa	till another time/goodbye	exp.	ukere_1986	False	True	False
+kẹsiẹye	kẹsiẹ́ye	before	conj.	ukere_1986	False	True	False
+kẹvwẹ	Kẹvwẹ	Give  me	n.	okrokoto_2020	False	True	False
+kọ	Kọ	Sow ( sow  a  seed )	n.	okrokoto_2020	False	True	False
+kọ	kọ	plant	v.t	ukere_1986	False	True	False
+kọkekọke	kọkekọke	always, anytime	adv.	ukere_1986	False	True	False
+kọkọrọ	kọkọ́rọ	good morning [Curriculum: greeting]	phr.	curriculum_seed	False	False	True
+kọre	kọre	pluck	v.t	ukere_1986	False	True	False
+l	L	Letter L / sound /l/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+la	j̃ã	go	n.	ucla_phonetics	False	True	False
+lọ	lɔ	grind	n.	ucla_phonetics	False	True	False
+m	M	Letter M / sound /m/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ma	ma	mould	v.t	ukere_1986	False	True	False
+ma	má	measure	v.t	ukere_1986	False	True	False
+mama	Mama	Mother	n.	okrokoto_2020	False	True	False
+mamọ	Mamọ	Genuine  one  ;  Good  type	n.	okrokoto_2020	False	True	False
+mamọ	mamọ	well	adv.	ukere_1986	False	True	False
+manọ	manọ	writhe	v.i	ukere_1986	False	True	False
+marho	marho	especially, particularly	adv.	ukere_1986	False	True	False
+maro	maró	how are you? / welcome [Curriculum: greeting]	phr.	curriculum_seed	False	False	True
+mavọ	mavọ́	how	int.	ukere_1986	False	True	False
+me	mẽ̀	plait / to plait	v.t	ucla_phonetics,ukere_1986	False	True	False
+me cha rhe.	Me cha rhé.	I will come. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+me riẹnre-e.	Me riẹ́nrẹ-e.	I do not know. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+meru	meru	pretend, feign	v.i	ukere_1986	False	True	False
+mi	mi	squeeze	v.t	ukere_1986	False	True	False
+mi vwiẹ ohwo.	Mi vwiẹ́ ohwó.	I have brought forth a person. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+mi1	mí1	I	pron.	ukere_1986	False	True	False
+miavwa	Miavwa	Painful	n.	okrokoto_2020	False	True	False
+mie	mie	take	v.t	ukere_1986	False	True	False
+miguẹ	míguẹ	I am on my knees (greeting from a junior person to a senior or more	exp.	ukere_1986	False	True	False
+migwo	migwó	greeting (respect to elders) [Curriculum: greeting]	phr.	curriculum_seed	False	False	True
+miomiovwi	miomiovwi	ugly	a.	ukere_1986	False	True	False
+miovwi	miovwi	spoil	v.t	ukere_1986	False	True	False
+misiẹguare	misiẹguare	I greet the gathering (before and after making a speech)	exp.	ukere_1986	False	True	False
+miẹmiẹ	miẹmiẹ	sweet / Sweet	a.	okrokoto_2020,ukere_1986	True	False	True
+momo	momo	borrow / Borrow	v.t	okrokoto_2020,ukere_1986	True	False	True
+mra	Mra	Sound	n.	okrokoto_2020	False	True	False
+mragha	Mragha	Bluffing ; Showing  off	n.	okrokoto_2020	False	True	False
+mraro	Mraro	Telling  the  future ;	n.	okrokoto_2020	False	True	False
+mrobọ	mrobọ	find time, get a chance to	v.i	ukere_1986	False	True	False
+mrorẹ	Mrorẹ	Can  see	n.	okrokoto_2020	False	True	False
+mrẹ	mrẹ	see / See	v.t	okrokoto_2020,ukere_1986	True	False	True
+mrẹvughe	mrẹvughe	realise	v.i	ukere_1986	False	True	False
+mu	mu	carry	v.t	ukere_1986	False	True	False
+mu	mu	arrest	v.t	ukere_1986	False	True	False
+mu	mu	be afflicted (e.g. by sickness or disease)	v.t	ukere_1986	False	True	False
+mudia	mudia	stand	v.t	ukere_1986	False	True	False
+muegbe	muegbe	prepare, get ready	v.i	ukere_1986	False	True	False
+muo	Muo	Carry	n.	okrokoto_2020	False	True	False
+muodẹ	muodẹ	give name	v.t	ukere_1986	False	True	False
+muọga	Muọga	Sick	n.	okrokoto_2020	False	True	False
+mwa	mwa	press (of fruit)	v.t	ukere_1986	False	True	False
+mẹ	mẹ́	I / me [Curriculum: pronoun]	pron.	curriculum_seed,okrokoto_2020	True	False	True
+mẹ vẹ wẹ.	Mẹ́ vẹ́ wẹ.	Me and you. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+mẹvwẹ	mẹ́vwẹ	I (emphatic) / me [Curriculum: pronoun]	pron.	curriculum_seed,okrokoto_2020	True	False	True
+mọ	mọ	produce	v.i	ukere_1986	False	True	False
+mọ	mọ	come	n.	grammar_basic_course,okrokoto_2020	True	False	True
+n	N	Letter N / sound /n/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+na	nã̀	to be (in a place)	n.	ucla_phonetics	False	True	False
+na, yan	ṇã̀, jã	to move	phr.	ucla_phonetics	False	True	False
+nabe	nabe	properly	adv.	ukere_1986	False	True	False
+nanana	Nanãna	Now	n.	okrokoto_2020	False	True	False
+nananana	nánánáná	now, just now	adv.	ukere_1986	False	True	False
+ne	ne	excrete, pass out faeces / Pass   feces	v.t	okrokoto_2020,ukere_1986	True	False	True
+ne	nẽ̀	to defecate	n.	ucla_phonetics	False	True	False
+nene	Nene	Mother	n.	okrokoto_2020	False	True	False
+nene	nené	follow	v.t	ukere_1986	False	True	False
+nẹ	nẹ̃	to pet a person	n.	ucla_phonetics	False	True	False
+ni	nĩ	look	v.t	ucla_phonetics,ukere_1986	False	True	False
+nie	Nie	Take	n.	okrokoto_2020	False	True	False
+no	Nó	Look  at  it	n.	okrokoto_2020	False	True	False
+no	no	shine	v.i	ukere_1986	False	True	False
+nomaso	Nomaso	Attention ; Take  Note  ;  Beware	n.	okrokoto_2020	False	True	False
+nonẹ	Nonẹ	Today	n.	okrokoto_2020	False	True	False
+nọ	nɔ̃̀	ask	n.	ucla_phonetics	False	True	False
+nuvie	nuvie	open (locked object only)	v.t	ukere_1986	False	True	False
+ny	NY	Digraph NY / sound /ɲ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+nyavwe	nyavwe	to use cutlass on	v.t	ukere_1986	False	True	False
+nyo	nyo	hear	v.i	ukere_1986	False	True	False
+nyẹ	nyẹ	press	v.t	ukere_1986	False	True	False
+nẹ	nẹ	from	prep.	ukere_1986	False	True	False
+nẹrhẹ	nẹrhẹ	pacify	v.t	ukere_1986	False	True	False
+nọ	nọ	ask / Ask	v.t	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+nọ	nọ́	grind, sharpen	v.t	ukere_1986	False	True	False
+nọkọnọkọ	NỌKỌNỌKỌ	An  adjective  describing  skin  texture	n.	okrokoto_2020	False	True	False
+nọnọ	nọnọ	soft	a.	ukere_1986	False	True	False
+nọnọ	nọ́nọ́	drip, pour a drop at a time	v.t	ukere_1986	False	True	False
+nọnọnọ	nọnọnọ	greasy, oily	a.	ukere_1986	False	True	False
+o	O	Letter O (close-mid) / sound /o/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+oba	óba	end / End	n.	okrokoto_2020,ukere_1986	True	False	True
+obaro	obáro	front, forward	n.	ukere_1986	False	True	False
+obere	obere	basket	n.	ukere_1986	False	True	False
+obiebi	obiebi	black (used in some contexts as biebi)	a.	ukere_1986	False	True	False
+obo	obo	what	pron.	ukere_1986	False	True	False
+obohwẹre	obóhwẹre	left hand	n.	ukere_1986	False	True	False
+obotọ	obótọ	under	prep.	ukere_1986	False	True	False
+obọ	obọ	hand	n.	ucla_phonetics	False	True	False
+obruche	obruche	adviser	n.	ukere_1986	False	True	False
+obuko	obúko	back, behind	n.	ukere_1986	False	True	False
+obọ	obọ	hand / Hand	n.	okrokoto_2020,ukere_1986	True	False	True
+obọ	obọ	recently	adv.	ukere_1986	False	True	False
+obọde	obọde	intact	a.	ukere_1986	False	True	False
+obọrhe	obọ́rhe	right hand	n.	ukere_1986	False	True	False
+obọunu	obọúnu	I am at table	exp.	ukere_1986	False	True	False
+obọvo	obọvo	once	adv.	ukere_1986	False	True	False
+ocha	ochá	wedge	n.	ukere_1986	False	True	False
+oche	oché	blow	n.	ukere_1986	False	True	False
+ocheremu	ocheremu	cook	n.	ukere_1986	False	True	False
+ochẹ	ocẹ́ (or c͡ç )	water pot	n.	ucla_phonetics	False	True	False
+ochibẹ	óchíbẹ	eunuch	n.	ukere_1986	False	True	False
+ochẹ	ochẹ	water pot / Clay   drinking   water  storage   pot	n.	okrokoto_2020,ukere_1986	True	False	True
+oda	òdà	cutlass/machete / Cutlass / cutlass	n.	okrokoto_2020,ucla_phonetics_1960,ukere_1986	False	True	False
+odemuo	odemuo	naming, name-giving	n.	ukere_1986	False	True	False
+odi	odi	grass	n.	ukere_1986	False	True	False
+odi	ódi	deaf-mute	n.	ukere_1986	False	True	False
+odibo	odibo	servant	n.	ukere_1986	False	True	False
+odibo	ódíbó	banana	n.	ukere_1986	False	True	False
+odin	odín	even	a.	ukere_1986	False	True	False
+odiodi	odiodi	nought, zero, nothing	n.	ukere_1986	False	True	False
+odja	oɟa (or ɟ͡ʝ)	soap	n.	ucla_phonetics,ukere_1986	False	True	False
+odjadja	Odjadja	Suffering ; Painful  experience	n.	okrokoto_2020	False	True	False
+odjadja	ódjádja	pain	n.	ukere_1986	False	True	False
+odjan	ódjan	hookworm	n.	ukere_1986	False	True	False
+odjavwọ	odjávwọ	secret	n.	ukere_1986	False	True	False
+odjephia	odjephia	exhibition, introduction (e.g. as part of a book)	n.	ukere_1986	False	True	False
+odjidjiro	odjidjiro	cold (in some contexts as = djidjiro)	a.	ukere_1986	False	True	False
+odjigbẹ	odjigbẹ	yellow bush-yam	n.	ukere_1986	False	True	False
+odjigbẹ	odjigbẹ	long slender cutlass used for grass cutting	n.	ukere_1986	False	True	False
+odjiko	odjiko	mat made of raffia palm	n.	ukere_1986	False	True	False
+odju	odju	wind/air	n.	ukere_1986	False	True	False
+odjuvwu	odjúvwu	heaven / sky [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+odo	odo	fever	n.	ukere_1986	False	True	False
+odo	ódó	big mortar	n.	ukere_1986	False	True	False
+ododo	ódódó	flower	n.	ukere_1986	False	True	False
+odova	odóvá	nickname	n.	ukere_1986	False	True	False
+odu	odú	one hundred thousand (100,000)	num.	ukere_1986	False	True	False
+oduduima	odúduíma	billion (1000,000,000)	num.	ukere_1986	False	True	False
+oduduru	odúdúrú	million (1,000,000)	num.	ukere_1986	False	True	False
+oduvwiro	oduvwiro	goldsmith	n.	ukere_1986	False	True	False
+odẹ	Odẹ	name / Name	n.	grammar_basic_course,ukere_1986	True	False	True
+odẹ	Ódẹ́	tomorrow / Tomorrow	adv.	grammar_basic_course,ukere_1986	False	True	False
+odẹ mẹ kọ...	Odẹ́ mẹ kọ́...	My name is... [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+odẹrọwarena	ódẹrọ́warena	yesterday	adv.	ukere_1986	False	True	False
+ofan	ofán	transport	n.	ukere_1986	False	True	False
+ofe	ófe	yam-beetle / Yam  beetle	n.	okrokoto_2020,ukere_1986	False	True	False
+ofe	ófe	tuberculosis	n.	ukere_1986	False	True	False
+ofefe	Ofefe	Empty	n.	okrokoto_2020	False	True	False
+ofi	ofi	smallpox	n.	ukere_1986	False	True	False
+ofia	ofiá	lie / Lie	n.	okrokoto_2020,ukere_1986	False	True	False
+ofovwi	ofovwi	war	n.	ukere_1986	False	True	False
+ofuoma	ufuóma	peace / safe wellbeing [Curriculum: greeting]	phr.	curriculum_seed	False	False	True
+ofẹnẹ	ofẹ́nẹ	difference	n.	ukere_1986	False	True	False
+ogaga	Ogaga	Strength	n.	okrokoto_2020	False	True	False
+ogaga	ógága	power	n.	ukere_1986	False	True	False
+ogba	ogbá	thirty (30) [Curriculum: number]	n.	curriculum_seed,okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+ogba gbiyori	ogbá gbiyórĩ	thirty-five (35) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ogbe	ógbe	quarter	n.	ukere_1986	False	True	False
+ogbere	ogbere	poverty	n.	ukere_1986	False	True	False
+ogbeyin	ogbeyin	tortoise	n.	ukere_1986	False	True	False
+ogbo	ógbo	python / Boa  ;Python	n.	okrokoto_2020,ukere_1986	False	True	False
+ogbodu	òɡbòdú	vulture	n.	ucla_phonetics	False	True	False
+ogboko	ogbóko	distance	n.	ukere_1986	False	True	False
+ogborhuane	ogborhuane	cock	n.	ukere_1986	False	True	False
+ogborigbo	ógborígbo	monitor lizard, ‘iguana’	n.	ukere_1986	False	True	False
+ogbru	Ogbru	The  male’s big  wrapper dress cloth	n.	okrokoto_2020	False	True	False
+ogbu	ogbú	warrior	n.	ukere_1986	False	True	False
+ogbẹnẹ	ógbẹnẹ	eel	n.	ukere_1986	False	True	False
+ogbọ	ogbọ	tree felling stage in the preparation of farm land	n.	ukere_1986	False	True	False
+ogbọnọ	ogbọnọ	bullet	n.	ukere_1986	False	True	False
+ogebene	ogebene	dish	n.	ukere_1986	False	True	False
+ogha	ogha	long instrument with barbs used for killing fish (e.g. spear)	n.	ukere_1986	False	True	False
+oghare	oghare	division	n.	ukere_1986	False	True	False
+oghoghori	óghóghori	lizard	n.	ukere_1986	False	True	False
+oghoremu	oghoremu	hawker	n.	ukere_1986	False	True	False
+oghresi	oghresi	mouse	n.	ukere_1986	False	True	False
+oghriki	oghriki	tree sp.	n.	ukere_1986	False	True	False
+oghwa	oghwá	load	n.	ukere_1986	False	True	False
+oghwa	óghwa	stall	n.	ukere_1986	False	True	False
+oghwara	oghwara	castrated animal (e.g. pig)	n.	ukere_1986	False	True	False
+oghwara	oghwara	gourd	n.	ukere_1986	False	True	False
+oghwevwri	oghwévwri	oil soap	n.	ukere_1986	False	True	False
+oghwo	oɣwó	soup	n.	ucla_phonetics,ukere_1986	False	True	False
+oghwokpo	oghwókpo	toad	n.	ukere_1986	False	True	False
+oghẹruvo	oghẹrúvo	afternoon	n.	ukere_1986	False	True	False
+oghọ	oghọ	branch	n.	ukere_1986	False	True	False
+oghọre	oghọre	hook	n.	ukere_1986	False	True	False
+ogidi	Ogidi	Violence  ;  Rowdiness	n.	okrokoto_2020	False	True	False
+ogiribo	Ogiribo	Storm	n.	okrokoto_2020	False	True	False
+ogiribo	ogiribo	stormy rain	n.	ukere_1986	False	True	False
+ogodẹ	ogodẹ	sheep	n.	ukere_1986	False	True	False
+ogoro	ogoro	frog	n.	ukere_1986	False	True	False
+ogrogro	ogrogro	tall, long (in some contexts = grogro)	a.	ukere_1986	False	True	False
+ogue	ogue	‘robin’ [no robins in Nigeria]	n.	ukere_1986	False	True	False
+oguefia	oguefia	liar	n.	ukere_1986	False	True	False
+og͡ba	og͡ba	fence	n.	ucla_phonetics_1960	False	True	False
+ogẹ	ógẹ	pimple	n.	ukere_1986	False	True	False
+ogọ	Ógọ	In-law / relative	n.	grammar_basic_course	False	True	False
+oha	oha	mockery	n.	ukere_1986	False	True	False
+ohahe	ohahe	silk-cotton tree	n.	ukere_1986	False	True	False
+oheri	oheri	heat	n.	ukere_1986	False	True	False
+ohori	ohori	worm	n.	ukere_1986	False	True	False
+ohoro	óhoró	vagina	n.	ukere_1986	False	True	False
+ohra	óhra	disorganisation	n.	ukere_1986	False	True	False
+ohro	ohro	rat	n.	ukere_1986	False	True	False
+ohwahwa	ohwahwa	harmattan	n.	ukere_1986	False	True	False
+ohwerivwi	ohwérivwi	ghost	n.	ukere_1986	False	True	False
+ohwiyeri	ohwiyeri	fisherman	n.	ukere_1986	False	True	False
+ohwo	oxʍó	person	n.	ucla_phonetics,ukere_1986	False	True	False
+ohwohwo	ohwóhwó	each other	n.	ukere_1986	False	True	False
+ohworakpọ	ohwórákpọ	human being	n.	ukere_1986	False	True	False
+ohẹhẹre	óhẹ́hẹre	width	n.	ukere_1986	False	True	False
+ohọnre	ohọnre	fight	n.	ukere_1986	False	True	False
+ohọre	ohọre	neck	n.	ukere_1986	False	True	False
+ohọrọ	óhọ́rọ	skin	n.	ukere_1986	False	True	False
+oja	ojá	yam stick	n.	ukere_1986	False	True	False
+oja	óʒà	suffering	n.	ucla_phonetics,ukere_1986	False	True	False
+oji	oji	thief	n.	ukere_1986	False	True	False
+ojuvwu	Ojuvwu	Heaven	n.	okrokoto_2020	False	True	False
+ojọrọ	ojọrọ	chain	n.	ukere_1986	False	True	False
+oka	oka	type/kind	n.	ukere_1986	False	True	False
+oka	òkà	Style	n.	grammar_basic_course,okrokoto_2020	False	True	False
+oka	óka	mark / Mark	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+okakọ	ókákọ	crop	n.	ukere_1986	False	True	False
+okao	ókao	masquerade	n.	ukere_1986	False	True	False
+okarerivwi	ókarerivwi	birth mark	n.	ukere_1986	False	True	False
+okarọ	okárọ	gun-shot	n.	ukere_1986	False	True	False
+okarọ	okárọ	wardrobe	n.	ukere_1986	False	True	False
+oke	oke	Urhobo name for the Yoruba people and their language	n.	ukere_1986	False	True	False
+okemwa	okemwa	tailor	n.	ukere_1986	False	True	False
+okere	okere	frog sp.	n.	ukere_1986	False	True	False
+okidiagbara	okidiagbara	chairman	n.	ukere_1986	False	True	False
+oko	óko	friend / Friend	n.	okrokoto_2020,ukere_1986	False	True	False
+okpa	okpa	calabash	n.	ukere_1986	False	True	False
+okpa	ókpa	hand-woven wrapper as thick as blanket / A  thick  locally  woven  cloth	n.	okrokoto_2020,ukere_1986	True	False	True
+okpagha	okpagha	oil-bean tree	n.	ukere_1986	False	True	False
+okpahọvo	okpahọvo	two Naira (N 2)	n.	ukere_1986	False	True	False
+okpakpa	okpakpa	haste	n.	ukere_1986	False	True	False
+okpemu	okpému	big hawk	n.	ukere_1986	False	True	False
+okpemu	okpému	strange thing, extraordinary thing that beats imagination	n.	ukere_1986	False	True	False
+okpetu	okpetú	trouble	n.	ukere_1986	False	True	False
+okpitẹ	Okpitẹ	The person  who  speaks  in  proverbs	n.	okrokoto_2020	False	True	False
+okpohrokpo	okpohrókpo	lion	n.	ukere_1986	False	True	False
+okpẹ	Òkpẹ́	Stingy   ;   Miserly	n.	okrokoto_2020	False	True	False
+okpẹ	ókpẹ	A  dialect  of  Urhobo  language	n.	okrokoto_2020	False	True	False
+okri	okri	he (billy) goat / Male  goat	n.	okrokoto_2020,ukere_1986	True	False	True
+okrẹkrẹ	ókrẹkrẹ	shortness	n.	ukere_1986	False	True	False
+okuba	okuba	necessity	n.	ukere_1986	False	True	False
+okugbe	okugbé	federal	a.	ukere_1986	False	True	False
+okugbe	okugbé	togetherness	n.	ukere_1986	False	True	False
+okukuji	okukuji	owl	n.	ukere_1986	False	True	False
+okuogho	okuogho	headtie/headscarf	n.	ukere_1986	False	True	False
+ok͡pe	òk͡pè	ugly person	n.	ucla_phonetics_1960	False	True	False
+okẹ	Okẹ	Gift	n.	okrokoto_2020	False	True	False
+okọ	ókọ̀	boat / canoe [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+okọredi	okọrédi	boat used locally for production of palm oil	n.	ukere_1986	False	True	False
+okọrenu	okọrénu	aeroplane	n.	ukere_1986	False	True	False
+okọrerhare	okọrérháre	ship	n.	ukere_1986	False	True	False
+okọrorivwi	okọrórivwi	coffin	n.	ukere_1986	False	True	False
+okọrotọ	okọrótọ	motor vehicle	n.	ukere_1986	False	True	False
+okọruhọphe	okọrúhọphe	raft	n.	ukere_1986	False	True	False
+olorogun	ólórógun	chief	n.	ukere_1986	False	True	False
+olọ	òlɔ̀	grinding stone	n.	ucla_phonetics	False	True	False
+olɔ	òlɔ̀	grinding stone	n.	ucla_phonetics_1960	False	True	False
+oma	omá	body [Curriculum: object]	n.	curriculum_seed,grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+oma1	oma1	body/self	n.	ukere_1986	False	True	False
+omagare	omagáre	how are you?	int.	ukere_1986	False	True	False
+omamẹ	omamẹ	myself	pron.	ukere_1986	False	True	False
+omamọ	omámọ	fruit	n.	ukere_1986	False	True	False
+omamọ2	omamọ2	best/special	a.	ukere_1986	False	True	False
+omaohwo	omaohwó	oneself	pron.	ukere_1986	False	True	False
+omaravware	omarávwáre	ourselves	pron.	ukere_1986	False	True	False
+omarayen	omaráyen	themselves	pron.	ukere_1986	False	True	False
+omarowan	omarowan	yourselves	pron.	ukere_1986	False	True	False
+omarọyen	omarọ́yen	himself, herself, itself	pron.	ukere_1986	False	True	False
+omavwerhovwẹ	omavwerhovwẹ	pleasure, gladness, joy	n.	ukere_1986	False	True	False
+omawẹn	omawẹn	yourself	pron.	ukere_1986	False	True	False
+omedje	omédje	introduction	n.	ukere_1986	False	True	False
+omekuogbe	omékuogbe	unity	n.	ukere_1986	False	True	False
+omerovwo	omérovwo	holiday	n.	ukere_1986	False	True	False
+omeru	omeru	pretence	n.	ukere_1986	False	True	False
+omevwuo	omévwuo	pomposity	n.	ukere_1986	False	True	False
+omiragua	omíragua	mister (Mr.)	n.	ukere_1986	False	True	False
+omogodẹ	ómógodẹ	lamb	n.	ukere_1986	False	True	False
+omoko	ómoko	parrot	n.	ukere_1986	False	True	False
+omokri	ómókri	young he-goat	n.	ukere_1986	False	True	False
+omoni	ómóni	relation	n.	ukere_1986	False	True	False
+omotete	ómótete	infant	n.	ukere_1986	False	True	False
+omoze	ómozé	plate (unbreakable)	n.	ukere_1986	False	True	False
+omuru	omurú	arbitrary act	n.	ukere_1986	False	True	False
+omẹcha	omẹ́cha	protection	n.	ukere_1986	False	True	False
+omẹdja	omẹ́dja	harshness	n.	ukere_1986	False	True	False
+omẹriọ	omẹ́riọ	jealousy	n.	ukere_1986	False	True	False
+omẹvuọ	omẹ́vuọ	shame	n.	ukere_1986	False	True	False
+omẹvwarhọ	omẹ́vwárhọ	struggling	n.	ukere_1986	False	True	False
+omẹvwavwọ	omẹ́vwávwọ	competition	n.	ukere_1986	False	True	False
+omẹvwọvwọ	omẹ́vwọvwọ	disgrace	n.	ukere_1986	False	True	False
+ona	Ona	Solution   finding  ; Craftiness ;Shortcut  art ; Trick	n.	okrokoto_2020	False	True	False
+ona	oná	skill	n.	ukere_1986	False	True	False
+onanọ	ónánọ́	question	n.	ukere_1986	False	True	False
+oni	oní	mother [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+oniaruakpọ	óniáruakpọ	stepmother	n.	ukere_1986	False	True	False
+oniaye	óniáye	in-law (female)	n.	ukere_1986	False	True	False
+onini	onini	master	n.	ukere_1986	False	True	False
+oniorọvwe	óniorọvwe	mother/sister in-law	n.	ukere_1986	False	True	False
+oniru	oniru	programme	n.	ukere_1986	False	True	False
+oniyono	oniyono	syllabus	n.	ukere_1986	False	True	False
+oniọvo	oníọvo	sibling / brother / sister [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+ono	óno	who (sing.)	int.	ukere_1986	False	True	False
+ono ta kẹ wẹ?	Ọ́no ta kẹ́ wẹ?	Who told you? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+onogbo	ónógbo	cat	n.	ukere_1986	False	True	False
+onori	onorí	leader	n.	ukere_1986	False	True	False
+onotu	onótu	commissioner/minister	n.	ukere_1986	False	True	False
+onughe	onughe	spectator	n.	ukere_1986	False	True	False
+onẹ	ónẹ	race	n.	ukere_1986	False	True	False
+opharo	opháro	face	n.	ukere_1986	False	True	False
+ophiọrọ	óphiọrọ	whistle	n.	ukere_1986	False	True	False
+ophopho	óphopho	pepper soup	n.	ukere_1986	False	True	False
+ophọrọ	óphọrọ	mudfish	n.	ukere_1986	False	True	False
+opiri	ópiri	dance	n.	ukere_1986	False	True	False
+ora	ora	sore / Sore	n.	okrokoto_2020,ukere_1986	True	False	True
+oraevun	oraévun	stomach ulcer	n.	ukere_1986	False	True	False
+oraobọ	óraóbọ	bracelet	n.	ukere_1986	False	True	False
+oraohọre	óraóhọre	necklace	n.	ukere_1986	False	True	False
+oravwọ	órávwọ	thing/something	n.	ukere_1986	False	True	False
+orere	orere	hare	n.	ukere_1986	False	True	False
+orha	órhá	witchcraft	n.	ukere_1986	False	True	False
+orhare	orhare	well / A   Well	n.	okrokoto_2020,ukere_1986	True	False	True
+orhere	órhére	midwife	n.	ukere_1986	False	True	False
+orherhe	orhérhé	cricket	n.	ukere_1986	False	True	False
+orherẹn	orhérẹn	reverend (Rev.)	n.	ukere_1986	False	True	False
+orhirhi	orhirhi	electric fish / Electric    fish	n.	okrokoto_2020,ukere_1986	True	False	True
+orhiẹ	orhiẹ́	verdict	n.	ukere_1986	False	True	False
+orho	orho	town / Town ; City	n.	okrokoto_2020,ukere_1986	True	False	True
+orhoma	órhóma	surrounding	prep.	ukere_1986	False	True	False
+orhua	órhua	deer / Deer	n.	okrokoto_2020,ukere_1986	False	True	False
+orhuẹ	orhuẹ	madness	n.	ukere_1986	False	True	False
+orhuẹ	orhuẹ́	hunter / Hunter	n.	okrokoto_2020,ukere_1986	False	True	False
+orhuẹre	orhuẹre	catfish / A  species  of  catfish	n.	okrokoto_2020,ukere_1986	False	True	False
+orhuẹro	órhuẹ́ro	blind person	n.	ukere_1986	False	True	False
+orhẹ	orhẹ	abdomen	n.	ukere_1986	False	True	False
+orhọ	órhọ́	ear	n.	ukere_1986	False	True	False
+ori	Orí	Lotion	n.	okrokoto_2020	False	True	False
+ori	orí	pomade	n.	ukere_1986	False	True	False
+ori	óri	food made of corn / Processed  corn  starch  meal	n.	okrokoto_2020,ukere_1986	False	True	False
+oriaren	oriaren	August	n.	ukere_1986	False	True	False
+orin	orin	pus	n.	ukere_1986	False	True	False
+orivwi	orivwi	corpse	n.	ukere_1986	False	True	False
+orivwiesho	orivwiéshó	funeral	n.	ukere_1986	False	True	False
+oriẹ	óriẹ́	palm tree	n.	ukere_1986	False	True	False
+oro	oro	gold / Gold	n.	grammar_basic_course,okrokoto_2020,ukere_1986	False	True	False
+oro	oró	wasp	n.	ukere_1986	False	True	False
+ororigho	ororigho	accountant	n.	ukere_1986	False	True	False
+orua	órua	extended family	n.	ukere_1986	False	True	False
+oruchọ	oruchọ́	crime	n.	ukere_1986	False	True	False
+orugba	orugbá	completion	n.	ukere_1986	False	True	False
+orukeri	orukérí	revenge	n.	ukere_1986	False	True	False
+orukugbe	orukugbé	co-operation	n.	ukere_1986	False	True	False
+orukuruku	orukuruku	corruption	n.	ukere_1986	False	True	False
+orumwemwu	orumwemwu	sinner	n.	ukere_1986	False	True	False
+oruru	orúrú	thread / Cotton  thread	n.	okrokoto_2020,ukere_1986	False	True	False
+orẹ	orẹ	feast / Feast	n.	okrokoto_2020,ukere_1986	True	False	True
+orẹ	órẹ	plea	n.	ukere_1986	False	True	False
+orẹmrẹ	orẹ́mrẹ́	sight	n.	ukere_1986	False	True	False
+orọvwe	orọvwe	marriage	n.	ukere_1986	False	True	False
+osa	osa	debt / Debt	n.	okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+osa	osa	salary	n.	ukere_1986	False	True	False
+osa	Ósa	Rectangular  woven basket for  loads	n.	okrokoto_2020	False	True	False
+osaye	ósáye	payment made as compensation for defiling another man's wife	n.	ukere_1986	False	True	False
+osebro	osébro	deposit	n.	ukere_1986	False	True	False
+oseghe	oseghe	contest	n.	ukere_1986	False	True	False
+oseri	óseri	witness	n.	ukere_1986	False	True	False
+oshenyẹ	oshenyẹ́	oppression	n.	ukere_1986	False	True	False
+oshọ	oʃọ	fear	n.	ucla_phonetics	False	True	False
+oshu	oshu	louse	n.	ukere_1986	False	True	False
+oshọ	oshọ	fear	n.	ukere_1986	False	True	False
+oshọ	óshọ́	penis	n.	ukere_1986	False	True	False
+osi	osi	stroke	n.	ukere_1986	False	True	False
+osio	osio	rain / Rain	n.	okrokoto_2020,ukere_1986	True	False	True
+osioruru	osioruru	spider	n.	ukere_1986	False	True	False
+osivwohwo	osivwohwo	saviour	n.	ukere_1986	False	True	False
+osiẹbe	Osiẹbe	Clerk	n.	okrokoto_2020	False	True	False
+osiẹbe	osiẹbe	secretary	n.	ukere_1986	False	True	False
+osu	Osu	Ruler  ;  Governor	n.	okrokoto_2020	False	True	False
+osuigodẹ	osuigodẹ	shepherd	n.	ukere_1986	False	True	False
+osẹ	ósẹ́	scale	n.	ukere_1986	False	True	False
+osẹvwe	osẹ́vwe	fashionably dressed for an occasion	n.	ukere_1986	False	True	False
+osọnọ	osọnọ	anguish	n.	ukere_1986	False	True	False
+ota	otá	speech/word / Speech	n.	okrokoto_2020,ukere_1986	False	True	False
+ota	òtá	talk	n.	ucla_phonetics_1960	False	True	False
+otafe	ótáfe	outside	n.	ukere_1986	False	True	False
+otariroro	otáríroro	poem	n.	ukere_1986	False	True	False
+otebene	otebene	tumbler	n.	ukere_1986	False	True	False
+otete	ótete	small	a.	ukere_1986	False	True	False
+oti	otí	leprosy / Leprosy	n.	okrokoto_2020,ukere_1986	False	True	False
+otu	otu	majority/group of people	n.	ukere_1986	False	True	False
+otọ	ótọ	ground/down / Ground	n.	okrokoto_2020,ukere_1986	False	True	False
+otọ	ótọ	meaning	n.	ukere_1986	False	True	False
+otọvwe	otọ́vwe	good health / longevity greeting [Curriculum: greeting]	phr.	curriculum_seed,ukere_1986	True	False	True
+ova	óva	scolding	n.	ukere_1986	False	True	False
+ovakpo	ovákpó	window	n.	ukere_1986	False	True	False
+ovie	ovíé	king [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+ovieraye	ovieraye	queen	n.	ukere_1986	False	True	False
+oviɛ	ovjɛ̀	cry, weep	n.	ucla_phonetics	False	True	False
+oviẹ	óviẹ́	cry	n.	ukere_1986	False	True	False
+ovuẹ	óvuẹ	message	n.	ukere_1986	False	True	False
+ovwarha	óvwarha	bead (in general)	n.	ukere_1986	False	True	False
+ovwavwa	ovwavwa	plank	n.	ukere_1986	False	True	False
+ovwerhẹ	ovwerhẹ	sleep	n.	ukere_1986	False	True	False
+ovwi	ovwi	measles	n.	ukere_1986	False	True	False
+ovwie	óvwie	shade	n.	ukere_1986	False	True	False
+ovwiegbere	ovwiégbére	poor person	n.	ukere_1986	False	True	False
+ovwiẹ	ovwiẹ́	leather	n.	ukere_1986	False	True	False
+ovwiẹn	ovwiẹ́n	clay	n.	ukere_1986	False	True	False
+ovwiẹrẹ	ovwiẹrẹ	laziness	n.	ukere_1986	False	True	False
+ovwiẹvwe	ovwiẹ́vwe	deceit	n.	ukere_1986	False	True	False
+ovwoọ	ovwoọ́	south	n.	ukere_1986	False	True	False
+ovwrovwro	óvwrovwro	co-wife	n.	ukere_1986	False	True	False
+ovwu	ovwu	anger	n.	ukere_1986	False	True	False
+ovwọvwọ	óvwọvwọ	evening	n.	ukere_1986	False	True	False
+oware	ówáre	brief period of sunshine in the rainy season (August break)	n.	ukere_1986	False	True	False
+owe	owe	bush mango	n.	ukere_1986	False	True	False
+owe	ówe	mosquito	n.	ukere_1986	False	True	False
+owia	ówia	work	n.	ukere_1986	False	True	False
+oworhi	ówórhi	catarrh	n.	ukere_1986	False	True	False
+ow̝o	òw̝ó	soup	n.	ucla_phonetics_1960	False	True	False
+owẹ	owẹ	fishpond	n.	ukere_1986	False	True	False
+owẹvwe	owẹvwe	hunger	n.	ukere_1986	False	True	False
+owọ	owọ	leg / Leg	n.	okrokoto_2020,ukere_1986	True	False	True
+owọrhe	ówọrhe	cough	n.	ukere_1986	False	True	False
+oyan	óyan	walk/movement	n.	ukere_1986	False	True	False
+oyao	oyao	garden egg	n.	ukere_1986	False	True	False
+oyare	oyare	begging	n.	ukere_1986	False	True	False
+oyavwe	oyavwe	circumcision	n.	ukere_1986	False	True	False
+oyibo	óyibó	white man	n.	ukere_1986	False	True	False
+oyibotọ	óyibótọ	mulatto/albino	n.	ukere_1986	False	True	False
+oyivwi	oyivwi	boldness	n.	ukere_1986	False	True	False
+oyivwi2	oyivwi2	rudeness	n.	ukere_1986	False	True	False
+oyoma	oyóma	okay/good	a.	ukere_1986	False	True	False
+oyono	oyono	teacher	n.	ukere_1986	False	True	False
+oyonorode	oyonorode	professor	n.	ukere_1986	False	True	False
+oyoyovwi	oyoyovwi	beautiful (in some contexts = yoyovwi)	a.	ukere_1986	False	True	False
+oyubu	oyubu	sugar	n.	ukere_1986	False	True	False
+oze	òze	basin	n.	ucla_phonetics_1960,ukere_1986	False	True	False
+ozighi	ozighi	roughness, trouble making	n.	ukere_1986	False	True	False
+ozighẹ	ózighẹ́	murderer	n.	ukere_1986	False	True	False
+oɟa	oɟa	soap	n.	ucla_phonetics_1960	False	True	False
+oʒa	oʒa	suffering	n.	ucla_phonetics_1960	False	True	False
+ọghọ	òɣò	respect	n.	ucla_phonetics	False	True	False
+ọgọ	ọgọ́	bottle	n.	ucla_phonetics	False	True	False
+ọhọ	ɔ́xɔ̀	chicken	n.	ucla_phonetics	False	True	False
+ọmọ	ɔ́mɔ̃́	child	n.	ucla_phonetics	False	True	False
+ọnya	ọɲà	lobster	n.	ucla_phonetics	False	True	False
+ọre	ọre	tsetse fly	n.	ucla_phonetics	False	True	False
+ọrhẹ	ọr̥ẹ	plantain	n.	ucla_phonetics	False	True	False
+p	P	Letter P / sound /p/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+paparapa	paparapa	flat	a.	ukere_1986	False	True	False
+patapata	patapata	anyhow	adv.	ukere_1986	False	True	False
+patiẹn	Patiẹn	Flat  ;  Deflated ; ( Evu   patiẹn = Flat  tummy)	n.	okrokoto_2020	False	True	False
+pepe	pépé	throbbing	a.	ukere_1986	False	True	False
+ph	PH	Digraph PH / sound /ɸ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+phan	ɸ̃ã	expand	n.	ucla_phonetics	False	True	False
+phaphọ	Phaphọ	Measure  it	n.	okrokoto_2020	False	True	False
+phavwẹ	Phavwẹ	Meet  me	n.	okrokoto_2020	False	True	False
+phihọ	Phihọ	Add   to  it	n.	okrokoto_2020	False	True	False
+phio	Phio	Stone    it	n.	okrokoto_2020	False	True	False
+phiọ	Phiọ	Straighten   it.  Make   it  straight	n.	okrokoto_2020	False	True	False
+phiọphiọ	Phiọphiọ	Straight	n.	okrokoto_2020	False	True	False
+pho	pho	jump / Jump	v.t	okrokoto_2020,ukere_1986	True	False	True
+phopho	phopho	blow / Blow  it	v.t	okrokoto_2020,ukere_1986	True	False	True
+phopho	phopho	smoke	v.t	ukere_1986	False	True	False
+phoro	Phoro	Erase	n.	okrokoto_2020	False	True	False
+phorophoro	phorophoro	not clearly	adv.	ukere_1986	False	True	False
+phẹ	phẹ	urinate	v.i	ukere_1986	False	True	False
+phẹghẹphẹghẹ	Phẹghẹphẹghẹ	Flat  ;  not  thick	n.	okrokoto_2020	False	True	False
+phẹn	phẹn	expand, widen (of something)	v.t	ukere_1986	False	True	False
+phẹn	phẹn	cave in (e.g. of pit)	v.i	ukere_1986	False	True	False
+phọphọ	Phọphọ	Disgrace   him/her	n.	okrokoto_2020	False	True	False
+piapia	piápiá	state of not being ripe	a.	ukere_1986	False	True	False
+piẹpiẹ	Piẹ̃piẹ̃	(adj)   Just forming ; Young ; immature ;unripe.	n.	okrokoto_2020	False	True	False
+piọpiọpiọ	piọpiọpiọ	pointed (sharp tip) / (adj)  Pointed  and  sharp    e.g.   nail	a.	okrokoto_2020,ukere_1986	True	False	True
+potokri	potokri	Portuguese person	n.	ukere_1986	False	True	False
+prarara	Prarara	(adj)  Describes  the  sudden  and  forceful	n.	okrokoto_2020	False	True	False
+pueke	pueké	massive	a.	ukere_1986	False	True	False
+puepue	puépué	clean	a.	ukere_1986	False	True	False
+putuku  or  pitiki	Putuku  or  Pitiki	(adj)  Describes  quantity  e.g.  number	n.	okrokoto_2020	False	True	False
+puẹchẹ	puẹ́chẹ́	sluggish	a.	ukere_1986	False	True	False
+puẹpuẹ	puẹ́puẹ́	over-ripe or overcooked	a.	ukere_1986	False	True	False
+pẹpẹ	pẹpẹ́	pet	v.t	ukere_1986	False	True	False
+pẹpẹ	pẹ́pẹ́	quietly	adv.	ukere_1986	False	True	False
+pẹtẹpẹtẹ	pẹtẹpẹtẹ	watery / (adj)  Watery  and  soft  ; Word describes	a.	okrokoto_2020,ukere_1986	True	False	True
+pọkọpọko	pọkọpọko	robust	a.	ukere_1986	False	True	False
+pọlọkọ	Pọlọkọ	an  Urhobo  name	n.	grammar_basic_course	False	True	False
+r	R	Letter R / sound /r/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ra	Ra	Go   there	n.	okrokoto_2020	False	True	False
+rara	Rara	Crawl   e.g.   snails   crawl	n.	okrokoto_2020	False	True	False
+rare	rare	lick / Lick; Use of Finger  or Tongue	v.t	okrokoto_2020,ukere_1986	True	False	True
+re	re	eat / Eat	v.t	okrokoto_2020,ukere_1986	True	False	True
+reghereghe	reghereghe	indefinite	a.	ukere_1986	False	True	False
+rere	rere	in order to, so that	conj.	ukere_1986	False	True	False
+rerha	rérhá	third	a.	ukere_1986	False	True	False
+resaa	résáa	sixth	a.	ukere_1986	False	True	False
+reyọ	reyọ	take	v.t	ukere_1986	False	True	False
+rh	RH	Digraph RH / sound /r̥/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+rha	Rhá	Un-tie ; Loosen ; Un-tangle ; Un-do  knot	n.	okrokoto_2020	False	True	False
+rha	rhá	unite	v.t	ukere_1986	False	True	False
+rha	r̥a	fly / Fly	v.i	grammar_basic_course,okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+rhare	rhare	paint / Paint  ; Plaster ;Smoothen	v.t	okrokoto_2020,ukere_1986	True	False	True
+rharhe	rharhe	bore (hole)	v.t	ukere_1986	False	True	False
+rharhọ	Rharhọ	Bore  a  hole  in  it	n.	okrokoto_2020	False	True	False
+rhariẹ	Rhariẹ	Re-Kindle ;Hurt  an  existing  sore/pain	n.	okrokoto_2020	False	True	False
+rhe	r̥e	arrive	n.	ucla_phonetics	False	True	False
+rhi	r̥i	be destined	n.	ucla_phonetics	False	True	False
+rhie	rhie	open	v.t	ukere_1986	False	True	False
+rhiri	Rhiri	For  a  long    time	n.	okrokoto_2020	False	True	False
+rhirirhiri	Rhirirhìrì	Forever.	n.	okrokoto_2020	False	True	False
+rhiririn	rhiririn	non-stop, continuously	adv.	ukere_1986	False	True	False
+rhivwi	rhívwi	return	v.i	ukere_1986	False	True	False
+rhiọ	Rhiọ	Start  early ; Wake  up  early  to  begin	n.	okrokoto_2020	False	True	False
+rho	Rho	Pre-cook ; Not totally  done ; Preservative	n.	okrokoto_2020	False	True	False
+rho	rho	parboil (of fish or meat halfway)	v.t	ukere_1986	False	True	False
+rho	r̥o	boil before frying	n.	ucla_phonetics	False	True	False
+rhoma	rhoma	again	adv.	ukere_1986	False	True	False
+rhoma    ta	Rhoma    ta	Say  it  again  ;  Repeat  what  you  said	n.	okrokoto_2020	False	True	False
+rhorha	Rhorha	Hot	n.	okrokoto_2020	False	True	False
+rhovwo	rhovwo	bite	v.t	ukere_1986	False	True	False
+rhọ	r̥ọ	to survive	n.	ucla_phonetics	False	True	False
+rhọn	r̥ɔ̃̀	to warm again	n.	ucla_phonetics	False	True	False
+rhu	r̥u	cluster together	n.	ucla_phonetics	False	True	False
+rhuarho	Rhuarho	Big.	n.	okrokoto_2020	False	True	False
+rhuo	Rhuo	Weave  e.g.  as   when  weaving  a  basket.	n.	okrokoto_2020	False	True	False
+rhuo	Rhuo	Put  on  your  fashion  gear ; Dress  up.	n.	okrokoto_2020	False	True	False
+rhurho	Rhurho	Cover  it  e.g.  Cover  a  pot	n.	okrokoto_2020	False	True	False
+rhurhu	rhurhu	cover	v.t	ukere_1986	False	True	False
+rhurie	Rhurie	Rush ; uncontrollable   population	n.	okrokoto_2020	False	True	False
+rhuẹ	rhuẹ	bend (down)	v.i	ukere_1986	False	True	False
+rhuẹrẹ	Rhuẹrẹ	Repair  ;  Fix  ;  Make  it  better	n.	okrokoto_2020	False	True	False
+rhẹ	rhẹ	filter	v.t	ukere_1986	False	True	False
+rhẹrhẹ	rhẹrhẹ	swim / Swim	v.i	okrokoto_2020,ukere_1986	True	False	True
+rhẹrioma	Rhẹrioma	Change  anatomical  position ; Turn  a	n.	okrokoto_2020	False	True	False
+rhẹriẹ	rhẹriẹ	turn / Change ;  Turn  around ;Turn  it  over.	v.t	okrokoto_2020,ukere_1986	True	False	True
+rhẹrẹ	Rhẹrẹ	Watchfulness ; Spying  on	n.	okrokoto_2020	False	True	False
+rhọ	rhọ	rain	v.i	ukere_1986	False	True	False
+rhọghọ	rhọghọ	lay (egg)	v.t	ukere_1986	False	True	False
+rhọvwe	rhọvwe	agree/accept	v.t	ukere_1986	False	True	False
+riakpọ	riakpọ	enjoy	v.t	ukere_1986	False	True	False
+riariẹ	riariẹ	round	a.	ukere_1986	False	True	False
+rie	rié	wipe	v.t	ukere_1986	False	True	False
+riemu	Riemu	Eat   food	n.	okrokoto_2020	False	True	False
+righwrẹ	ríghwrẹ́	seventh	a.	ukere_1986	False	True	False
+rihwe	ríhwé	tenth	a.	ukere_1986	False	True	False
+rioriorio	rioriorio	smooth	a.	ukere_1986	False	True	False
+rirhiri	rírhiri	ninth	a.	ukere_1986	False	True	False
+ririe	Ririe	Clean  it  ;  Wipe  up  ;  Wipe	n.	okrokoto_2020	False	True	False
+ririe	ririe	tickle	v.t	ukere_1986	False	True	False
+rivẹ	rívẹ́	second	a.	ukere_1986	False	True	False
+riyorin	ríyorin	fifth	a.	ukere_1986	False	True	False
+riẹre	Riẹre	Knows	n.	okrokoto_2020	False	True	False
+riẹriẹ	riẹ́riẹ́	lure, entice / Lure  him/her	v.t	okrokoto_2020,ukere_1986	False	True	False
+riọ	Riọ̀	Foam  up  e.g. when opening soda  can	n.	okrokoto_2020	False	True	False
+riọ	Riọ́	Eat  it	n.	okrokoto_2020	False	True	False
+ro	ro	enter	v.t	ukere_1986	False	True	False
+rode	rode	big	a.	ukere_1986	False	True	False
+roro	roro	think, add / Think  ;   Think  about  it / think	v.i	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+rovwo	rovwo	forget	v.t	ukere_1986	False	True	False
+ru	ru	do/make / Do	v.t	okrokoto_2020,ukere_1986	True	False	True
+rua	rua	poison/bewitch	v.t	ukere_1986	False	True	False
+ruiruo	Ruiruo	Work	n.	okrokoto_2020	False	True	False
+rukugbe	rukugbe	co-operate	v.t	ukere_1986	False	True	False
+ruo	Ruo	Do  it	n.	okrokoto_2020	False	True	False
+ruọ	Ruọ	Go  inside	n.	okrokoto_2020	False	True	False
+rẹ	rẹ	beg/plead / Beg	v.t	okrokoto_2020,ukere_1986	True	False	True
+rẹne	rẹ́né	fourth	a.	ukere_1986	False	True	False
+rẹrere	rẹ́rére	eighth	a.	ukere_1986	False	True	False
+rẹsosuọ	rẹ́sosuọ	first	a.	ukere_1986	False	True	False
+rọ	rọ	swallow / Swallow  ;  Swallow  it	v.t	okrokoto_2020,ukere_1986	True	False	True
+rọvwọ	rọvwọ	marry	v.t	ukere_1986	False	True	False
+s	S	Letter S / sound /s/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+sa	sa	shoot / Shoot	v.t	okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+sa	sa	burst, break open explosively	v.i	ukere_1986	False	True	False
+sane	sane	select	v.t	ukere_1986	False	True	False
+sansan	sánsán	different	a.	ukere_1986	False	True	False
+sasa	Sasa	Agility  ;  Healthy  and  well ; Smart	n.	okrokoto_2020	False	True	False
+sasasa	sasasa	smart	a.	ukere_1986	False	True	False
+se	se	read / read (imp.)	v.t	ucla_phonetics,ukere_1986	True	False	True
+se	se	refuse	v.t	ukere_1986	False	True	False
+se	se	call / Call	v.t	grammar_basic_course,okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+segbuyota	segbúyóta	believe	v.i	ukere_1986	False	True	False
+sen	Sen	Reject   ;  Refuse  ;  Say  “no”	n.	okrokoto_2020	False	True	False
+sẹn	s̃ɛ̃̀	refuse	n.	ucla_phonetics	False	True	False
+sh	SH	Digraph SH / sound /ʃ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+sha	shá	word to chase away domestic animals	excl.	ukere_1986	False	True	False
+she	she	fall / Fall	v.t	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+she	she	fail	v.i	ukere_1986	False	True	False
+shenyẹ	shenyẹ́	oppress	v.t	ukere_1986	False	True	False
+sherhẹ	sherhẹ	lie / Lie  down	v.t	okrokoto_2020,ukere_1986	True	False	True
+shesheri	shesheri	far / Very   far	a.	okrokoto_2020,ukere_1986	True	False	True
+shi	shi	bury	v.t	ukere_1986	False	True	False
+shiguẹ	shiguẹ	kneel down / Greeting  with  the  knees  bent ; Kneel  down	v.i	okrokoto_2020,ukere_1986	True	False	True
+shoma	Shoma	Advertise   one’s  self	n.	okrokoto_2020	False	True	False
+shu	shu	capsize	v.i	ukere_1986	False	True	False
+shuo!	Shuo!	expresses surprise	excl.	ukere_1986	False	True	False
+shẹ	shẹ	sell / Sell	v.t	okrokoto_2020,ukere_1986	True	False	True
+shọrọ	shọ́rọ	crawl / Crawl	v.i	okrokoto_2020,ukere_1986	False	True	False
+si	si	write / Write / write (imp.)	v.t	okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+si	si	pull	v.t	ukere_1986	False	True	False
+sio	Sio	Write  it	n.	okrokoto_2020	False	True	False
+sio	Sio	Pull  (towards   self  )	n.	okrokoto_2020	False	True	False
+siomanu	Siomanu	Hide	n.	okrokoto_2020	False	True	False
+sivwi	sivwi	treat	v.t	ukere_1986	False	True	False
+sivwi	sivwi	contest, struggle for	v.t	ukere_1986	False	True	False
+siẹnẹ	siẹnẹ́	so that, so as to	conj.	ukere_1986	False	True	False
+siẹvuọvo	siẹ́vuọ́vo	at once	adv.	ukere_1986	False	True	False
+siọ	Siọ	Reject   it  outright	n.	okrokoto_2020	False	True	False
+so	so	tap	v.t	ukere_1986	False	True	False
+so	so	sing / sing (imp.)	v.i	ucla_phonetics,ukere_1986	True	False	True
+sobọ	sobọ	shake hand / Shake   hands  ;  Shake  my  hand	v.t	okrokoto_2020,ukere_1986	True	False	True
+su	su	lead, escort / Govern  ;  Rule  ;  Lead	v.t	okrokoto_2020,ukere_1986	True	False	True
+suesu	suesú	sticky	a.	ukere_1986	False	True	False
+suine	Suine	Sing  a  song	n.	okrokoto_2020	False	True	False
+sẹ	Sẹ	Efficacy  of  medication  or  treatment	n.	okrokoto_2020	False	True	False
+sẹ	sẹ	dress (for an occasion) / Dress   fashionably	v.i	okrokoto_2020,ukere_1986	True	False	True
+t	T	Letter T / sound /t/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ta	Ta	A  mild  condemnation ; Blame  or  curse	n.	okrokoto_2020	False	True	False
+ta	ta	talk/say / Say   it   ;   Confess / say	v.t	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ta2	tá2	word for rebuking	exp.	ukere_1986	False	True	False
+takẹ	Takẹ	Tell  him/her	n.	okrokoto_2020	False	True	False
+telẹvishọn	telẹvishọn	television	n.	ukere_1986	False	True	False
+teri	téri	enough	a.	ukere_1986	False	True	False
+tẹn	tnɛ̃̀	fade, lose credibility or prestige	n.	ucla_phonetics	False	True	False
+tighitighi	tighitighi	tangled state	id.	ukere_1986	False	True	False
+titi	titi	be renowned, be famous	v.i	ukere_1986	False	True	False
+titẹ	Titẹ	Famous  ;  Popular	n.	okrokoto_2020	False	True	False
+tivọ	tivọ	where	int.	ukere_1986	False	True	False
+tivọ wo nurhe ki tivọ wọ je ra?	Tivọ́ wo núrhe ki tivọ́ wọ je rá?	Where have you come from, and where are you going? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+torhẹ	torhẹ	burn	v.t	ukere_1986	False	True	False
+toro	Toro	Contribute	n.	okrokoto_2020	False	True	False
+tota	Tota	Speak  ;  Talk	n.	okrokoto_2020	False	True	False
+tu	tu	summon	v.t	ukere_1986	False	True	False
+tua	Tua	Chase    him/her /it	n.	okrokoto_2020	False	True	False
+tuato	Tuato	Chew   on  your  chewing  stick	n.	okrokoto_2020	False	True	False
+tuatua	Tuatua	Strong  and  fearful	n.	okrokoto_2020	False	True	False
+tue	Tue	Shake  it  off     e.g.  cloth  that falls  on  dirt	n.	okrokoto_2020	False	True	False
+tue	tue	purge	v.i	ukere_1986	False	True	False
+tuvwiyọ	tuvwiyọ	begin/start	v.t	ukere_1986	False	True	False
+tuọ	tuọ́	chew / Chew   it	v.t	okrokoto_2020,ukere_1986	False	True	False
+tẹ	tẹ	fall out of grace, to be without honour	v.i	ukere_1986	False	True	False
+tọ	tọ	dig / Dig  it    e.g.   a  pit  or  hole / Fry  it    e.g.   Gari	v.t	okrokoto_2020,ukere_1986	False	True	False
+tọ	tọ	live long / Live  long	v.i	okrokoto_2020,ukere_1986	True	False	True
+tọre	tọre	pick	v.t	ukere_1986	False	True	False
+tọrọ	Tọrọ	Pick  ; Pick  it	n.	okrokoto_2020	False	True	False
+u	U	Letter U / sound /u/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ubekpe	ubékpe	wing	n.	ukere_1986	False	True	False
+ubeku	ubeku	bone / Bone	n.	okrokoto_2020,ukere_1986	True	False	True
+ubi	Ubi	Punch  ;  Knot	n.	okrokoto_2020	False	True	False
+ubi	ubí	charcoal, soot	n.	ukere_1986	False	True	False
+ubi	úbi	seed	n.	ukere_1986	False	True	False
+ubiako	úbiáko	tooth / Tooth	n.	okrokoto_2020,ukere_1986	False	True	False
+ubiebi	úbiébi	emphatic word for dark complexion	n.	ukere_1986	False	True	False
+ubiedada	úbiédada	rib	n.	ukere_1986	False	True	False
+ubiedi	úbiédi	palm-nut	n.	ukere_1986	False	True	False
+ubiehu	úbiéhú	kidney	n.	ukere_1986	False	True	False
+ubienyẹ	úbiényẹ	angle	n.	ukere_1986	False	True	False
+ubieragha	úbiérágha	stone	n.	ukere_1986	False	True	False
+ubieri	úbieri	mudfish sp.	n.	ukere_1986	False	True	False
+ubigho	úbígho	cowry	n.	ukere_1986	False	True	False
+ubiohoro	úbióhoró	clitoris	n.	ukere_1986	False	True	False
+ubiota	ubiota	letter (a, b, c, etc.)	n.	ukere_1986	False	True	False
+ubiotako	ubiotako	consonant	n.	ukere_1986	False	True	False
+ubiotaupho	ubiotaupho	vowel	n.	ukere_1986	False	True	False
+ubiowọ	úbiówọ	ball by the ankle	n.	ukere_1986	False	True	False
+ubiri	úbiri	spear	n.	ukere_1986	False	True	False
+ubiudu	úbiúdú	heart	n.	ukere_1986	False	True	False
+ubiugbo	úbiúgbo	knee cap	n.	ukere_1986	False	True	False
+ubiupho	úbiupho	Adam's apple	n.	ukere_1986	False	True	False
+ubiurhe	úbiúrhe	stick	n.	ukere_1986	False	True	False
+ubivie	úbivie	coral bead	n.	ukere_1986	False	True	False
+ubivun	úbívun	intestine	n.	ukere_1986	False	True	False
+ubresiso	úbrésiso	hundred Naira (N 100)	n.	ukere_1986	False	True	False
+ubrevwiẹ	ubrevwiẹ	last born	n.	ukere_1986	False	True	False
+ubro	úbro	half	n.	ukere_1986	False	True	False
+ubrotọ	úbrótọ	state	n.	ukere_1986	False	True	False
+ubruwevwi	úbrúwevwi	room	n.	ukere_1986	False	True	False
+ubuara	ubuara	handwoven wrapper worn by elders	n.	ukere_1986	False	True	False
+uche	uché	quantity	n.	ukere_1986	False	True	False
+uchebro	úchébro	advice	n.	ukere_1986	False	True	False
+uchere	uchere	cookery	n.	ukere_1986	False	True	False
+ucheve	uchéve	twenty (20) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ucheve gbiyori	uchéve gbiyórĩ	twenty-five (25) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ucheve gbọvo	uchéve gbọ́vo	twenty-one (21) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ucheye	uchéye	forty (40) [Curriculum: number]	n.	curriculum_seed	False	False	True
+uchivwo	uchivwo	pillar	n.	ukere_1986	False	True	False
+uchuhru	Uchuhru	Stump	n.	okrokoto_2020	False	True	False
+uchukowọ	úchúkówọ	heel	n.	ukere_1986	False	True	False
+uchuku	úchuku	stump	n.	ukere_1986	False	True	False
+uchunu	uchunu	amount	n.	ukere_1986	False	True	False
+uchuru	Uchuru	Products  of  animal  husbandary   ;	n.	okrokoto_2020	False	True	False
+udene	udene	male agama lizard	n.	ukere_1986	False	True	False
+udi	Udi	Liquor	n.	okrokoto_2020	False	True	False
+udi	Údi	Grass  cutter	n.	okrokoto_2020	False	True	False
+udi	ùdì	drink, wine / Wine / drink	n.	grammar_basic_course,ukere_1986	False	True	False
+udi	údi	Chest / trunk	n.	grammar_basic_course	False	True	False
+udi	údí	grasscutter, cane-rat	n.	ukere_1986	False	True	False
+udiame	udiáme	palmwine	n.	ukere_1986	False	True	False
+udidi	udidi	dignity, charisma	n.	ukere_1986	False	True	False
+udidẹ	údídẹ	earthworm / Earthworm	n.	okrokoto_2020,ukere_1986	False	True	False
+udieweri	údiéweri	chimpanzee	n.	ukere_1986	False	True	False
+udio	udió	cork / Cover  ;  Cork  ;  Cap	n.	okrokoto_2020,ukere_1986	False	True	False
+udje	udje	energetic Urhobo dance	n.	ukere_1986	False	True	False
+udju	údjú	farm / Farm	n.	okrokoto_2020,ukere_1986	False	True	False
+udo	údo	riddle	n.	ukere_1986	False	True	False
+udu	údù	chest / Chest	n.	okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+uduebro	úduébro	anxiety	n.	ukere_1986	False	True	False
+ufi	úfi	Rope    ( also  called    uruhrẹ ) / rope	n.	okrokoto_2020,ucla_phonetics	False	True	False
+ufi	úfí	trap / Trap	n.	okrokoto_2020,ukere_1986	False	True	False
+ufifobọ	úfífobọ	fingernail	n.	ukere_1986	False	True	False
+ufiowọ	úfiówọ	sole rash	n.	ukere_1986	False	True	False
+ufo	Ufo	Work   that   a  person   does  for  someone	n.	okrokoto_2020	False	True	False
+ufuna	Ufuna	Bamboo-made  cigarette  pipe	n.	okrokoto_2020	False	True	False
+ufuoma	úfuomá	peace / Peace ; A   state  of  serenity.	n.	okrokoto_2020,ukere_1986	False	True	False
+ugana	ugana	balcony	n.	ukere_1986	False	True	False
+ugba	úgba	game of children involving jumping on the ground	n.	ukere_1986	False	True	False
+ugbada	úgbáda	simultaneously	adv.	ukere_1986	False	True	False
+ugbakana	ugbakana	ladder	n.	ukere_1986	False	True	False
+ugbakara	Ugbakara	Ladder	n.	okrokoto_2020	False	True	False
+ugbenu	ugbenu	mountain/hill / Hill	n.	okrokoto_2020,ukere_1986	True	False	True
+ugbere	ugbére	gonorrhoea	n.	ukere_1986	False	True	False
+ugbevwiẹ	ugbévwiẹ	age-group	n.	ukere_1986	False	True	False
+ugbi	ugbí	seed-yam for planting	n.	ukere_1986	False	True	False
+ugbidu	Ugbidu	Cocoyam  farm	n.	okrokoto_2020	False	True	False
+ugbo	ugbo	bone between the knee and the ankle	n.	ukere_1986	False	True	False
+ugbobọ	ugbóbọ	arm	n.	ukere_1986	False	True	False
+ugbogbo	ugbogbo	caterpillar	n.	ukere_1986	False	True	False
+ugbonẹ	úgbónẹ	speed	n.	ukere_1986	False	True	False
+ugbudia	Ugbudia	Horse  tail  ;  Ox  tail	n.	okrokoto_2020	False	True	False
+ugbugberi	úgbugberi	across	adv.	ukere_1986	False	True	False
+ugbuko	ugbuko	back	n.	ukere_1986	False	True	False
+ugbunu	ugbunu	mouth / Mouth	n.	okrokoto_2020,ukere_1986	True	False	True
+ugbẹ	ugbẹ	pen, biro, pencil	n.	ukere_1986	False	True	False
+ugbẹame	ugbẹáme	pen, biro	n.	ukere_1986	False	True	False
+ugbẹvwẹre	úgbẹ́vwẹ́re	potsherd, broken earthenware	n.	ukere_1986	False	True	False
+ugbẹọyaya	ugbẹọ́yaya	pencil	n.	ukere_1986	False	True	False
+ugbọmo	ugbọmo	child belt	n.	ukere_1986	False	True	False
+ugbọvo	úgbọvó	single wrapper worn by unmarried girl	n.	ukere_1986	False	True	False
+ughe	ughé	spectacle	n.	ukere_1986	False	True	False
+ughegbe	ughegbe	mirror	n.	ukere_1986	False	True	False
+ughere	úghére	outskirts of a town or village	n.	ukere_1986	False	True	False
+ughwaka	ughwaka	salt	n.	ukere_1986	False	True	False
+ughweri	ughweri	native salt	n.	ukere_1986	False	True	False
+ughwru	ughwru	boundary	n.	ukere_1986	False	True	False
+ughwu	ughwu	death	n.	ukere_1986	False	True	False
+ughẹghẹ	úghẹ́ghẹ	foolishness / Foolishness	n.	okrokoto_2020,ukere_1986	False	True	False
+ughẹn	ughẹn	period set aside for a woman to sleep with her husband	n.	ukere_1986	False	True	False
+ughẹrughẹ	Ughẹrughẹ	Miniature   bell	n.	okrokoto_2020	False	True	False
+ughọjọ	ughọjọ	watch, clock	n.	ukere_1986	False	True	False
+ugo	ugo	eagle	n.	ukere_1986	False	True	False
+ugrogro	úgrógro	length	n.	ukere_1986	False	True	False
+uguegue	uguegue	shock	n.	ukere_1986	False	True	False
+ugugunu	úgúgunu	bend	n.	ukere_1986	False	True	False
+ugẹ	úgẹ́	fish-trap	n.	ukere_1986	False	True	False
+uhereviaso	uhéréviáso	midnight	n.	ukere_1986	False	True	False
+uherevie	uhérévie	middle, between	prep.	ukere_1986	False	True	False
+uhohi	uhohi	navel	n.	ukere_1986	False	True	False
+uhohi	úhóhi	spiny part of the palm tree containing the leaves	n.	ukere_1986	False	True	False
+uhoho	úhoho	shadow	n.	ukere_1986	False	True	False
+uhuhin	ùxòx̃ĩ̀	navel	n.	ucla_phonetics	False	True	False
+uhwerhe	úhwerhe	sugar-cane	n.	ukere_1986	False	True	False
+uhwọvo	úhwọ́vó	eleven	num.	ukere_1986	False	True	False
+uje	uje	twenty / Twenty	num.	okrokoto_2020,ukere_1986	True	False	True
+uji	Uji	Stealing  ;  Thievery   (Oji=Thieve)	n.	okrokoto_2020	False	True	False
+uji	uji	theft	n.	ukere_1986	False	True	False
+ujone	ujọ́ne	eighty (80) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ujone gbihwe	ujọ́ne gbihwé	ninety (90) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ujorha	ujọ́rha	sixty (60) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+ujorha gbihwe	ujọ́rha gbihwé	seventy (70) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ujorhagbẹihwe	ujórhagbẹihwe	seventy	num.	ukere_1986	False	True	False
+ujori	Ujori	One  hundred	n.	okrokoto_2020	False	True	False
+ujorin	ujórin	hundred	num.	ukere_1986	False	True	False
+ujuve gbihwe	ujǔve gbihwé	fifty (50) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ujuvẹ	ujúvẹ	forty / Forty	num.	okrokoto_2020,ukere_1986	False	True	False
+ujuvẹgbẹihwe	ujúvẹgbẹihwe	fifty	num.	ukere_1986	False	True	False
+ujọ	újọ	fly-whisk, object made of the tail of the horse used for decoration or	n.	ukere_1986	False	True	False
+ujọne	ujọ́ne	eighty	num.	ukere_1986	False	True	False
+ujọnegbẹihwe	ujọ́negbẹihwe	ninety	num.	ukere_1986	False	True	False
+uke	uke	hump, hunch	n.	ukere_1986	False	True	False
+uke	uke	style in Urhobo wrestling	n.	ukere_1986	False	True	False
+ukeke	ukéké	piece of stick used for setting trap	n.	ukere_1986	False	True	False
+ukiri	Ukiri	Drum	n.	okrokoto_2020	False	True	False
+uko	Úko	Back / back	n.	grammar_basic_course	False	True	False
+uko	Úkó	cup / Cup	n.	grammar_basic_course,ukere_1986	True	False	True
+ukodo	Ukodo	Porridge	n.	okrokoto_2020	False	True	False
+ukodo	ukodo	food prepared with meat and yam or plantain together (mixed grill)	n.	ukere_1986	False	True	False
+ukoko	ukoko	(tobacco) pipe / Tobacco  pipe	n.	okrokoto_2020,ukere_1986	True	False	True
+ukoko	ukókó	association/society / Group   ;  Association	n.	okrokoto_2020,ukere_1986	False	True	False
+ukokodia	ukokódia	coconut palm	n.	ukere_1986	False	True	False
+ukoni	ukoni	kitchen	n.	ukere_1986	False	True	False
+ukori	ukori	lump	n.	ukere_1986	False	True	False
+ukoro	Ukoro	Elephant   tusk  bangle	n.	okrokoto_2020	False	True	False
+ukowọ	úkówọ	top of the foot	n.	ukere_1986	False	True	False
+ukpavwre.	úkpavwre.	bile	n.	ukere_1986	False	True	False
+ukpe	ukpe	year	n.	ukere_1986	False	True	False
+ukpe2	úkpe2	bed	n.	ukere_1986	False	True	False
+ukpebo	úkpébó	white poplin	n.	ukere_1986	False	True	False
+ukperi	ukperi	scandal	n.	ukere_1986	False	True	False
+ukperẹ	ukpérẹ́	instead of	prep.	ukere_1986	False	True	False
+ukpokpo	úkpokpo	missile / Missile ; Any  object  thrown at  a  target.	n.	okrokoto_2020,ukere_1986	False	True	False
+ukpokpogho	úkpókpógho	disturbance	n.	ukere_1986	False	True	False
+ukpokpoma	úkpokpomá	problem, worriedness	n.	ukere_1986	False	True	False
+ukpono	Ukpono	Cripple	n.	okrokoto_2020	False	True	False
+ukpono	ukpono	lame person	n.	ukere_1986	False	True	False
+ukpono2	ukpono2	broom used in sweeping open places like compound while standing	n.	ukere_1986	False	True	False
+ukpotọ	ukpotọ	pothole	n.	ukere_1986	False	True	False
+ukpọkẹre	úkpọkẹre	gutter	n.	ukere_1986	False	True	False
+uku	úku	heritage	n.	ukere_1986	False	True	False
+ukujẹrẹ	ukujẹrẹ	spoon	n.	ukere_1986	False	True	False
+ukuta	Ukuta	Stone	n.	okrokoto_2020	False	True	False
+ukuta	ukúta	rock	n.	ukere_1986	False	True	False
+ukutarirhibo	ukútarírhibo	grinding stone	n.	ukere_1986	False	True	False
+ukuwevwi	úkúwevwi	back yard	n.	ukere_1986	False	True	False
+ukẹ	úkẹ́	egg	n.	ukere_1986	False	True	False
+ukẹcha	ukẹ́cha	help	n.	ukere_1986	False	True	False
+ukẹrekpẹ	úkẹ́rékpẹ	brick	n.	ukere_1986	False	True	False
+ukẹun	ukẹun	potash	n.	ukere_1986	False	True	False
+ukọ	úkọ	misfortune	n.	ukere_1986	False	True	False
+ukọkọghọ	ukọ́kọ́ghọ	small calabash used for storing medicine	n.	ukere_1986	False	True	False
+ukọpa	ukọ́pa	one kobo (1k)	n.	ukere_1986	False	True	False
+ukọvwa	úkọvwá	bridesmaid	n.	ukere_1986	False	True	False
+umako	úmáko	pepper fruit	n.	ukere_1986	False	True	False
+umi	umi	sack used to squeeze water out of ground cassava	n.	ukere_1986	False	True	False
+umiovwo	úmióvwo	destruction	n.	ukere_1986	False	True	False
+umuemu	úmuému	boil	n.	ukere_1986	False	True	False
+umuwevwi	úmuwevwi	cottage	n.	ukere_1986	False	True	False
+umwamwa	umwamwa	belt used by women	n.	ukere_1986	False	True	False
+umwaya	umwáyá	belt	n.	ukere_1986	False	True	False
+umwemwu	umwemwu	sin	n.	ukere_1986	False	True	False
+umwu	umwu	drug	n.	ukere_1986	False	True	False
+umẹ	umẹ	committee / Committee	n.	okrokoto_2020,ukere_1986	True	False	True
+umẹ	úmẹ́	cucumber	n.	ukere_1986	False	True	False
+une	une	song / Song	n.	okrokoto_2020,ukere_1986	True	False	True
+unedi	unédi	bunch of palm-nuts	n.	ukere_1986	False	True	False
+uno	unó	oak [no oak trees in Nigeria]	n.	ukere_1986	False	True	False
+unu	unu	hole / Hole   ;  mouth	n.	okrokoto_2020,ukere_1986	True	False	True
+unuebo	Unuebo	Shout : to express surprise  or  for  help	n.	okrokoto_2020	False	True	False
+unuemiovwo	unuémióvwo	slander	n.	ukere_1986	False	True	False
+unuephẹrẹ	unuéphẹ́rẹ	tribe	n.	ukere_1986	False	True	False
+unurevie	unurévie	nipple	n.	ukere_1986	False	True	False
+unurhoro	unúrhoro	entrance/gate / Door   entrance	n.	okrokoto_2020,ukere_1986	False	True	False
+unuruwen	unurúwén	nostril	n.	ukere_1986	False	True	False
+unusọ	únúsọ	anus	n.	ukere_1986	False	True	False
+unuẹkọ	unuẹ́kọ́	quarrel	n.	ukere_1986	False	True	False
+unọrhẹ	unọ́rhẹ	bunch of plantains	n.	ukere_1986	False	True	False
+upe	úpè	scar	n.	ucla_phonetics,ucla_phonetics_1960,ukere_1986	False	True	False
+uphiaphia	úphiáphiá	cane/whip	n.	ukere_1986	False	True	False
+upho	uɸó	throat / Throat	n.	okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+upho	úpho	flesh	n.	ukere_1986	False	True	False
+uphoro	uphoro	feather	n.	grammar_basic_course,ukere_1986	False	True	False
+upẹrẹ	upẹ́rẹ́	nail	n.	ukere_1986	False	True	False
+ure	úre	totality	n.	ukere_1986	False	True	False
+urhe	urhé	tree / wood [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+urhi	úrhi	law / Law	n.	okrokoto_2020,ukere_1986	False	True	False
+urhiabọ	Urhiabọ	Finger	n.	okrokoto_2020	False	True	False
+urhiawọ	Urhiawọ	Toe	n.	okrokoto_2020	False	True	False
+urhie	urhié	river / Sea/river/ocean	n.	okrokoto_2020,ukere_1986	False	True	False
+urhiobọ	úrhióbọ	finger	n.	ukere_1986	False	True	False
+urhiorin	urhiórin	September	n.	ukere_1986	False	True	False
+urhiowọ	úrhiówọ	toe	n.	ukere_1986	False	True	False
+urhirako	úrhirako	fox	n.	ukere_1986	False	True	False
+urhiẹ	Urhiẹ	Line	n.	okrokoto_2020	False	True	False
+urhiẹ	úrhiẹ́	queue	n.	ukere_1986	False	True	False
+urhiọke	úrhiọke	morning	n.	ukere_1986	False	True	False
+urho	urhó	gum tree sp.	n.	ukere_1986	False	True	False
+urho1	urho1	mortar	n.	ukere_1986	False	True	False
+urhughweri	úrhúghweri	mangrove sp.	n.	ukere_1986	False	True	False
+urhukpẹ	úrhukpẹ	lamp/light	n.	ukere_1986	False	True	False
+urhurhu	úrhúrhu	tail / Tail	n.	okrokoto_2020,ukere_1986	False	True	False
+urhuru	urhuru	selfishness	n.	ukere_1986	False	True	False
+urhuru	urhuru	voice / Voice	n.	okrokoto_2020,ukere_1986	True	False	True
+urhuvwu	urhúvwu	street	n.	ukere_1986	False	True	False
+urhuẹ	Urhuẹ	Place  of  abode	n.	okrokoto_2020	False	True	False
+urhuẹ	urhuẹ	home	n.	ukere_1986	False	True	False
+urhẹvwe	urhẹ́vwe	destiny	n.	ukere_1986	False	True	False
+uri	urí	one hundred (100) [Curriculum: number]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+uri gbẹ ujorin	urí gbẹ ujórin	three hundred	num.	ukere_1986	False	True	False
+uriorha	uriórha	six hundred	num.	ukere_1986	False	True	False
+uriorin	uriórin	one thousand	num.	ukere_1986	False	True	False
+uriri	uriri	glory / Glory	n.	okrokoto_2020,ukere_1986	True	False	True
+uririẹ	úririẹ	spice variety	n.	ukere_1986	False	True	False
+urivẹ	urívẹ	four hundred	num.	ukere_1986	False	True	False
+urivẹ gbẹ ujorin	urívẹ gbẹ ujórin	five hundred	num.	ukere_1986	False	True	False
+uriẹ	úriẹ́	vein	n.	ukere_1986	False	True	False
+uriọdja	uriọdja	handkerchief	n.	ukere_1986	False	True	False
+uriọne	uriọ́ne	eight hundred	num.	ukere_1986	False	True	False
+uriọne gbẹ ujorin	uriọ́ne gbẹ ujórin	nine hundred	num.	ukere_1986	False	True	False
+uroko	úróko	mile/kilometre / A   mile	n.	okrokoto_2020,ukere_1986	False	True	False
+uruemu	Uruemu	Character  ;  Behavior	n.	okrokoto_2020	False	True	False
+uruemu	úruému	behaviour	n.	ukere_1986	False	True	False
+uruhrẹ	úruhrẹ́	rope / Rope ; Cord ; Stem of  some	n.	okrokoto_2020,ukere_1986	False	True	False
+ururuvwen	urúrúvwen	December	n.	ukere_1986	False	True	False
+usa	usa	ring	n.	ukere_1986	False	True	False
+usabọ	úsábọ	scratch	n.	ukere_1986	False	True	False
+usaguẹ	úságuẹ	groundnut	n.	ukere_1986	False	True	False
+use	úse	call	n.	ukere_1986	False	True	False
+useki	úseki	charm for business promotion	n.	ukere_1986	False	True	False
+usekpe	úsekpe	snail	n.	ukere_1986	False	True	False
+useri	úseri	proof, evidence	n.	ukere_1986	False	True	False
+ushavwo	úshavwo	okra	n.	ukere_1986	False	True	False
+usheneuwamwa	usheneuwámwá	twenty kobo (20k)	n.	ukere_1986	False	True	False
+ushi	ushi	grave	n.	ukere_1986	False	True	False
+ushurhe	ushurhe	axe / Axe	n.	okrokoto_2020,ukere_1986	True	False	True
+ushọvo	úshọvó	November	n.	ukere_1986	False	True	False
+usi	Usi	Popularity	n.	okrokoto_2020	False	True	False
+usi	usi	fame	n.	ukere_1986	False	True	False
+usi	usí	starch / Starch	n.	okrokoto_2020,ukere_1986	True	False	True
+usi	úsi	line / Line	n.	okrokoto_2020,ukere_1986	True	False	True
+usiame	Usiamé	Well-water   fetching  rope	n.	okrokoto_2020	False	True	False
+usiavwrẹ	úsiavwrẹ	key / Key	n.	okrokoto_2020,ukere_1986	False	True	False
+usiga	usigá	jigger	n.	ukere_1986	False	True	False
+usigho	usigho	charm for wealth	n.	ukere_1986	False	True	False
+usu	usú	company	n.	ukere_1986	False	True	False
+usuo	úsuo	government	n.	ukere_1986	False	True	False
+usuọvwa	usuọvwa	middleman (within the context of marriage)	n.	ukere_1986	False	True	False
+utehru	utéhru	steel	n.	ukere_1986	False	True	False
+utitẹ	Utitẹ	Seal  ;  Stamp & seal in Notary	n.	okrokoto_2020	False	True	False
+utiẹ	útiẹ	orange	n.	ukere_1986	False	True	False
+utiẹn	Utiẹn	Orange	n.	okrokoto_2020	False	True	False
+utohri	utohri	pestle	n.	ukere_1986	False	True	False
+utu	utú	north	n.	ukere_1986	False	True	False
+utudjeru	utudjéru	scissors	n.	ukere_1986	False	True	False
+utughẹ	útughẹ	hut / Hut	n.	okrokoto_2020,ukere_1986	False	True	False
+utunedi	utunédi	bunch of palm-nuts from which the nuts had been removed	n.	ukere_1986	False	True	False
+utuoma	útuomá	charm that exposes someone to hatred / Hatred	n.	okrokoto_2020,ukere_1986	False	True	False
+ututa	ututa	onion / Onion	n.	okrokoto_2020,ukere_1986	True	False	True
+utuwevwi	útúwevwi	parlour	n.	ukere_1986	False	True	False
+utuwevwi1	útúwevwi1	floor	n.	ukere_1986	False	True	False
+utọrọ	utọ́rọ́	three kobo (3k)	n.	ukere_1986	False	True	False
+uvi	uví	paddle / Paddle	n.	okrokoto_2020,ucla_phonetics,ukere_1986	False	True	False
+uvi	úvi	real	a.	ukere_1986	False	True	False
+uvie	uvie	kingdom	n.	ukere_1986	False	True	False
+uvo	uvó	sun / daytime / sunlight [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+uvumwemwu	uvumwemwu	wickedness	n.	ukere_1986	False	True	False
+uvun	úvun	bedroom	n.	ukere_1986	False	True	False
+uvuowọ	uvuówọ	calf	n.	ukere_1986	False	True	False
+uvwerhi	uvwerhi	reluctance	n.	ukere_1986	False	True	False
+uvweri	uvweri	mourning	n.	ukere_1986	False	True	False
+uvwesi	úvwési	pork	n.	ukere_1986	False	True	False
+uvwiẹ	uvwiẹ	generation	n.	ukere_1986	False	True	False
+uvwiẹ	úvwiẹ́	fart, foul air through the anus	n.	ukere_1986	False	True	False
+uvwiẹreri	uvwiẹ́reri	shoal	n.	ukere_1986	False	True	False
+uvworo	Uvworo	Feather	n.	okrokoto_2020	False	True	False
+uvwre	uvwré	midst	prep.	ukere_1986	False	True	False
+uvwrovwro	uvwróvwró	crevice	n.	ukere_1986	False	True	False
+uvwrọmọ	uvwrọmọ	grandchild	n.	ukere_1986	False	True	False
+uvwẹ	Uvwẹ	Space	n.	okrokoto_2020	False	True	False
+uvwẹ	úvwẹ	chance	n.	ukere_1986	False	True	False
+uwe	úwe	thorn	n.	ukere_1986	False	True	False
+uwen	úwén	nose	n.	ucla_phonetics,ukere_1986	False	True	False
+uwere	úwéré	hardship	n.	ukere_1986	False	True	False
+uweruyono	uwerúyóno	school	n.	ukere_1986	False	True	False
+uwevwi	uwévwi	house / building [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+uwevwi herọ?	Uwévwi hérọ?	Is there a house/room? [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+uwevwiotọ	uwevwiótọ	bungalow	n.	ukere_1986	False	True	False
+uwevwiẹbe	uwevwiẹbe	library	n.	ukere_1986	False	True	False
+uweyi	uweyi	errand	n.	ukere_1986	False	True	False
+uwodi	uwódi	prison	n.	ukere_1986	False	True	False
+uwẹga	uwẹ́ga	church	n.	ukere_1986	False	True	False
+uwẹn	úwẹ́n	big fish-trap	n.	ukere_1986	False	True	False
+uwọrha	uwọ́rha	shrine	n.	ukere_1986	False	True	False
+uyere	uyere	moat	n.	ukere_1986	False	True	False
+uyeren	úyérén	greeting, appreciation	n.	ukere_1986	False	True	False
+uyono	úyóno	lesson	n.	ukere_1986	False	True	False
+uyonta	Uyonta	Truth	n.	okrokoto_2020	False	True	False
+uyonvwi	Uyonvwi	Head	n.	okrokoto_2020	False	True	False
+uyota	úyóta	truth	n.	ukere_1986	False	True	False
+uyovwi	uyovwi	head	n.	ukere_1986	False	True	False
+uyovwiota	úyovwióta	theme	n.	ukere_1986	False	True	False
+uyẹ	úyẹ́	fly	n.	ukere_1986	False	True	False
+uyẹdjọ	úyẹ́djọ	mask	n.	ukere_1986	False	True	False
+uzo	úzo	bushbuck	n.	ucla_phonetics	False	True	False
+uzo	úzo	antelope	n.	ukere_1986	False	True	False
+úwè	ṹw̃ẽ́	mosquito	n.	ucla_phonetics	False	True	False
+v	V	Letter V / sound /v/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+va	Va	Shout  loud	n.	okrokoto_2020	False	True	False
+va	va	scold	v.t	ukere_1986	False	True	False
+va	va	crack	n.	ucla_phonetics	False	True	False
+va	vá	butcher, break into parts (e.g. kola-nut) / Slaughter ; Skin  an  animal ; Split  e.g.  kola  nut	v.t	okrokoto_2020,ukere_1986	False	True	False
+vame	Vame	Fetch   water	n.	okrokoto_2020	False	True	False
+ve	ve	bargain	v.t	ukere_1986	False	True	False
+ve	ve	Haggle  the  price  e.g.  asking  for  a  lower  price / haggle  the  price / price	n.	grammar_basic_course,okrokoto_2020,ucla_phonetics	True	False	True
+vie	Vie	Older   than ( vie  we =  older  than  you )	n.	okrokoto_2020	False	True	False
+vie	vie	suck / Suck  e.g. A  child  sucks  the  mother’s breast	v.t	okrokoto_2020,ukere_1986	True	False	True
+vievie	Vievie	Suck   breast	n.	okrokoto_2020	False	True	False
+viẹ	viẹ	cry / Weep  ;  Cry  ; Grief	v.i	okrokoto_2020,ukere_1986	True	False	True
+vo	vo	draw (e.g. water out of well) / Fetch      e.g.   water / fetch	v.t	okrokoto_2020,ucla_phonetics,ukere_1986	True	False	True
+vredo	vradó	greeting response (well done / arise) [Curriculum: greeting]	phr.	curriculum_seed	False	False	True
+vrẹ	Vrẹ	Get   up	n.	okrokoto_2020	False	True	False
+vrẹ	vrẹ	rise	v.i	ukere_1986	False	True	False
+vrẹ  mudia	Vrẹ  mudia	Stand   up	n.	okrokoto_2020	False	True	False
+vu	vu	uproot	v.t	ucla_phonetics,ukere_1986	True	False	True
+vughe	vughe	know/recognise / Recognise	v.t	okrokoto_2020,ukere_1986	True	False	True
+vun	ṽũ	uproot	n.	ucla_phonetics	False	True	False
+vuo	Vuo	Uproot  ;  Harvest	n.	okrokoto_2020	False	True	False
+vurho	Vurho	Un   organized  competition  to  acquire  ;	n.	okrokoto_2020	False	True	False
+vuvwo	Vuvwo	Roast   ;  Preserve  by  drying .	n.	okrokoto_2020	False	True	False
+vuvwu	vuvwu	roast	v.t	ukere_1986	False	True	False
+vuẹ	vuẹ́	tell / Tell     him/her	v.t	okrokoto_2020,ukere_1986	False	True	False
+vw	VW	Digraph VW / sound /ʋ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+vwa	vwa	word that relates to the state of a person or thing	int.	ukere_1986	False	True	False
+vwa	vwá	revoke	v.t	ukere_1986	False	True	False
+vware	vware	wrap	v.t	ukere_1986	False	True	False
+vwarhe	vwarhe	struggle / Struggle	v.i	okrokoto_2020,ukere_1986	True	False	True
+vwariẹ	Vwariẹ	Shiver ; Shivering	n.	okrokoto_2020	False	True	False
+vwariẹ	vwariẹ́	repeat / Repeat   it	v.t	okrokoto_2020,ukere_1986	False	True	False
+vwavware	vwavware	red	a.	ukere_1986	False	True	False
+vwavwarhe	vwavwarhe	light	a.	ukere_1986	False	True	False
+vwavwe	vwavwe	weigh	v.t	ukere_1986	False	True	False
+vwavwọ	Vwavwọ́	Measure   it	n.	okrokoto_2020	False	True	False
+vwerhe	Vwerhe	Sweet	n.	okrokoto_2020	False	True	False
+vwerhẹ	vwerhẹ	sleep / Sleep	v.i	okrokoto_2020,ukere_1986	True	False	True
+vwevwerhe	vwevwerhe	delicious	a.	ukere_1986	False	True	False
+vwi	vwi	stone	v.t	ukere_1986	False	True	False
+vwio	Vwio	Throw  missiles  at  a  target ; Stoning .	n.	okrokoto_2020	False	True	False
+vwioro	Vwioro	Droop	n.	okrokoto_2020	False	True	False
+vwirhi	vwirhi	break (with hands) / Break ;  separate  into two more  pieces	v.t	okrokoto_2020,ukere_1986	True	False	True
+vwiyẹ	vwiyẹ	into	prep.	ukere_1986	False	True	False
+vwiẹ	Vwiẹ	Deliver   e.g.  baby  ;  Bear  a  child	n.	okrokoto_2020	False	True	False
+vwiẹ	vwiẹ	born	v.t	ukere_1986	False	True	False
+vwiẹ	vwiẹ́	deceive	v.t	ukere_1986	False	True	False
+vwiọvwiọ	vwiọvwiọ	straight	id.	ukere_1986	False	True	False
+vwo	Vwó	Own  ;  Own   it  =  Vwóró	n.	okrokoto_2020	False	True	False
+vwo	vwo	Jump / jump	n.	grammar_basic_course,okrokoto_2020	True	False	True
+vworho	Vworho	Sift  it	n.	okrokoto_2020	False	True	False
+vworo	Vworó	Erase   it	n.	okrokoto_2020	False	True	False
+vworovworo	Vworovworo	Smooth	n.	okrokoto_2020	False	True	False
+vwovwo	Vwovwo	Blow  a  wood  or charcoal  fire  with  the  mouth	n.	okrokoto_2020	False	True	False
+vwr	VWR	Trigraph VWR / sound /ʋʳ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+vwravwra	Vwravwra	Restlessness ; uneasiness  ;  Impatient	n.	okrokoto_2020	False	True	False
+vwre	vwre	turn (somebody/something) over	v.t	ukere_1986	False	True	False
+vwro	vwro	argue	v.t	ukere_1986	False	True	False
+vwrovwro	Vwrovwro	Unhealthy  competition ; Fierce  rivalry ; Jealousy	n.	okrokoto_2020	False	True	False
+vwru	vwru	survive	v.i	ukere_1986	False	True	False
+vwrẹ	vwrẹ	cut (with hands)	v.t	ukere_1986	False	True	False
+vwu	vwu	swell	v.i	ukere_1986	False	True	False
+vwẹ	Vwẹ	Urinate	n.	okrokoto_2020	False	True	False
+vwẹ	vwẹ́	within, in	prep.	ukere_1986	False	True	False
+vwẹ1	vwẹ1	me	pron.	ukere_1986	False	True	False
+vwẹghẹvwẹghẹ	vwẹghẹvwẹghẹ	flat / Very  thin  and   flat ;  Not  thick	id.	okrokoto_2020,ukere_1986	True	False	True
+vwẹre	vwẹre	fast	a.	ukere_1986	False	True	False
+vwẹriẹ	Vwẹriẹ	Stop  by  ; Branch (while  going  on)	n.	okrokoto_2020	False	True	False
+vwọ	vwọ	assist a person in lifting a load to the head	v.t	ukere_1986	False	True	False
+vwọ1	vwọ́1	use	v.t	ukere_1986	False	True	False
+vwọvwe	vwọvwe	disgrace	v.t	ukere_1986	False	True	False
+vẹ	vẹ	disperse (of a crowd)	v.t	ukere_1986	False	True	False
+vẹ	vẹ́	with	prep.	ukere_1986	False	True	False
+vẹn	Vẹn	Bend  it	n.	okrokoto_2020	False	True	False
+vẹn3	vẹn3	bend	v.t	ukere_1986	False	True	False
+vẹrhe	vẹrhe	before	adv.	ukere_1986	False	True	False
+vọ	Vọ	Full	n.	okrokoto_2020	False	True	False
+vọ	vọ́	which	int.	ukere_1986	False	True	False
+w	W	Letter W / sound /w/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+wa	wa	pass (examination)	v.i	ukere_1986	False	True	False
+wa ghwẹ oma koko.	Wa ghwẹ́ omá koko.	Gather yourselves together. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+wa1	wá1	you (coll.)	pron.	ukere_1986	False	True	False
+wa2	wá2	you (obj.) (coll.)	pron.	ukere_1986	False	True	False
+wado	Wado	Greeting   to  you   all	n.	okrokoto_2020	False	True	False
+wavrẹ	wavrẹ	outstrip, overtake, pass	v.t	ukere_1986	False	True	False
+weke	weke	word describing the vastness of an injury	id.	ukere_1986	False	True	False
+wene	wene	change, transfer	v.t	ukere_1986	False	True	False
+weruo	wéruo	please continue with your meal (coll.)	exp.	ukere_1986	False	True	False
+wevwe	wevwe	you (plural) [Curriculum: pronoun]	pron.	curriculum_seed	False	False	True
+wẹ	r̥ɔ̃̀	you (sg.)	n.	ucla_phonetics	False	True	False
+wẹn	w̃ɛ̃̀	breathe	n.	ucla_phonetics	False	True	False
+wia	wia	work	v.t	ukere_1986	False	True	False
+wian	Wian	Do  the  work	n.	okrokoto_2020	False	True	False
+wiowian	Wiowian	Work	n.	okrokoto_2020	False	True	False
+wo	wo	descend	v.t	ukere_1986	False	True	False
+wo	wo	put down (of load carried by a person)	v.t	ukere_1986	False	True	False
+wonro	Wonro	Pluck out   e.g.   seeds  from   bunches  of  fruits	n.	okrokoto_2020	False	True	False
+wran	Wran	Defrost ; Liquefy ; Heat solidified  oil	n.	okrokoto_2020	False	True	False
+wẹ	wẹ́	you (singular) [Curriculum: pronoun]	pron.	curriculum_seed,grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+wẹ1	wẹ1	you (sing.)	pron.	ukere_1986	False	True	False
+wẹn	wẹn	breathe	v.i	ukere_1986	False	True	False
+wẹnẹ	wẹnẹ	exchange words with	v.t	ukere_1986	False	True	False
+wẹvwẹ	wẹ́vwẹ	you (singular emphatic) [Curriculum: pronoun]	pron.	curriculum_seed	False	False	True
+wẹwẹ	Wẹwẹ	Yourself	n.	okrokoto_2020	False	True	False
+wọ wanvrẹn odibo wẹ-ẹn.	Wọ́ wanvrẹn odibo wẹ́-ẹn.	Do not pass by your servant. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+y	Y	Letter Y / sound /j/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ya	yà (not in Central Urhobo dialect)	write	n.	ucla_phonetics	False	True	False
+ya	yá	catch	v.t	ukere_1986	False	True	False
+yan	yan	walk/move / Walk / walk	v.i	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+yanra	yanra	go / Go  away	v.i	okrokoto_2020,ukere_1986	True	False	True
+yanran vwẹ ufuoma.	Yánran vwẹ ufuóma.	Go in peace. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+yanrhe	yanrhe	come / Come	v.i	okrokoto_2020,ukere_1986	True	False	True
+yara	yárá	bitter	a.	ukere_1986	False	True	False
+yare	Yare	Bitter	n.	okrokoto_2020	False	True	False
+yare	Yare	Borrow  ; Beg  for   your  need	n.	okrokoto_2020	False	True	False
+yavwe	yavwe	circumcise	v.t	ukere_1986	False	True	False
+yaya	yáyá	dry	a.	ukere_1986	False	True	False
+yeghwerẹ	Yéghwérẹ	safe journey!	exp.	ukere_1986	False	True	False
+yerakpọ	Yerakpọ	Live  your  life	n.	okrokoto_2020	False	True	False
+yere	Yere	Greet    him/her	n.	okrokoto_2020	False	True	False
+yeri	yeri	climb / Climb	v.t	okrokoto_2020,ukere_1986	True	False	True
+yerobuwevwi	yerobuwevwi	greet all at home	exp.	ukere_1986	False	True	False
+yeroma	yerọ́ma	farewell / goodbye / take care [Curriculum: greeting]	phr.	curriculum_seed	False	False	True
+yoma	Yõma	Good	n.	okrokoto_2020	False	True	False
+yoma	yoma	boast / Boast	v.i	okrokoto_2020,ukere_1986	True	False	True
+yon	ỹõ̀	Hear / hear	n.	okrokoto_2020,ucla_phonetics	False	True	False
+yono	yono	learn, study	v.t	ukere_1986	False	True	False
+yonrẹ	Yonrẹ	Hear   my  pleading/prayer	n.	okrokoto_2020	False	True	False
+yonvwe	Yonvwe	Hear  me	n.	okrokoto_2020	False	True	False
+yorho	Yorho	Eliminating   water  with  a  bucket,	n.	okrokoto_2020	False	True	False
+yoro	Yoro	Pull  out  ;  Pull  off	n.	okrokoto_2020	False	True	False
+yoyovwi	yoyovwi	fine, well	adv.	ukere_1986	False	True	False
+yẹghrẹ	yẹghrẹ	struggle for balance	v.i	ukere_1986	False	True	False
+yẹrẹ	yẹ́rẹ́	or / Or	conj.	okrokoto_2020,ukere_1986	False	True	False
+yọnrhe	Yọnrhe	Smell	n.	okrokoto_2020	False	True	False
+yọre	yọre	hold	v.t	ukere_1986	False	True	False
+yọrọ	Yọrọ	Hold  it	n.	okrokoto_2020	False	True	False
+z	Z	Letter Z / sound /z/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ze	ze	offer, sacrifice / Sacrifice   (  for  a  god  )	v.t	okrokoto_2020,ukere_1986	True	False	True
+zighizighi	zighizighi	roughly	adv.	ukere_1986	False	True	False
+zighizighi	zighizighi	Rough  ;   Disorganized / rough/ disorganised	n.	grammar_basic_course,okrokoto_2020	True	False	True
+zighizighi1	zighizighi1	rough	id.	ukere_1986	False	True	False
+zigho	Zigho	Disorganize   it ; Scatter  the  arrangement.	n.	okrokoto_2020	False	True	False
+ziọziọ	Ziọziọ	Sluggish	n.	okrokoto_2020	False	True	False
+zọrọkọ	Zọrọkọ	An  adjective  describing  how  tall  and  .	n.	okrokoto_2020	False	True	False
+ɔba	ɔ́ba	emperor	n.	ucla_phonetics_1960	False	True	False
+ɔgua	ɔ́ɡʷa	type of yam	n.	ucla_phonetics	False	True	False
+ɔja	ɔ̃́jã́	journey	n.	ucla_phonetics_1960	False	True	False
+ɔka	ɔ́kà	maize	n.	ucla_phonetics_1960	False	True	False
+ɔkʷa	ɔ́kʷa	let him pack	n.	ucla_phonetics_1960	False	True	False
+ɔmɔ	ɔ́mɔ̀	child	n.	ucla_phonetics_1960	False	True	False
+ɔna	ɔ̀nà	this	n.	ucla_phonetics_1960	False	True	False
+ɔse	ɔ̀sè	father	n.	ucla_phonetics_1960	False	True	False
+ɔxɔ	ɔ́xɔ̀	fowl	n.	ucla_phonetics_1960	False	True	False
+ɔɡa	ɔ̀ɡà	illness	n.	ucla_phonetics_1960	False	True	False
+ɔɡʷa	ɔ́ɡʷà	a kind of yam	n.	ucla_phonetics_1960	False	True	False
+ɔɣɔ	ɔ̀ɣɔ̀	respect	n.	ucla_phonetics_1960	False	True	False
+ɔɹe	ɔɹe	tsetse fly	n.	ucla_phonetics_1960	False	True	False
+ɔɹ̥ɛ	ɔ̀ɹ̥ɛ̀	plantain	n.	ucla_phonetics_1960	False	True	False
+ɛfọn	f̃ɔ̃̀	to be neat	n.	ucla_phonetics	False	True	False
+ɛkúá	ɔ̀kʷa (ɛ̀kwá)	let him pack	n.	ucla_phonetics	False	True	False
+ɛriẹn	ṇỹɛ̃̀	to know	n.	ucla_phonetics	False	True	False
+ɛvọ	vọ	be full	n.	ucla_phonetics	False	True	False
+ẹ	Ẹ	Letter Ẹ (open-mid) / sound /ɛ/ [Curriculum: alphabet]	phr.	curriculum_seed	False	False	True
+ẹba	Ẹba	Nakedness	n.	okrokoto_2020	False	True	False
+ẹba	ẹba	fish sp. / King  fish	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹbamwa	ẹbamwá	rag	n.	ukere_1986	False	True	False
+ẹban	ẹban	nakedness	n.	ukere_1986	False	True	False
+ẹbe	ẹbe	leaf / Leaf   ;   Book / book  or   leaf	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ẹbiriẹ	ẹbiriẹ	lemon-grass	n.	ukere_1986	False	True	False
+ẹbo	ẹbo	medicine, charm	n.	ukere_1986	False	True	False
+ẹbo	ẹbó	construction	n.	ukere_1986	False	True	False
+ẹbẹgbunu	ẹbẹgbunu	lip	n.	ukere_1986	False	True	False
+ẹbẹnẹ	ẹbẹnẹ	romance, love-play	n.	ukere_1986	False	True	False
+ẹbẹre	ẹbẹre	piece	n.	ukere_1986	False	True	False
+ẹbẹre	ẹ́bẹ́re	side	n.	ukere_1986	False	True	False
+ẹbẹrochekọ	ẹ́bẹ́rochékọ	opposite	n.	ukere_1986	False	True	False
+ẹchẹ	Ẹchẹ	Door	n.	okrokoto_2020	False	True	False
+ẹda	ẹdá	act of drinking	n.	ukere_1986	False	True	False
+ẹdebi	ẹdebi	day before traditional market day	n.	ukere_1986	False	True	False
+ẹdeki	Ẹdeki	Market   day	n.	okrokoto_2020	False	True	False
+ẹdevwiẹ	Ẹdevwiẹ	Birthday	n.	okrokoto_2020	False	True	False
+ẹdia	ẹdia	residence, place	n.	ukere_1986	False	True	False
+ẹdidjana	Ẹdidjana	Saturday	n.	okrokoto_2020	False	True	False
+ẹdidjana	Ẹdidjana	Sunday	n.	okrokoto_2020	False	True	False
+ẹdidjana	ẹdidjana	week	n.	ukere_1986	False	True	False
+ẹdidjanarode	ẹdidjanarode	Sunday	n.	ukere_1986	False	True	False
+ẹdidjanarotete	ẹdidjanarotete	Saturday	n.	ukere_1986	False	True	False
+ẹdiruo	ẹdiruo	traditional working day / Weekday ;  Work  day	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹdiruorerha	ẹdiruorérhá	Wednesday	n.	ukere_1986	False	True	False
+ẹdiruorivẹ	ẹdiruorívẹ́	Tuesday	n.	ukere_1986	False	True	False
+ẹdiruoriyorin	ẹdiruoríyórín	Friday	n.	ukere_1986	False	True	False
+ẹdiruorẹne	ẹdiruorẹ́né	Thursday	n.	ukere_1986	False	True	False
+ẹdiruorẹsosuọ	ẹdiruorẹ́sósuọ́	Monday	n.	ukere_1986	False	True	False
+ẹdjavwọ	ẹdjávwọ	act of hiding	n.	ukere_1986	False	True	False
+ẹdjọ	ẹdjọ	masquerade	n.	ukere_1986	False	True	False
+ẹdjọ	ẹdjọ	shrine	n.	ukere_1986	False	True	False
+ẹdjọ	ẹ́djọ́	court case	n.	ukere_1986	False	True	False
+ẹdorẹ	Ẹdorẹ	Festival     day	n.	okrokoto_2020	False	True	False
+ẹduhrẹ	ẹdúhrẹ	traditional day of abstaining from work and some other activities	n.	ukere_1986	False	True	False
+ẹdẹ	ẹ́dẹ	day [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+ẹdẹfa	Ẹdẹfa	Another   day	n.	okrokoto_2020	False	True	False
+ẹdẹjerọ	ẹdẹjerọ	day after tomorrow	n.	ukere_1986	False	True	False
+ẹdẹwọ	ẹdẹ́wọ	market day; a day for abstaining from going to the bush for farming	n.	ukere_1986	False	True	False
+ẹdọ	ẹdọ	leanness	n.	ukere_1986	False	True	False
+ẹfa	ẹfá	translation	n.	ukere_1986	False	True	False
+ẹfrẹ	ẹfrẹ́	juggling	n.	ukere_1986	False	True	False
+ẹfẹn	ẹfẹn	region of the ribs	n.	ukere_1986	False	True	False
+ẹga	ẹga	barren / Barren ; Childless  person	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹga	ẹga	service / Service	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹgba	ẹ́gbá	strength/effort	n.	ukere_1986	False	True	False
+ẹgborha	ẹ́gborhá	coven	n.	ukere_1986	False	True	False
+ẹgborho	ẹ́gbórho	many towns grouped together	n.	ukere_1986	False	True	False
+ẹgha	ẹgha	abomination	n.	ukere_1986	False	True	False
+ẹgha	ẹgha	resultant effect of committing a forbidden act	n.	ukere_1986	False	True	False
+ẹghware	Ẹghware	Wisdom   ;   Sense	n.	okrokoto_2020	False	True	False
+ẹghwarọ	ẹghwárọ	castration	n.	ukere_1986	False	True	False
+ẹghweya	ẹ́ghweya	totality of married women in a given place / Women  folk	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹghwiẹ	ẹghwiẹ	burn	n.	ukere_1986	False	True	False
+ẹghwiẹ	ẹ́ghwiẹ	slap	n.	ukere_1986	False	True	False
+ẹghworiẹ	ẹghwóriẹ	slipperiness	n.	ukere_1986	False	True	False
+ẹghwẹre	ẹghwẹ́re	mat / Mat	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹghwọ	Ẹghwọ	Quarrel  ;  Misunderstanding	n.	okrokoto_2020	False	True	False
+ẹghọriẹ	ẹghọ́riẹ	majestic walk	n.	ukere_1986	False	True	False
+ẹgua	ẹgua	defilement / Defilement	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹgua	ẹguá	act of driving	n.	ukere_1986	False	True	False
+ẹguare	Ẹguare	Court	n.	okrokoto_2020	False	True	False
+ẹguare	ẹguare	conference/meeting/gathering	n.	ukere_1986	False	True	False
+ẹguọnọ	ẹ́guọ́nọ	love / Love  ;  Affection	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹho	ẹho	nest / Nest ; Bird’s nest	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹhrovwo	ẹhrovwo	prayer	n.	ukere_1986	False	True	False
+ẹhwe	ẹhwé	October	n.	ukere_1986	False	True	False
+ẹhẹn	ẹhẹn	expresses agreement	excl.	ukere_1986	False	True	False
+ẹhẹrhobọ	ẹ́hẹ́rhóbọ	palm	n.	ukere_1986	False	True	False
+ẹhẹrhowọ	ẹ́hẹ́rhówọ	sole	n.	ukere_1986	False	True	False
+ẹhẹrẹ	ẹhẹrẹ	expansion	n.	ukere_1986	False	True	False
+ẹhọ	Ẹhọ́	Bathing	n.	okrokoto_2020	False	True	False
+ẹhọ	ẹ́họ́	bath	n.	ukere_1986	False	True	False
+ẹhọnimuemu	Ẹhọnimuemu	Baptism	n.	okrokoto_2020	False	True	False
+ẹhọnimwemwun	ẹhọ́nímwémwun	baptism	n.	ukere_1986	False	True	False
+ẹjo	ẹjo	no / No !  ;  Not  at  all	a.	okrokoto_2020,ukere_1986	True	False	True
+ẹjo, ẹkẹvuọvo wọ ghine hwẹ.	Ẹ́jo, ẹkẹvuọ́vo wọ́ ghíne hwẹ́.	No, but you did laugh. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+ẹjẹ	Ẹjẹ	Selection	n.	okrokoto_2020	False	True	False
+ẹkaruvwiyọ	ẹkaruvwiyọ	remembrance	n.	ukere_1986	False	True	False
+ẹkegba	ẹ́kegba	rust / Rust	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹkihwe	Ẹkihwe	one  tenth   (1/10 )	n.	okrokoto_2020	False	True	False
+ẹkiọ	ẹkiọ	sourness	n.	ukere_1986	False	True	False
+ẹko	ẹko	group	n.	ukere_1986	False	True	False
+ẹkpa	ẹkpa	fool	n.	ukere_1986	False	True	False
+ẹkpa	ẹkpa	unripe / Foolish  ;  Unripe	a.	okrokoto_2020,ukere_1986	True	False	True
+ẹkparọ	ẹkpárọ	postponement	n.	ukere_1986	False	True	False
+ẹkpavwiyo	ẹkpávwiyo	answer/reply	n.	ukere_1986	False	True	False
+ẹkpeti	ẹkpetí	box / basket / chest [Curriculum: object]	n.	curriculum_seed	False	False	True
+ẹkpo	ẹkpo	charm for protection against machete attack	n.	ukere_1986	False	True	False
+ẹkpo	ẹ́kpo	swelling	n.	ukere_1986	False	True	False
+ẹkpẹvwẹ	ẹ́kpẹ́vwẹ́	gratitude, thanks	n.	ukere_1986	False	True	False
+ẹkuedi	ẹkuedi	place where palm nut collectors process the nuts	n.	ukere_1986	False	True	False
+ẹkuotọ	ẹ́kuótọ	country	n.	ukere_1986	False	True	False
+ẹkẹ	ẹ́kẹ	share/portion / Portion	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹkẹkẹtẹ	ẹ́kẹkẹtẹ	camel	n.	ukere_1986	False	True	False
+ẹkẹrẹkẹtẹ	Ẹkẹrẹkẹtẹ	An   Ass	n.	okrokoto_2020	False	True	False
+ẹkẹvuọvo	Ẹkẹvuọvo	But  ;  although	n.	okrokoto_2020	False	True	False
+ẹkẹvuọvo	ẹ́kẹ́vuọvo	however	conj.	ukere_1986	False	True	False
+ẹlọhọ	ẹ́lọhọ	charm for easy life	n.	ukere_1986	False	True	False
+ẹma	ẹmá	act of measuring	n.	ukere_1986	False	True	False
+ẹma	ẹmá	moulding	n.	ukere_1986	False	True	False
+ẹmiẹmiẹ	ẹmiẹmiẹ	sweetness	n.	ukere_1986	False	True	False
+ẹmrẹ	ẹmrẹ́	act of seeing, visitation	n.	ukere_1986	False	True	False
+ẹmrẹvughe	ẹmrẹ́vúghe	realisation	n.	ukere_1986	False	True	False
+ẹmọ	ẹmọ́	production (of fruits)	n.	ukere_1986	False	True	False
+ẹne	ẹ́ne	four (4) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+ẹnẹrhẹ	ẹnẹ́rhẹ	pacification (e.g. from crying)	n.	ukere_1986	False	True	False
+ẹran	ẹrán	creeping	n.	ukere_1986	False	True	False
+ẹrere	ẹréré	eight	num.	ukere_1986	False	True	False
+ẹreyọ	ẹreyọ	admission, acceptance	n.	ukere_1986	False	True	False
+ẹrha	ẹrhá	flying	n.	ukere_1986	False	True	False
+ẹrha2	ẹrha2	leopard	n.	ukere_1986	False	True	False
+ẹrhe	Ẹrhé	Sea  cow  ; Manatee	n.	okrokoto_2020	False	True	False
+ẹrhia	Ẹrhia	Disclosure  of  people’s	n.	okrokoto_2020	False	True	False
+ẹrho	Ẹrho	Cat-fish	n.	okrokoto_2020	False	True	False
+ẹrhobọ	ẹ́rhóbọ	wrist	n.	ukere_1986	False	True	False
+ẹrhoghra	ẹrhóghra	dislocation (of a bone in the body)	n.	ukere_1986	False	True	False
+ẹrhorho	ẹrhorho	leech / Leech	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹrhoro	Ẹrhoro	Tip  of  the  germinating plant	n.	okrokoto_2020	False	True	False
+ẹrhovwo	Ẹrhovwo	Prayer	n.	okrokoto_2020	False	True	False
+ẹrhẹrhẹ	ẹrhẹrhẹ	swimming	n.	ukere_1986	False	True	False
+ẹro	ẹro	eye / Eye	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹruerhie	ẹruérhié	civilisation	n.	ukere_1986	False	True	False
+ẹruevwiovwiyọ	ẹruévwióvwíyọ	hope	n.	ukere_1986	False	True	False
+ẹruevwote	ẹruévwóte	supervision	n.	ukere_1986	False	True	False
+ẹruẹmrẹ	ẹruẹ́mrẹ́	prophecy	n.	ukere_1986	False	True	False
+ẹruọ	ẹruọ́	entry	n.	ukere_1986	False	True	False
+ẹrẹ	ẹrẹ́	levelling	n.	ukere_1986	False	True	False
+ẹrẹnren	ẹrẹ́nrẹn	eight (8) [Curriculum: number]	n.	curriculum_seed	False	False	True
+ẹrẹvwe	ẹrẹvwe	tongue / Tongue	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹsanọ	ẹsánọ	selection / Selection	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹse	ẹ́se	gift / ,  Gift	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹseroka	ẹ́seróka	souvenir	n.	ukere_1986	False	True	False
+ẹshẹ	ẹshẹ́	sale	n.	ukere_1986	False	True	False
+ẹsiẹfa	ẹsiẹ́fa	later	adv.	ukere_1986	False	True	False
+ẹsiọ	ẹsiọ́	refusal	n.	ukere_1986	False	True	False
+ẹsosuọ	Ẹsosuọ	First  ;  Beginning	n.	okrokoto_2020	False	True	False
+ẹsọ	Ẹsọ	State  of  penury ; Abject  poverty	n.	okrokoto_2020	False	True	False
+ẹto	ẹto	hair / Hair	n.	okrokoto_2020,ukere_1986	True	False	True
+ẹtoegba	ẹtoégba	beard	n.	ukere_1986	False	True	False
+ẹtuohoro	ẹtuohoro	female pubic hair	n.	ukere_1986	False	True	False
+ẹtuoshọ	ẹtuoshọ	male pubic hair	n.	ukere_1986	False	True	False
+ẹtuọvwiyọ	ẹtuọ́vwíyọ	beginning starting	n.	ukere_1986	False	True	False
+ẹtẹrhe	ẹtẹrhe	pool of water	n.	ukere_1986	False	True	False
+ẹva	ẹvá	butchery	n.	ukere_1986	False	True	False
+ẹva1	ẹva1	alligator	n.	ukere_1986	False	True	False
+ẹvwariẹ	ẹvwáriẹ	repetition	n.	ukere_1986	False	True	False
+ẹvwe	Ẹvwe	kola nut / Kola  nut / Kola nut	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ẹvwe	Ẹvwé	goat / Goat	n.	grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ẹvwiaye	ẹvwiáye	she (nanny) goat	n.	ukere_1986	False	True	False
+ẹvworiẹ	ẹvwóriẹ	fading	n.	ukere_1986	False	True	False
+ẹvworiẹ	ẹ́vwóriẹ	baby vomit	n.	ukere_1986	False	True	False
+ẹvwẹ	ẹvwẹ́	eczema	n.	ukere_1986	False	True	False
+ẹvwẹre	Ẹvwẹ́re	Food  that’s  boiling/cooking on  fire	n.	okrokoto_2020	False	True	False
+ẹvwẹrẹ	ẹ́vwẹrẹ	pot (native) / Clay  pot	n.	okrokoto_2020,ukere_1986	False	True	False
+ẹvwọ	ẹvwọ́	act of swelling	n.	ukere_1986	False	True	False
+ẹwa	ẹwá	pass	n.	ukere_1986	False	True	False
+ẹwa	ẹ́wa	collateral security	n.	ukere_1986	False	True	False
+ẹwẹn	ẹ́wẹ́n	mind, breath	n.	ukere_1986	False	True	False
+ẹya	ẹyá	act of drying	n.	ukere_1986	False	True	False
+ẹyarọ	ẹyarọ	bitterness	n.	ukere_1986	False	True	False
+ẹyarọ	ẹyarọ	act of begging	n.	ukere_1986	False	True	False
+ẹyeorin	ẹyeórin	May	n.	ukere_1986	False	True	False
+ẹyẹghrẹ	ẹyẹ́ghrẹ́	struggling for balance, staggering	n.	ukere_1986	False	True	False
+ọ	Ọ	Letter Ọ (open-mid) / sound /ɔ/ [Curriculum: alphabet]	phr.	curriculum_seed,ukere_1986	True	False	True
+ọ da ghene dia ọtiọye.	Ọ da ghíne dia ọtiọ́ye.	And it was truly so. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+ọbara	ọbara	blood / Blood	n.	okrokoto_2020,ukere_1986	False	True	False
+ọbe	ọ́be	book / leaf / letter [Curriculum: object]	n.	curriculum_seed,ukere_1986	True	False	True
+ọberiyẹnrẹn	ọberíyẹnrẹn	newspaper	n.	ukere_1986	False	True	False
+ọberovuẹ	ọberóvuẹ	letter	n.	ukere_1986	False	True	False
+ọberukeri	ọberúkeri	calendar	n.	ukere_1986	False	True	False
+ọberuseri	ọberúseri	certificate/receipt	n.	ukere_1986	False	True	False
+ọberọfeta	ọberọ́feta	dictionary	n.	ukere_1986	False	True	False
+ọbiuyovwi	ọbiúyovwi	charm for longevity	n.	ukere_1986	False	True	False
+ọbo	ọbo	doctor (medical/traditional) / Native  doctor	n.	okrokoto_2020,ukere_1986	False	True	False
+ọboba	ọbóba	young thing/offspring / young, tender / Young  ;   Not  mature	n.	okrokoto_2020,ukere_1986	False	True	False
+ọboepha	ọboepha	oracle man	n.	ukere_1986	False	True	False
+ọboeriariẹ	ọboériáriẹ	doctor (academic)	n.	ukere_1986	False	True	False
+ọboimwu	ọboimwu	pharmacist	n.	ukere_1986	False	True	False
+ọboine	ọ́boine	singer	n.	ukere_1986	False	True	False
+ọbuwevwi	ọbuwevwi	architect	n.	ukere_1986	False	True	False
+ọbẹrokpa	ọbẹrokpa	palm nuts collector	n.	ukere_1986	False	True	False
+ọchuko	ọchuko	helper	n.	ukere_1986	False	True	False
+ọchuyovwi	ọchuyovwi	pillow	n.	ukere_1986	False	True	False
+ọchọ	ọchọ́	hip	n.	ukere_1986	False	True	False
+ọda	ọda	paint	n.	ukere_1986	False	True	False
+ọdafe	ọdafe	rich person / Rich  person	n.	okrokoto_2020,ukere_1986	False	True	False
+ọdavwini	ọdavwiní	examination	n.	ukere_1986	False	True	False
+ọdavwini	ọdavwiní	temptation	n.	ukere_1986	False	True	False
+ọdavwẹ	ọdávwẹ	interest/desire	n.	ukere_1986	False	True	False
+ọdemu	ọdemu	customer	n.	ukere_1986	False	True	False
+ọdja	ọdja	sweat	n.	ukere_1986	False	True	False
+ọdọ	ọ́dọ	larvae of beetle / Beetle’s  larva	n.	okrokoto_2020,ukere_1986	False	True	False
+ọfa	ọ́fa	another	pron.	ukere_1986	False	True	False
+ọfarhiẹ	ọfarhiẹ	fornication	n.	ukere_1986	False	True	False
+ọfeta	ọfeta	translator	n.	ukere_1986	False	True	False
+ọfigbo	Ọfigbo	Palm  oil	n.	okrokoto_2020	False	True	False
+ọfo	ọ́fo	tick	n.	ukere_1986	False	True	False
+ọfuanfo	ọfuanfo	white (in some contexts = fuanfo)	a.	ukere_1986	False	True	False
+ọfẹ	ọfẹ́	tilapia / Tilapia	n.	okrokoto_2020,ukere_1986	False	True	False
+ọfẹto	ọfẹto	comb	n.	ukere_1986	False	True	False
+ọga	Ọgá	Master	n.	okrokoto_2020	False	True	False
+ọga	Ọgá	Animal  track	n.	okrokoto_2020	False	True	False
+ọga	ọ̀gà	Sickness  ;  Disease	n.	okrokoto_2020	False	True	False
+ọga	ọgá	sir/boss	n.	ukere_1986	False	True	False
+ọga1	ọga1	disease/sickness	n.	ukere_1986	False	True	False
+ọgadiẹ	ọgadiẹ	crab	n.	ukere_1986	False	True	False
+ọgagan	ọgagan	tough, strong, hard (in some contexts = gagan)	a.	ukere_1986	False	True	False
+ọgan3	ọgán3	animal track	n.	ukere_1986	False	True	False
+ọgarephẹn	ọgarephẹn	diabetics	n.	ukere_1986	False	True	False
+ọgba	ọ́gbá	hero	n.	ukere_1986	False	True	False
+ọgban	ọgban	horn	n.	ukere_1986	False	True	False
+ọgban	ọ́gban	thirty	num.	ukere_1986	False	True	False
+ọgbudi	ọ́gbúdi	drunkard	n.	ukere_1986	False	True	False
+ọgbọre	ọ́gbọ́re	glutton	n.	ukere_1986	False	True	False
+ọghaghare	ọ́ghágháre	dear/precious	a.	ukere_1986	False	True	False
+ọghrẹrẹ	ọghrẹrẹ	centipede	n.	ukere_1986	False	True	False
+ọghware	ọghware	cheating	n.	ukere_1986	False	True	False
+ọghweta	ọghweta	reporter	n.	ukere_1986	False	True	False
+ọghwo	ọghwo	old age	n.	ukere_1986	False	True	False
+ọghwrọrọ	ọghwrọrọ	slope	n.	ukere_1986	False	True	False
+ọghwẹfia	ọ́ghwẹ́fia	charm for protection against gun shot	n.	ukere_1986	False	True	False
+ọghwẹkoko	ọghwẹ́koko	gathering	n.	ukere_1986	False	True	False
+ọghwẹrẹ	ọghwẹ́rẹ	farmer	n.	ukere_1986	False	True	False
+ọghwọrọ	ọghwọrọ	waste	n.	ukere_1986	False	True	False
+ọghẹnẹ vẹ wẹ dia.	Ọghẹnẹ vẹ́ wẹ dia.	God be with you. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+ọghọ	ọghọ	respect/honour	n.	ukere_1986	False	True	False
+ọghọ	ọghọ	virginity	n.	ukere_1986	False	True	False
+ọghọrọgbọdọ	ọghọrọgbọdọ	elephant grass	n.	ukere_1986	False	True	False
+ọgo	Ọgó	Bottle	n.	grammar_basic_course	False	True	False
+ọgua	ọguá	palace	n.	ukere_1986	False	True	False
+ọgua	ọguá	town hall	n.	ukere_1986	False	True	False
+ọguimoto	ọguimoto	driver	n.	ukere_1986	False	True	False
+ọgẹdjọ	ọgẹdjọ	idol worshipper	n.	ukere_1986	False	True	False
+ọgẹrobọ	ọgẹrobọ	ladle	n.	ukere_1986	False	True	False
+ọgọ	ọgọ́	bottle	n.	ukere_1986	False	True	False
+ọgọ	ọ́gọ	in-law (male)	n.	ukere_1986	False	True	False
+ọgọdọ	ọgọdọ	pit / Pit	n.	okrokoto_2020,ukere_1986	False	True	False
+ọgọghẹnẹ	ọgọghẹnẹ	Christian	n.	ukere_1986	False	True	False
+ọgọrọ	ọgọrọ	raffia palm / Palm  wine	n.	okrokoto_2020,ukere_1986	False	True	False
+ọhohowa	ọhohowa	bushfowl	n.	ukere_1986	False	True	False
+ọhroware	ọ́hróware	shrew	n.	ukere_1986	False	True	False
+ọhwarhisọ	ọhwarhisọ	dung-beetle	n.	ukere_1986	False	True	False
+ọhwunu	ọ́hwúnu	gun	n.	ukere_1986	False	True	False
+ọhwẹre	ọhwẹre	"eye pain like ""Apollo"""	n.	ukere_1986	False	True	False
+ọhwẹre1	ọhwẹre1	tadpole	n.	ukere_1986	False	True	False
+ọhwẹrobọ	ọ́hwẹróbọ	left-handed person	n.	ukere_1986	False	True	False
+ọhẹrhuwevwi	ọhẹrhuwevwi	gecko	n.	ukere_1986	False	True	False
+ọhọ	ọhọ́	sense	n.	ukere_1986	False	True	False
+ọhọ	ọ́họ	fowl	n.	ukere_1986	False	True	False
+ọhọaye	ọ́họáye	hen	n.	ukere_1986	False	True	False
+ọhọhọhọ	ọhọhọhọ	heavy (in some contexts = họhọhọ)	a.	ukere_1986	False	True	False
+ọhọvwọre	ọhọvwọre	chieftaincy title	n.	ukere_1986	False	True	False
+ọja	ọja	toothache	n.	ukere_1986	False	True	False
+ọjẹfia	ọjẹfia	disrespect	n.	ukere_1986	False	True	False
+ọka	ọ́ka	corn, maize / Corn	n.	okrokoto_2020,ukere_1986	False	True	False
+ọkakuro	ọkakúro	chieftaincy title	n.	ukere_1986	False	True	False
+ọkan	ọkán	sunbird	n.	ukere_1986	False	True	False
+ọkaorho	ọkaórho	title normally given to the oldest man in a town	n.	ukere_1986	False	True	False
+ọkarekọ	ọkarekọ	woodpecker	n.	ukere_1986	False	True	False
+ọke	ọke	time / Period  of  time	n.	okrokoto_2020,ukere_1986	False	True	False
+ọke2	ọké2	miserliness	n.	ukere_1986	False	True	False
+ọkefiọke	ọkefiọke	occasionally	adv.	ukere_1986	False	True	False
+ọkeghọrọ	ọkeghọrọ	kingfisher	n.	ukere_1986	False	True	False
+ọkevọ	ọkevọ́	when	int.	ukere_1986	False	True	False
+ọkievwiẹ	ọkiévwiẹ	birthday	n.	ukere_1986	False	True	False
+ọkiorhọ	ọkiorhọ	harvest season (of yams, crops etc)	n.	ukere_1986	False	True	False
+ọkiosio	ọkiósio	rainy season	n.	ukere_1986	False	True	False
+ọkiuvo	ọkiúvo	dry season	n.	ukere_1986	False	True	False
+ọkiọvo	ọkiọvo	sometimes	adv.	ukere_1986	False	True	False
+ọko	Ọkó	Village	n.	okrokoto_2020	False	True	False
+ọko	ọko	gift parcel, present / Gift  parcel ; Present	n.	okrokoto_2020,ukere_1986	False	True	False
+ọko1	ọkó1	village	n.	ukere_1986	False	True	False
+ọkpa	ọkpá	thickness	n.	ukere_1986	False	True	False
+ọkpako	Ọkpako	Older  person  ;  More  elderly	n.	okrokoto_2020	False	True	False
+ọkpako	ọkpáko	senior	n.	ukere_1986	False	True	False
+ọkparibibẹ	ọkparibibẹ	pincers	n.	ukere_1986	False	True	False
+ọkparivie	ọkparivie	brassière	n.	ukere_1986	False	True	False
+ọkpo	ọkpo	piles	n.	ukere_1986	False	True	False
+ọkpọ	Ọkpọ́	A  species  of  the  lizard	n.	okrokoto_2020	False	True	False
+ọkpọ	Ọ́kpọ	Name   sake	n.	okrokoto_2020	False	True	False
+ọkpọ	ọkpọ́	walking stick / Pole ; Walking  stick	n.	okrokoto_2020,ukere_1986	False	True	False
+ọkpọ	ọkpọ́	bamboo	n.	ukere_1986	False	True	False
+ọkpọ	ọ́kpọ	namesake	n.	ukere_1986	False	True	False
+ọkpọbia	ọkpọ́bia	squirrel-like animal	n.	ukere_1986	False	True	False
+ọkpọrho	ọ́kpọ́rho	fish box/refrigerator	n.	ukere_1986	False	True	False
+ọkpọrhororivwi	ọ́kpọ́rhorórivwi	mortuary	n.	ukere_1986	False	True	False
+ọkpọrhorọbara	ọ́kpọ́rhorọ́bara	blood bank	n.	ukere_1986	False	True	False
+ọkrẹkrẹ	ọkrẹkrẹ	short (in some contexts = krẹkrẹ)	a.	ukere_1986	False	True	False
+ọkẹre	ọkẹre	tide/flood	n.	ukere_1986	False	True	False
+ọkọkọ	ọ́kọ́kọ́	corner	n.	ukere_1986	False	True	False
+ọmiọvwọ	ọmiọvwọ	nursing mother, woman having children	n.	ukere_1986	False	True	False
+ọmotọ	ọ́mótọ	native, indigene	n.	ukere_1986	False	True	False
+ọmraro	ọmraro	prophet	n.	ukere_1986	False	True	False
+ọmwa	ọ́mwa	soldier fish	n.	ukere_1986	False	True	False
+ọmẹro	ọ́mẹ́ro	pupil (of eye)	n.	ukere_1986	False	True	False
+ọmọ	ọ́mọ	child [Curriculum: object]	n.	curriculum_seed,grammar_basic_course,okrokoto_2020,ukere_1986	True	False	True
+ọmọboba	ọ́mọbóba	baby	n.	ukere_1986	False	True	False
+ọmọfofa	ọ́mọfófa	bushbaby	n.	ukere_1986	False	True	False
+ọmọhọ	Ọmọhọ	Baby  chick	n.	okrokoto_2020	False	True	False
+ọmọkpako	ọ́mọkpáko	first born	n.	ukere_1986	False	True	False
+ọmọmare	ọ́mọ́mare	old person	n.	ukere_1986	False	True	False
+ọmọphra	Ọmọphra	Bird	n.	okrokoto_2020	False	True	False
+ọmọraruakpọ	ọ́mọráruakpọ	stepchild	n.	ukere_1986	False	True	False
+ọmọrovie	ọ́mọrovie	prince, princess	n.	ukere_1986	False	True	False
+ọmọrọriọka	ọ́mọrọ́riọka	bastard	n.	ukere_1986	False	True	False
+ọmọshare	ọ́mọsháre	boy / son [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+ọmọsẹ	ọ́mọ́sẹ	half brother/sister	n.	ukere_1986	False	True	False
+ọmọtobẹ	ọ́mọ́tobẹ	spinster	n.	ukere_1986	False	True	False
+ọmọtogbẹ	ọ́mọ́tógbẹ	old married woman who returns to her father's compound to stay	n.	ukere_1986	False	True	False
+ọmọtẹ	ọ́mọtẹ́	girl / daughter [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+ọnegbage	ọnégbáge	wrapper	n.	ukere_1986	False	True	False
+ọneki	ọnéki	trader	n.	ukere_1986	False	True	False
+ọnya	ọ́nya	lobster	n.	ukere_1986	False	True	False
+ọnyẹ	ọnyẹ	incubus	n.	ukere_1986	False	True	False
+ọnyẹ	ọnyẹ́	weight	n.	ukere_1986	False	True	False
+ọnyẹnyẹ	ọnyẹnyẹ́	sardine	n.	ukere_1986	False	True	False
+ọnyọ	ọ́nyọ	bee	n.	ukere_1986	False	True	False
+ọnẹ	ọnẹ́	yam	n.	ukere_1986	False	True	False
+ọnọkpa	ọnọ́kpa	policeman	n.	ukere_1986	False	True	False
+ọpuọpuọ	ọpuọpuọ	ray (fish) / Shark  ;    Stinging  ray  fish	n.	okrokoto_2020,ukere_1986	False	True	False
+ọre	Ọre	Sun	n.	okrokoto_2020	False	True	False
+ọre	ọre	tsetse fly	n.	ukere_1986	False	True	False
+ọre	ọre	meal	n.	ukere_1986	False	True	False
+ọremuọghọkẹ	ọrémuọghọkẹ	honourable	n.	ukere_1986	False	True	False
+ọrha	ọrhá	idol, shrine	n.	ukere_1986	False	True	False
+ọrhare	ọrháre	bachelor / Chronic  bachelor ;Male	n.	okrokoto_2020,ukere_1986	False	True	False
+ọrharha	ọrhárha	visitor/stranger / Stranger	n.	okrokoto_2020,ukere_1986	False	True	False
+ọrhe	ọrhe	odour	n.	ukere_1986	False	True	False
+ọrhe	ọ́rhe	native chalk	n.	ukere_1986	False	True	False
+ọrhierhia	ọrhierhia	tale-bearer/traitor	n.	ukere_1986	False	True	False
+ọrho	ọrho	growth	n.	ukere_1986	False	True	False
+ọrhoghwo	ọrhoghwo	sieve	n.	ukere_1986	False	True	False
+ọrhorhorho	ọrhorhorho	hot	a.	ukere_1986	False	True	False
+ọrhẹ	ọrhẹ	plantain	n.	ukere_1986	False	True	False
+ọrhẹrotọ	ọrhẹrotọ	security guard (be it day or night)	n.	ukere_1986	False	True	False
+ọrieda	ọriéda	witch/wizard	n.	ukere_1986	False	True	False
+ọrigbo	Ọrigbo	Bitter  leaf  ;Bitter  leaf  plant	n.	okrokoto_2020	False	True	False
+ọrigbo	ọ́rígbo	bitterleaf	n.	ukere_1986	False	True	False
+ọrigbẹ	ọrígbẹ	porcupine / Porcupine	n.	okrokoto_2020,ukere_1986	False	True	False
+ọriẹ	ọriẹ	arrogance	n.	ukere_1986	False	True	False
+ọriọka	ọriọka	weaver bird	n.	ukere_1986	False	True	False
+ọrobiebi	ọrobiebi	cobra	n.	ukere_1986	False	True	False
+ọrovwori	ọrovwori	lord	n.	ukere_1986	False	True	False
+ọrọdekọ	Ọrọdekọ	Snake	n.	okrokoto_2020	False	True	False
+ọscba	ọscba	upper wrapper (of the two) worn by women	n.	ukere_1986	False	True	False
+ọse	ọse	lover	n.	ukere_1986	False	True	False
+ọsete	ọséte	plate (breakable)	n.	ukere_1986	False	True	False
+ọshare	ọsháre	man / male [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+ọshareorọvwe	ọ́shareórọvwe	husband	n.	ukere_1986	False	True	False
+ọsia	ọsia	gorilla (also powerful person)	n.	ukere_1986	False	True	False
+ọsipito	ọsipíto	hospital	n.	ukere_1986	False	True	False
+ọso	ọso	hawk / Hawk	n.	okrokoto_2020,ukere_1986	False	True	False
+ọsorọvwe	ọ́sorọvwe	father/brother in-law	n.	ukere_1986	False	True	False
+ọsoso	ọsoso	full, complete	n.	ukere_1986	False	True	False
+ọsoso1	ọsoso1	straight	n.	ukere_1986	False	True	False
+ọsosuada	ọsosuáda	main part of a street	n.	ukere_1986	False	True	False
+ọsuere	ọsuere	main part of a town	n.	ukere_1986	False	True	False
+ọsuke	ọsuke	Hunch-back	n.	okrokoto_2020	False	True	False
+ọsuke	ọ́súke	humpback	n.	ukere_1986	False	True	False
+ọsẹ	ọ́sẹ	father [Curriculum: object]	n.	curriculum_seed,okrokoto_2020,ukere_1986	True	False	True
+ọsẹ mẹ vẹ iniọvo mẹ.	Ọ́sẹ mẹ vẹ iniọ́vo mẹ.	My father and my brethren. [Curriculum: phrase_corpus]	phr.	curriculum_seed	False	False	True
+ọsẹraruskpọ	ọ́sẹráruskpọ	stepfather	n.	ukere_1986	False	True	False
+ọtan	ọtan	squirrel	n.	ukere_1986	False	True	False
+ọtishe	ọtishé	charm for effective blow	n.	ukere_1986	False	True	False
+ọtota	Ọtota	Spokesperson	n.	okrokoto_2020	False	True	False
+ọtota	ọtota	spokesman	n.	ukere_1986	False	True	False
+ọtọke	ọtọke	miser	n.	ukere_1986	False	True	False
+ọtọrọ	ọtọrọ	pattern of wrapper worn by men	n.	ukere_1986	False	True	False
+ọviẹ	ọviẹ́	slave	n.	ukere_1986	False	True	False
+ọvo	ọ́vo	one (1) [Curriculum: number]	n.	curriculum_seed,ukere_1986	True	False	True
+ọvuikpe	ọ́vuikpe	January	n.	ukere_1986	False	True	False
+ọvuọvo	ọvuọvo	same	a.	ukere_1986	False	True	False
+ọvuọvo	ọvuọ́vó	one by one/step by step	adv.	ukere_1986	False	True	False
+ọvwa	ọvwá	bride	n.	ukere_1986	False	True	False
+ọvwaghware	ọvwághware	wise man	n.	ukere_1986	False	True	False
+ọvware	ọ́vwáre	young palm	n.	ukere_1986	False	True	False
+ọvwe	ọvwe	food prepared without salt	n.	ukere_1986	False	True	False
+ọvwe	ọ́vwe	frond	n.	ukere_1986	False	True	False
+ọvwerhotọ	ọvwerhotọ	puff adder	n.	ukere_1986	False	True	False
+ọvwero	ọvwéro	backbiter	n.	ukere_1986	False	True	False
+ọvwisusu	ọvwísusu	rascal, a nuisance	n.	ukere_1986	False	True	False
+ọvwiẹrẹ	ọvwiẹrẹ	lazy person	n.	ukere_1986	False	True	False
+ọvwoshọ	ọvwóshọ	coward	n.	ukere_1986	False	True	False
+ọvwosoghoro	ọvwósoghoro	vagabond	n.	ukere_1986	False	True	False
+ọvwovwa	ọvwóvwa	non witch or wizard	n.	ukere_1986	False	True	False
+ọvwozighi	ọvwózighi	rough person, confusionist	n.	ukere_1986	False	True	False
+ọvwra	ọ́vwra	bird	n.	ukere_1986	False	True	False
+ọvwreghrẹ	ọvwréghrẹ	enemy	n.	ukere_1986	False	True	False
+ọvwurhuru	ọvwúrhuru	selfish person, one who has greed for others' food or things	n.	ukere_1986	False	True	False
+ọvwuvwohwo	ọvwúvwohwo	person without helper	n.	ukere_1986	False	True	False
+ọvwẹ	ọvwẹ	viper	n.	ukere_1986	False	True	False
+ọvwẹ	ọvwẹ́	free	n.	ukere_1986	False	True	False
+ọvwọfarhiẹ	ọvwọ́farhiẹ	fornicator	n.	ukere_1986	False	True	False
+ọvwọrikọkọ	ọvwọrikọkọ	stammerer	n.	ukere_1986	False	True	False
+ọwara	ọwára	priest	n.	ukere_1986	False	True	False
+ọwẹnẹwẹnẹ	ọwẹnẹwẹnẹ	statement that tends to exam ine an issue in alternative manner	exp.	ukere_1986	False	True	False
+ọyavwemetẹ	ọyavwemetẹ	person who circumcises women	n.	ukere_1986	False	True	False
+ọye	ọ́ye	he / she / him / her [Curriculum: pronoun]	pron.	curriculum_seed,ukere_1986	True	False	True
+ọyikọ	ọyikọ	messenger	n.	ukere_1986	False	True	False
+ọyọn	Ọyọn	Honey	n.	okrokoto_2020	False	True	False
+ọyọrigho	ọyọrigho	treasurer	n.	ukere_1986	False	True	False
+ọyọrọmọ	ọyọrọmọ	housemaid	n.	ukere_1986	False	True	False
