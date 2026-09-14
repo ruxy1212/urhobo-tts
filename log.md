@@ -114,6 +114,15 @@ A development diary tracking the high-level milestones, technical breakthroughs,
     * `lexicon_summary.json`: Detailed audit and quality report.
   * Phase 6 Definition of Done (DoD) is 100% complete and verified.
 
+---
+
+### Phase 7: Tone-to-Audio Supervision Bridge
+* **Step 7.1: Priority Target Compilation & Corpus Occurrence Search**:
+  * Developed `scripts/10_map_priority_occurrences.py` to compile the priority target vocabulary from our verified curriculum seed list and audited homographs (204 priority target words).
+  * Searched the Phase 5 training manifest (`data/processed/train.jsonl`, 998 verses) for natural spoken occurrences of all 204 priority target words.
+  * Mapped **3,955 natural corpus occurrences** across 106 priority target words (51.96% coverage in Genesis speech), capturing character spans, verse IDs, audio paths, and canonical tone mappings in `data/lexicon/priority_corpus_occurrences.json`.
+  * Cataloged 98 zero-occurrence target words (primarily modern conversational objects and greetings) for secondary source resolution in Step 7.2.
+
 
 
 
