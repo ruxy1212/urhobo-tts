@@ -97,6 +97,13 @@ A development diary tracking the high-level milestones, technical breakthroughs,
     * `grammar_basic_course_parsed.jsonl`: 58 entries capturing fundamental minimal tone pairs (e.g. *Oma* Body vs *Óma* Statute; *Ẹvwé* Goat vs *Ẹvwe* Kola nut).
     * `ucla_phonetics_parsed.jsonl`: 139 acoustically grounded phonetic entries.
   * Preserved full metadata per record: `plain_form`, `canonical_tone_form`, `gloss_en`, `pos`, `source_id`, `raw_source_line`, and `confidence`.
+* **Step 6.3: Cross-Source Harmonization, Merger & Conflict Flagging**:
+  * Engineered `scripts/08_merge_lexicons.py` to aggregate the 2,952 structured records across all 4 reference sources.
+  * Implemented semantic gloss clustering and a source reliability weighting hierarchy (`ucla_phonetics` > `grammar_basic_course` > `ukere_1986` > `okrokoto_2020`).
+  * Emitted **2,561 canonical merged lexicon records** in `data/lexicon/merged_lexicon.jsonl`:
+    * **192 multi-source agreement entries**: validated independently across 2 or more dictionary sources.
+    * **246 homograph lemma groups**: words sharing identical plain spellings that diverge into distinct senses and pitch contours (e.g. *oma* body vs *óma* statue; *ẹvwe* kola nut vs *ẹvwé* goat; *ada* outing vs *áda* forked stick).
+    * **2,368 entries tagged with `needs_review: true`**: isolated for targeted human/curriculum review due to single-source provenance or inter-source pitch conflicts.
 
 
 

@@ -297,16 +297,23 @@ def parse_ucla_phonetics(raw_tsv: Path, raw_1960_tsv: Path, out_file: Path) -> i
             parts = line.strip().split("\t")
             if len(parts) >= 4:
                 idx, plain_hw, phonetic_hw, gloss = parts[:4]
-                rec = {
-                    "plain_form": plain_hw.strip().lower(),
-                    "canonical_tone_form": phonetic_hw.strip(),
-                    "gloss_en": gloss.strip(),
-                    "pos": "n.",
-                    "source_id": "ucla_phonetics",
-                    "raw_source_line": line.strip(),
-                    "confidence": "high"
-                }
-                records.append(rec)
+                plain_clean = plain_hw.strip().lower()
+                # If plain_form was omitted in HTML table (e.g. phrases 102-107), derive from phonetic
+                if not plain_clean and phonetic_hw.strip():
+                    plain_clean = strip_tone_marks(phonetic_hw.strip()).lower()
+                    # map IPA to standard Urhobo orthography
+                    plain_clean = plain_clean.replace("ɛ", "ẹ").replace("ɔ", "ọ").replace("ʍ", "hw").replace("ʋ", "vw").replace("ɣ", "gh")
+                if plain_clean:
+                    rec = {
+                        "plain_form": plain_clean,
+                        "canonical_tone_form": phonetic_hw.strip(),
+                        "gloss_en": gloss.strip(),
+                        "pos": "phr." if " " in plain_clean else "n.",
+                        "source_id": "ucla_phonetics",
+                        "raw_source_line": line.strip(),
+                        "confidence": "high"
+                    }
+                    records.append(rec)
 
     # 2. 1960 archive list (32 words)
     if raw_1960_tsv.exists():
