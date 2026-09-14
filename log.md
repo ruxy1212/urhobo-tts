@@ -88,6 +88,15 @@ A development diary tracking the high-level milestones, technical breakthroughs,
     * `legend_grammar_basic_course.json`: 4 musical tone keys (`M` = High `´`, `R` = Mid unmarked, `D` = Low `` ` ``, `~` = Slur `~`).
     * `legend_language_primer.json`: Acute accent on stressed lexical syllables, sub-dot vowels.
     * `legend_ucla_phonetics.json`: Full IPA tone markers (`´` High, `` ` `` Low, contour pitch glides).
+* **Step 6.2: Canonical Tone Schema & Structured Lexicon Parser**:
+  * Formalized the project's canonical Africanist tone representation (High: acute `´`, Low: grave `` ` ``, Rising: caron `ˇ`, Falling: circumflex `ˆ`, Mid/neutral: unmarked).
+  * Decoded legacy private-use font encodings (`é\uf024` -> `ẹ́`, `ó\uf027` -> `ọ́`) and combining grave diacritics (`e̖` -> `ẹ`, `o̖` -> `ọ`).
+  * Developed `scripts/07_parse_lexicons.py` to extract and normalize **2,952 structured lexical entries** into `data/interim/lexicon_parsed/`:
+    * `ukere_1986_parsed.jsonl`: 1,974 entries with part-of-speech tags and English glosses.
+    * `okrokoto_2020_parsed.jsonl`: 781 entries with contemporary vocabulary definitions.
+    * `grammar_basic_course_parsed.jsonl`: 58 entries capturing fundamental minimal tone pairs (e.g. *Oma* Body vs *Óma* Statute; *Ẹvwé* Goat vs *Ẹvwe* Kola nut).
+    * `ucla_phonetics_parsed.jsonl`: 139 acoustically grounded phonetic entries.
+  * Preserved full metadata per record: `plain_form`, `canonical_tone_form`, `gloss_en`, `pos`, `source_id`, `raw_source_line`, and `confidence`.
 
 
 
