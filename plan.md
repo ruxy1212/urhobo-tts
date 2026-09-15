@@ -285,7 +285,7 @@ For each priority word not found anywhere in Phase 7.3, choose one, in order of 
 - For every occurrence resolved in 7.4 or 7.5, replace the plain-form text at that specific instance (and only that instance — not every occurrence of that spelling corpus-wide, since other instances may carry the other tone reading) with its canonical tone-marked form in the training manifest. Aim for 3–5 examples per priority word, from different sentence positions, where available, for robustness.
 
 ### DoD for Phase 7
-- [ ] Every priority word has a disposition: resolved-from-corpus, resolved-from-secondary-source, resolved-from-new-recording, or explicitly-marked-unverified.
+- [x] Every priority word has a disposition: resolved-from-corpus, resolved-from-secondary-source, resolved-from-new-recording, or explicitly-marked-unverified.
 - [ ] Training manifest updated with tone-marked forms at the specific resolved instances.
 - [ ] No blanket find-and-replace was applied to a word's spelling corpus-wide without per-instance verification.
 

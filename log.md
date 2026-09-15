@@ -122,6 +122,13 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Searched the Phase 5 training manifest (`data/processed/train.jsonl`, 998 verses) for natural spoken occurrences of all 204 priority target words.
   * Mapped **3,955 natural corpus occurrences** across 106 priority target words (51.96% coverage in Genesis speech), capturing character spans, verse IDs, audio paths, and canonical tone mappings in `data/lexicon/priority_corpus_occurrences.json`.
   * Cataloged 98 zero-occurrence target words (primarily modern conversational objects and greetings) for secondary source resolution in Step 7.2.
+* **Step 7.2: Acoustic Tone Verification & Disposition Classification**:
+  * Developed `scripts/11_classify_tone_dispositions.py` to audit and assign strict DoD dispositions to all 204 priority words:
+    * **`resolved-from-corpus`**: **106 words** (51.96%) grounded in natural Genesis speech. Selected **365 diverse sentence instances** (3–4 varied syntactic positions per word) for controlled acoustic supervision.
+    * **`resolved-from-secondary-source`**: **7 words** (3.43%) validated against UCLA Phonetics Archive audio recordings.
+    * **`resolved-from-new-recording`**: **0 words** (0.00% in v1).
+    * **`explicitly-marked-unverified`**: **91 words** (44.61%) cataloged with explicit warning flags for the Phase 12 runtime curriculum pipeline.
+  * Audit report saved in `data/lexicon/priority_dispositions.json`. Checked off disposition DoD item in `plan.md`.
 
 
 
