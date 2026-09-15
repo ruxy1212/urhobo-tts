@@ -1,0 +1,558 @@
+{
+  "base_model": {
+    "checkpoint": "facebook/mms-tts-yor",
+    "vocab_size": 43,
+    "sample_rate": 16000,
+    "model_type": "vits",
+    "is_uroman": false,
+    "normalize": true,
+    "add_blank": true,
+    "vocab_tokens": [
+      " ",
+      "'",
+      "-",
+      "a",
+      "b",
+      "d",
+      "e",
+      "f",
+      "g",
+      "h",
+      "i",
+      "j",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "r",
+      "s",
+      "t",
+      "u",
+      "w",
+      "y",
+      "|",
+      "à",
+      "á",
+      "è",
+      "é",
+      "ì",
+      "í",
+      "ò",
+      "ó",
+      "ù",
+      "ú",
+      "ń",
+      "ǹ",
+      "̀",
+      "́",
+      "ṣ",
+      "ẹ",
+      "ọ",
+      "—"
+    ]
+  },
+  "corpus_statistics": {
+    "train": {
+      "verses": 998,
+      "total_chars": 108871,
+      "unique_chars": 48
+    },
+    "dev": {
+      "verses": 101,
+      "total_chars": 9259,
+      "unique_chars": 35
+    },
+    "test": {
+      "verses": 91,
+      "total_chars": 10147,
+      "unique_chars": 33
+    },
+    "lexicon": {
+      "entries": 2639,
+      "total_chars": 29758,
+      "unique_chars": 82
+    },
+    "curriculum": {
+      "items": 134,
+      "total_chars": 1837,
+      "unique_chars": 41
+    }
+  },
+  "audit_results": {
+    "train_missing_letters": {
+      "v": {
+        "count": 3159,
+        "char": "v",
+        "codepoint": "U+0076",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER V"
+      },
+      "c": {
+        "count": 252,
+        "char": "c",
+        "codepoint": "U+0063",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER C"
+      },
+      "z": {
+        "count": 189,
+        "char": "z",
+        "codepoint": "U+007A",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER Z"
+      }
+    },
+    "train_missing_diacritics": {
+      "ĩ": {
+        "count": 4,
+        "char": "ĩ",
+        "codepoint": "U+0129",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      "̣": {
+        "count": 12,
+        "char": "̣",
+        "codepoint": "U+0323",
+        "category": "Mn",
+        "name": "COMBINING DOT BELOW"
+      },
+      "ǐ": {
+        "count": 4,
+        "char": "ǐ",
+        "codepoint": "U+01D0",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH CARON"
+      },
+      "ʼ": {
+        "count": 7,
+        "char": "ʼ",
+        "codepoint": "U+02BC",
+        "category": "Lm",
+        "name": "MODIFIER LETTER APOSTROPHE"
+      }
+    },
+    "train_missing_punctuation": {
+      ".": {
+        "count": 900,
+        "char": ".",
+        "codepoint": "U+002E",
+        "category": "Po",
+        "name": "FULL STOP"
+      },
+      ",": {
+        "count": 2244,
+        "char": ",",
+        "codepoint": "U+002C",
+        "category": "Po",
+        "name": "COMMA"
+      },
+      ";": {
+        "count": 184,
+        "char": ";",
+        "codepoint": "U+003B",
+        "category": "Po",
+        "name": "SEMICOLON"
+      },
+      ":": {
+        "count": 32,
+        "char": ":",
+        "codepoint": "U+003A",
+        "category": "Po",
+        "name": "COLON"
+      },
+      "?": {
+        "count": 104,
+        "char": "?",
+        "codepoint": "U+003F",
+        "category": "Po",
+        "name": "QUESTION MARK"
+      },
+      "(": {
+        "count": 27,
+        "char": "(",
+        "codepoint": "U+0028",
+        "category": "Ps",
+        "name": "LEFT PARENTHESIS"
+      },
+      ")": {
+        "count": 27,
+        "char": ")",
+        "codepoint": "U+0029",
+        "category": "Pe",
+        "name": "RIGHT PARENTHESIS"
+      },
+      "!": {
+        "count": 2,
+        "char": "!",
+        "codepoint": "U+0021",
+        "category": "Po",
+        "name": "EXCLAMATION MARK"
+      }
+    },
+    "all_project_missing_letters": {
+      "v": {
+        "count": 4652,
+        "char": "v",
+        "codepoint": "U+0076",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER V"
+      },
+      "c": {
+        "count": 428,
+        "char": "c",
+        "codepoint": "U+0063",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER C"
+      },
+      "z": {
+        "count": 267,
+        "char": "z",
+        "codepoint": "U+007A",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER Z"
+      },
+      "x": {
+        "count": 7,
+        "char": "x",
+        "codepoint": "U+0078",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER X"
+      }
+    },
+    "all_project_missing_diacritics": {
+      "ĩ": {
+        "count": 12,
+        "char": "ĩ",
+        "codepoint": "U+0129",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      "̣": {
+        "count": 111,
+        "char": "̣",
+        "codepoint": "U+0323",
+        "category": "Mn",
+        "name": "COMBINING DOT BELOW"
+      },
+      "ǐ": {
+        "count": 8,
+        "char": "ǐ",
+        "codepoint": "U+01D0",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH CARON"
+      },
+      "ʼ": {
+        "count": 7,
+        "char": "ʼ",
+        "codepoint": "U+02BC",
+        "category": "Lm",
+        "name": "MODIFIER LETTER APOSTROPHE"
+      },
+      "ɛ": {
+        "count": 19,
+        "char": "ɛ",
+        "codepoint": "U+025B",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER OPEN E"
+      },
+      "̃": {
+        "count": 63,
+        "char": "̃",
+        "codepoint": "U+0303",
+        "category": "Mn",
+        "name": "COMBINING TILDE"
+      },
+      "ɟ": {
+        "count": 5,
+        "char": "ɟ",
+        "codepoint": "U+025F",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER DOTLESS J WITH STROKE"
+      },
+      "ɣ": {
+        "count": 7,
+        "char": "ɣ",
+        "codepoint": "U+0263",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER GAMMA"
+      },
+      "ã": {
+        "count": 2,
+        "char": "ã",
+        "codepoint": "U+00E3",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER A WITH TILDE"
+      },
+      "ŋ": {
+        "count": 4,
+        "char": "ŋ",
+        "codepoint": "U+014B",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER ENG"
+      },
+      "ɸ": {
+        "count": 3,
+        "char": "ɸ",
+        "codepoint": "U+0278",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER PHI"
+      },
+      "͡": {
+        "count": 8,
+        "char": "͡",
+        "codepoint": "U+0361",
+        "category": "Mn",
+        "name": "COMBINING DOUBLE INVERTED BREVE"
+      },
+      "ẽ": {
+        "count": 4,
+        "char": "ẽ",
+        "codepoint": "U+1EBD",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER E WITH TILDE"
+      },
+      "ɔ": {
+        "count": 57,
+        "char": "ɔ",
+        "codepoint": "U+0254",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER OPEN O"
+      },
+      "ʋ": {
+        "count": 3,
+        "char": "ʋ",
+        "codepoint": "U+028B",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER V WITH HOOK"
+      },
+      "ʍ": {
+        "count": 4,
+        "char": "ʍ",
+        "codepoint": "U+028D",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER TURNED W"
+      },
+      "õ": {
+        "count": 2,
+        "char": "õ",
+        "codepoint": "U+00F5",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER O WITH TILDE"
+      },
+      "ɲ": {
+        "count": 3,
+        "char": "ɲ",
+        "codepoint": "U+0272",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER N WITH LEFT HOOK"
+      },
+      "ʃ": {
+        "count": 3,
+        "char": "ʃ",
+        "codepoint": "U+0283",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER ESH"
+      },
+      "β": {
+        "count": 1,
+        "char": "β",
+        "codepoint": "U+03B2",
+        "category": "Ll",
+        "name": "GREEK SMALL LETTER BETA"
+      },
+      "̠": {
+        "count": 4,
+        "char": "̠",
+        "codepoint": "U+0320",
+        "category": "Mn",
+        "name": "COMBINING MINUS SIGN BELOW"
+      },
+      "ɡ": {
+        "count": 9,
+        "char": "ɡ",
+        "codepoint": "U+0261",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER SCRIPT G"
+      },
+      "ç": {
+        "count": 1,
+        "char": "ç",
+        "codepoint": "U+00E7",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER C WITH CEDILLA"
+      },
+      "ʝ": {
+        "count": 1,
+        "char": "ʝ",
+        "codepoint": "U+029D",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER J WITH CROSSED-TAIL"
+      },
+      "ʒ": {
+        "count": 3,
+        "char": "ʒ",
+        "codepoint": "U+0292",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER EZH"
+      },
+      "̝": {
+        "count": 2,
+        "char": "̝",
+        "codepoint": "U+031D",
+        "category": "Mn",
+        "name": "COMBINING UP TACK BELOW"
+      },
+      "̥": {
+        "count": 11,
+        "char": "̥",
+        "codepoint": "U+0325",
+        "category": "Mn",
+        "name": "COMBINING RING BELOW"
+      },
+      "ǔ": {
+        "count": 2,
+        "char": "ǔ",
+        "codepoint": "U+01D4",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER U WITH CARON"
+      },
+      "ʷ": {
+        "count": 6,
+        "char": "ʷ",
+        "codepoint": "U+02B7",
+        "category": "Lm",
+        "name": "MODIFIER LETTER SMALL W"
+      },
+      "ɹ": {
+        "count": 4,
+        "char": "ɹ",
+        "codepoint": "U+0279",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER TURNED R"
+      }
+    }
+  },
+  "recommendations": {
+    "tokens_to_add": [
+      {
+        "char": "v",
+        "codepoint": "U+0076",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER V"
+      },
+      {
+        "char": "c",
+        "codepoint": "U+0063",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER C"
+      },
+      {
+        "char": "z",
+        "codepoint": "U+007A",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER Z"
+      },
+      {
+        "char": "x",
+        "codepoint": "U+0078",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER X"
+      },
+      {
+        "char": "q",
+        "codepoint": "U+0071",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER Q"
+      },
+      {
+        "char": "̌",
+        "codepoint": "U+030C",
+        "category": "Mn",
+        "name": "COMBINING CARON"
+      },
+      {
+        "char": "̂",
+        "codepoint": "U+0302",
+        "category": "Mn",
+        "name": "COMBINING CIRCUMFLEX ACCENT"
+      },
+      {
+        "char": "̣",
+        "codepoint": "U+0323",
+        "category": "Mn",
+        "name": "COMBINING DOT BELOW"
+      },
+      {
+        "char": "ǐ",
+        "codepoint": "U+01D0",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH CARON"
+      },
+      {
+        "char": "ǔ",
+        "codepoint": "U+01D4",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER U WITH CARON"
+      },
+      {
+        "char": "ê",
+        "codepoint": "U+00EA",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX"
+      },
+      {
+        "char": "ô",
+        "codepoint": "U+00F4",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER O WITH CIRCUMFLEX"
+      },
+      {
+        "char": "î",
+        "codepoint": "U+00EE",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX"
+      },
+      {
+        "char": "â",
+        "codepoint": "U+00E2",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER A WITH CIRCUMFLEX"
+      },
+      {
+        "char": "û",
+        "codepoint": "U+00FB",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX"
+      },
+      {
+        "char": "ĩ",
+        "codepoint": "U+0129",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER I WITH TILDE"
+      },
+      {
+        "char": "ẽ",
+        "codepoint": "U+1EBD",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER E WITH TILDE"
+      },
+      {
+        "char": "õ",
+        "codepoint": "U+00F5",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER O WITH TILDE"
+      },
+      {
+        "char": "ã",
+        "codepoint": "U+00E3",
+        "category": "Ll",
+        "name": "LATIN SMALL LETTER A WITH TILDE"
+      }
+    ],
+    "total_new_tokens": 19,
+    "extended_vocab_size": 62
+  }
+}

@@ -134,9 +134,16 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Injected **365 verified instances** across **242 training verses** (24.25% of the 998 training verses) in `data/processed/train.jsonl` using descending character span replacements to maintain offset stability.
   * Regenerated universal `data/processed/metadata.csv` (1,190 clips total) while keeping validation (`dev.jsonl`) and test (`test.jsonl`) sets strictly untouched to preserve evaluation benchmark integrity.
   * Generated comprehensive audit log in `data/lexicon/tone_supervision_report.json` cataloging before/after text diffs and resulting diacritic counts (including 205 acute tone tokens, 5 combining grave tokens, 6,398 `ẹ`, and 5,106 `ọ` vowels).
-  * Phase 7 Definition of Done (DoD) is 100% complete and verified.
+---
 
-
-
-
-
+### Phase 8: Base Model Selection & Tokenizer Preparation
+* **Step 8.1: Base Model Inspection & Character Coverage Audit**:
+  * Confirmed locked base model `facebook/mms-tts-yor` (Yoruba VITS checkpoint, CC-BY-NC-4.0, 16 kHz sampling rate).
+  * Built `scripts/13_audit_character_coverage.py` to download and cache base model configuration files (`vocab.json`, `config.json`, `tokenizer_config.json`, `special_tokens_map.json`) in `models/base_mms_yor/`.
+  * Audited all unique characters and occurrence frequencies across `data/processed/train.jsonl` (108,871 chars), `dev.jsonl` (9,259 chars), `test.jsonl` (10,147 chars), `data/lexicon/lexicon.tsv` (29,758 chars), and `app_content/curriculum_vocab.tsv` (1,837 chars).
+  * Discovered critical character discrepancies against Yoruba's 43-character base vocabulary:
+    * **Crucial Missing Letters**: `'v'` (3,159 occurrences in train!), `'c'` (252 occurrences in digraph `ch`), `'z'` (189 occurrences in names/loanwords), `'x'` (7 occurrences).
+    * **Tone/Diacritic Discrepancies**: Base Yoruba model natively supports `ẹ`, `ọ`, acute `´` (`\u0301`), grave `` ` `` (`\u0300`), but lacks caron/rising diacritics (`ǐ`, `ǔ`, combining caron `\u030C`), circumflex/falling diacritics (`ê`, `ô`, combining circumflex `\u0302`), and nasal tildes (`ĩ`, `ẽ`, `ã`, `õ`).
+    * **Tokenizer Normalization Mechanism**: Verified that Hugging Face's `VitsTokenizer` with `normalize=True` silently strips any character outside its vocabulary. Without extending the vocabulary, standard Urhobo words are mutilated (e.g. *"Avwanre vwo ẹgba"* becomes *"awanre wo ẹgba"*).
+  * Cataloged full discrepancy metrics and recommended tokens in `models/tokenizer_audit_report.json`.
+  * Checked off Base checkpoint confirmed and Character coverage audit in `plan.md`.

@@ -304,8 +304,8 @@ For each priority word not found anywhere in Phase 7.3, choose one, in order of 
 - Check whether `ylacombe/finetune-hf-vits`'s data-preprocessing pipeline automatically re-builds its tokenizer/vocab fresh from your target-language training corpus. If it reuses the Yoruba tokenizer unmodified, add missing Urhobo-specific characters (such as `ẹ`, `ọ`, `ǒ`, `ô`) to the vocab file and expand the text-embedding matrix with initialized rows.
 
 ### DoD for Phase 8
-- [ ] Base checkpoint confirmed (`facebook/mms-tts-yor`).
-- [ ] Character coverage audit run against Yoruba tokenizer; missing characters identified.
+- [x] Base checkpoint confirmed (`facebook/mms-tts-yor`).
+- [x] Character coverage audit run against Yoruba tokenizer; missing characters identified.
 - [ ] Vocab-extension approach confirmed and verified.
 - [ ] `transformers`/`torch`/`datasets` versions pinned to match what `finetune-hf-vits` expects (0.3).
 
