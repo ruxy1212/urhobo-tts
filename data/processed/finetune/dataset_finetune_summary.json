@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "total_clips": 1190,
+  "total_duration_hours": 2.973,
+  "total_duration_seconds": 10702.24,
+  "tokenizer_vocab_size": 70,
+  "splits": {
+    "train": {
+      "count": 998,
+      "duration_hours": 2.518,
+      "missing_audio_files": 0,
+      "dropped_phonetic_chars": []
+    },
+    "dev": {
+      "count": 101,
+      "duration_hours": 0.223,
+      "missing_audio_files": 0,
+      "dropped_phonetic_chars": []
+    },
+    "test": {
+      "count": 91,
+      "duration_hours": 0.232,
+      "missing_audio_files": 0,
+      "dropped_phonetic_chars": []
+    }
+  }
+}

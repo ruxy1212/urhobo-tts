@@ -159,3 +159,13 @@ A development diary tracking the high-level milestones, technical breakthroughs,
   * Validated tokenization: Verified 100% token preservation with zero dropped letter/tone characters across all 998 training verses in `data/processed/train.jsonl` and test sentences.
   * Audit report generated in `models/tokenizer_extension_summary.json`.
   * Checked off "Vocab-extension approach confirmed and verified" in `plan.md`.
+* **Step 8.3: Fine-Tuning Setup & Dependency Verification (Phase 8 DoD Complete)**:
+  * Pinned exact deep learning, audio, and VITS training dependencies in `requirements.txt`: `torch>=2.2.0,<2.4.0`, `torchaudio>=2.2.0,<2.4.0`, `transformers>=4.40.0,<4.43.0`, `datasets>=2.19.0,<3.0.0`, `accelerate>=0.30.0`, `Cython>=3.0.0`, `tensorboard>=2.15.0`, `matplotlib>=3.8.0`.
+  * Engineered `scripts/15_prepare_finetune_dataset.py` to validate and export model-ready manifests for Hugging Face VITS training in `data/processed/finetune/`:
+    * Exported `train.jsonl` (998 clips, 2.52 hours, 100% token coverage).
+    * Exported `dev.jsonl` (101 clips, 0.22 hours, validation set).
+    * Exported `test.jsonl` (91 clips, 0.23 hours, held-out evaluation set).
+    * Generated LJSpeech pipe-separated metadata files: `metadata_train.csv`, `metadata_dev.csv`, `metadata_test.csv`.
+    * Audit log saved to `data/processed/finetune/dataset_finetune_summary.json` (0 missing files, 0 unhandled tokens).
+  * Built complete Kaggle GPU training notebook `notebooks/02_kaggle_finetune.ipynb` covering end-to-end environment verification, Cython monotonic alignment compilation, embedding expansion, training execution, in-notebook audio synthesis widget, and checkpoint packaging.
+  * Phase 8 Definition of Done (DoD) is 100% complete and verified.

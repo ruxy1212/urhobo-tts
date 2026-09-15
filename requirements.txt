@@ -5,6 +5,11 @@ transformers>=4.40.0,<4.43.0
 datasets>=2.19.0,<3.0.0
 accelerate>=0.30.0
 
+# VITS Fine-Tuning & Monitoring (ylacombe/finetune-hf-vits)
+Cython>=3.0.0
+tensorboard>=2.15.0
+matplotlib>=3.8.0
+
 # Forced Alignment
 ctc-forced-aligner>=0.1.3
 
