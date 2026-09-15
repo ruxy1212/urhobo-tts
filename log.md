@@ -147,3 +147,15 @@ A development diary tracking the high-level milestones, technical breakthroughs,
     * **Tokenizer Normalization Mechanism**: Verified that Hugging Face's `VitsTokenizer` with `normalize=True` silently strips any character outside its vocabulary. Without extending the vocabulary, standard Urhobo words are mutilated (e.g. *"Avwanre vwo ẹgba"* becomes *"awanre wo ẹgba"*).
   * Cataloged full discrepancy metrics and recommended tokens in `models/tokenizer_audit_report.json`.
   * Checked off Base checkpoint confirmed and Character coverage audit in `plan.md`.
+* **Step 8.2: Urhobo Tokenizer Extension & VITS Embedding Preparation**:
+  * Developed `scripts/14_prepare_urhobo_tokenizer.py` to construct an extended, 70-token Urhobo vocabulary from base `facebook/mms-tts-yor`:
+    * Appended 27 Urhobo tokens (IDs 43 to 69) while strictly preserving base Yoruba token IDs (0 to 42) to preserve pretrained acoustic features.
+    * Added Latin consonants: `'v'`, `'c'`, `'z'`, `'x'`, `'q'`.
+    * Added combining diacritics: combining caron `\u030C` (rising), combining circumflex `\u0302` (falling), combining tilde `\u0303` (nasal), combining dot below `\u0323` (open vowel).
+    * Added precomposed vowels: caron vowels (`ǎ`, `ě`, `ǐ`, `ǒ`, `ǔ`), circumflex vowels (`â`, `ê`, `î`, `ô`, `û`), tilde vowels (`ã`, `ẽ`, `ĩ`, `õ`, `ũ`).
+    * Added curly/orthographic apostrophe variants: `’` (`U+2019`), `‘` (`U+2018`), `ʼ` (`U+02BC`).
+  * Generated production tokenizer artifacts in `models/urhobo_tokenizer/` (`vocab.json`, `tokenizer_config.json`, `special_tokens_map.json`, `config.json`).
+  * Implemented `resize_vits_embeddings()` utility function to dynamically attach input embeddings accessors and safely resize `model.text_encoder.embed_tokens` from `[43, 192]` to `[70, 192]`.
+  * Validated tokenization: Verified 100% token preservation with zero dropped letter/tone characters across all 998 training verses in `data/processed/train.jsonl` and test sentences.
+  * Audit report generated in `models/tokenizer_extension_summary.json`.
+  * Checked off "Vocab-extension approach confirmed and verified" in `plan.md`.

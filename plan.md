@@ -306,7 +306,7 @@ For each priority word not found anywhere in Phase 7.3, choose one, in order of 
 ### DoD for Phase 8
 - [x] Base checkpoint confirmed (`facebook/mms-tts-yor`).
 - [x] Character coverage audit run against Yoruba tokenizer; missing characters identified.
-- [ ] Vocab-extension approach confirmed and verified.
+- [x] Vocab-extension approach confirmed and verified.
 - [ ] `transformers`/`torch`/`datasets` versions pinned to match what `finetune-hf-vits` expects (0.3).
 
 ---

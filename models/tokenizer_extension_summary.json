@@ -1,0 +1,352 @@
+{
+  "status": "success",
+  "base_vocab_size": 43,
+  "extended_vocab_size": 70,
+  "total_new_tokens": 27,
+  "new_tokens": [
+    {
+      "token": "v",
+      "id": 43,
+      "codepoint": "U+0076",
+      "name": "LATIN SMALL LETTER V"
+    },
+    {
+      "token": "c",
+      "id": 44,
+      "codepoint": "U+0063",
+      "name": "LATIN SMALL LETTER C"
+    },
+    {
+      "token": "z",
+      "id": 45,
+      "codepoint": "U+007A",
+      "name": "LATIN SMALL LETTER Z"
+    },
+    {
+      "token": "x",
+      "id": 46,
+      "codepoint": "U+0078",
+      "name": "LATIN SMALL LETTER X"
+    },
+    {
+      "token": "q",
+      "id": 47,
+      "codepoint": "U+0071",
+      "name": "LATIN SMALL LETTER Q"
+    },
+    {
+      "token": "̌",
+      "id": 48,
+      "codepoint": "U+030C",
+      "name": "COMBINING CARON"
+    },
+    {
+      "token": "̂",
+      "id": 49,
+      "codepoint": "U+0302",
+      "name": "COMBINING CIRCUMFLEX ACCENT"
+    },
+    {
+      "token": "̃",
+      "id": 50,
+      "codepoint": "U+0303",
+      "name": "COMBINING TILDE"
+    },
+    {
+      "token": "̣",
+      "id": 51,
+      "codepoint": "U+0323",
+      "name": "COMBINING DOT BELOW"
+    },
+    {
+      "token": "ǎ",
+      "id": 52,
+      "codepoint": "U+01CE",
+      "name": "LATIN SMALL LETTER A WITH CARON"
+    },
+    {
+      "token": "ě",
+      "id": 53,
+      "codepoint": "U+011B",
+      "name": "LATIN SMALL LETTER E WITH CARON"
+    },
+    {
+      "token": "ǐ",
+      "id": 54,
+      "codepoint": "U+01D0",
+      "name": "LATIN SMALL LETTER I WITH CARON"
+    },
+    {
+      "token": "ǒ",
+      "id": 55,
+      "codepoint": "U+01D2",
+      "name": "LATIN SMALL LETTER O WITH CARON"
+    },
+    {
+      "token": "ǔ",
+      "id": 56,
+      "codepoint": "U+01D4",
+      "name": "LATIN SMALL LETTER U WITH CARON"
+    },
+    {
+      "token": "â",
+      "id": 57,
+      "codepoint": "U+00E2",
+      "name": "LATIN SMALL LETTER A WITH CIRCUMFLEX"
+    },
+    {
+      "token": "ê",
+      "id": 58,
+      "codepoint": "U+00EA",
+      "name": "LATIN SMALL LETTER E WITH CIRCUMFLEX"
+    },
+    {
+      "token": "î",
+      "id": 59,
+      "codepoint": "U+00EE",
+      "name": "LATIN SMALL LETTER I WITH CIRCUMFLEX"
+    },
+    {
+      "token": "ô",
+      "id": 60,
+      "codepoint": "U+00F4",
+      "name": "LATIN SMALL LETTER O WITH CIRCUMFLEX"
+    },
+    {
+      "token": "û",
+      "id": 61,
+      "codepoint": "U+00FB",
+      "name": "LATIN SMALL LETTER U WITH CIRCUMFLEX"
+    },
+    {
+      "token": "ã",
+      "id": 62,
+      "codepoint": "U+00E3",
+      "name": "LATIN SMALL LETTER A WITH TILDE"
+    },
+    {
+      "token": "ẽ",
+      "id": 63,
+      "codepoint": "U+1EBD",
+      "name": "LATIN SMALL LETTER E WITH TILDE"
+    },
+    {
+      "token": "ĩ",
+      "id": 64,
+      "codepoint": "U+0129",
+      "name": "LATIN SMALL LETTER I WITH TILDE"
+    },
+    {
+      "token": "õ",
+      "id": 65,
+      "codepoint": "U+00F5",
+      "name": "LATIN SMALL LETTER O WITH TILDE"
+    },
+    {
+      "token": "ũ",
+      "id": 66,
+      "codepoint": "U+0169",
+      "name": "LATIN SMALL LETTER U WITH TILDE"
+    },
+    {
+      "token": "’",
+      "id": 67,
+      "codepoint": "U+2019",
+      "name": "RIGHT SINGLE QUOTATION MARK"
+    },
+    {
+      "token": "‘",
+      "id": 68,
+      "codepoint": "U+2018",
+      "name": "LEFT SINGLE QUOTATION MARK"
+    },
+    {
+      "token": "ʼ",
+      "id": 69,
+      "codepoint": "U+02BC",
+      "name": "MODIFIER LETTER APOSTROPHE"
+    }
+  ],
+  "token_ranges": {
+    "pretrained_yoruba_tokens": "0 to 42 (43 tokens, weight frozen/reused)",
+    "urhobo_extension_tokens": "43 to 69 (27 tokens, newly initialized)"
+  },
+  "embedding_resizing_spec": {
+    "source_shape": [
+      43,
+      192
+    ],
+    "target_shape": [
+      70,
+      192
+    ],
+    "initialization": "nn.init.normal_(weight, mean=0.0, std=0.02) for rows [43:70]",
+    "pad_token_id": 0,
+    "pad_token": "|"
+  },
+  "verification_suite": {
+    "all_passed": true,
+    "train_corpus_perfect_coverage": true,
+    "sample_tests": [
+      {
+        "input": "Avwanre vwo ẹgba vwọ kẹ Osolobrugwẹ.",
+        "description": "All 'v' letters preserved",
+        "base_filtered": "awanre wo ẹgba wọ kẹ osolobrugwẹ",
+        "base_dropped": [
+          "v",
+          "v",
+          "v"
+        ],
+        "urhobo_filtered": "avwanre vwo ẹgba vwọ kẹ osolobrugwẹ",
+        "urhobo_dropped": [],
+        "urhobo_token_ids_preview": [
+          0,
+          8,
+          0,
+          43,
+          0,
+          12,
+          0,
+          8,
+          0,
+          1,
+          0,
+          9
+        ],
+        "passed": true
+      },
+      {
+        "input": "Mẹ́vwẹ yen rha cha.",
+        "description": "Acute tone on ẹ + 'v' + 'ch' digraph preserved",
+        "base_filtered": "mẹ́wẹ yen rha ha",
+        "base_dropped": [
+          "v",
+          "c"
+        ],
+        "urhobo_filtered": "mẹ́vwẹ yen rha cha",
+        "urhobo_dropped": [],
+        "urhobo_token_ids_preview": [
+          0,
+          22,
+          0,
+          6,
+          0,
+          13,
+          0,
+          43,
+          0,
+          12,
+          0,
+          6
+        ],
+        "passed": true
+      },
+      {
+        "input": "Ọmọ na da rhe vwo ẹghwẹ.",
+        "description": "Underdot vowels 'ọ', 'ẹ' + 'v' preserved",
+        "base_filtered": "ọmọ na da rhe wo ẹghwẹ",
+        "base_dropped": [
+          "v"
+        ],
+        "urhobo_filtered": "ọmọ na da rhe vwo ẹghwẹ",
+        "urhobo_dropped": [],
+        "urhobo_token_ids_preview": [
+          0,
+          3,
+          0,
+          22,
+          0,
+          3,
+          0,
+          42,
+          0,
+          1,
+          0,
+          8
+        ],
+        "passed": true
+      },
+      {
+        "input": "Zebulun vẹ Naftali rha re.",
+        "description": "Consonant 'z' and 'v' preserved",
+        "base_filtered": "ebulun ẹ naftali rha re",
+        "base_dropped": [
+          "z",
+          "v"
+        ],
+        "urhobo_filtered": "zebulun vẹ naftali rha re",
+        "urhobo_dropped": [],
+        "urhobo_token_ids_preview": [
+          0,
+          45,
+          0,
+          27,
+          0,
+          10,
+          0,
+          26,
+          0,
+          14,
+          0,
+          26
+        ],
+        "passed": true
+      },
+      {
+        "input": "ọ̌mǒ vẹ âkpô",
+        "description": "Rising (caron) and falling (circumflex) tones preserved",
+        "base_filtered": "ọm ẹ kp",
+        "base_dropped": [
+          "̌",
+          "ǒ",
+          "v",
+          "â",
+          "ô"
+        ],
+        "urhobo_filtered": "ọ̌mǒ vẹ âkpô",
+        "urhobo_dropped": [],
+        "urhobo_token_ids_preview": [
+          0,
+          3,
+          0,
+          48,
+          0,
+          22,
+          0,
+          55,
+          0,
+          42,
+          0,
+          43
+        ],
+        "passed": true
+      },
+      {
+        "input": "mẹ’vwẹ kẹ wẹʼ",
+        "description": "Apostrophe variants preserved",
+        "base_filtered": "mẹwẹ kẹ wẹ",
+        "base_dropped": [
+          "v",
+          "ʼ"
+        ],
+        "urhobo_filtered": "mẹ’vwẹ kẹ wẹʼ",
+        "urhobo_dropped": [],
+        "urhobo_token_ids_preview": [
+          0,
+          22,
+          0,
+          6,
+          0,
+          67,
+          0,
+          43,
+          0,
+          12,
+          0,
+          6
+        ],
+        "passed": true
+      }
+    ]
+  }
+}
