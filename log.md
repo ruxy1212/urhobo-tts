@@ -129,6 +129,12 @@ A development diary tracking the high-level milestones, technical breakthroughs,
     * **`resolved-from-new-recording`**: **0 words** (0.00% in v1).
     * **`explicitly-marked-unverified`**: **91 words** (44.61%) cataloged with explicit warning flags for the Phase 12 runtime curriculum pipeline.
   * Audit report saved in `data/lexicon/priority_dispositions.json`. Checked off disposition DoD item in `plan.md`.
+* **Step 7.3: Tone Supervision Injection & Manifest Generation (DoD Complete)**:
+  * Engineered `scripts/12_inject_tone_supervision.py` to inject canonical tone marks into the training corpus with strict avoidance of blanket find-and-replace.
+  * Injected **365 verified instances** across **242 training verses** (24.25% of the 998 training verses) in `data/processed/train.jsonl` using descending character span replacements to maintain offset stability.
+  * Regenerated universal `data/processed/metadata.csv` (1,190 clips total) while keeping validation (`dev.jsonl`) and test (`test.jsonl`) sets strictly untouched to preserve evaluation benchmark integrity.
+  * Generated comprehensive audit log in `data/lexicon/tone_supervision_report.json` cataloging before/after text diffs and resulting diacritic counts (including 205 acute tone tokens, 5 combining grave tokens, 6,398 `ẹ`, and 5,106 `ọ` vowels).
+  * Phase 7 Definition of Done (DoD) is 100% complete and verified.
 
 
 

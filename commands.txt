@@ -23,3 +23,5 @@ python scripts/09_assemble_final_lexicon.py
 python scripts/10_map_priority_occurrences.py
  
 python scripts/11_classify_tone_dispositions.py
+ 
+python scripts/12_inject_tone_supervision.py

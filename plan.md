@@ -286,8 +286,8 @@ For each priority word not found anywhere in Phase 7.3, choose one, in order of 
 
 ### DoD for Phase 7
 - [x] Every priority word has a disposition: resolved-from-corpus, resolved-from-secondary-source, resolved-from-new-recording, or explicitly-marked-unverified.
-- [ ] Training manifest updated with tone-marked forms at the specific resolved instances.
-- [ ] No blanket find-and-replace was applied to a word's spelling corpus-wide without per-instance verification.
+- [x] Training manifest updated with tone-marked forms at the specific resolved instances.
+- [x] No blanket find-and-replace was applied to a word's spelling corpus-wide without per-instance verification.
 
 ---
 
