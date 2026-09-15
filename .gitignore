@@ -19,6 +19,9 @@ dist/
 .env
 
 # Large dataset & media files (Never commit raw audio or models to git)
+*.zip
+*.tar
+*.tar.gz
 data/raw/audio/*
 !data/raw/audio/.gitkeep
 data/raw/dictionaries/*
