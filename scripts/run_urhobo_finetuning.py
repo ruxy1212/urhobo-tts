@@ -691,6 +691,9 @@ def main():
         trust_remote_code=model_args.trust_remote_code,
     )
 
+    if not hasattr(config, "pad_token_id") or config.pad_token_id is None:
+        config.pad_token_id = 0
+
     fe_candidates = [
         model_args.feature_extractor_name,
         model_args.tokenizer_name,
