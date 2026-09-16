@@ -952,7 +952,7 @@ def main():
     # inspired from https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image.py
     # and https://github.com/huggingface/community-events/blob/main/huggan/pytorch/cyclegan/train.py
 
-    logging_dir = os.path.join(training_args.output_dir, training_args.logging_dir)
+    logging_dir = os.path.join(training_args.output_dir, training_args.logging_dir or "runs")
     accelerator_project_config = ProjectConfiguration(project_dir=training_args.output_dir, logging_dir=logging_dir)
 
     accelerator = Accelerator(
@@ -1035,12 +1035,16 @@ def main():
     training_args.num_train_epochs = math.ceil(training_args.max_steps / num_update_steps_per_epoch)
 
     # hack to be able to train on multiple device
-    with tempfile.TemporaryDirectory() as tmpdirname:
-        model.discriminator.save_pretrained(tmpdirname)
-        discriminator = VitsDiscriminator.from_pretrained(tmpdirname)
-        for disc in discriminator.discriminators:
-            disc.apply_weight_norm()
+    # with tempfile.TemporaryDirectory() as tmpdirname:
+    #     model.discriminator.save_pretrained(tmpdirname)
+    #     discriminator = VitsDiscriminator.from_pretrained(tmpdirname)
+    #     for disc in discriminator.discriminators:
+    #         disc.apply_weight_norm()
+    # del model.discriminator
+    discriminator = model.discriminator
     del model.discriminator
+    for disc in discriminator.discriminators:
+        disc.apply_weight_norm()
 
     # init gen_optimizer, gen_lr_scheduler, disc_optimizer, dics_lr_scheduler
     gen_optimizer = torch.optim.AdamW(
