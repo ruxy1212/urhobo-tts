@@ -11,10 +11,18 @@ import tempfile
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
 
+# Auto-resolve finetune-hf-vits and monotonic_align directories before custom imports
+for candidate_dir in [
+    "/kaggle/working/finetune-hf-vits",
+    os.path.abspath("finetune-hf-vits"),
+    os.path.abspath("../finetune-hf-vits"),
+]:
+    if os.path.exists(candidate_dir) and candidate_dir not in sys.path:
+        sys.path.insert(0, candidate_dir)
+
 import datasets
 import numpy as np
 import torch
-import os
 
 from accelerate import Accelerator, DistributedDataParallelKwargs
 from accelerate.utils import ProjectConfiguration, is_wandb_available, set_seed
@@ -33,18 +41,13 @@ from transformers.feature_extraction_utils import BatchFeature
 from transformers.optimization import get_scheduler
 from transformers.trainer_pt_utils import LengthGroupedSampler
 from transformers.trainer_utils import get_last_checkpoint, is_main_process
-from transformers.utils import send_example_telemetry
-import sys
-# Auto-resolve finetune-hf-vits and monotonic_align directories
-for candidate_dir in [
-    os.path.abspath("finetune-hf-vits"),
-    "/kaggle/working/finetune-hf-vits",
-    os.path.abspath("../finetune-hf-vits"),
-]:
-    if os.path.exists(candidate_dir) and candidate_dir not in sys.path:
-        sys.path.insert(0, candidate_dir)
 
-from transformers import VitsModel
+try:
+    from transformers.utils import send_example_telemetry
+except ImportError:
+    send_example_telemetry = lambda *args, **kwargs: None
+
+# Attach VITS input embeddings accessors
 VitsModel.get_input_embeddings = lambda self: self.text_encoder.embed_tokens
 VitsModel.set_input_embeddings = lambda self, new_emb: setattr(self.text_encoder, "embed_tokens", new_emb)
 
