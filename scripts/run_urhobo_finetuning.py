@@ -142,6 +142,10 @@ class ModelArguments:
 
 @dataclass
 class VITSTrainingArguments(TrainingArguments):
+    overwrite_output_dir: bool = field(
+        default=True,
+        metadata={"help": "Overwrite the content of the output directory"}
+    )
     do_step_schedule_per_epoch: bool = field(
         default=True,
         metadata={
@@ -591,7 +595,7 @@ def main():
 
     # 3. Detecting last checkpoint and eventually continue from last checkpoint
     last_checkpoint = None
-    if os.path.isdir(training_args.output_dir) and training_args.do_train and not training_args.overwrite_output_dir:
+    if os.path.isdir(training_args.output_dir) and training_args.do_train and not getattr(training_args, "overwrite_output_dir", True):
         last_checkpoint = get_last_checkpoint(training_args.output_dir)
         if last_checkpoint is None and len(os.listdir(training_args.output_dir)) > 0:
             raise ValueError(
