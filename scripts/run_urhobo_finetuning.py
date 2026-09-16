@@ -51,7 +51,40 @@ except ImportError:
 VitsModel.get_input_embeddings = lambda self: self.text_encoder.embed_tokens
 VitsModel.set_input_embeddings = lambda self, new_emb: setattr(self.text_encoder, "embed_tokens", new_emb)
 
-from utils import plot_alignment_to_numpy, plot_spectrogram_to_numpy, VitsDiscriminator, VitsModelForPreTraining, VitsFeatureExtractor, slice_segments, VitsConfig, uromanize
+from utils import VitsDiscriminator, VitsModelForPreTraining, VitsFeatureExtractor, slice_segments, VitsConfig, uromanize
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pylab as plt
+
+def plot_alignment_to_numpy(alignment, info=None):
+    fig, ax = plt.subplots(figsize=(6, 4))
+    im = ax.imshow(alignment, aspect="auto", origin="lower", interpolation="none")
+    fig.colorbar(im, ax=ax)
+    xlabel = "Decoder timestep"
+    if info is not None:
+        xlabel += f"\n\n{info}"
+    plt.xlabel(xlabel)
+    plt.ylabel("Encoder timestep")
+    plt.tight_layout()
+
+    fig.canvas.draw()
+    data = np.asarray(fig.canvas.buffer_rgba())[:, :, :3]
+    plt.close(fig)
+    return data
+
+def plot_spectrogram_to_numpy(spectrogram):
+    fig, ax = plt.subplots(figsize=(10, 2))
+    im = ax.imshow(spectrogram, aspect="auto", origin="lower", interpolation="none")
+    plt.colorbar(im, ax=ax)
+    plt.xlabel("Frames")
+    plt.ylabel("Channels")
+    plt.tight_layout()
+
+    fig.canvas.draw()
+    data = np.asarray(fig.canvas.buffer_rgba())[:, :, :3]
+    plt.close(fig)
+    return data
 
 
 if is_wandb_available():
