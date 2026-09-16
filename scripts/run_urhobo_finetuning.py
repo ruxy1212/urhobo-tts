@@ -691,13 +691,33 @@ def main():
         trust_remote_code=model_args.trust_remote_code,
     )
 
-    feature_extractor = VitsFeatureExtractor.from_pretrained(
-        model_args.feature_extractor_name if model_args.feature_extractor_name else model_args.model_name_or_path,
-        cache_dir=model_args.cache_dir,
-        revision=model_args.model_revision,
-        token=model_args.token,
-        trust_remote_code=model_args.trust_remote_code,
-    )
+    fe_candidates = [
+        model_args.feature_extractor_name,
+        model_args.tokenizer_name,
+        model_args.model_name_or_path,
+        "ylacombe/mms-tts-eng-train",
+    ]
+    feature_extractor = None
+    for fe_cand in fe_candidates:
+        if not fe_cand:
+            continue
+        try:
+            logger.info(f"Attempting to load VitsFeatureExtractor from '{fe_cand}'...")
+            feature_extractor = VitsFeatureExtractor.from_pretrained(
+                fe_cand,
+                cache_dir=model_args.cache_dir,
+                revision=model_args.model_revision,
+                token=model_args.token,
+                trust_remote_code=model_args.trust_remote_code,
+            )
+            logger.info(f"Successfully loaded VitsFeatureExtractor from '{fe_cand}'")
+            break
+        except Exception as e:
+            logger.warning(f"Could not load VitsFeatureExtractor from '{fe_cand}': {e}")
+
+    if feature_extractor is None:
+        logger.info("Instantiating default VitsFeatureExtractor(sampling_rate=16000)...")
+        feature_extractor = VitsFeatureExtractor(sampling_rate=16000)
     tokenizer = AutoTokenizer.from_pretrained(
         model_args.tokenizer_name if model_args.tokenizer_name else model_args.model_name_or_path,
         cache_dir=model_args.cache_dir,
@@ -1537,6 +1557,12 @@ def main():
             torch.nn.utils.remove_weight_norm(flow.conv_post)
 
         model.save_pretrained(training_args.output_dir)
+        tokenizer.save_pretrained(training_args.output_dir)
+        if hasattr(feature_extractor, "save_pretrained"):
+            try:
+                feature_extractor.save_pretrained(training_args.output_dir)
+            except Exception as e:
+                logger.warning(f"Could not save feature_extractor to output_dir: {e}")
 
         if training_args.push_to_hub:
             VitsModel.from_pretrained(training_args.output_dir).push_to_hub(training_args.hub_model_id)

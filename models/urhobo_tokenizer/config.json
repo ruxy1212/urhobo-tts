@@ -3,6 +3,7 @@
   "architectures": [
     "VitsModel"
   ],
+  "pad_token_id": 0,
   "attention_dropout": 0.1,
   "depth_separable_channels": 2,
   "depth_separable_num_layers": 3,
