@@ -1,7 +1,7 @@
 # Phase 9 Fine-Tuning: Post-Training Diagnostic & Mitigation Plan
 
 ## 1. Executive Summary
-Following the completion of the 5,000-step fine-tuning run of `facebook/mms-tts-yor` on 2.52 hours of Urhobo Genesis audio, the acoustic model successfully verified token-level Urhobo phonetic transfer (~90% correct accent and tone recognition). However, the generated audio exhibits severe auditory defects: persistent coarseness/metallic buzz, phoneme skipping in connected speech, and distorted pitch/duration contours on key vocabulary (e.g., numbers).
+Following the completion of the 5,000-step fine-tuning run of `facebook/mms-tts-yor` on 2.52 hours of Urhobo Genesis audio, the acoustic model successfully verified token-level Urhobo phonetic transfer (~60% correct accent and tone recognition). However, the generated audio exhibits severe auditory defects: persistent coarseness/metallic buzz, phoneme skipping in connected speech, and distorted pitch/duration contours on key vocabulary (e.g., numbers).
 
 This document details the observed issues, technical root causes, and the concrete mitigation plan (Decoder-Frozen Training).
 
