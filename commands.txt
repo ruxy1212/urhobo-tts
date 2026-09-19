@@ -31,3 +31,5 @@ python scripts/13_audit_character_coverage.py
 python scripts/14_prepare_urhobo_tokenizer.py
  
 python scripts/15_prepare_finetune_dataset.py
+
+agy --conversation=30dffcbb-d384-4863-8af9-6471b16f87f2
