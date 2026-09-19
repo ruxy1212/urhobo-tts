@@ -1282,7 +1282,7 @@ def main():
 
             logs = {
                 "step_loss": total_generator_loss.detach().item(),
-                "lr": disc_lr_scheduler.get_last_lr()[0],
+                "lr": gen_lr_scheduler.get_last_lr()[0],
                 "step_loss_duration": loss_duration.detach().item(),
                 "step_loss_mel": loss_mel.detach().item(),
                 "step_loss_kl": loss_kl.detach().item(),
