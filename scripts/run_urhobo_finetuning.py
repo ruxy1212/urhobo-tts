@@ -1280,17 +1280,24 @@ def main():
                             
                         logger.info(f"Saved state and playable model to {save_path}")
 
+            # logs = {
+            #     "step_loss": total_generator_loss.detach().item(),
+            #     "lr": gen_lr_scheduler.get_last_lr()[0],
+            #     "step_loss_duration": loss_duration.detach().item(),
+            #     "step_loss_mel": loss_mel.detach().item(),
+            #     "step_loss_kl": loss_kl.detach().item(),
+            #     "step_loss_fmaps": loss_fmaps.detach().item(),
+            #     "step_loss_gen": loss_gen.detach().item(),
+            #     "step_loss_disc": loss_disc.detach().item(),
+            #     "step_loss_real_disc": loss_real_disc.detach().item(),
+            #     "step_loss_fake_disc": loss_fake_disc.detach().item(),
+            # }
             logs = {
                 "step_loss": total_generator_loss.detach().item(),
                 "lr": gen_lr_scheduler.get_last_lr()[0],
                 "step_loss_duration": loss_duration.detach().item(),
                 "step_loss_mel": loss_mel.detach().item(),
                 "step_loss_kl": loss_kl.detach().item(),
-                "step_loss_fmaps": loss_fmaps.detach().item(),
-                "step_loss_gen": loss_gen.detach().item(),
-                "step_loss_disc": loss_disc.detach().item(),
-                "step_loss_real_disc": loss_real_disc.detach().item(),
-                "step_loss_fake_disc": loss_fake_disc.detach().item(),
             }
             progress_bar.set_postfix(**logs)
 
