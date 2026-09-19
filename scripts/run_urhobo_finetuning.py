@@ -915,13 +915,17 @@ def main():
         trust_remote_code=model_args.trust_remote_code,
     )
 
-    
     with training_args.main_process_first(desc="apply_weight_norm"):
-        # apply weight norms
-        model.decoder.apply_weight_norm()
+        # DO NOT apply weight norm to the frozen decoder to prevent state_dict corruption
         for flow in model.flow.flows:
             torch.nn.utils.weight_norm(flow.conv_pre)
             torch.nn.utils.weight_norm(flow.conv_post)
+    # with training_args.main_process_first(desc="apply_weight_norm"):
+    #     # apply weight norms
+    #     model.decoder.apply_weight_norm()
+    #     for flow in model.flow.flows:
+    #         torch.nn.utils.weight_norm(flow.conv_pre)
+    #         torch.nn.utils.weight_norm(flow.conv_post)
 
         # override speaker embeddings if necessary
         if model_args.override_speaker_embeddings and data_args.speaker_id_column_name is not None:
@@ -951,8 +955,14 @@ def main():
                 with torch.no_grad():
                     copy_size = min(old_num_tokens, new_num_tokens)
                     new_embeddings.weight[:copy_size, :] = old_embeddings.weight[:copy_size, :]
+                # model.text_encoder.embed_tokens = new_embeddings
+                # model.config.vocab_size = new_num_tokens
                 model.text_encoder.embed_tokens = new_embeddings
                 model.config.vocab_size = new_num_tokens
+
+        # Lock vocoder completely to retain base MMS Yoruba fidelity
+        model.decoder.requires_grad_(False)
+        model.posterior_encoder.requires_grad_(False)
 
     # 9. Save configs
     # make sure all processes wait until data is saved
@@ -1074,75 +1084,42 @@ def main():
     #     for disc in discriminator.discriminators:
     #         disc.apply_weight_norm()
     # del model.discriminator
-    discriminator = model.discriminator
-    del model.discriminator
-    for disc in discriminator.discriminators:
-        disc.apply_weight_norm()
+    if hasattr(model, "discriminator"):
+        del model.discriminator
+    discriminator = None
+    disc_optimizer = None
+    disc_lr_scheduler = None
 
-    # init gen_optimizer, gen_lr_scheduler, disc_optimizer, dics_lr_scheduler
+    # Optimize ONLY trainable parameters (Text Encoder, Flow, Duration Predictor)
+    trainable_params = [p for p in model.parameters() if p.requires_grad]
+
     gen_optimizer = torch.optim.AdamW(
-        model.parameters(),
+        trainable_params,
         training_args.learning_rate,
         betas=[training_args.adam_beta1, training_args.adam_beta2],
         eps=training_args.adam_epsilon,
     )
 
-    disc_optimizer = torch.optim.AdamW(
-        discriminator.parameters(),
-        training_args.learning_rate,
-        betas=[training_args.adam_beta1, training_args.adam_beta2],
-        eps=training_args.adam_epsilon,
+    num_warmups_steps = training_args.warmup_steps if training_args.warmup_steps > 0 else 200
+    num_training_steps = training_args.max_steps * accelerator.num_processes
+
+    gen_lr_scheduler = get_scheduler(
+        "cosine",
+        optimizer=gen_optimizer,
+        num_warmup_steps=num_warmups_steps,
+        num_training_steps=num_training_steps,
     )
 
-    num_warmups_steps = (
-        training_args.get_warmup_steps(training_args.num_train_epochs * accelerator.num_processes)
-        if training_args.do_step_schedule_per_epoch
-        else training_args.get_warmup_steps(training_args.max_steps * accelerator.num_processes)
-    )
-    num_training_steps = (
-        training_args.num_train_epochs * accelerator.num_processes
-        if training_args.do_step_schedule_per_epoch
-        else training_args.max_steps * accelerator.num_processes
-    )
-
-    if training_args.do_step_schedule_per_epoch:
-        gen_lr_scheduler = torch.optim.lr_scheduler.ExponentialLR(
-            gen_optimizer, gamma=training_args.lr_decay, last_epoch=-1
-        )
-        disc_lr_scheduler = torch.optim.lr_scheduler.ExponentialLR(
-            disc_optimizer, gamma=training_args.lr_decay, last_epoch=-1
-        )
-    else:
-        gen_lr_scheduler = get_scheduler(
-            training_args.lr_scheduler_type,
-            optimizer=gen_optimizer,
-            num_warmup_steps=num_warmups_steps if num_warmups_steps > 0 else None,
-            num_training_steps=num_training_steps,
-        )
-        disc_lr_scheduler = get_scheduler(
-            training_args.lr_scheduler_type,
-            optimizer=disc_optimizer,
-            num_warmup_steps=num_warmups_steps if num_warmups_steps > 0 else None,
-            num_training_steps=num_training_steps,
-        )
-
-    # Prepare everything with our `accelerator`.
     (
         model,
-        discriminator,
         gen_optimizer,
         gen_lr_scheduler,
-        disc_optimizer,
-        disc_lr_scheduler,
         train_dataloader,
         eval_dataloader,
     ) = accelerator.prepare(
         model,
-        discriminator,
         gen_optimizer,
         gen_lr_scheduler,
-        disc_optimizer,
-        disc_lr_scheduler,
         train_dataloader,
         eval_dataloader,
     )
@@ -1201,17 +1178,12 @@ def main():
     )
 
     for epoch in range(first_epoch, training_args.num_train_epochs):
-        # keep track of train losses
-        train_losses = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-
-        if training_args.do_step_schedule_per_epoch:
-            disc_lr_scheduler.step()
-            gen_lr_scheduler.step()
+        # track: total, duration, mel, kl
+        train_losses = [0.0, 0.0, 0.0, 0.0]
 
         for step, batch in enumerate(train_dataloader):
             # print(f"batch {step}, process{accelerator.process_index}, waveform {(batch['waveform'].shape)}, tokens {(batch['input_ids'].shape)}... ")
-            with accelerator.accumulate(model, discriminator):
-                # forward through model
+            with accelerator.accumulate(model):
                 model_outputs = model(
                     input_ids=batch["input_ids"],
                     attention_mask=batch["attention_mask"],
@@ -1228,38 +1200,6 @@ def main():
                     model_outputs.waveform.squeeze(1)
                 )[1]
 
-                target_waveform = batch["waveform"].transpose(1, 2)
-                target_waveform = slice_segments(
-                    target_waveform, model_outputs.ids_slice * feature_extractor.hop_length, config_segment_size
-                )
-
-                # -----------------------
-                #  Train Discriminator
-                # -----------------------
-
-                discriminator_target, _ = discriminator(target_waveform)
-                discriminator_candidate, _ = discriminator(model_outputs.waveform.detach())
-
-                loss_disc, loss_real_disc, loss_fake_disc = discriminator_loss(
-                    discriminator_target, discriminator_candidate
-                )
-
-                # backpropagate
-                accelerator.backward(loss_disc * training_args.weight_disc)
-                if accelerator.sync_gradients:
-                    accelerator.clip_grad_norm_(discriminator.parameters(), training_args.max_grad_norm)
-                disc_optimizer.step()
-                if not training_args.do_step_schedule_per_epoch:
-                    disc_lr_scheduler.step()
-                disc_optimizer.zero_grad()
-
-                # -----------------------
-                #  Train Generator
-                # -----------------------
-
-                _, fmaps_target = discriminator(target_waveform)
-                discriminator_candidate, fmaps_candidate = discriminator(model_outputs.waveform)
-
                 loss_duration = torch.sum(model_outputs.log_duration)
                 loss_mel = torch.nn.functional.l1_loss(mel_scaled_target, mel_scaled_generation)
                 loss_kl = kl_loss(
@@ -1269,79 +1209,43 @@ def main():
                     model_outputs.prior_log_variances,
                     model_outputs.labels_padding_mask,
                 )
-                loss_fmaps = feature_loss(fmaps_target, fmaps_candidate)
-                loss_gen, losses_gen = generator_loss(discriminator_candidate)
 
                 total_generator_loss = (
                     loss_duration * training_args.weight_duration
                     + loss_mel * training_args.weight_mel
                     + loss_kl * training_args.weight_kl
-                    + loss_fmaps * training_args.weight_fmaps
-                    + loss_gen * training_args.weight_gen
                 )
 
-                # backpropagate
                 accelerator.backward(total_generator_loss)
                 if accelerator.sync_gradients:
-                    accelerator.clip_grad_norm_(model.parameters(), training_args.max_grad_norm)
+                    accelerator.clip_grad_norm_(trainable_params, training_args.max_grad_norm)
                 gen_optimizer.step()
-                if not training_args.do_step_schedule_per_epoch:
-                    gen_lr_scheduler.step()
+                gen_lr_scheduler.step()
                 gen_optimizer.zero_grad()
 
-                # update and gather losses
-                losses = torch.stack(
-                    [
-                        # for fair comparison, don't use weighted loss
-                        loss_duration + loss_mel + loss_kl + loss_fmaps + loss_gen,
-                        loss_duration,
-                        loss_mel,
-                        loss_kl,
-                        loss_fmaps,
-                        loss_gen,
-                        loss_disc,
-                        loss_real_disc,
-                        loss_fake_disc,
-                    ]
-                )
+                losses = torch.stack([total_generator_loss, loss_duration, loss_mel, loss_kl])
                 losses = accelerator.gather(losses.repeat(per_device_train_batch_size, 1)).mean(0)
 
                 train_losses = [
                     l + losses[i].item() / training_args.gradient_accumulation_steps
-                    for (i, l) in enumerate(train_losses)
+                    for (i, l) in enumerate(train_losses[:4])
                 ]
 
-            # Checks if the accelerator has performed an optimization step behind the scenes
             if accelerator.sync_gradients:
-                (
-                    train_summed_losses,
-                    train_loss_duration,
-                    train_loss_mel,
-                    train_loss_kl,
-                    train_loss_fmaps,
-                    train_loss_gen,
-                    train_loss_disc,
-                    train_loss_real_disc,
-                    train_loss_fake_disc,
-                ) = train_losses
+                train_summed_losses, train_loss_duration, train_loss_mel, train_loss_kl = train_losses
                 progress_bar.update(1)
                 global_step += 1
                 accelerator.log(
                     {
-                        "train_summed_losses": train_summed_losses,
-                        "train_loss_disc": train_loss_disc,
-                        "train_loss_real_disc": train_loss_real_disc,
-                        "train_loss_fake_disc": train_loss_fake_disc,
+                        "train_total_loss": train_summed_losses,
                         "train_loss_duration": train_loss_duration,
                         "train_loss_mel": train_loss_mel,
                         "train_loss_kl": train_loss_kl,
-                        "train_loss_fmaps": train_loss_fmaps,
-                        "train_loss_gen": train_loss_gen,
-                        "lr": disc_lr_scheduler.get_last_lr()[0],
+                        "lr": gen_lr_scheduler.get_last_lr()[0],
                     },
                     step=global_step,
                 )
-                train_losses = [0.0 for _ in train_losses]
+                train_losses = [0.0, 0.0, 0.0, 0.0]
 
                 if global_step % training_args.save_steps == 0:
                     if accelerator.is_main_process:
@@ -1367,7 +1271,14 @@ def main():
 
                         save_path = os.path.join(training_args.output_dir, f"checkpoint-{global_step}")
                         accelerator.save_state(save_path)
-                        logger.info(f"Saved state to {save_path}")
+                        
+                        # Export inference-ready VitsModel checkpoint
+                        if accelerator.is_main_process:
+                            unwrapped = accelerator.unwrap_model(model)
+                            unwrapped.save_pretrained(save_path)
+                            tokenizer.save_pretrained(save_path)
+                            
+                        logger.info(f"Saved state and playable model to {save_path}")
 
             logs = {
                 "step_loss": total_generator_loss.detach().item(),
@@ -1582,16 +1493,9 @@ def main():
 
             accelerator.wait_for_everyone()
 
-        # unwrap, save and push final model
+        # unwrap and save final model
         model = accelerator.unwrap_model(model)
-        discriminator = accelerator.unwrap_model(discriminator)
-
-        model.discriminator = discriminator
-
-        # add weight norms
-        for disc in model.discriminator.discriminators:
-            disc.remove_weight_norm()
-        model.decoder.remove_weight_norm()
+        
         for flow in model.flow.flows:
             torch.nn.utils.remove_weight_norm(flow.conv_pre)
             torch.nn.utils.remove_weight_norm(flow.conv_post)
