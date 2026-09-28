@@ -29,7 +29,14 @@ def load_verified_tones() -> Dict[str, str]:
     with open(LEXICON_CSV, "r", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
+            rank = row.get("Rank", "").strip()
+            if rank.startswith("H-"):
+                continue  # Disambiguation reference row, not direct global replacement
+
             raw_word = row["Word"].strip().lower()
+            if "(" in raw_word or " " in raw_word:
+                continue
+
             verified = row["Verified Tone"].strip()
             # If verified column is empty, fallback to Proposed Tone
             if not verified:
@@ -38,8 +45,8 @@ def load_verified_tones() -> Dict[str, str]:
             if verified:
                 mapping[raw_word] = verified
 
-    print(f"Loaded {len(mapping)} verified/proposed tone words from review sheet.")
-    return mapping
+        print(f"Loaded {len(mapping)} verified/proposed tone words from review sheet.")
+        return mapping
 
 
 def match_case(template: str, text: str) -> str:

@@ -3,6 +3,10 @@
 
 This guide is designed for native Urhobo speakers reviewing the **Top 500 Priority Words Sheet** (`top_500_priority_tones_review.csv`). 
 
+> [!IMPORTANT]
+> **Homographs & Words with Multiple Meanings**: Urhobo has many words that look identical but have different meanings and tones (such as `ta` = speak vs. blame, `vwẹ` = in/at vs. me vs. urinate, `re` = that/which vs. eat, `da` = then vs. drink).
+> Before reviewing ambiguous words, please consult the dedicated [Urhobo Homographs & Grammatical Particles Guide](file:///C:/laragon/www/android/urhobo-tts/docs/urhobo_homographs_and_particles_guide.md).
+
 You already know the correct melody and pronunciation of Urhobo words naturally with your ear and voice. This guide explains which **keyboard symbols** correspond to the exact musical pitch movements you hear.
 
 ---
