@@ -44,6 +44,8 @@ models/checkpoints/*
 !models/checkpoints/.gitkeep
 app_content/prerendered_audio/*
 !app_content/prerendered_audio/.gitkeep
+review_audio_samples/
+
 
 # OS / Editor files
 .DS_Store

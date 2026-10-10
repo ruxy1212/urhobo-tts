@@ -32,4 +32,7 @@ python scripts/14_prepare_urhobo_tokenizer.py
  
 python scripts/15_prepare_finetune_dataset.py
 
+python scripts/enhance_tones_review_with_audio.py
+
+
 agy --conversation=30dffcbb-d384-4863-8af9-6471b16f87f2
