@@ -50,6 +50,12 @@ Always ensure the dot-below vowels are written properly:
 
 If your keyboard does not have tone marks, you can simply **copy and paste** from this block directly into the spreadsheet:
 
+### Mid Tone Vowels (Flat):
+```text
+a   e   ẹ   i   o   ọ   u
+A   E   Ẹ   I   O   Ọ   U
+```
+
 ### High Tone Vowels (Acute):
 ```text
 á   é   ẹ́   í   ó   ọ́   ú   ń
